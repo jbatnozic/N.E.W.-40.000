@@ -21,7 +21,9 @@ For every 10 Guardians in the unit, you may include one Heavy Weapon Platform.
 - Each Heavy Weapon Platform is armed with a shuriken cannon.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
+
 **KEYWORDS (Guardian):** INFANTRY, GUARDIAN, GUARDIAN DEFENDERS
+
 **KEYWORDS (Heavy Weapon Platform):** INFANTRY, ARTILLERY, GUARDIAN, HEAVY WEAPON PLATFORM
 
 #### > WARGEAR OPTIONS:
