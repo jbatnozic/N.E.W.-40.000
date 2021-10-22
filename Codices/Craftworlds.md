@@ -24,7 +24,14 @@
   of 1).
 
   ### Protect/Jinx (Warp Charge: 7)
+  If manifested, choose one of the following:
 
+  **Protect:** Choose a friendly ASURYANI \<CORE\> unit within 18" of the caster. Until the start of the
+  next Psychic phase, you may re-roll failed saving throws of 1 for the chosen unit.
+
+  **Jinx:** Choose an enemy unit within 18" of the caster. Until the start of the next Psychic phase,
+  successful saving throws of 6 for the chosen unit must be re-rolled.
+  
   ### Quicken/Restrain (Warp Charge: 7)
   If manifested, choose one of the following:
   
