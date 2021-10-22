@@ -51,6 +51,22 @@
   decrease the Strength (S) characteristic of the chosen unit by 1 (down to a minimum of 1). A single unit can
   be affected by Enervate multiple times and the effect stacks.
 
+## Rune Disciplines - Runes of Will:
+
+  ### Executioner (Warp Charge: 7)
+  ???
+  
+  ### Will of Asuryan (Warp Charge: 5)
+  ???
+  
+  ### Mind War (Warp Charge: 7)
+  If manifested, choose an enemy CHARACTER model within 18" of the caster. Each player then rolls a D6
+  and adds their model’s Nerve characteristic to their result. 
+  - If your opponent scores higher, the caster suffers 1 mortal wound.
+  - If the scores are tied, nothing happens. 
+  - If the caster’s score is higher, the target suffers a number of mortal wounds equal to the difference between
+  the two scores (max 5).
+  
 ## Rune Disciplines - Runes of Fate:
 
   ### Guide (Warp Charge: 7)
@@ -63,18 +79,7 @@
   by Doom multiple times and the effect stacks.
 
   ### Fortune (Warp Charge: 7)
-
-  ### Executioner (Warp Charge: 7)
-
-  ### Will of Asuryan (Warp Charge: 5)
-
-  ### Mind War (Warp Charge: 7)
-  If manifested, choose an enemy CHARACTER model within 18" of the caster. Each player then rolls a D6
-  and adds their model’s Nerve characteristic to their result. 
-  - If your opponent scores higher, the caster suffers 1 mortal wound.
-  - If the scores are tied, nothing happens. 
-  - If the caster’s score is higher, the target suffers a number of mortal wounds equal to the difference between
-  the two scores (max 5).
+  ???
 
 ## Unit Datasheets
 
