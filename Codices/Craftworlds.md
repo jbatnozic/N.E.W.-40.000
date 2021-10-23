@@ -1,5 +1,46 @@
 # Codex: Craftworlds
 
+## Craftworld Attributes
+
+  ### Alaitoc - Fieldcraft
+  (stealth stuff)
+  
+  ### Biel-Tan - Swordwind
+  (indomitable spirit, shuriken upgrade)
+  
+  ### Iyanden - Stoic Endurance
+  (leadership, strong spirit)
+  
+  ### Saim-Hann - Wild Host
+  (charging savages)
+  
+  ### Ulthwe - Foresight of the Damned
+  (foresight)
+  
+  ### Black Library - Forbidden Knowledge:
+  (psyker stuff)
+  
+  ### Altansar - ???
+  (Maugan Ra, eye of terror)
+  
+  ### Il-Kaithe - ???
+  (bonesinger stuff)
+  
+  ### Iybraesil - ???
+  (matriarchal; hags; sacrifice -> knowledge)
+  
+  ### Kaelor - ???
+  (indulgence, deprivation, civil war; good guardians)
+  
+  ### Lugganath - ???
+  (corsairs, pirates)
+  
+  ### Mymeara - ???
+  (madness, grief; stealth, speed, shadow spectres; Irillyth's armour; extermination of lower races)
+  
+  ### Yme-Loc - ???
+  (artificiers; wraith stuff)
+  
 ## Rune Disciplines - Runes of Battle:
 
   ### Conceal/Reveal
@@ -51,7 +92,7 @@
   decrease the Strength (S) characteristic of the chosen unit by 1 (down to a minimum of 1). A single unit can
   be affected by Enervate multiple times and the effect stacks.
 
-## Rune Disciplines - Runes of Will:
+## Rune Disciplines - Runes of Power:
 
   ### Executioner (Warp Charge: 7)
   ???
@@ -87,7 +128,7 @@
 ### \[HQ] Farseer
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Farseer                  | 170 | 7" | 4" |  6 |  9 | 3 | 3 | 4 | 2 | 7 | 11 | 6+ | 24mm 
+| Farseer                  | 170 | 7" | 4" |  6 |  9 | 3 | 3 | 4 | 2 | 7 | 11 | 6+ | 25mm 
 
 A Farseer is a single model armed with a shuriken pistol and a witchblade.
 
@@ -107,7 +148,7 @@ A Farseer is a single model armed with a shuriken pistol and a witchblade.
 ### \[HQ] Warlock
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Warlock                  |  75 | 7" | 4" |  5 |  8 | 3 | 3 | 2 | 2 | 6 | 10 | 6+ | 24mm 
+| Warlock                  |  75 | 7" | 4" |  5 |  8 | 3 | 3 | 2 | 2 | 6 | 10 | 6+ | 25mm 
 
 A Warlock is a single model armed with a shuriken pistol and a witchblade.
 
@@ -129,7 +170,7 @@ The Avatar of Khaine is a single model armed with the Wailing Doom. Only one of 
 ### \[Troop] Guardian Defenders
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Guardian                 |  12 | 7" | 4" |  4 |  7 | 3 | 3 | 1 | 1 | 5 | * | 5+ | 24mm 
+| Guardian                 |  12 | 7" | 4" |  4 |  7 | 3 | 3 | 1 | 1 | 5 | * | 5+ | 25mm 
 | Heavy Weapon Platform    |  18 | 7" | 4" |  1 |  7 | 3 | 3 | 2 | 1 | 2 | * | 3+ | 40mm 
 
 | Guardians in unit   | Nerve 
@@ -157,3 +198,57 @@ For every 10 Guardians in the unit, you may include one Heavy Weapon Platform.
 - **Crewed Weapon:** A Heavy Weapon Platform can only fire its ranged weapon if a Guardian from its unit is
 within 3" and ‘fires’ it instead of shooting any of their own weapons. A single Guardian cannot operate
 multiple Heavy Weapon Platforms in this way in a single turn.
+
+
+### \[Troop] Dire Avengers
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
+| Dire Avenger             |  16 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 4+ | 25mm 
+| Dire Avenger Exarch      |  16 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 4+ | 25mm 
+
+| Dire Avengers in unit   | Nerve 
+|-------------------------|-------
+| 1-5                     |    9 
+| 6-10                    |   10 
+
+This unit contains 4 Dire Avengers and 1 Dire Avenger Exarch. It can include up to 5 additional Dire Avengers.
+Each model is armed with an avenger shuriken catapult and plasma grenades.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
+
+**KEYWORDS:** INFANTRY, DIRE AVENGERS
+
+
+### \[Elite] Howling Banshees
+
+
+### \[Elite] Wraithguard
+
+
+### \[Elite] Wraithblades
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Wraithblade              |  55 | 5" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 4 | 10 | 3+ | 40mm 
+
+### \[Fast Attack] Warp Spiders
+
+
+### \[Heavy Support] War Walkers
+
+
+### \[Heavy Support] Fire Prism
+
+
+### \[Heavy Support] Wraithlord
+
+
+### \[Heavy Support] Dark Reapers
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
+| Dark Reaper              |  48 | 6" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 4+ | 25mm 
+| Dark Reaper Exarch       |  48 | 6" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 2 | * | 4+ | 25mm 
+
+### \[Dedicated Transport] Wave Serpent
+
+
+### \[Lord of War] Wraithknight
