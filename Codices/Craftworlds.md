@@ -1,20 +1,40 @@
 # Codex: Craftworlds
 
+
+## Codex Special Rules
+
+  ### Battle Focus:
+  A unit with Battle Focus can fire Assault-type and Pistol-type ranged weapons during the Snap Shooting
+  action even after Advancing and without suffering an Impairment to the relevant hit rolls. This is a
+  Command Effect.
+  
+  ### Wraith Construct:
+  _Wraith Constructs are not living creatures and are therefore not affected by emotions such as dread and
+  urges of self-preservation. However, they do not see the world as mortals do, but instead witness an 
+  ever-shifting image of spirits that makes them slower to react to the changes on the battlefield. For that
+  reason, these spirit warriors are often accompanied by psykers who guide them through the lands of the
+  living._
+  
+  Each Wraith Construct has the following special rules:
+  - **Fearless**
+  - **Wraithsight:** Whenever a Wraith Construct unit makes attacks, unmodified hit rolls of 36 or less always fail unless the unit is within 6" of a friendly PSYKER model that is not In Disarray or Panicking.
+  - **Spirit Guide:** If a Wraith Construct unit is within 3" of a SPIRITSEER model that is not In Disarray or Panicking, they can be affected by friendly Psychic powers from the Runes of Battle discipline as if they had the CORE keyword.
+
 ## Craftworld Attributes
 
-  ### Alaitoc - Fieldcraft
+  ### Alaitoc - Fieldcraft:
   (stealth stuff)
   
-  ### Biel-Tan - Swordwind
+  ### Biel-Tan - Swordwind:
   (indomitable spirit, shuriken upgrade)
   
-  ### Iyanden - Stoic Endurance
+  ### Iyanden - Stoic Endurance:
   (leadership, strong spirit)
   
-  ### Saim-Hann - Wild Host
+  ### Saim-Hann - Wild Host:
   (charging savages)
   
-  ### Ulthwe - Foresight of the Damned
+  ### Ulthwe - Foresight of the Damned:
   (foresight)
   
   ### Black Library - Forbidden Knowledge:
@@ -48,17 +68,18 @@
   ### Embolden/Horrify
   If manifested, choose one of the following:
 
-  **Embolden:** Choose a friendly ASURYANI \<CORE\> unit within 18" of the caster. Until the start of the
-  next Psychic phase, the chosen unit gains the Fearless special rule.
+  **Embolden:** Choose a friendly ASURYANI CORE INFANTRY or ASURYANI CORE BIKER unit within 18" of the caster.
+  Until the start of the next Psychic phase, the chosen unit gains the Fearless special rule.
 
-  **Horrify:** ???
+  **Horrify:** Choose an enemy unit withon 18" of the caster. The chosen unit suffers D3 Strain. A single unit
+  can be affected by Horrify multiple times and the effect stacks.
 
   ### Enhance/Hobble (Warp Charge: 7)
   If manifested, choose one of the following:
 
-  **Enhance:** Choose a friendly ASURYANI \<CORE\> unit within 18" of the caster. Until the start of the
-  next Psychic phase, the chosen unit's Melee Skill and Ballistic Skill characteristics are improved by 1
-  (up to the maximums of 10 and 9, respectively).
+  **Enhance:** Choose a friendly ASURYANI CORE INFANTRY or ASURYANI CORE BIKER unit within 18" of the caster.
+  Until the start of the next Psychic phase, the chosen unit's Melee Skill and Ballistic Skill characteristics
+  are improved by 1 (up to the maximums of 10 and 9, respectively).
 
   **Hobble:** Choose an enemy unit within 18" of the caster. Until the start of the next Psychic phase,
   the chosen unit's Melee Skill (MS) and Ballistic Skill (BS) characteristics are decreased by 1 (down to a minimum
@@ -67,8 +88,8 @@
   ### Protect/Jinx (Warp Charge: 7)
   If manifested, choose one of the following:
 
-  **Protect:** Choose a friendly ASURYANI \<CORE\> unit within 18" of the caster. Until the start of the
-  next Psychic phase, you may re-roll failed saving throws of 1 for the chosen unit.
+  **Protect:** Choose a friendly ASURYANI CORE INFANTRY or ASURYANI CORE BIKER unit within 18" of the caster.
+  Until the start of the next Psychic phase, you may re-roll failed saving throws of 1 for the chosen unit.
 
   **Jinx:** Choose an enemy unit within 18" of the caster. Until the start of the next Psychic phase,
   successful saving throws of 6 for the chosen unit must be re-rolled.
@@ -76,7 +97,10 @@
   ### Quicken/Restrain (Warp Charge: 7)
   If manifested, choose one of the following:
   
-  **Quicken:** ???
+  **Quicken:** Choose a friendly ASURYANI CORE INFANTRY or ASURYANI CORE BIKER unit within 18" of the caster.
+  You cannot choose units that arrived on the battlefield as reinforcements during the previous Reinforcements
+  phase. At the end of your Psychic phase, the chosen unit may move as if it were the Movement phase. You cannot
+  use Quicken on a single unit more than once per Psychic phase.
   
   **Restrain:** Choose an enemy unit within 18" of the caster. Until the start of the next Psychic phase,
   the chosen unit's Movement (M) and Charge Bonus (CB) characteristics are halved.
@@ -84,9 +108,9 @@
   ### Empower/Enervate (Warp Charge: 6)
   If manifested, choose one of the following:
 
-  **Empower:** Choose a friendly ASURYANI \<CORE\> unit within 18" of the caster. Until the start of the
-  next Psychic phase, increase the Strength (S) characteristic of the chosen unit by 1. A single unit can
-  be affected by Empower multiple times and the effect stacks.
+  **Empower:** Choose a friendly ASURYANI CORE INFANTRY or ASURYANI CORE BIKER unit within 18" of the caster.
+  Until the start of the next Psychic phase, increase the Strength (S) characteristic of the chosen unit by 1.
+  A single unit can be affected by Empower multiple times and the effect stacks.
 
   **Enervate:** Choose an enemy unit within 18" of the caster. Until the start of your the Psychic phase,
   decrease the Strength (S) characteristic of the chosen unit by 1 (down to a minimum of 1). A single unit can
