@@ -15,10 +15,10 @@
   reason, these spirit warriors are often accompanied by psykers who guide them through the lands of the
   living._
   
-  Each Wraith Construct has the following special rules:
+  Each Wraith Construct has the WRAITH CONSTRUCT keyowrd and the following special rules:
   - **Fearless**
-  - **Wraithsight:** Whenever a Wraith Construct unit makes attacks, unmodified hit rolls of 36 or less always
-fail unless the unit is within 6" of a friendly PSYKER model that is not In Disarray or Panicking.
+  - **Wraithsight:** While a Wraith Construct unit is not within 6" of a friendly PSYKER model (except those that are In Disarray
+or Panicking), its Melee Skill (MS) and Ballistic Skill (BS) chatacteristics are reduced by 1 and 2, respectively.
   - **Spirit Guide:** If a Wraith Construct unit is within 3" of a SPIRITSEER model that is not In Disarray or
 Panicking, they can be affected by friendly Psychic powers from the Runes of Battle discipline as if they had the CORE keyword.
 
@@ -234,7 +234,7 @@ For every 10 Guardians in the unit, you may include one Heavy Weapon Platform.
 - **Battle Focus**
 - **Crewed Weapon:** A Heavy Weapon Platform can only fire its ranged weapon if a Guardian from its unit is
 within 3" and ‘fires’ it instead of shooting any of their own weapons. A single Guardian cannot operate
-multiple Heavy Weapon Platforms in this way in a single turn.
+multiple Heavy Weapon Platforms in this way in a single turn. A Heavy Weapon Platform cannot make melee attacks.
 
 
 ### \[Troop] Dire Avengers
@@ -260,12 +260,39 @@ Each model is armed with an avenger shuriken catapult and plasma grenades.
 
 
 ### \[Elite] Wraithguard
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Wraithguard              |  52 | 5" | 4" |  5 |  7 | 5 | 6 | 3 | 2 | 4 | 10 | 3+ | 40mm 
 
+This unit contains 5 Wraithguard. It can include up to 5 additional Wraithguard. Each model is armed with
+a wraithcannon and Wraithguard fists.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, SPIRIT HOST, \<CRAFTWORLD\>
+
+**KEYWORDS:** INFANTRY, WRAITH CONSTRUCT, WRAITHGUARD
+
+#### > WARGEAR OPTIONS:
+- --
+#### > SPECIAL RULES:
+- **Wraith Construct**
 
 ### \[Elite] Wraithblades
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Wraithblade              |  55 | 5" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 4 | 10 | 3+ | 40mm 
+| Wraithblade              |  55 | 5" | 4" |  5 |  7 | 5 | 6 | 3 | 3 | 4 | 10 | 3+ | 40mm 
+
+This unit contains 5 Wraithblades. It can include up to 5 additional Wraithblades. Each model is armed with
+ghostswords.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, SPIRIT HOST, \<CRAFTWORLD\>
+
+**KEYWORDS:** INFANTRY, WRAITH CONSTRUCT, WRAITHBLADES
+
+#### > WARGEAR OPTIONS:
+- Any model in the unit may replace its ghostswords with a ghostaxe and a forceshield.
+#### > SPECIAL RULES:
+- **Wraith Construct**
+- **Forceshield:** A model equipped with a forceshield has a 5+ invulnerable save.
 
 ### \[Fast Attack] Warp Spiders
 
