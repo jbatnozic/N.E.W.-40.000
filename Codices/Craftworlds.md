@@ -124,7 +124,7 @@ Panicking, they can be affected by friendly Psychic powers from the Runes of Bat
   ???
   
   ### Will of Asuryan (Warp Charge: 5)
-  ???
+  (remove In Disarray / Panicking from unit)
   
   ### Mind War (Warp Charge: 7)
   If manifested, choose an enemy CHARACTER model within 18" of the caster. Each player then rolls a D6
@@ -147,6 +147,33 @@ Panicking, they can be affected by friendly Psychic powers from the Runes of Bat
 
   ### Fortune (Warp Charge: 7)
   ???
+
+## Rune Disciplines - Runes of the Dead:
+  +1 attack; invul. save; ??? (WRAITH CONSTRUCT only)
+
+
+## Weapons
+
+### Qualities
+
+#### Shuriken Weapon
+
+| WEAPON                     | RANGE |     TYPE    |  S | AP |  D | QUALITIES
+|----------------------------|-------|-------------|----|----|----|--------------------------- 
+| Avenger shuriken catapult  |  18"  | Assault 2   |  4 |  0 |  1 | **Shuriken weapon**
+| Bright lance               |  36"  |             |  8 |    |    |
+| D-cannon                   |       |             |    |    |    |
+| D-scythe                   |   2"  | Assault 1   | 10 |  0 |    | **Flamer template**; When this weapon is fired, it can generate a maximum of 3 hit rolls (the controlling player picks which ones if the template intersects more than 3 enemy models). All the hit rolls succeed automatically, cannot hit friendly units, and ignore armour saves of all units that don't have the VEHICLE or TITANIC keyword.
+| Flamer                     |   2"  | Steady 1    |  4 |  0 |  1 | **Flamer template**
+| Fusion gun                 |  12"  | Assault 2D6 |  8 |    |    | (meltagun basically)
+| Fusion pistol              |   6"  | Pistol 1    |  8 |    |    | (meltagun basically)
+| Shuriken cannon            |  24"  | Assault 3   |  6 |  0 |  1 | **Shuriken weapon**
+| Shuriken catapult          |  12"  | Assault 2   |  4 |  0 |  1 | **Shuriken weapon**
+| Shuriken pistol            |       | Pistol 1    |  4 |  0 |  1 | **Shuriken weapon**
+| Singing spear (shooting)   |  12"  | Assault 1   |    |    |    |
+| Starcannon                 |  36"  | Heavy 2     |    |    |    |
+| Wraithcannon               |  12"  | Assault 1   | 10 |    |    | (horrible death)
+
 
 ## Unit Datasheets
 
@@ -294,11 +321,28 @@ ghostswords.
 - **Wraith Construct**
 - **Forceshield:** A model equipped with a forceshield has a 5+ invulnerable save.
 
+
 ### \[Fast Attack] Warp Spiders
 
 
 ### \[Heavy Support] War Walkers
+| NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
+| War Walker               |  90 | 10" | 4" |  4 |  7 | 6 | 6 | 6 | 2 | 5 | 10 | 4+ | 60mm 
 
+This unit contains 1 War Walker. It can include up to 2 additional War Walkers. Each model is armed with 2
+shuriken cannons.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
+
+**KEYWORDS:** VEHICLE, WAR WALKERS
+
+#### > WARGEAR OPTIONS:
+- Any model may replace any shuriken cannon with an item from the Heavy Weapons list.
+#### > SPECIAL RULES:
+- **Battle Focus**
+- **Power Field:** Models in this unit have 5+ invulnerable save.
+- **Explodes:** When a model in this unit is destroyed, immediately roll a D6. ...
 
 ### \[Heavy Support] Fire Prism
 
@@ -310,7 +354,26 @@ ghostswords.
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
 | Dark Reaper              |  48 | 6" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 4+ | 25mm 
-| Dark Reaper Exarch       |  48 | 6" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 2 | * | 4+ | 25mm 
+| Dark Reaper Exarch       |  48 | 6" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 4+ | 25mm 
+
+| Dark Reapers in unit    | Nerve 
+|-------------------------|-------
+| 1-5                     |    9 
+| 6-10                    |   10 
+
+This unit contains 2 Dark Reapers and 1 Dark Reaper Exarch. It can contain up to 7 additional Dark Reapers.
+Each model is armed with a Reaper Launcher.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
+
+**KEYWORDS:** INFANTRY, CORE, DARK REAPERS
+
+#### > WARGEAR OPTIONS:
+- The Dark Reaper Exarch may replace their reaper launcher with a shuriken cannon, Aeldari missile launcher
+or tempest launcher.
+#### > SPECIAL RULES:
+- **Inescapable Accuracy:** Models in this unit can ignore 1 Impairment when making ranged attacks.
+
 
 ### \[Dedicated Transport] Wave Serpent
 
