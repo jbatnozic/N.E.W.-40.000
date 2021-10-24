@@ -17,8 +17,10 @@
   
   Each Wraith Construct has the following special rules:
   - **Fearless**
-  - **Wraithsight:** Whenever a Wraith Construct unit makes attacks, unmodified hit rolls of 36 or less always fail unless the unit is within 6" of a friendly PSYKER model that is not In Disarray or Panicking.
-  - **Spirit Guide:** If a Wraith Construct unit is within 3" of a SPIRITSEER model that is not In Disarray or Panicking, they can be affected by friendly Psychic powers from the Runes of Battle discipline as if they had the CORE keyword.
+  - **Wraithsight:** Whenever a Wraith Construct unit makes attacks, unmodified hit rolls of 36 or less always
+fail unless the unit is within 6" of a friendly PSYKER model that is not In Disarray or Panicking.
+  - **Spirit Guide:** If a Wraith Construct unit is within 3" of a SPIRITSEER model that is not In Disarray or
+Panicking, they can be affected by friendly Psychic powers from the Runes of Battle discipline as if they had the CORE keyword.
 
 ## Craftworld Attributes
 
@@ -158,7 +160,7 @@ A Farseer is a single model armed with a shuriken pistol and a witchblade.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
-**KEYWORDS:** CHARCTER, INFANTRY, PSYKER, FARSEER
+**KEYWORDS:** CHARCTER, INFANTRY, CORE, PSYKER, FARSEER
 
 #### > WARGEAR OPTIONS:
 - This model may replace its witchblade with a singing spear.
@@ -176,6 +178,17 @@ A Farseer is a single model armed with a shuriken pistol and a witchblade.
 
 A Warlock is a single model armed with a shuriken pistol and a witchblade.
 
+**FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
+
+**KEYWORDS:** CHARCTER, INFANTRY, CORE, PSYKER, WARLOCK
+
+#### > SPECIAL RULES:
+- **Battle Focus**
+- **Ghosthelm:** TODO
+- **Rune Armour:** This model has a 4+ invulnerable save.
+- **Psyker:** This model can attempt to manifest one psychic power in each friendly Psychic phase, and attempt to deny
+one psychic power in each enemy Psychic phase. It knows the Smite power and one psychic power from the Runes of Battle
+discipline.
 
 ### \[HQ] Avatar of Khaine
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I  |  N | Sv | Base 
@@ -240,7 +253,7 @@ Each model is armed with an avenger shuriken catapult and plasma grenades.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
 
-**KEYWORDS:** INFANTRY, DIRE AVENGERS
+**KEYWORDS:** INFANTRY, CORE, DIRE AVENGERS
 
 
 ### \[Elite] Howling Banshees
