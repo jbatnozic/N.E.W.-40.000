@@ -149,8 +149,12 @@ Panicking, they can be affected by friendly Psychic powers from the Runes of Bat
   ???
 
 ## Rune Disciplines - Runes of the Dead:
-  +1 attack; invul. save; ??? (WRAITH CONSTRUCT only)
-
+  ; invul. save; ??? (WRAITH CONSTRUCT only)
+  
+  ### Wrath of the Dead (Warp Charge: 6)
+  If manifested, choose a friendly WRAITH CONSTRUCT unit. Until the start of the next Psychic phase, increase
+  the Attack (A) characteristic of models in that unit by 1. If a single-model unit would be affected by this
+  power (even if it contains more models at the time of casting), the Attack (A) characteristic bonus is 2 instead.
 
 ## Weapons
 
@@ -353,6 +357,29 @@ ghostswords.
 
 
 ### \[Fast Attack] Warp Spiders
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
+| Warp Spider              |  22 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 4+ | 28mm 
+| Warp Spider Exarch       |  22 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 4+ | 28mm 
+
+This unit contains 4 Warp Spiders and 1 Warp Spider Exarch. In can include up to 5 additional Warp Spiders.
+Each model is armed with a death spinner.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
+
+**KEYWORDS:** INFANTRY, CORE, JUMP PACK, WARP SPIDERS
+
+#### > WARGEAR OPTIONS:
+- The Warp Spider Exarch can be equipped with an additional death spinner.
+- The Warp Spider Exarch can be equipped with powerblades.
+- (spinneret rifles???)
+#### > SPECIAL RULES:
+- **Battle Focus**
+- **Deep Strike**
+- **Warp Jump Generator:** When this unit would perform the Charge action, it may instead do a short-range warp jump. To do so, nominate a direction and move every model in the unit exactly 4D6" in that direction (roll once for the whole unit), as if the unit had FLY. Any model that cannot be placed because of terrain, other units or battlefield edge is destroyed and immediately removed. This counts as a Charge phase action that Exhausts the unit, but not as a charge.
+- **Flickerjump:** When this unit is targeted by a ranged weapon, you can declare that they will make a flickerjump - all hit rolls of ranged attacks
+that target this unit until the end of the phase suffer an Impairment.
+- **Warp Passage:** Whenever this unit makes use of one of the following abilities: Deep Strike, Warp Jump Generator, Flickerjump - roll a D66. On a 11 or 12, one model is claimed by the Warp - destroy it and immediately remove it.
 
 
 ### \[Heavy Support] War Walkers
