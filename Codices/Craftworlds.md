@@ -217,6 +217,10 @@ A Warlock is a single model armed with a shuriken pistol and a witchblade.
 one psychic power in each enemy Psychic phase. It knows the Smite power and one psychic power from the Runes of Battle
 discipline.
 
+
+### \[HQ] Spiritseer
+
+
 ### \[HQ] Avatar of Khaine
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I  |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|----|----|----|------
@@ -282,8 +286,33 @@ Each model is armed with an avenger shuriken catapult and plasma grenades.
 
 **KEYWORDS:** INFANTRY, CORE, DIRE AVENGERS
 
+#### > WARGEAR OPTIONS:
+- --
+#### > SPECIAL RULES:
+- **Battle Focus**
+
 
 ### \[Elite] Howling Banshees
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
+| Howling Banshee          |  22 | 8" | 4" |  6 |  7 | 3 | 3 | 1 | 2 | 8 | * | 4+ | 28mm 
+| Howling Banshee Exarch   |  22 | 8" | 4" |  6 |  7 | 3 | 3 | 1 | 3 | 8 | * | 4+ | 28mm 
+
+This unit contains 4 Howling Banshees and 1 Howling Banshee Exarch. It can include up to 5 additional Howling Banshees.
+Every model is equipped with a shuriken pistol, power sword and a banshee mask.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
+
+**KEYWORDS:** INFANTRY, CORE, HOWLING BANSHEES
+
+#### > WARGEAR OPTIONS:
+- The Howling Banshee Exarch's power sword can be replaced with an executioner or a triskele.
+- The Howling Banshee Exarch's power sword and shuriken pistol can be replaced with mirrorswords.
+#### > SPECIAL RULES:
+- **Battle Focus**
+- **Acrobatic:** ???
+- **War Shout:** ???
+- **Banshee Mask:** ???
 
 
 ### \[Elite] Wraithguard
@@ -302,6 +331,7 @@ a wraithcannon and Wraithguard fists.
 - --
 #### > SPECIAL RULES:
 - **Wraith Construct**
+
 
 ### \[Elite] Wraithblades
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
@@ -344,10 +374,48 @@ shuriken cannons.
 - **Power Field:** Models in this unit have 5+ invulnerable save.
 - **Explodes:** When a model in this unit is destroyed, immediately roll a D6. ...
 
+
 ### \[Heavy Support] Fire Prism
+| NAME                     | PTS |  M  | CB | MS | BS | S |   T   |  W   | A | I |  N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|-------|------|---|---|----|----|------
+| Fire Prism               | 232 | 16" | 4" |  1 |  7 | 6 | ?/?/? | 7-12 | 3 | 3 | 10 | 3+ | 60mm flying base 
+|                          |     | 12" | 4" |    |  5 |   |       |  4-6 | 2 |   |    | 3+ |
+|                          |     |  8" | 4" |    |  3 |   |       |  1-3 | 1 |   |    | 3+ |
+
+A Fire Prism is a single model equipped with a prism cannon and a twin shuriken catapult.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
+
+**KEYWORDS:** VEHICLE, FLY, FIRE PRISM
+
+#### > WARGEAR OPTIONS:
+- This model may replace its twin shuriken catapult with a shuriken cannon.
+- This model may take items from the Vehicle Equipment list.
+#### > SPECIAL RULES:
+- **Hover Tank:** Distance and ranges are always measured to and from this model’s hull, even though it has a base.
+- **Pulsed Laser Discharge:** ???
+- **Explodes:** ???
 
 
 ### \[Heavy Support] Wraithlord
+| NAME                     | PTS |  M  | CB | MS | BS | S | T |  W   | A | I |  N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---|------|---|---|----|----|------
+| Wraithlord               | 150 |  8" | 4" |  0 |  7 | 7 | 8 | 6-10 | 4 | 3 | 11 | 3+ | 60mm 
+|                          |     |  7" | 4" |    |  5 |   |   |  3-5 | 4 |   |    | 3+ |
+|                          |     |  6" | 4" |    |  3 |   |   |  1-2 | 4 |   |    | 3+ |
+
+A Wraithlord is a single model armed with two shuriken catapults and wraithbone fists.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, SPIRIT HOST, \<CRAFTWORLD\>
+
+**KEYWORDS:** MONSTER, WRAITH CONSTRUCT, WRAITHLORD
+
+#### > WARGEAR OPTIONS:
+- This model may replace any shuriken catapult with a flamer.
+- This model may take a ghostglaive.
+- This model may take up to two items from the Heavy Weapons list.
+#### > SPECIAL RULES:
+- **Wraith Construct**
 
 
 ### \[Heavy Support] Dark Reapers
@@ -376,6 +444,14 @@ or tempest launcher.
 
 
 ### \[Dedicated Transport] Wave Serpent
+| NAME                     | PTS |  M  | CB | MS | BS | S |   T   |  W   | A | I |  N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|-------|------|---|---|----|----|------
+| Wave Serpent             | 195 | 16" | 4" |  1 |  7 | 6 | ?/?/? | 7-12 | 3 | 3 | 10 | 3+ | 60mm flying base 
+|                          |     | 12" | 4" |    |  5 |   |       |  4-6 | 2 |   |    | 3+ |
+|                          |     |  8" | 4" |    |  3 |   |       |  1-3 | 1 |   |    | 3+ |
+
+A Wave Serpent is a single model equipped with a twin shuriken cannon and a twin shuriken catapult.
 
 
 ### \[Lord of War] Wraithknight
+(TODO)
