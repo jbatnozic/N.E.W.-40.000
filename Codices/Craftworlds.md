@@ -160,15 +160,17 @@ Panicking, they can be affected by friendly Psychic powers from the Runes of Bat
 
 ### Qualities
 
-#### Shuriken Weapon
+**Shuriken Weapon:** When attacking with this weapon, a successful wound roll of 61 or more has Armour Penetration improved by 2.
+
+**Soul Reaper:** This weapon is fired as if it had **Flamer Template**, though it can generate a maximum of 3 hit rolls (the controlling player picks which ones if the template intersects more than 3 enemy models). All the hit rolls succeed automatically, cannot hit friendly units, and ignore armour saves of all units that don't have the VEHICLE or TITANIC keyword.
 
 | WEAPON                     | RANGE |     TYPE    |  S | AP |  D | QUALITIES
 |----------------------------|-------|-------------|----|----|----|--------------------------- 
 | Avenger shuriken catapult  |  18"  | Assault 2   |  4 |  0 |  1 | **Shuriken weapon**
 | Bright lance               |  36"  |             |  8 |    |    |
 | D-cannon                   |       |             |    |    |    |
-| D-scythe                   |   2"  | Assault 1   | 10 |  0 |    | **Flamer template**; When this weapon is fired, it can generate a maximum of 3 hit rolls (the controlling player picks which ones if the template intersects more than 3 enemy models). All the hit rolls succeed automatically, cannot hit friendly units, and ignore armour saves of all units that don't have the VEHICLE or TITANIC keyword.
-| Flamer                     |   2"  | Steady 1    |  4 |  0 |  1 | **Flamer template**
+| D-scythe                   |   2"  | Assault 1   | 10 |  0 |    | **Soul Reaper**
+| Flamer                     |   2"  | Steady 1    |  4 |  0 |  1 | **Flamer Template**
 | Fusion gun                 |  12"  | Assault 2D6 |  8 |    |    | (meltagun basically)
 | Fusion pistol              |   6"  | Pistol 1    |  8 |    |    | (meltagun basically)
 | Shuriken cannon            |  24"  | Assault 3   |  6 |  0 |  1 | **Shuriken weapon**
@@ -232,6 +234,10 @@ discipline.
 
 The Avatar of Khaine is a single model armed with the Wailing Doom. Only one of this model may be included in your army.
 
+**FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
+
+**KEYWORDS:** CHARCTER, MONSTER, DAEMON, AVATAR OF KHAINE
+
 | WEAPON                            | RANGE | TYPE      |   S  | AP | D | Qualities
 |-----------------------------------|-------|-----------|------|----|---|-----------
 | The Wailing Doom (Inferno)        |   2"  | Steady 1  | User | -1 | 1 | **Flamer Template.**
@@ -290,8 +296,16 @@ Each model is armed with an avenger shuriken catapult and plasma grenades.
 
 **KEYWORDS:** INFANTRY, CORE, DIRE AVENGERS
 
+**DIRE AVENGER EXARCH POWERS:**
+- **Battle Fortune (?pts):** This unit's Dire Avenger Exarch has a 7+ invulnerable save and a +1 bonus to all saving throws.
+- **Bladestorm (?pts):** Whilst this unit contains a Dire Avenger Exarch, when resolving an attack made with a ranged weapon that has the "Shuriken Weapon" quality by a model in this unit, an unmodified hit roll of 61 or higher scores 1 additional hit.
+- **Martial Adept (?pts):** This unit's Dire Avenger Exarch receives a +1 bonus to his Melee Skill, Ballistic Skill and Attacks attributes.
+- **Shredding Fire (?pts):** When resolving an attack made with a ranged weapon that has the "Shuriken Weapon" quality by this unit's Dire Avenger Exarch, that quality confers its +2 bonus to Armour Penetration regardless of the wound roll.
+- **Stand Firm:** ???
+- **Avenging Strikes (?pts):**  ???
+
 #### > WARGEAR OPTIONS:
-- --
+- /
 #### > SPECIAL RULES:
 - **Battle Focus**
 
@@ -332,7 +346,7 @@ a wraithcannon and Wraithguard fists.
 **KEYWORDS:** INFANTRY, WRAITH CONSTRUCT, WRAITHGUARD
 
 #### > WARGEAR OPTIONS:
-- --
+- /
 #### > SPECIAL RULES:
 - **Wraith Construct**
 
