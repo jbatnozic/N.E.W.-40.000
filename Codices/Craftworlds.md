@@ -15,7 +15,7 @@
   reason, these spirit warriors are often accompanied by psykers who guide them through the lands of the
   living._
   
-  Each Wraith Construct has the WRAITH CONSTRUCT keyowrd and the following special rules:
+  Each Wraith Construct has the WRAITH CONSTRUCT keyword and the following special rules:
   - **Fearless**
   - **Wraithsight:** While a Wraith Construct unit is not within 6" of a friendly PSYKER model (except those that are In Disarray
 or Panicking), its Melee Skill (MS) and Ballistic Skill (BS) characteristics are reduced by 1.
