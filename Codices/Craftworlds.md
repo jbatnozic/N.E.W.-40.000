@@ -147,6 +147,15 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
 
   ### Fortune (Warp Charge: 7)
   ???
+  
+  ### Clairvoyance (Warp Charge: 7)
+  If manifested, roll a D6 and place the rolled die next to the caster. This is called the Clairvoyance die. Until
+  the next Psychic phase, that die may be used once in one of the following ways:
+  - When a friendly unit within 12" of the caster would make a Hit roll or a Wound roll, you can use the Clairvoyance die as the 'tens' roll and only roll the 'ones'.
+  - When a friendly unit within 12" of the caster would make a Damage roll, you can instead use the Clairvoyance die. If that Damage roll is something other than a D6 (for example, a D3 roll), read the value on the Clairvoyance die accordingly.
+  - When a friendly unit within 12" of the caster would make a Saving throw or a Deny the Witch roll, you can use the Clairvoyance die instead of rolling.
+  - When a friendly unit within 12" of the caster would make a Psychic test, you can use the Clairvoyance die instead of one of the dice that would be rolled.
+  - When a friendly unit within 12" of the caster would make a Charge roll, you can use the result on the Clairvoyance die instead of the usual 2D3 roll to determine charge distance.
 
 ## Rune Disciplines - Runes of the Dead:
   ; invul. save; ??? (WRAITH CONSTRUCT only)
