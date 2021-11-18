@@ -64,6 +64,7 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   (artificiers; wraith stuff)
   
 ## Rune Disciplines - Runes of Battle:
+  TODO: opposites in pairs count as different psychic powers
 
   ### Conceal/Reveal
 
