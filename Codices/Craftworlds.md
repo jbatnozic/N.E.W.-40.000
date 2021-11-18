@@ -18,9 +18,9 @@
   Each Wraith Construct has the WRAITH CONSTRUCT keyowrd and the following special rules:
   - **Fearless**
   - **Wraithsight:** While a Wraith Construct unit is not within 6" of a friendly PSYKER model (except those that are In Disarray
-or Panicking), its Melee Skill (MS) and Ballistic Skill (BS) chatacteristics are reduced by 1 and 2, respectively.
-  - **Spirit Guide:** If a Wraith Construct unit is within 3" of a SPIRITSEER model that is not In Disarray or
-Panicking, they can be affected by friendly Psychic powers from the Runes of Battle discipline as if they had the CORE keyword.
+or Panicking), its Melee Skill (MS) and Ballistic Skill (BS) characteristics are reduced by 1.
+  - **Spirit Guide:** If a Wraith Construct unit is within 3" of a SPIRITSEER model (except those that are In Disarray
+or Panicking), they can be affected by friendly Psychic powers from the Runes of Battle discipline as if they had the CORE keyword.
 
 ## Craftworld Attributes
 
