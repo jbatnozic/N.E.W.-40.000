@@ -124,7 +124,7 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   ???
   
   ### Will of Asuryan (Warp Charge: 5)
-  (remove In Disarray / Panicking from unit)
+  (CHOOSE remove In Disarray / Panicking from unit OR +1 to another's psychic test)
   
   ### Mind War (Warp Charge: 7)
   If manifested, choose an enemy CHARACTER model within 18" of the caster. Each player then rolls a D6
@@ -140,8 +140,8 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   ### Nullifying Zone (Warp Charge: ?)
   ???
   
-  ### Power 6 Placeholder (Warp Charge: ?)
-  If manifested, nothing happens.
+  ### Witch Strike (Warp Charge: 5)
+  If manifested, until the next Psychic phase, whenever the caster makes a melee attack, its Damage characteristic is increased by 1 against VEHICLE models and by 2 against all other models.
   
 ## Rune Disciplines - Runes of Fate:
 
@@ -176,9 +176,16 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   ; invul. save; ??? (WRAITH CONSTRUCT only)
   
   ### Wrath of the Dead (Warp Charge: 6)
-  If manifested, choose a friendly WRAITH CONSTRUCT unit. Until the start of the next Psychic phase, increase
-  the Attack (A) characteristic of models in that unit by 1. If a single-model unit would be affected by this
-  power (even if it contains more models at the time of casting), the Attack (A) characteristic bonus is 2 instead.
+  If manifested, choose a friendly WRAITH CONSTRUCT unit within 12" of the caster. Until the start of the next Psychic phase,
+  increase the Attack (A) characteristic of models in that unit by 1. If a single-model unit would be affected by this
+  power (even if it contained more models at the time of casting), the Attack (A) characteristic bonus is 2 instead.
+  
+  ### Ominous Presence (Warp Charge: ?)
+  If manifested, choose a friendly WRAITH CONSTRUCT unit within 12" of the caster. (-N -something_else aura)
+  
+  ### Tireless Onslaught (Warp Charge: ?)
+  If manifested, choose a friendly WRAITH CONSTRUCT unit within 12" of the caster.
+  (after Full Shooting, fire 1 more weapon at the end of phase)
 
 ## Weapons
 
@@ -211,7 +218,7 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
 ### \[HQ] Farseer
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Farseer                  | 170 | 7" | 4" |  6 |  9 | 3 | 3 | 4 | 2 | 7 | 11 | 6+ | 25mm 
+| Farseer                  | 150 | 7" | 4" |  6 |  9 | 3 | 3 | 4 | 2 | 7 | 11 | 6+ | 25mm 
 
 A Farseer is a single model armed with a shuriken pistol and a witchblade.
 
@@ -219,19 +226,22 @@ A Farseer is a single model armed with a shuriken pistol and a witchblade.
 
 **KEYWORDS:** CHARCTER, INFANTRY, CORE, PSYKER, FARSEER
 
-#### > WARGEAR OPTIONS:
-- This model may replace its witchblade with a singing spear.
 #### > SPECIAL RULES:
 - **Battle Focus**
-- **Ghosthelm:** TODO
+- **Ghosthelm:** If this model suffers Perils of the Warp, roll a D6. On a 3+, its effects are ignored.
 - **Rune Armour:** This model has a 4+ invulnerable save.
-- **Psyker:** TODO
+- **Psyker:** This model can attempt to manifest two psychic powers in each friendly Psychic phase, and attempt to deny two
+psychic powers in each enemy Psychic phase. It knows the Smite power and a total of two psychic powers from the following
+disciplines: Runes of Fate, Runes of Power.
+
+#### > OPTIONS:
+- This model may replace its witchblade with a singing spear.
 
 
 ### \[HQ] Warlock
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Warlock                  |  75 | 7" | 4" |  5 |  8 | 3 | 3 | 2 | 2 | 6 | 10 | 6+ | 25mm 
+| Warlock                  |  80 | 7" | 4" |  5 |  8 | 3 | 3 | 2 | 2 | 6 | 10 | 6+ | 25mm 
 
 A Warlock is a single model armed with a shuriken pistol and a witchblade.
 
@@ -241,20 +251,45 @@ A Warlock is a single model armed with a shuriken pistol and a witchblade.
 
 #### > SPECIAL RULES:
 - **Battle Focus**
-- **Ghosthelm:** TODO
+- **Ghosthelm:** If this model suffers Perils of the Warp, roll a D6. On a 3+, its effects are ignored.
 - **Rune Armour:** This model has a 4+ invulnerable save.
 - **Psyker:** This model can attempt to manifest one psychic power in each friendly Psychic phase, and attempt to deny
-one psychic power in each enemy Psychic phase. It knows the Smite power and one psychic power from the Runes of Battle
-discipline.
+one psychic power in each enemy Psychic phase. It knows the Smite power and a total of one psychic power from the following
+disciplines: Runes of Battle, Runes of Power.
+
+#### > OPTIONS:
+- **Journeyman:** A Warlock may be upgraded to a Journeyman Warlock. It gains the JOURNEYMAN keyword and knows an
+additional power from disciplines available to it. It can also attempt to manifest 1 extra power in the friendly Psychic
+phase. (20pts)
 
 
 ### \[HQ] Spiritseer
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Spiritseer               | 130 | 7" | 4" |  5 |  8 | 3 | 3 | 3 | 2 | 6 | 11 | 6+ | 25mm 
+
+A Warlock is a single model armed with a shuriken pistol and a witchblade.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
+
+**KEYWORDS:** CHARCTER, INFANTRY, CORE, PSYKER, SPIRITSEER
+
+#### > SPECIAL RULES:
+- **Battle Focus**
+- **Ghosthelm:** If this model suffers Perils of the Warp, roll a D6. On a 3+, its effects are ignored.
+- **Rune Armour:** This model has a 4+ invulnerable save.
+- **Psyker:** This model can attempt to manifest two psychic powers in each friendly Psychic phase, and attempt to deny
+one psychic power in each enemy Psychic phase. It knows the Smite power, one psychic power from the Runes of Battle
+discipline, and one power from the Runes of the Dead discipline.
+
+#### > OPTIONS:
+- /
 
 
 ### \[HQ] Avatar of Khaine
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I  |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|----|----|----|------
-| Avatar of Khaine         | 250 | 8" | 4" | 10 |  9 | 6 | 6 | 8 | 6 | 10 | 12 | 3+ | 40mm 
+| Avatar of Khaine         | 250 | 8" | 4" | 10 |  9 | 6 | 6 | 8 | 6 | 10 | 12 | 3+ | 60mm 
 
 The Avatar of Khaine is a single model armed with the Wailing Doom. Only one of this model may be included in your army.
 
@@ -268,6 +303,14 @@ The Avatar of Khaine is a single model armed with the Wailing Doom. Only one of 
 | The Wailing Doom (Piercing Spear) |  12"  | Assault 1 |  +2  | -4 | 3 | -
 | The Wailing Doom (Cleaving Sword) | Melee | Melee     | User | -1 | 2 | Each time an attack is made with this weapon profile, make 2 hit rolls instead of 1.
 | The Wailing Doom (Great Axe)      | Melee | Melee     |  +2  | -3 | 3 | -
+
+#### > SPECIAL RULES:
+- **Daemonic:** ?
+- **Molten Body:** ?
+
+#### > OPTIONS:
+- /
+
 
 ### \[Troop] Guardian Defenders
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
@@ -293,13 +336,14 @@ For every 10 Guardians in the unit, you may include one Heavy Weapon Platform.
 
 **KEYWORDS (Heavy Weapon Platform):** INFANTRY, ARTILLERY, GUARDIAN, HEAVY WEAPON PLATFORM
 
-#### > WARGEAR OPTIONS:
-- Any Heavy Weapon Platform may replace its shuriken cannon with an item from the Heavy Weapons list.
 #### > SPECIAL RULES:
 - **Battle Focus**
 - **Crewed Weapon:** A Heavy Weapon Platform can only fire its ranged weapon if a Guardian from its unit is
 within 3" and ‘fires’ it instead of shooting any of their own weapons. A single Guardian cannot operate
 multiple Heavy Weapon Platforms in this way in a single turn. A Heavy Weapon Platform cannot make melee attacks.
+
+#### > OPTIONS:
+- Any Heavy Weapon Platform may replace its shuriken cannon with an item from the Heavy Weapons list.
 
 
 ### \[Troop] Dire Avengers
@@ -328,10 +372,11 @@ Each model is armed with an avenger shuriken catapult and plasma grenades.
 - **Stand Firm:** ???
 - **Avenging Strikes (?pts):**  ???
 
-#### > WARGEAR OPTIONS:
-- /
 #### > SPECIAL RULES:
 - **Battle Focus**
+
+#### > OPTIONS:
+- /
 
 
 ### \[Elite] Howling Banshees
@@ -347,14 +392,15 @@ Every model is equipped with a shuriken pistol, power sword and a banshee mask.
 
 **KEYWORDS:** INFANTRY, CORE, HOWLING BANSHEES
 
-#### > WARGEAR OPTIONS:
-- The Howling Banshee Exarch's power sword can be replaced with an executioner or a triskele.
-- The Howling Banshee Exarch's power sword and shuriken pistol can be replaced with mirrorswords.
 #### > SPECIAL RULES:
 - **Battle Focus**
 - **Acrobatic:** ???
 - **War Shout:** ???
 - **Banshee Mask:** ???
+
+#### > OPTIONS:
+- The Howling Banshee Exarch's power sword can be replaced with an executioner or a triskele.
+- The Howling Banshee Exarch's power sword and shuriken pistol can be replaced with mirrorswords.
 
 
 ### \[Elite] Wraithguard
@@ -369,10 +415,11 @@ a wraithcannon and Wraithguard fists.
 
 **KEYWORDS:** INFANTRY, WRAITH CONSTRUCT, WRAITHGUARD
 
-#### > WARGEAR OPTIONS:
-- /
 #### > SPECIAL RULES:
 - **Wraith Construct**
+
+#### > OPTIONS:
+- /
 
 
 ### \[Elite] Wraithblades
@@ -387,11 +434,12 @@ ghostswords.
 
 **KEYWORDS:** INFANTRY, WRAITH CONSTRUCT, WRAITHBLADES
 
-#### > WARGEAR OPTIONS:
-- Any model in the unit may replace its ghostswords with a ghostaxe and a forceshield.
 #### > SPECIAL RULES:
 - **Wraith Construct**
 - **Forceshield:** A model equipped with a forceshield has a 5+ invulnerable save.
+
+#### > OPTIONS:
+- Any model in the unit may replace its ghostswords with a ghostaxe and a forceshield.
 
 
 ### \[Fast Attack] Warp Spiders
@@ -407,10 +455,6 @@ Each model is armed with a death spinner.
 
 **KEYWORDS:** INFANTRY, CORE, JUMP PACK, WARP SPIDERS
 
-#### > WARGEAR OPTIONS:
-- The Warp Spider Exarch can be equipped with an additional death spinner.
-- The Warp Spider Exarch can be equipped with powerblades.
-- (spinneret rifles???)
 #### > SPECIAL RULES:
 - **Battle Focus**
 - **Deep Strike**
@@ -418,6 +462,11 @@ Each model is armed with a death spinner.
 - **Flickerjump:** When this unit is targeted by a ranged weapon, you can declare that they will make a flickerjump - all hit rolls of ranged attacks
 that target this unit until the end of the phase suffer an Impairment.
 - **Warp Passage:** Whenever this unit makes use of one of the following abilities: Deep Strike, Warp Jump Generator, Flickerjump - roll a D66. On a 11 or 12, one model is claimed by the Warp - destroy it and immediately remove it.
+
+#### > OPTIONS:
+- The Warp Spider Exarch can be equipped with an additional death spinner.
+- The Warp Spider Exarch can be equipped with powerblades.
+- (spinneret rifles???)
 
 
 ### \[Heavy Support] War Walkers
@@ -432,12 +481,13 @@ shuriken cannons.
 
 **KEYWORDS:** VEHICLE, WAR WALKERS
 
-#### > WARGEAR OPTIONS:
-- Any model may replace any shuriken cannon with an item from the Heavy Weapons list.
 #### > SPECIAL RULES:
 - **Battle Focus**
 - **Power Field:** Models in this unit have 5+ invulnerable save.
 - **Explodes:** When a model in this unit is destroyed, immediately roll a D6. ...
+
+#### > OPTIONS:
+- Any model may replace any shuriken cannon with an item from the Heavy Weapons list.
 
 
 ### \[Heavy Support] Fire Prism
@@ -453,13 +503,14 @@ A Fire Prism is a single model equipped with a prism cannon and a twin shuriken 
 
 **KEYWORDS:** VEHICLE, FLY, FIRE PRISM
 
-#### > WARGEAR OPTIONS:
-- This model may replace its twin shuriken catapult with a shuriken cannon.
-- This model may take items from the Vehicle Equipment list.
 #### > SPECIAL RULES:
 - **Hover Tank:** Distance and ranges are always measured to and from this model’s hull, even though it has a base.
 - **Pulsed Laser Discharge:** ???
 - **Explodes:** ???
+
+#### > OPTIONS:
+- This model may replace its twin shuriken catapult with a shuriken cannon.
+- This model may take items from the Vehicle Equipment list.
 
 
 ### \[Heavy Support] Wraithlord
@@ -475,12 +526,13 @@ A Wraithlord is a single model armed with two shuriken catapults and wraithbone 
 
 **KEYWORDS:** MONSTER, WRAITH CONSTRUCT, WRAITHLORD
 
-#### > WARGEAR OPTIONS:
+#### > SPECIAL RULES:
+- **Wraith Construct**
+
+#### > OPTIONS:
 - This model may replace any shuriken catapult with a flamer.
 - This model may take a ghostglaive.
 - This model may take up to two items from the Heavy Weapons list.
-#### > SPECIAL RULES:
-- **Wraith Construct**
 
 
 ### \[Heavy Support] Dark Reapers
@@ -501,11 +553,12 @@ Each model is armed with a Reaper Launcher.
 
 **KEYWORDS:** INFANTRY, CORE, DARK REAPERS
 
-#### > WARGEAR OPTIONS:
-- The Dark Reaper Exarch may replace their reaper launcher with a shuriken cannon, Aeldari missile launcher
-or tempest launcher.
 #### > SPECIAL RULES:
 - **Inescapable Accuracy:** Models in this unit can ignore 1 Impairment when making ranged attacks.
+
+#### > OPTIONS:
+- The Dark Reaper Exarch may replace their reaper launcher with a shuriken cannon, Aeldari missile launcher
+or tempest launcher.
 
 
 ### \[Dedicated Transport] Wave Serpent
