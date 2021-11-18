@@ -185,7 +185,7 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   
   ### Tireless Onslaught (Warp Charge: ?)
   If manifested, choose a friendly WRAITH CONSTRUCT unit within 12" of the caster.
-  (after Full Shooting, fire 1 more weapon at the end of phase)
+  (after Full Shooting, fire again at the end of phase - max 3 models in target unit)
 
 ## Weapons
 
