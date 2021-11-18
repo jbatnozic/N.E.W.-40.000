@@ -134,6 +134,9 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   - If the caster’s score is higher, the target suffers a number of mortal wounds equal to the difference between
   the two scores (max 5).
   
+  ### Eldritch Storm (Warp Charge: ?)
+  ???
+  
 ## Rune Disciplines - Runes of Fate:
 
   ### Guide (Warp Charge: 7)
