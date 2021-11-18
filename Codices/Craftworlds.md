@@ -137,6 +137,12 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   ### Eldritch Storm (Warp Charge: ?)
   ???
   
+  ### Nullifying Zone (Warp Charge: ?)
+  ???
+  
+  ### Power 6 Placeholder (Warp Charge: ?)
+  If manifested, nothing happens.
+  
 ## Rune Disciplines - Runes of Fate:
 
   ### Guide (Warp Charge: 7)
@@ -159,6 +165,12 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   - When a friendly unit within 12" of the caster would make a Saving throw or a Deny the Witch roll, you can use the Clairvoyance die instead of rolling.
   - When a friendly unit within 12" of the caster would make a Psychic test, you can use the Clairvoyance die instead of one of the dice that would be rolled.
   - When a friendly unit within 12" of the caster would make a Charge roll, you can use the result on the Clairvoyance die instead of the usual 2D3 roll to determine charge distance.
+
+  ### Safe Passage (Warp Charge: 6)
+  If manifested, choose a friendly Reinforcements unit. You may immediately set it up on the battlefield using any relevant special rules available to that unit, along with any accompanying CHARACTERs (as per the usual rules for CHARACTER Reinforcements), as if it were the Reinforcements Phase. All models that arrive on the battlefield using Safe Passage must be set up in unit coherency and wholly within 12" of the caster - if this is not possible, then they cannot arrive in this way. When units arrive on the battlefield using Safe Passage, their associated Exhaustion Roll succeeds automatically.
+  
+  ### Power 6 Placeholder (Warp Charge: ?)
+  If manifested, nothing happens.
 
 ## Rune Disciplines - Runes of the Dead:
   ; invul. save; ??? (WRAITH CONSTRUCT only)
