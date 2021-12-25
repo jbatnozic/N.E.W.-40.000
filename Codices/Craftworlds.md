@@ -198,9 +198,11 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
 
 | WEAPON                     | RANGE |     TYPE    |  S | AP |  D | QUALITIES
 |----------------------------|-------|-------------|----|----|----|--------------------------- 
+| Aeldari missile launcher (Sunburst) | 48" | Heavy 1 |  4 | -1 | 1    | **Blast (small)**
+| Aeldari missile launcher (Starshot) | 48" | Heavy 1 |  8 | -2 | D3+1 | -
 | Avenger shuriken catapult  |  18"  | Assault 2   |  4 |  0 |  1 | **Shuriken weapon**
-| Bright lance               |  36"  |             |  8 |    |    |
-| D-cannon                   |       |             |    |    |    |
+| Bright lance               |  36"  |             |  8 |    |    | -
+| D-cannon                   |       |             |    |    |    | -
 | D-scythe                   |   2"  | Assault 1   | 10 |  0 |    | **Soul Reaper**
 | Flamer                     |   2"  | Steady 1    |  4 |  0 |  1 | **Flamer Template**
 | Fusion gun                 |  12"  | Assault 2D6 |  8 |    |    | (meltagun basically)
@@ -208,9 +210,17 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
 | Shuriken cannon            |  24"  | Assault 3   |  6 |  0 |  1 | **Shuriken weapon**
 | Shuriken catapult          |  12"  | Assault 2   |  4 |  0 |  1 | **Shuriken weapon**
 | Shuriken pistol            |       | Pistol 1    |  4 |  0 |  1 | **Shuriken weapon**
-| Singing spear (shooting)   |  12"  | Assault 1   |    |    |    |
-| Starcannon                 |  36"  | Heavy 2     |    |    |    |
+| Singing spear (shooting)   |  12"  | Assault 1   |    |    |    | -
+| Starcannon                 |  36"  | Heavy 2     |    |    |    | -
 | Wraithcannon               |  12"  | Assault 1   | 10 |    |    | (horrible death)
+
+### Heavy Weapons list
+When a unit's datasheet states that it may take weapons from the "Heavy Weapons list", that refers to the list below. Unless othwerise noted in the datasheet, the points costs are as noted in this list.
+- Aeldari missile launcher (30 pts)
+- Bright lance (30 pts)
+- Scatter laser (15 pts)
+- Shuriken cannon (15 pts)
+- Starcannon (20 pts)
 
 
 ## Unit Datasheets
@@ -300,17 +310,18 @@ The Avatar of Khaine is a single model armed with the Wailing Doom. Only one of 
 
 | WEAPON                            | RANGE | TYPE      |   S  | AP | D | Qualities
 |-----------------------------------|-------|-----------|------|----|---|-----------
-| The Wailing Doom (Inferno)        |   2"  | Steady 1  | User | -1 | 1 | **Flamer Template.**
+| The Wailing Doom (Inferno)        |   2"  | Steady 1  |   5  | -1 | 1 | **Flamer Template.**
 | The Wailing Doom (Piercing Spear) |  12"  | Assault 1 |  +2  | -4 | 3 | -
 | The Wailing Doom (Cleaving Sword) | Melee | Melee     | User | -1 | 2 | Each time an attack is made with this weapon profile, make 2 hit rolls instead of 1.
 | The Wailing Doom (Great Axe)      | Melee | Melee     |  +2  | -3 | 3 | -
 
 #### > SPECIAL RULES:
-- **Daemonic:** ?
-- **Molten Body:** ?
+- **Daemonic:** This unit has a 5+ invulnerable save.
+- **Molten Body:** This unit receives a +1 bonus to all saving throws against attacks with a Damage characteristic of 1. In addition, roll a D6 whenever the it would suffer a wound. On a 5+, that wound is ignored.
+- **Khaine Awakened:** Friendly ASURYANI units within 12" of the Avatar of Khaine are Fearless, and you can re-roll their Charge rolls.
 
 #### > OPTIONS:
-- /
+(none)
 
 
 ### \[Troop] Guardian Defenders
@@ -554,12 +565,18 @@ Each model is armed with a Reaper Launcher.
 
 **KEYWORDS:** INFANTRY, CORE, DARK REAPERS
 
+| WEAPON                            | RANGE | TYPE      |   S  | AP |   D  | Qualities
+|-----------------------------------|-------|-----------|------|----|------|-----------
+| Reaper launcher (Starshot)        |  48"  | Heavy 1   |   8  | -2 | D2   | -
+| Reaper launcher (Starswarm)       |  48"  | Heavy 2   |   5  | -2 | D2+1 | -
+| Tempest launcher                  |  36"  | Heavy 2   |   5  | -2 |    1 | **Blast (Small).**
+
 #### > SPECIAL RULES:
 - **Inescapable Accuracy:** Models in this unit can ignore 1 Impairment when making ranged attacks.
 
 #### > OPTIONS:
-- The Dark Reaper Exarch may replace their reaper launcher with a shuriken cannon, Aeldari missile launcher
-or tempest launcher.
+- The Dark Reaper Exarch may replace their reaper launcher with a Shuriken cannon (free), 
+Aeldari missile launcher (+? pts) or Tempest launcher (+15 pts).
 
 
 ### \[Dedicated Transport] Wave Serpent
