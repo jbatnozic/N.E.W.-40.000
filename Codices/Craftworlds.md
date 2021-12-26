@@ -200,19 +200,20 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
 |----------------------------|-------|-------------|----|----|----|--------------------------- 
 | Aeldari missile launcher (Sunburst) | 48" | Heavy 1 |  4 | -1 | 1    | **Blast (small)**
 | Aeldari missile launcher (Starshot) | 48" | Heavy 1 |  8 | -2 | D3+1 | -
-| Avenger shuriken catapult  |  18"  | Assault 2   |  4 |  0 |  1 | **Shuriken weapon**
-| Bright lance               |  36"  |             |  8 |    |    | -
-| D-cannon                   |       |             |    |    |    | -
-| D-scythe                   |   2"  | Assault 1   | 10 |  0 |    | **Soul Reaper**
-| Flamer                     |   2"  | Steady 1    |  4 |  0 |  1 | **Flamer Template**
-| Fusion gun                 |  12"  | Assault 2D6 |  8 |    |    | (meltagun basically)
-| Fusion pistol              |   6"  | Pistol 1    |  8 |    |    | (meltagun basically)
-| Shuriken cannon            |  24"  | Assault 3   |  6 |  0 |  1 | **Shuriken weapon**
-| Shuriken catapult          |  12"  | Assault 2   |  4 |  0 |  1 | **Shuriken weapon**
-| Shuriken pistol            |       | Pistol 1    |  4 |  0 |  1 | **Shuriken weapon**
-| Singing spear (shooting)   |  12"  | Assault 1   |    |    |    | -
-| Starcannon                 |  36"  | Heavy 2     |    |    |    | -
-| Wraithcannon               |  12"  | Assault 1   | 10 |    |    | (horrible death)
+| Avenger shuriken catapult  |  18"  | Assault 2   |  4 |  0 |    1 | **Shuriken weapon**
+| Bright lance               |  36"  | Heavy 1     |  8 | -3 | D3+1 | **Armourbane**
+| D-cannon                   |       |             |    |    |      | -
+| D-scythe                   |   2"  | Assault 1   | 10 |  0 |      | **Soul Reaper**
+| Flamer                     |   2"  | Steady 1    |  4 |  0 |    1 | **Flamer Template**
+| Fusion gun                 |  12"  | Assault 1   |  8 | -3 |      | **Melta**
+| Fusion pistol              |   6"  | Pistol 1    |  8 | -3 |      | **Melta**
+| Scatter laser              |  36"  | Heavy 4     |  6 |  0 |    1 | -
+| Shuriken cannon            |  24"  | Assault 3   |  6 |  0 |    1 | **Shuriken weapon**
+| Shuriken catapult          |  12"  | Assault 2   |  4 |  0 |    1 | **Shuriken weapon**
+| Shuriken pistol            |       | Pistol 1    |  4 |  0 |    1 | **Shuriken weapon**
+| Singing spear (shooting)   |  12"  | Assault 1   |    |    |      | -
+| Starcannon                 |  36"  | Heavy 2     |    |    |      | -
+| Wraithcannon               |  12"  | Assault 1   | 10 |    |      | (horrible death)
 
 ### Heavy Weapons list
 When a unit's datasheet states that it may take weapons from the "Heavy Weapons list", that refers to the list below. Unless othwerise noted in the datasheet, the points costs are as noted in this list.
@@ -467,6 +468,11 @@ Each model is armed with a death spinner.
 
 **KEYWORDS:** INFANTRY, CORE, JUMP PACK, WARP SPIDERS
 
+| WEAPON                            | RANGE | TYPE      |  S  | AP |  D  | Qualities
+|-----------------------------------|-------|-----------|-----|----|-----|-----------
+| Death spinner                     |  12"  | Assault 2 |  6  | 0  |  1  | -
+| Spinneret rifle                   |  18"  | Heavy 2   |  5  | -2 | D2+1 | -
+
 #### > SPECIAL RULES:
 - **Battle Focus**
 - **Deep Strike**
@@ -476,9 +482,11 @@ that target this unit until the end of the phase suffer an Impairment.
 - **Warp Passage:** Whenever this unit makes use of one of the following abilities: Deep Strike, Warp Jump Generator, Flickerjump - roll a D66. On a 11 or 12, one model is claimed by the Warp - destroy it and immediately remove it.
 
 #### > OPTIONS:
-- The Warp Spider Exarch can be equipped with an additional death spinner.
-- The Warp Spider Exarch can be equipped with powerblades.
-- (spinneret rifles???)
+- The Warp Spider Exarch can be equipped with one of the following:
+  - Additional Death spinner (+? pts);
+  - Powerblades (+? pts);
+  - Additional Death spiner and Powerblades (+? pts);
+  - Spinneret rifle (+? pts).
 
 
 ### \[Heavy Support] War Walkers
