@@ -431,6 +431,10 @@ Every model is equipped with a shuriken pistol, power sword and a banshee mask.
 
 **KEYWORDS:** INFANTRY, CORE, HOWLING BANSHEES
 
+**HOWLING BANSHEES EXARCH POWERS:**
+- **A (?pts):** ?
+- **B (?pts):**
+
 #### > SPECIAL RULES:
 - **Battle Focus**
 - **Acrobatic:** ???
@@ -441,9 +445,6 @@ Every model is equipped with a shuriken pistol, power sword and a banshee mask.
 - The Howling Banshee Exarch's power sword can be replaced with an executioner or a triskele.
 - The Howling Banshee Exarch's power sword and shuriken pistol can be replaced with mirrorswords.
 
-**HOWLING BANSHEES EXARCH POWERS:**
-- **A (?pts):** ?
-- **B (?pts):** Warp passage tests automatically pass
 
 ### \[Elite] Wraithguard
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
@@ -497,6 +498,10 @@ Each model is armed with a death spinner.
 
 **KEYWORDS:** INFANTRY, CORE, JUMP PACK, WARP SPIDERS
 
+**WARP SPIDERS EXARCH POWERS:**
+- **A (?pts):** ?
+- **B (?pts):** Warp passage tests automatically pass
+
 | WEAPON                            | RANGE | TYPE      |  S  | AP |  D  | Qualities
 |-----------------------------------|-------|-----------|-----|----|-----|-----------
 | Death spinner                     |  12"  | Assault 2 |  6  | 0  |  1  | -
@@ -516,10 +521,6 @@ that target this unit until the end of the phase suffer an Impairment.
   - Powerblades (+? pts);
   - Additional Death spiner and Powerblades (+? pts);
   - Spinneret rifle (+? pts).
-
-**WARP SPIDERS EXARCH POWERS:**
-- **A (?pts):** ?
-- **B (?pts):** Warp passage tests automatically pass
 
 
 ### \[Heavy Support] War Walkers
@@ -606,6 +607,13 @@ Each model is armed with a Reaper Launcher.
 
 **KEYWORDS:** INFANTRY, CORE, DARK REAPERS
 
+**DARK REAPERS EXARCH POWERS:**
+- **Crack Shot (? pts):** ?
+- **Rapid Shot (? pts):** ?
+- **Rain of Death (? pts):** When this unit’s Dark Reaper Exarch shoots with a tempest launcher, you can...?
+- **Long-ranged Fire (? pts):** +6" range to all weapons while exarch is alive
+- **E (? pts):** All weapons in unit have half range (permanently) but type becomes rapid fire, and lose Inescapable Accuracy
+
 | WEAPON                            | RANGE | TYPE      |   S  | AP |   D  | Qualities
 |-----------------------------------|-------|-----------|------|----|------|-----------
 | Reaper launcher (Starshot)        |  48"  | Heavy 1   |   8  | -2 | D2   | -
@@ -619,12 +627,6 @@ Each model is armed with a Reaper Launcher.
 - The Dark Reaper Exarch may replace their reaper launcher with a Shuriken cannon (free), 
 Aeldari missile launcher (+? pts) or Tempest launcher (+15 pts).
 
-**DARK REAPERS EXARCH POWERS:**
-- **Crack Shot (? pts):** ?
-- **Rapid Shot (? pts):** ?
-- **Rain of Death (? pts):** When this unit’s Dark Reaper Exarch shoots with a tempest launcher, you can...?
-- **Long-ranged Fire (? pts):** +6" range to all weapons while exarch is alive
-- **E (? pts):** All weapons in unit have half range (permanently) but type becomes rapid fire, and lose Inescapable Accuracy
 
 ### \[Dedicated Transport] Wave Serpent
 | NAME                     | PTS |  M  | CB | MS | BS | S |   T   |  W   | A | I |  N | Sv | Base 
