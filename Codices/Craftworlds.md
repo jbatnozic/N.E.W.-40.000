@@ -25,7 +25,7 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
 ## Craftworld Attributes
 
   ### Alaitoc - Fieldcraft:
-  (stealth stuff)
+  Hit rolls of attacks made against units with this attribute at a range of more than 12" suffer an Impairment.
   
   ### Biel-Tan - Swordwind:
   (indomitable spirit, shuriken upgrade)
@@ -192,9 +192,13 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
 
 ### Qualities
 
+**Psychically-attuned Weapon:** When attacking with this weapon (except against targets that are VEHICLES or TITANIC), an unmodified wound roll of 21 or higher always wounds the target successfully and that attack is resolved with Armour Penetration improved by 2.
+
 **Shuriken Weapon:** When attacking with this weapon, a successful wound roll of 61 or more has Armour Penetration improved by 2.
 
 **Soul Reaper:** This weapon is fired as if it had **Flamer Template**, though it can generate a maximum of 3 hit rolls (the controlling player picks which ones if the template intersects more than 3 enemy models). All the hit rolls succeed automatically, cannot hit friendly units, and ignore armour saves of all units that don't have the VEHICLE or TITANIC keyword.
+
+### Ranged Weapons list
 
 | WEAPON                     | RANGE |     TYPE    |  S | AP |  D | QUALITIES
 |----------------------------|-------|-------------|----|----|----|--------------------------- 
@@ -207,12 +211,14 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
 | Flamer                     |   2"  | Steady 1    |  4 |  0 |    1 | **Flamer Template**
 | Fusion gun                 |  12"  | Assault 1   |  8 | -3 |      | **Melta**
 | Fusion pistol              |   6"  | Pistol 1    |  8 | -3 |      | **Melta**
+| Plasma grenades            |   6"  | Grenade 1   |  4 | -1 |    1 | **Blast (small)**
 | Scatter laser              |  36"  | Heavy 4     |  6 |  0 |    1 | -
 | Shuriken cannon            |  24"  | Assault 3   |  6 |  0 |    1 | **Shuriken weapon**
 | Shuriken catapult          |  12"  | Assault 2   |  4 |  0 |    1 | **Shuriken weapon**
 | Shuriken pistol            |       | Pistol 1    |  4 |  0 |    1 | **Shuriken weapon**
-| Singing spear (shooting)   |  12"  | Assault 1   |    |    |      | -
+| Singing spear (ranged)     |  12"  | Assault 1   |    |    |      | -
 | Starcannon                 |  36"  | Heavy 2     |    |    |      | -
+| Triskele (ranged)          |   8"  | Assault 3   | +1 | -2 |    1 | -
 | Wraithcannon               |  12"  | Assault 1   | 10 |    |      | (horrible death)
 
 ### Heavy Weapons list
@@ -222,6 +228,26 @@ When a unit's datasheet states that it may take weapons from the "Heavy Weapons 
 - Scatter laser (15 pts)
 - Shuriken cannon (15 pts)
 - Starcannon (20 pts)
+
+### Melee Weapons list
+
+| WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
+|----------------------------|-------|------|----|-----|--------------------------- 
+| Aeldari chainsword         | Melee | User |  0 |  1  | -
+| Diresword                  | Melee | User |  0 |  1  | -
+| Executioner                | Melee |  +1  | -3 |  2  | -
+| Ghostaxe                   | Melee |  +2  | -2 |  D3 | **Unwieldy**
+| Ghostglaive                | Melee |      |    |  1  | (wraithlord thingy)
+| Ghostspear                 | Melee |      |    |  1  | (wraithseer thingy)
+| Ghostswords                | Melee |  +1  | -3 |  1  | Each time the bearer fights, it can make 1 additional attack with this weapon.
+| Mirrorswords               | Melee | User | -3 |  1  | -
+| Singing spear (melee)      | Melee | User |  0 |  D3 | **Psychically-attuned Weapon**, **Unwieldy**
+| Star glaive                | Melee |  ×2  | -2 |  2  | **Unwieldy**
+| The Spear of Twilight      | Melee | User | -1 |  3  | **Psychically-attuned Weapon**
+| Triskele (melee)           | Melee | User | -2 |  1  | -
+| Witchblade                 | Melee | User |  0 |  D3 | **Psychically-attuned Weapon**
+| Wraithbone fists           | Melee | User | -2 |  3  | -
+| Wraithguard fists          | Melee | User |  0 |  D2 | -
 
 
 ## Unit Datasheets
@@ -301,7 +327,7 @@ discipline, and one power from the Runes of the Dead discipline.
 ### \[HQ] Avatar of Khaine
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I  |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|----|----|----|------
-| Avatar of Khaine         | 250 | 8" | 4" | 10 |  9 | 6 | 6 | 8 | 6 | 10 | 12 | 3+ | 60mm 
+| Avatar of Khaine         | 250 | 8" | 4" | 10 |  9 | 6 | 6 | 9 | 6 | 10 | 12 | 3+ | 60mm 
 
 The Avatar of Khaine is a single model armed with the Wailing Doom. Only one of this model may be included in your army.
 
@@ -415,6 +441,9 @@ Every model is equipped with a shuriken pistol, power sword and a banshee mask.
 - The Howling Banshee Exarch's power sword can be replaced with an executioner or a triskele.
 - The Howling Banshee Exarch's power sword and shuriken pistol can be replaced with mirrorswords.
 
+**HOWLING BANSHEES EXARCH POWERS:**
+- **A (?pts):** ?
+- **B (?pts):** Warp passage tests automatically pass
 
 ### \[Elite] Wraithguard
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
@@ -487,6 +516,10 @@ that target this unit until the end of the phase suffer an Impairment.
   - Powerblades (+? pts);
   - Additional Death spiner and Powerblades (+? pts);
   - Spinneret rifle (+? pts).
+
+**WARP SPIDERS EXARCH POWERS:**
+- **A (?pts):** ?
+- **B (?pts):** Warp passage tests automatically pass
 
 
 ### \[Heavy Support] War Walkers
@@ -586,6 +619,12 @@ Each model is armed with a Reaper Launcher.
 - The Dark Reaper Exarch may replace their reaper launcher with a Shuriken cannon (free), 
 Aeldari missile launcher (+? pts) or Tempest launcher (+15 pts).
 
+**DARK REAPERS EXARCH POWERS:**
+- **Crack Shot (? pts):** ?
+- **Rapid Shot (? pts):** ?
+- **Rain of Death (? pts):** When this unit’s Dark Reaper Exarch shoots with a tempest launcher, you can...?
+- **Long-ranged Fire (? pts):** +6" range to all weapons while exarch is alive
+- **E (? pts):** All weapons in unit have half range (permanently) but type becomes rapid fire, and lose Inescapable Accuracy
 
 ### \[Dedicated Transport] Wave Serpent
 | NAME                     | PTS |  M  | CB | MS | BS | S |   T   |  W   | A | I |  N | Sv | Base 
