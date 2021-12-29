@@ -594,8 +594,8 @@ A Wraithlord is a single model armed with two shuriken catapults and wraithbone 
 ### \[Heavy Support] Dark Reapers
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Dark Reaper              |  48 | 6" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 4+ | 25mm 
-| Dark Reaper Exarch       |  48 | 6" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 4+ | 25mm 
+| Dark Reaper              |  48 | 6" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 3+ | 25mm 
+| Dark Reaper Exarch       |  48 | 6" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 3+ | 25mm 
 
 | Dark Reapers in unit    | Nerve 
 |-------------------------|-------
