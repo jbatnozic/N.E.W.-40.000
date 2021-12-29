@@ -161,7 +161,7 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   ### Clairvoyance (Warp Charge: 7)
   If manifested, roll a D6 and place the rolled die next to the caster. This is called the Clairvoyance die. Until
   the next Psychic phase, that die may be used once in one of the following ways:
-  - When a friendly unit within 12" of the caster would make a Hit roll or a Wound roll, you can use the Clairvoyance die as the 'tens' roll and only roll the 'ones'.
+  - When a friendly unit within 12" of the caster would make a Hit or a Wound D66 roll, you can use the Clairvoyance die as both the 'tens' roll and the 'ones' roll.
   - When a friendly unit within 12" of the caster would make a Damage roll, you can instead use the Clairvoyance die. If that Damage roll is something other than a D6 (for example, a D3 roll), read the value on the Clairvoyance die accordingly.
   - When a friendly unit within 12" of the caster would make a Saving throw or a Deny the Witch roll, you can use the Clairvoyance die instead of rolling.
   - When a friendly unit within 12" of the caster would make a Psychic test, you can use the Clairvoyance die instead of one of the dice that would be rolled.
@@ -403,19 +403,19 @@ Each model is armed with an avenger shuriken catapult and plasma grenades.
 
 **KEYWORDS:** INFANTRY, CORE, DIRE AVENGERS
 
-**DIRE AVENGER EXARCH POWERS:**
+#### > SPECIAL RULES:
+- **Battle Focus**
+
+#### > OPTIONS:
+- The Dire Avenger Exarch can take one exarch power from the list below at the listed point cost.
+
+#### > DIRE AVENGER EXARCH POWERS:
 - **Battle Fortune (?pts):** This unit's Dire Avenger Exarch has a 7+ invulnerable save and a +1 bonus to all saving throws.
 - **Bladestorm (?pts):** Whilst this unit contains a Dire Avenger Exarch, when resolving an attack made with a ranged weapon that has the "Shuriken Weapon" quality by a model in this unit, an unmodified hit roll of 61 or higher scores 1 additional hit.
 - **Martial Adept (?pts):** This unit's Dire Avenger Exarch receives a +1 bonus to his Melee Skill, Ballistic Skill and Attacks attributes.
 - **Shredding Fire (?pts):** When resolving an attack made with a ranged weapon that has the "Shuriken Weapon" quality by this unit's Dire Avenger Exarch, that quality confers its +2 bonus to Armour Penetration regardless of the wound roll.
 - **Stand Firm:** ???
 - **Avenging Strikes (?pts):**  ???
-
-#### > SPECIAL RULES:
-- **Battle Focus**
-
-#### > OPTIONS:
-- /
 
 
 ### \[Elite] Howling Banshees
@@ -431,10 +431,6 @@ Every model is equipped with a shuriken pistol, power sword and a banshee mask.
 
 **KEYWORDS:** INFANTRY, CORE, HOWLING BANSHEES
 
-**HOWLING BANSHEES EXARCH POWERS:**
-- **A (?pts):** ?
-- **B (?pts):**
-
 #### > SPECIAL RULES:
 - **Battle Focus**
 - **Acrobatic:** ???
@@ -444,6 +440,11 @@ Every model is equipped with a shuriken pistol, power sword and a banshee mask.
 #### > OPTIONS:
 - The Howling Banshee Exarch's power sword can be replaced with an executioner or a triskele.
 - The Howling Banshee Exarch's power sword and shuriken pistol can be replaced with mirrorswords.
+- The Howling Banshee Exarch can take one exarch power from the list below at the listed point cost.
+
+#### > HOWLING BANSHEES EXARCH POWERS:
+- **A (?pts):** ?
+- **B (?pts):**
 
 
 ### \[Elite] Wraithguard
@@ -498,10 +499,6 @@ Each model is armed with a death spinner.
 
 **KEYWORDS:** INFANTRY, CORE, JUMP PACK, WARP SPIDERS
 
-**WARP SPIDERS EXARCH POWERS:**
-- **A (?pts):** ?
-- **B (?pts):** Warp passage tests automatically pass
-
 | WEAPON                            | RANGE | TYPE      |  S  | AP |  D  | Qualities
 |-----------------------------------|-------|-----------|-----|----|-----|-----------
 | Death spinner                     |  12"  | Assault 2 |  6  | 0  |  1  | -
@@ -521,6 +518,11 @@ that target this unit until the end of the phase suffer an Impairment.
   - Powerblades (+? pts);
   - Additional Death spiner and Powerblades (+? pts);
   - Spinneret rifle (+? pts).
+- The Warp Spider Exarch can take one exarch power from the list below at the listed point cost.
+
+#### > WARP SPIDERS EXARCH POWERS:
+- **A (?pts):** ?
+- **B (?pts):** Warp passage tests automatically pass
 
 
 ### \[Heavy Support] War Walkers
@@ -607,17 +609,10 @@ Each model is armed with a Reaper Launcher.
 
 **KEYWORDS:** INFANTRY, CORE, DARK REAPERS
 
-**DARK REAPERS EXARCH POWERS:**
-- **Crack Shot (? pts):** ?
-- **Rapid Shot (? pts):** ?
-- **Rain of Death (? pts):** When this unit’s Dark Reaper Exarch shoots with a tempest launcher, you can...?
-- **Long-ranged Fire (? pts):** +6" range to all weapons while exarch is alive
-- **E (? pts):** All weapons in unit have half range (permanently) but type becomes rapid fire, and lose Inescapable Accuracy
-
 | WEAPON                            | RANGE | TYPE      |   S  | AP |   D  | Qualities
 |-----------------------------------|-------|-----------|------|----|------|-----------
-| Reaper launcher (Starshot)        |  48"  | Heavy 1   |   8  | -2 | D2   | -
-| Reaper launcher (Starswarm)       |  48"  | Heavy 2   |   5  | -2 | D2+1 | -
+| Reaper launcher (Starshot)        |  48"  | Heavy 1   |   8  | -2 | D2+1 | -
+| Reaper launcher (Starswarm)       |  48"  | Heavy 2   |   5  | -2 |   D2 | -
 | Tempest launcher                  |  36"  | Heavy 2   |   5  | -2 |    1 | **Blast (Small).**
 
 #### > SPECIAL RULES:
@@ -626,6 +621,16 @@ Each model is armed with a Reaper Launcher.
 #### > OPTIONS:
 - The Dark Reaper Exarch may replace their reaper launcher with a Shuriken cannon (free), 
 Aeldari missile launcher (+? pts) or Tempest launcher (+15 pts).
+- The Dark Reaper Exarch can take one exarch power from the list below at the listed point cost.
+
+#### > DARK REAPERS EXARCH POWERS:
+- **Crack Shot (free):** When this unit’s Dark Reaper Exarch shoots, you may re-roll Hit 'tens' rolls of 1.
+- **Rain of Death (5 pts):** When this unit’s Dark Reaper Exarch shoots with a Tempest launcher, you can treat it as a Heavy 1 weapon with the Blast (Large) quality istead of Blast (Small). If you do, add +3 when rolling to determine if a Direct Hit is scored.
+- **Rapid Shot (10 pts):** When this unit’s Dark Reaper Exarch shoots, add 1 to the number of attacks made with that model’s ranged weapon (for example, he would treat Heavy 2 as Heavy 3).
+- **Long-ranged Fire (10 pts):** Whilst this unit contains a Dark Reaper Exarch, add 6" to the Range characteristic of ranged weapons models in this unit are equipped with.
+- **Grim Visage (15 pts):** One per phase, when an enemy unit suffers a casualty as a result of an attack made by this unit while it contains a Dark Reaper Exarch, you can roll a die. On a 1-3, that enemy unit gains 1 strain. On a 4-6, it gains 2 strain.
+- **Aggressive Tactics (15 pts):** A unit where the Exarch has this power loses Inescapable Accuracy, and the Range characteristics of all weapons used by that unit are halved - these effects persist even if the Exarch is destroyed. While the unit contains a Dark Reaper Exarch, models in the unit may treat Heavy weapons as Rapid Fire weapons when shooting, and they gain +1 Attack.
+- **Focused Fire: (25 pts):** When this unit is selected to shoot, if it contains a Dark Reaper Exarch, and if all models are targeting the same enemy unit, add 1 to the Ballistic Skill of this unit until the end of the action. Note: Blast (\*) weapons are considered to be targeting a unit if the centre of the blast template intersects at least one model from that unit.
 
 
 ### \[Dedicated Transport] Wave Serpent
