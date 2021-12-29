@@ -39,8 +39,10 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   ### Ulthwe - Foresight of the Damned:
   (foresight)
   
-  ### Black Library - Forbidden Knowledge:
-  (psyker stuff)
+  ### Black Library:
+  - **\[Trait] Forbidden Knowledge:** Before a psyker with this attribute attempts to manifest a psychic power, you may choose to have them use forbidden knowledge. If you do, the psyker gains +1 to Psychic tests, -1 to Ghosthelm rolls, and all Psychic test results of 11 or higher result in Perils of the Warp. Enemies' Deny the Witch rolls of 6 must be re-rolled when used against forbidden knowledge.
+  - **\[Stratagem] ?:** (better webway strike)
+  - **\[Relic] The Book of Mol'Kerian:** ? 
   
   ### Altansar - ???
   (Maugan Ra, eye of terror)
