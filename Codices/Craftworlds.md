@@ -48,10 +48,11 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   (Maugan Ra, eye of terror)
   
   ### Il-Kaithe - ???
-  (bonesinger stuff)
+  (bonesingers -> repair shit)
   
   ### Iybraesil - ???
   (matriarchal; hags; sacrifice -> knowledge)
+  - \[?] psyker -> to re-roll psychic test/cast additional spell; take MW (can't be avoided) afterwards
   
   ### Kaelor - ???
   (indulgence, deprivation, civil war; good guardians)
@@ -64,6 +65,7 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   
   ### Yme-Loc - ???
   (artificiers; wraith stuff)
+  - \[?] Expert Crafters -> 1 H/W re-roll
   
 ## Rune Disciplines - Runes of Battle:
   TODO: opposites in pairs count as different psychic powers
@@ -447,6 +449,7 @@ Every model is equipped with a shuriken pistol, power sword and a banshee mask.
 #### > HOWLING BANSHEES EXARCH POWERS:
 - **A (?pts):** ?
 - **B (?pts):**
+- **Nerve-shredding Shriek (? pts):** At the end of the Charge phase, if this unit performed a charge and if it includes a Howling Banshee Exarch, you can select one enemy unit within 1" of this unit and roll one D6; on a 1-3 that enemy unit gains 1 strain, and on a 4-6 it gains 2 strain.
 
 
 ### \[Elite] Wraithguard
