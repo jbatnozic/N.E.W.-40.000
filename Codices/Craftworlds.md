@@ -22,6 +22,8 @@ or Panicking), its Melee Skill (MS) and Ballistic Skill (BS) characteristics are
   - **Spirit Guide:** If a Wraith Construct unit is within 3" of a SPIRITSEER model (except those that are In Disarray
 or Panicking), they can be affected by friendly Psychic powers from the Runes of Battle discipline as if they had the CORE keyword.
 
+---
+
 ## Craftworld Attributes
 
   ### Alaitoc - Fieldcraft:
@@ -40,9 +42,17 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   (foresight)
   
   ### Black Library:
-  - **\[Trait] Forbidden Knowledge:** Before a psyker with this attribute attempts to manifest a psychic power, you may choose to have them use forbidden knowledge. If you do, the psyker gains +1 to Psychic tests, -1 to Ghosthelm rolls, and all Psychic test results of 11 or higher result in Perils of the Warp. Enemies' Deny the Witch rolls of 6 must be re-rolled when used against forbidden knowledge.
+  - **\[Trait] Forbidden Knowledge:** Before a psyker with this attribute attempts to manifest a psychic power, you may choose to have them use forbidden knowledge. If you do, the psyker gains +1 to Psychic tests, -1 to Ghosthelm rolls, and all Psychic test results of 11 or higher result in Perils of the Warp. Enemies' Deny the Witch rolls of 6 must be re-rolled when used against forbidden knowledge. This is a Command Effect.
   - **\[Stratagem] ?:** (better webway strike)
   - **\[Relic] The Book of Mol'Kerian:** ? 
+  
+  ### Qavilon:
+  - **\[Trait] Predator's Web:** For every enemy unit that is wholly within any perimiter defined by 3 different units with this trait within 8" of it, and by the lines connecting these 3 units, the following hindrances apply:
+    - The Nerve characteristic of that enemy unit is reduced by 1.
+    - When that enemy unit is being shot at by units with this trait, all wound rolls gain an Advantage.
+Units that are In Disarray or in Engagement Range of enemy units don't contribute to defining the relevant perimiters for this trait. Units that are In Disarray also don't benefit from it when shooting.
+  - **\[Stratagem] Portal Mastery:**
+  - **\[Relic] ?:**
   
   ### Altansar - ???
   (Maugan Ra, eye of terror)
@@ -66,6 +76,8 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   ### Yme-Loc - ???
   (artificiers; wraith stuff)
   - \[?] Expert Crafters -> 1 H/W re-roll
+  
+---
   
 ## Rune Disciplines - Runes of Battle:
   TODO: opposites in pairs count as different psychic powers
@@ -123,6 +135,8 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   decrease the Strength (S) characteristic of the chosen unit by 1 (down to a minimum of 1). A single unit can
   be affected by Enervate multiple times and the effect stacks.
 
+---
+
 ## Rune Disciplines - Runes of Power:
 
   ### Executioner (Warp Charge: 7)
@@ -147,6 +161,8 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   
   ### Witch Strike (Warp Charge: 5)
   If manifested, until the next Psychic phase, whenever the caster makes a melee attack, its Damage characteristic is increased by 1 against VEHICLE models and by 2 against all other models.
+  
+---
   
 ## Rune Disciplines - Runes of Fate:
 
@@ -176,6 +192,8 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   
   ### Power 6 Placeholder (Warp Charge: ?)
   If manifested, nothing happens.
+
+---
 
 ## Rune Disciplines - Runes of the Dead:
   ; invul. save; ??? (WRAITH CONSTRUCT only)
