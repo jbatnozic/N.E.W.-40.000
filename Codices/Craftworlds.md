@@ -50,6 +50,7 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   - **\[Trait] Predator's Web:** For every enemy unit that is wholly within any perimiter defined by 3 different units with this trait within 8" of it, and by the lines connecting these 3 units, the following hindrances apply:
     - The Nerve characteristic of that enemy unit is reduced by 1.
     - When that enemy unit is being shot at by units with this trait, all wound rolls gain an Advantage.
+
 Units that are In Disarray or in Engagement Range of enemy units don't contribute to defining the relevant perimiters for this trait. Units that are In Disarray also don't benefit from it when shooting.
   - **\[Stratagem] Portal Mastery:**
   - **\[Relic] ?:**
