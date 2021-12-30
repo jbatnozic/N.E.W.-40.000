@@ -52,7 +52,7 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
     - When that enemy unit is being shot at by units** with this trait, all wound rolls gain an Advantage.
 
 **Notes:** (\*) Units that are In Disarray or in Engagement Range of enemy units don't contribute to defining the relevant perimiters for this trait. (\*\*) Units that are In Disarray also don't benefit from it when shooting.
-  - **\[Stratagem] Portal Mastery (1CP):** Use this stratagem at the start of your Shooting phase. Select a QAVILON PSYKER, then select another QAVILON within 18" (none of the selected units may be In Disarray). Finally, select one enemy unit within 18" of the psyker (it doesn't have to be visible). Until the end of the phase, the selected QAVILON unit may fire at the selected enemy unit without requiring any line of sight, and if it does, the target doesn't receive any benefits of cover.
+  - **\[Stratagem] Portal Mastery (1CP):** Use this stratagem at the start of your Shooting phase. Select a QAVILON PSYKER, then select another QAVILON unit within 18" (none of the selected units may be In Disarray). Finally, select one enemy unit within 18" of the psyker (it doesn't have to be visible). Until the end of the phase, the selected QAVILON unit may shoot at the selected enemy unit without requiring any line of sight, and if it does, the target doesn't receive any benefits of cover.
   - **\[Relic] ?:** (equip to INFANTRY CHARACTER, he can move same as a Warp Spider)
   
   ### Altansar - ???
