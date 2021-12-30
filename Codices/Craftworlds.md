@@ -30,16 +30,28 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   Hit rolls of attacks made against units with this attribute at a range of more than 12" suffer an Impairment.
   
   ### Biel-Tan - Swordwind:
-  (indomitable spirit, shuriken upgrade)
+  (indomitable spirit, shuriken upgrade; some Aspect Warriors -> troop)
+  - **\[Trait] ?:** ?
+  - **\[Stratagem] ?:**
+  - **\[Relic] ?:** ?
   
   ### Iyanden - Stoic Endurance:
   (leadership, strong spirit)
+  - **\[Trait] ?:** ?
+  - **\[Stratagem] ?:** (wraithguard/wraithblade unit can become troop/obsec; 1CP if <= models, otherwise 3CP)
+  - **\[Relic] ?:** ?
   
   ### Saim-Hann - Wild Host:
-  (charging savages)
+  (charging savages; jetbikes as troop/obsec)
+  - **\[Trait] ?:** ?
+  - **\[Stratagem] ?:**
+  - **\[Relic] ?:** ?
   
-  ### Ulthwe - Foresight of the Damned:
+  ### Ulthwe:
   (foresight)
+  - **\[Trait] Foresight of the Damned:** ?
+  - **\[Stratagem] ?:**
+  - **\[Relic] ?:** ?
   
   ### Black Library:
   - **\[Trait] Forbidden Knowledge:** Before a psyker with this attribute attempts to manifest a psychic power, you may choose to have them use forbidden knowledge. If you do, the psyker gains +1 to Psychic tests, -1 to Ghosthelm rolls, and all Psychic test results of 11 or higher result in Perils of the Warp. Enemies' Deny the Witch rolls of 6 must be re-rolled when used against forbidden knowledge. This is a Command Effect.
@@ -57,26 +69,47 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   
   ### Altansar - ???
   (Maugan Ra, eye of terror)
+  - **\[Trait] ?:** ?
+  - **\[Stratagem] ?:**
+  - **\[Relic] ?:** ?
   
   ### Il-Kaithe - ???
   (bonesingers -> repair shit)
+  - **\[Trait] Extraordinary Bonesingers:** At the start of each Command phase, select one model from each VEHICLE, TITANIC or WRAITH CONSTRUCT unit that has this trait. All the selected models regain 1 lost wound.
+  - **\[Stratagem] ?:**
+  - **\[Relic] ?:** ?
   
   ### Iybraesil - ???
   (matriarchal; hags; sacrifice -> knowledge)
   - \[?] psyker -> to re-roll psychic test/cast additional spell; take MW (can't be avoided) afterwards
+  - **\[Trait] ?:** ?
+  - **\[Stratagem] ?:**
+  - **\[Relic] ?:** ?
   
   ### Kaelor - ???
-  (indulgence, deprivation, civil war; good guardians)
+  (indulgence, deprivation, civil war; good/veteran guardians)
+  - **\[Trait] ?:** ?
+  - **\[Stratagem] ?:**
+  - **\[Relic] ?:** ?
   
   ### Lugganath - ???
   (corsairs, pirates)
+  - **\[Trait] ?:** ?
+  - **\[Stratagem] ?:** (Turn failed Exhaustion roll into a successful one for reinforcements)
+  - **\[Relic] ?:** (Any 1 relic from another craftworld)
   
   ### Mymeara - ???
   (madness, grief; stealth, speed, shadow spectres; Irillyth's armour; extermination of lower races)
+  - **\[Trait] ?:** ?
+  - **\[Stratagem] ?:**
+  - **\[Relic] ?:** ?
   
   ### Yme-Loc - ???
   (artificiers; wraith stuff)
   - \[?] Expert Crafters -> 1 H/W re-roll
+  - **\[Trait] ?:** ?
+  - **\[Stratagem] ?:**
+  - **\[Relic] ?:** ?
   
 ---
   
