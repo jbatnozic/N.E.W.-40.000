@@ -2,6 +2,38 @@
 
 ## Codex Special Rules
 
+  ### Reanimation Protocols:
+  At the start of each of Remove Casualties step, if this unit suffered any casualties since the last Remove Casualties step,
+  this unit's reanimation protocols are enacted as destroyed models begin to reassemble.
+  
+  Each time a unit's reanimation protocols are enacted, make Reanimation Protocol rolls for that unit by rolling a number of
+  D6 equal to the combined Wounds characteristics of all the models in the unit that would now be removed as casualties. Each
+  Reanimation Protocol roll of 5+ is put into a pool.
+  
+  If the number of dice in the pool is greater or equal to the Wounds characteristic of any of the reassembling models, do the
+  following:
+   - Select one of the reassembling models to be Reanimated with full wounds remaining.
+   - Reduce the number of dice in that pool by a number equal to the Wounds characteristic of the Reanimated model.
+   - Repeat this process until either there are no more reassembling models, or the number of dice remaining in the pool is less than the Wounds characteristic of any of the reassembling models.
+
+  Then, if there is at least one die remaining in the pool and at least one remaining reassembling model, select one of the 
+  reassembling models to be Reanimated with a number of wounds remaining equal to the number of dice remaining in the pool.
+  
+  Models that are successfully Reanimated are NOT removed during this Remove Casualties step (and their wounds are adjusted as 
+  stated above) and no longer count as having been destroyed or otherwise made a casualty. All the rest are removed as normal.
+  
+  (???)A Reanimation Protocol roll can never be modified by more than -1 or +1.
+  (???) WHAT IF THE WHOLE UNIT WAS DESTROYED?
+  
+  ### Living Metal:
+  At the start of your Command phase, each model in this unit regains 1 lost wound.
+  
+  ### Hardwired for Destruction:
+  (TODO)
+  
+  ### Dimensional Translocation:
+  \[Same as Deep Strike]
+
 ## Tomb World Attributes
 
 ## Weapons
@@ -135,6 +167,27 @@ is equipped with a Warscythe.
 
 ### \[Elite] Deathmarks
 
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
+| Deathmarks               |  25 | 5" | 4" |  5 |  8 | 4 | 4 | 1 | 1 | 2 | * | 3+ | 32mm 
+
+This unit contains 5 Deathmarks. It can contain up to 5 additional Deathmarks. Every model 
+is equipped with a Synaptic disintegrator.
+
+**FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
+
+**KEYWORDS:** INFANTRY, CORE, HYPERSPACE HUNTER, DEATHMARKS
+
+| WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
+|-------------------------------|-------|--------------|----|----|------|--------------------------- 
+| Synaptic disintegrator        |  36"  | Heavy 1      |  5 | -2 |  D2  | Attacks made with this weapon can ignore the "Look Out, Sir" rule.
+
+#### > SPECIAL RULES:
+- **Deep Strike**
+
+#### > OPTIONS:
+(none)
+
 ---
 
 ### \[Elite] Flayed Ones
@@ -152,14 +205,14 @@ is equipped with a Flayer claws.
 
 | WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
 |----------------------------|-------|------|----|-----|--------------------------- 
-| Flayer claws               | Melee | User | -1 |  1  | -
+| Flayer claws               | Melee | User | -1 |  1  | Wounds rolls of 61 or more with this weapon are resolved with AP improved by 1.
 
 #### > SPECIAL RULES:
 - **Deep Strike**
 
 - **Flesh Hunger:** Increase this unit's Move characteristic by 1 whenever it's moving towards
 an enemy non-VEHICLE unit (the bonus lasts until the end of the action). Each time a model in 
-this unit makes a melee attack against an enemy non-VEHICLE unit, an unmodified hit roll of 6
+this unit makes a melee attack against an enemy non-VEHICLE unit, a hit roll of 61 or more
 scores 1 additional hit.
 
 - **Terrifying Foes (Aura):** TODO
@@ -188,6 +241,7 @@ Every model is equipped with Hyperphase threshers.
 | Hyperphase threshers       | Melee | User | -2 |  2  | Each time the bearer fights, it makes 1 additional attack with this weapon.
 
 #### > SPECIAL RULES:
+- **Hardwired for Destruction**
 - TODO
 
 #### > OPTIONS:
@@ -250,6 +304,28 @@ is equipped with Feeder mandibles.
 ---
 
 ### \[Heavy Support] Lokhust Destroyers
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
+| Lokhust Destroyer        |  70 | 8" | 4" |  5 |  8 | 4 | 4 | 1 | 1 | 2 | * | 3+ | 32mm 
+
+This unit contains 1 Lokhust Destroyer. It can contain up to 5 additional Lokhust Destroyers.
+Every model is equipped with a Gauss destructor.
+
+**FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
+
+**KEYWORDS:**: INFANTRY, CORE, FLY, DESTROYER CULT, LOKHUST DESTROYERS
+
+| WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
+|-------------------------------|-------|--------------|----|----|------|--------------------------- 
+| Synaptic disintegrator        |  36"  | Heavy 1      |  5 | -2 |  D2  | Attacks made with this weapon can ignore the "Look Out, Sir" rule.
+
+#### > SPECIAL RULES:
+- **Hardwired for Destruction**
+- **Relentless*
+
+#### > OPTIONS:
+(none)
 
 ---
 
