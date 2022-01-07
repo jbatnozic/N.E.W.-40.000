@@ -28,12 +28,13 @@
   ### Cold Hard Logic:
   This unit ignores the effects of "Panicking" and is never considered to have this status. However, if this unit would receive
   this status as a result of a failed Morale test, do the following:
-   - If at least half (rounded down) of its starting number of models are still present on the battlefield (even if they were destroyed but haven't yet been removed as casualties), nothing happens.
+   - If more than half (rounded down) of its starting number of models are still present on the battlefield (even if they were destroyed but haven't yet been removed as casualties), nothing happens.
    - Otherwise, the units phases out - remove it from the battlefield at the end of the current battle phase (it counts as destroyed but this doesn't cause strain to nearby friendly units).
   
   _Example: A unit of Necron Warriors, which counted 10 models at the start of the game, takes a Morale test and fails with a
-  large enough margin to warrant gaining the Panicking status. If at least 5 models are still present, the unit simply ignores
-  this status. But if only 4 or fewer models are present, it will phase out at the end of the battle phase._
+  large enough margin to warrant gaining the Panicking status. If at least 6 models are still present, the unit simply ignores
+  this status. But if only 5 or fewer models are present, it will phase out at the end of the battle phase. If the unit had 
+  originally counted 15 models, it would need more than 7 (so at least 8) models in order to not phase out._
   
   ### Living Metal:
   At the start of your Command phase, each model in this unit regains 1 lost wound.
