@@ -38,30 +38,39 @@ resolved with Armour Penetration increased by 1.
 
 ### \[HQ] Royal Warden
 
+---
 
 ### \[HQ] Skorpekh Lord
 
+---
 
 ### \[HQ] Lokhust Lord
 
+---
 
 ### \[HQ] Lesser Lord
 
+---
 
 ### \[HQ] Overlord
 
+---
 
 ### \[HQ] Technomancer
 
+---
 
 ### \[HQ] Psychomancer
 
+---
 
 ### \[HQ] Chronomancer
 
+---
 
 ### \[HQ] Plasmancer
 
+---
 
 ### \[Troop] Necron Warriors
 
@@ -82,6 +91,7 @@ is equipped with a Gauss flayer.
 #### > OPTIONS:
 - Any number of models may replace their Gauss flayer with a Gauss reaper.
 
+---
 
 ### \[Troop] Immortals
 
@@ -102,9 +112,11 @@ is equipped with a Gauss blaster.
 #### > OPTIONS:
 - Any number of models may replace their Gauss flayer with a Tesla carbine.
 
+---
 
 ### \[Elite] Canoptek Reanimator
 
+---
 
 ### \[Elite] Lychguard
 
@@ -119,9 +131,11 @@ is equipped with a Warscythe.
 
 **KEYWORDS:** INFANTRY, CORE, LYCHGUARD
 
+---
 
 ### \[Elite] Deathmarks
 
+---
 
 ### \[Elite] Flayed Ones
 
@@ -153,6 +167,7 @@ scores 1 additional hit.
 #### > OPTIONS:
 (none)
 
+---
 
 ### \[Elite] Skorpekh Destroyers
 
@@ -179,6 +194,7 @@ Every model is equipped with Hyperphase threshers.
 - One model in the unit, or two if the unit contains 6 models, may replace their Hyperphase
 threshers with a Hyperphase reap-blade.
 
+---
 
 ### \[Elite] Canoptek Plasmacyte
 
@@ -198,9 +214,11 @@ This unit contains 1 Canoptek Plasmacyte.
 #### > OPTIONS:
 (none)
 
+---
 
 ### \[Elite] Canoptek Spyders
 
+---
 
 ### \[Fast Attack] Canoptek Scarab Swarms
 
@@ -225,14 +243,18 @@ is equipped with Feeder mandibles.
 #### > OPTIONS:
 (none)
 
+---
 
 ### \[Fast Attack] Canoptek Wraiths
 
+---
 
 ### \[Heavy Support] Lokhust Destroyers
 
+---
 
 ### \[Heavy Support] Lokhust Heavy Destroyers
 
+---
 
 ### \[Heavy Support] Canoptek Doomstalker
