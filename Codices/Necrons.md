@@ -84,17 +84,74 @@ double the number of shots the weapon makes.
 
 ### \[HQ] Royal Warden
 
+Note: The role of this model is unclear under the new core rules
+
 ---
 
 ### \[HQ] Skorpekh Lord
+
+| NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
+| Skorpekh Lord            | 200 |  8" | 4" |  7 |  8 | 6 | 6 | 6 | 5 | ? | * | 3+ | 50mm 
+
+This unit contains one Skorpekh Lord, who is equipped with an Enmitic annihilator, (?) claw and a Hyperphase harvester.
+
+**FACTION KEYWORDS:** NECRONS, DESTROYER CULT, \<DYNASTY\>
+
+**KEYWORDS:** INFANTRY, CHARACTER, CORE, SKORPEKH LORD
+
+#### > SPECIAL RULES:
+- TODO
+- **Living Metal**
+- **Hardwired for Destruction**
+
+#### > OPTIONS:
+- TODO
 
 ---
 
 ### \[HQ] Lokhust Lord
 
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
+| Lokhust Lord             | 155 | 8" | 4" |  6 |  8 | 5 | 6 | 6 | 4 | ? | * | 3+ | 60mm 
+
+This unit contains one Lokhust Lord, who is equipped with a Staff of Light.
+
+**FACTION KEYWORDS:** NECRONS, DESTROYER CULT, \<DYNASTY\>
+
+**KEYWORDS:** INFANTRY, CHARACTER, CORE, FLY, LOKHUST LORD
+
+#### > SPECIAL RULES:
+- TODO
+- **Living Metal**
+- **Hardwired for Destruction**
+
+#### > OPTIONS:
+- This model's Staff of Light can be replaced with one of the following: 1 Hyperphase sword; 1 Voidblade; 1 Warscythe.
+- TODO
+
 ---
 
 ### \[HQ] Lesser Lord
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
+| Lesser Lord              | 105 | 6" | 4" |  6 |  8 | 5 | 5 | 4 | 3 | ? | * | 3+ | 32mm 
+
+This unit contains one Lesser Lord, who is equipped with a Staff of Light.
+
+**FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
+
+**KEYWORDS:** INFANTRY, CHARACTER, CORE, NOBLE, LESSER LORD
+
+#### > SPECIAL RULES:
+- TODO
+- **The Lord's Will:** (TODO)
+
+#### > OPTIONS:
+- This model's staff of light can be replaced with one of the following: 1 hyperphase sword; 1 void blade; 1 warscythe.
+- This model can be equipped with 1 resurrection orb.
 
 ---
 
@@ -408,7 +465,7 @@ can move horizontally through models and terrain features (but they cannot finis
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Lokhust Destroyer        |  70 | 8" | 4" |  5 |  8 | 4 | 4 | 1 | 1 | 2 | * | 3+ | 32mm 
+| Lokhust Destroyer        |  70 | 8" | 4" |  5 |  8 | 4 | 5 | 3 | 2 | ? | * | 3+ | 60mm 
 
 This unit contains 1 Lokhust Destroyer. It can contain up to 5 additional Lokhust Destroyers.
 Every model is equipped with a Gauss destructor.
