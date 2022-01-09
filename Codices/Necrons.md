@@ -170,11 +170,11 @@ This unit contains 1 Canoptek Reanimator. It is equipped with 2 Atomiser beams a
 
 **FACTION KEYWORDS:** NECRONS, CANOPTEK, \<DYNASTY\>
 
-**KEYWORDS:** MONSTER, CANOPTEK REANIMATOR
+**KEYWORDS:** VEHICLE, CANOPTEK REANIMATOR
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP | D | QUALITIES
 |-------------------------------|-------|--------------|----|----|---|--------------------------- 
-| Atomiser beam                 |  12"  | Assault 2    |  6 | -2 | 1 | -
+| Atomiser beam                 |  12"  | Assault 3    |  6 | -2 | 1 | -
 
 | WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
 |----------------------------|-------|------|----|-----|--------------------------- 
@@ -325,7 +325,7 @@ Every model is equipped with Automaton claws.
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP | D | QUALITIES
 |-------------------------------|-------|--------------|----|----|---|--------------------------- 
-| Particle beamer               |  18"  | Assault 3    |  5 |  0 | 1 | **Particle weapon**
+| Particle beamer               |  18"  | Assault 3    |  5 |  0 | 1 | **Particle Weapon**
 
 | WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
 |----------------------------|-------|------|----|-----|--------------------------- 
