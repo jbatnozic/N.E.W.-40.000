@@ -57,6 +57,9 @@ resolved with Armour Penetration increased by 1.
 
 **Tesla Weapon:** Each time an attack is made with this weapon, an unmodified hit roll of 61 or more scores 2 additional hits.
 
+**Particle Weapon:** When this weapon targets a unit within half range, or the bearer hasn't moved in the previous Movement phase,
+double the number of shots the weapon makes.
+
 ### Ranged Weapons list
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
@@ -140,7 +143,7 @@ is equipped with a Gauss flayer.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Immortal                 |  25 | 5" | 4" |  5 |  7 | 4 | 4 | 1 | 2 | 2 | * | 3+ | 32mm 
+| Immortal                 |  28 | 5" | 4" |  5 |  7 | 4 | 5 | 2 | 2 | 2 | * | 3+ | 32mm 
 
 This unit contains 5 Immortals. It can contain up to 5 additional Immortals. Every model 
 is equipped with a Gauss blaster.
@@ -158,6 +161,32 @@ is equipped with a Gauss blaster.
 ---
 
 ### \[Elite] Canoptek Reanimator
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
+| Canoptek Reanimator      | 110 | 8" | 4" |  4 |  5 | 6 | 6 | 7 | 4 | ? | * | 3+ | 60mm 
+
+This unit contains 1 Canoptek Reanimator. It is equipped with 2 Atomiser beams and reanimator's claws.
+
+**FACTION KEYWORDS:** NECRONS, CANOPTEK, \<DYNASTY\>
+
+**KEYWORDS:** MONSTER, CANOPTEK REANIMATOR
+
+| WEAPON                        | RANGE |     TYPE     |  S | AP | D | QUALITIES
+|-------------------------------|-------|--------------|----|----|---|--------------------------- 
+| Atomiser beam                 |  12"  | Assault 2    |  6 | -2 | 1 | -
+
+| WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
+|----------------------------|-------|------|----|-----|--------------------------- 
+| Reanimator's claws         | Melee | User | -2 | D2  | -
+
+#### > SPECIAL RULES:
+- **Living Metal**
+- **Explodes** (TODO)
+- **(?) (Aura):**
+
+#### > OPTIONS:
+(none)
 
 ---
 
@@ -191,7 +220,7 @@ is equipped with a Synaptic disintegrator.
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
 |-------------------------------|-------|--------------|----|----|------|--------------------------- 
-| Synaptic disintegrator        |  36"  | Heavy 1      |  5 | -2 |  D2  | Attacks made with this weapon can ignore the "Look Out, Sir" rule.
+| Synaptic disintegrator        |  36"  | Heavy 1      |  5 | -2 |  D2  | Attacks made with this weapon ignore the "Look Out, Sir" rule.
 
 #### > SPECIAL RULES:
 - **Deep Strike**
@@ -283,6 +312,37 @@ This unit contains 1 Canoptek Plasmacyte.
 
 ### \[Elite] Canoptek Spyders
 
+| NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
+| Canoptek Spyder          |  80 |  7" | 4" |  4 |  5 | 6 | 6 | 5 | 5 | ? | * | 3+ | 60mm flying base 
+
+This unit contains 1 Canoptek Spyder. It can contain up to 2 additional Canoptek Spyders. 
+Every model is equipped with Automaton claws.
+
+**FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
+
+**KEYWORDS:** MONSTER, FLY, CANOPTEK, CANOPTEK SPYDER
+
+| WEAPON                        | RANGE |     TYPE     |  S | AP | D | QUALITIES
+|-------------------------------|-------|--------------|----|----|---|--------------------------- 
+| Particle beamer               |  18"  | Assault 3    |  5 |  0 | 1 | **Particle weapon**
+
+| WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
+|----------------------------|-------|------|----|-----|--------------------------- 
+| Automaton claws            | Melee | User | -2 |  2  | Each time an attack is made with this weapon against a VEHICLE, the hit roll and wound roll gain Advantage.
+
+#### > SPECIAL RULES:
+- TODO
+- **Living Metal**
+- **Scarab Hive:** At the start of your Morale phase, for each model with this ability, select one friendly \<DYNASTY\> CANOPTEK SCARAB SWARM unit within 6" of that model. If the selected unit is below its starting strength, one model is returned to that unit - set it up with full wounds remaining in Unit Coherency with its unit and as close as possible to the Canoptek Spyder, but not within Engagement Range of enemy models. If this is not possible, then the model cannot be returned.
+- **Fabricator Claw Array (only if equipped):** This model's "Scarab Hive" ability can target any NECRONS \<DYNASTY\> unit (other than AIRCRAFT, TITANIC, and its own unit), in which case its range is reduced to 3". If a model with Wounds characteristic of 3 or more (other than CANOPTEK SCARAB SWARMS) would be returned, it's only successful on a D6 roll of 4+. If a VEHICLE unit is targeted with this ability, its effect is instead that the VEHICLE regains up to D3 lost wounds.
+- **Gloom Prism (only if equipped):** In your opponent's Psychic phase, the bearer's unit can attempt to deny one psychic power as if it were a PSYKER.
+
+#### > OPTIONS:
+- Any number of models can each be equipped with 2 Particle beamers (+15 pts total (not per Particle beamer)).
+- Any number of models can each be equipped with 1 Fabricator claw array (+15 pts).
+- Any number of models can each be equipped with 1 Gloom prism (+10 pts).
+
 ---
 
 ### \[Fast Attack] Canoptek Scarab Swarms
@@ -311,6 +371,36 @@ is equipped with Feeder mandibles.
 ---
 
 ### \[Fast Attack] Canoptek Wraiths
+
+| NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
+| Canoptek Wraith          |  55 | 10" | 4" |  5 |  5 | 4 | 5 | 3 | 4 | ? | * | 4+ | 50mm 
+
+This unit contains 1 Canoptek Wraith. It can contain up to 5 additional Canoptek Wraiths. 
+Every model is equipped with Vicious claws.
+
+**FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
+
+**KEYWORDS:** BEAST, CANOPTEK, CANOPTEK WRAITHS
+
+| WEAPON                        | RANGE |     TYPE     |  S | AP | D | QUALITIES
+|-------------------------------|-------|--------------|----|----|---|--------------------------- 
+| Particle caster               |  12"  | Pistol 2     |  5 |  0 | 1 | **Particle Weapon**
+| Transdimensional beamer       |  12"  | Assault 1    |  4 | -2 | 2 |
+
+| WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
+|----------------------------|-------|------|----|-----|--------------------------- 
+| Vicious claws              | Melee |  +2  | -2 |  2  | -
+| Whip coils                 | Melee | User | -1 |  1  | Each time an attack is made with this weapon, make 2 hit rolls instead of 1.
+
+#### > SPECIAL RULES:
+- **Wraith Form:** Models in this unit have a 4+ invulnerable save. In addition, whenever this unit moves for any reason, models in it
+can move horizontally through models and terrain features (but they cannot finish a move on top of another model or its base).
+- TODO
+
+#### > OPTIONS:
+- Any number of models can each be equipped with one of the following: 1 Particle caster (+5 pts); 1 Transdimensional beamer (+5 pts).
+- Any number of models can each have their Vicious claws replaced with Whip coils (free).
 
 ---
 
