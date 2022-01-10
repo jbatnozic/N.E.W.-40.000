@@ -3,27 +3,27 @@
 ## Codex Special Rules
 
   ### Reanimation Protocols:
-  At the start of each of Remove Casualties step, this unit's reanimation protocols are enacted if the unit suffered any
+  At the start of each of Remove Casualties step, this unit's Reanimation Protocols are enacted if the unit suffered any
   casualties since the last time they were enacted.
 
-  When a unit's reanimation protocols are enacted, each model in it that would now be removed from the battlefield as a
-  casualty has a chance to reanimate itself and return to battle. This is done in two steps:
+  When a unit's Reanimation Protocols are enacted, each model in it that would now be removed from the battlefield as a
+  casualty has a chance to Reanimate itself and return to battle. This is done in two steps:
   1. **Reactivation:** Roll a D6 for the model (this is a "Reactivation roll").
-  On a 5+, the model is reactivated - proceed to step 2. Otherwise, the model fails to reanimate.
+  On a 5+, the model is Reactivated - proceed to step 2. Otherwise, the model fails to Reanimate.
   2. **Reassembly:** Roll another D6 for the model (this is a "Reassembly roll"). If the result of the roll is higher than
-  the model's Wounds characteristic, the model is successfully reanimated. Otherwise, the model fails to reanimate.
+  the model's Wounds characteristic, the model is successfully Reassembled and Reanimated. Otherwise, the model fails to Reanimate.
 
-  Models that are successfully reanimated are NOT removed during this Remove Casualties step, regain all lost wounds and 
+  Models that are successfully Reanimated are NOT removed during this Remove Casualties step, regain all lost wounds and 
   no longer count as having been destroyed or otherwise made a casualty. All the rest are removed as normal.
   
   Both Reactivation and Reassembly rolls are considered Reanimation Protocol rolls for purposes of other rules.
   
-  Each time a unit's reanimation protocols are enacted, you can make rolls for all models with the same Wounds characteristic
+  Each time a unit's Reanimation Protocols are enacted, you can make rolls for all models with the same Wounds characteristic
   all at once, instead of individually, and determine after rolling which model each success (after both rolls) applies to.
   
-  In addition, each time a unit's reanimation protocols are enacted, if ALL the models in it have been destroyed (that is, 
-  the whole unit will be removed if all Reanimation Protocol rolls fail), this is considered a "critical reanimation".
-  During a critical reanimation, all Reanimation Protocol rolls suffer a -1 penalty.
+  In addition, each time a unit's Reanimation Protocols are enacted, if ALL the models in it have been destroyed (that is, 
+  the whole unit will be removed if all Reanimation Protocol rolls fail), this is considered a "Critical Reanimation".
+  During a Critical Reanimation, all Reanimation Protocol rolls suffer a -1 penalty.
   
   A single Reanimation Protocol roll cannot be modified by more than +1 or -1 after all the modifiers are totalled.
   
