@@ -11,7 +11,8 @@
   1. **Reactivation:** Roll a D6 for the model (this is a "Reactivation roll").
   On a 5+, the model is Reactivated - proceed to step 2. Otherwise, the model fails to Reanimate.
   2. **Reassembly:** Roll another D6 for the model (this is a "Reassembly roll"). If the result of the roll is higher than
-  the model's Wounds characteristic, the model is successfully Reassembled and Reanimated. Otherwise, the model fails to Reanimate.
+  the model's Wounds characteristic, or in an unmodified 6, the model is successfully Reassembled and Reanimated. Otherwise,
+  the model fails to Reanimate.
 
   Models that are successfully Reanimated are NOT removed during this Remove Casualties step, regain all lost wounds and 
   no longer count as having been destroyed or otherwise made a casualty. All the rest are removed as normal.
