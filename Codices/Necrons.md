@@ -3,8 +3,32 @@
 ## Codex Special Rules
 
   ### Reanimation Protocols:
-  At the start of each of Remove Casualties step, if this unit suffered any casualties since the last Remove Casualties step,
-  this unit's reanimation protocols are enacted as destroyed models begin to reassemble.
+  At the start of each of Remove Casualties step, this unit's reanimation protocols are enacted if the unit suffered any
+  casualties since the last time they were enacted.
+
+  When a unit's reanimation protocols are enacted, each model in it that would now be removed from the battlefield as a
+  casualty has a chance to reanimate itself and return to battle. This is done in two steps:
+  1. **Reactivation:** Roll a D6 for the model (this is a "Reactivation roll").
+  On a 5+, the model is reactivated - proceed to step 2. Otherwise, the model fails to reanimate.
+  2. **Reassembly:** Roll another D6 for the model (this is a "Reassembly roll"). If the result of the roll is higher than
+  the model's Wounds characteristic, the model is successfully reanimated. Otherwise, the model fails to reanimate.
+
+  Models that are successfully reanimated are NOT removed during this Remove Casualties step, regain all lost wounds and 
+  no longer count as having been destroyed or otherwise made a casualty. All the rest are removed as normal.
+  
+  Both Reactivation and Reassembly rolls are considered Reanimation Protocol rolls for purposes of other rules.
+  
+  Each time a unit's reanimation protocols are enacted, you can make rolls for all models with the same Wounds characteristic
+  all at once, instead of individually, and determine after rolling which model each success (after both rolls) applies to.
+  
+  In addition, each time a unit's reanimation protocols are enacted, if ALL the models in it have been destroyed (that is, 
+  the whole unit will be removed if all Reanimation Protocol rolls fail), this is considered a "critical reanimation".
+  During a critical reanimation, all Reanimation Protocol rolls suffer a -1 penalty.
+  
+  A single Reanimation Protocol roll cannot be modified by more than +1 or -1 after all the modifiers are totalled.
+  
+  **\<OLD\>**
+  the protocols are enacted as destroyed models begin to reassemble.
   
   Each time a unit's reanimation protocols are enacted, make Reanimation Protocol rolls for that unit by rolling a number of
   D6 equal to the combined Wounds characteristics of all the models in the unit that would now be removed as casualties. Each
@@ -24,6 +48,7 @@
   
   (???)A Reanimation Protocol roll can never be modified by more than -1 or +1.
   (???) WHAT IF THE WHOLE UNIT WAS DESTROYED?
+  **\</OLD\>**
   
   ### Cold Hard Logic:
   This unit ignores the effects of "Panicking" and is never considered to have this status. However, if this unit would receive
@@ -392,7 +417,7 @@ Every model is equipped with Automaton claws.
 - TODO
 - **Living Metal**
 - **Scarab Hive:** At the start of your Morale phase, for each model with this ability, select one friendly \<DYNASTY\> CANOPTEK SCARAB SWARM unit within 6" of that model. If the selected unit is below its starting strength, one model is returned to that unit - set it up with full wounds remaining in Unit Coherency with its unit and as close as possible to the Canoptek Spyder, but not within Engagement Range of enemy models. If this is not possible, then the model cannot be returned.
-- **Fabricator Claw Array (only if equipped):** This model's "Scarab Hive" ability can target any NECRONS \<DYNASTY\> unit (other than AIRCRAFT, TITANIC, and its own unit), in which case its range is reduced to 3". If a model with Wounds characteristic of 3 or more (other than CANOPTEK SCARAB SWARMS) would be returned, it's only successful on a D6 roll of 4+. If a VEHICLE unit is targeted with this ability, its effect is instead that the VEHICLE regains up to D3 lost wounds.
+- **Fabricator Claw Array (only if equipped):** This model's "Scarab Hive" ability can target any NECRONS \<DYNASTY\> INFANTRY or NECRONS \<DYNASTY\> VEHICLE unit (other than AIRCRAFT or TITANIC), in which case its range is reduced to 3". If an INFANTRY unit is targeted, a successful Reassembly roll is required (as if the unit's reanimation protocols were enacted, though none of the modifiers apply), or nothing happens. If a VEHICLE unit is targeted, its effect is instead that the VEHICLE regains up to D3 lost wounds.
 - **Gloom Prism (only if equipped):** In your opponent's Psychic phase, the bearer's unit can attempt to deny one psychic power as if it were a PSYKER.
 
 #### > OPTIONS:
