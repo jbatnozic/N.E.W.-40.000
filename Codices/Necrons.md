@@ -51,6 +51,9 @@
   (???) WHAT IF THE WHOLE UNIT WAS DESTROYED?
   **\</OLD\>**
   
+  ### Command Protocols:
+  (TODO)
+  
   ### Cold Hard Logic:
   This unit ignores the effects of "Panicking" and is never considered to have this status. However, if this unit would receive
   this status as a result of a failed Morale test, do the following:
@@ -66,10 +69,24 @@
   At the start of your Command phase, each model in this unit regains 1 lost wound.
   
   ### Hardwired for Destruction:
-  (TODO)
+  When rolling to hit for an attack made by this unit, you may re-roll a 'tens' roll of 1.
+  TODO: Fearless, but...?
   
   ### Dimensional Translocation:
   \[Same as Deep Strike]
+
+  ---
+  
+  ### \[Philosophy] Keyword and Special Rule allocation:
+  
+  **CORE:** "Normal" (and mostly humanoid) Necrons, such as Lords, Overlords, Warriors, Immortals etc. will get CORE. Probably Destroyers too, even if they are a little bit insane and not so humanoid anymore. CANOPTEK things and especially large monsters will NOT be CORE.
+
+  **Standard Core traits:** All "Normal" Necrons, i.e. those that get CORE, will all have the following special rules: **Reanimation Protocols**, **Command Protocols**, **Living Metal** and **Cold Hard Logic**.
+  - Exception: DESTROYER CULT units will not get **Cold Hard Logic** (because they are insane) but they will get **Hardwired for Destruction**.
+    
+  **Standard Canoptek traits:** All CANOPTEK units will have the following special rules: **Command Protocols**, **Living Metal** and **Fearless*.
+  
+  For other units (which there aren't so many of) special rules will be determined on a case-by-case basis.
 
 ## Tomb World Attributes
 
@@ -106,33 +123,32 @@ double the number of shots the weapon makes.
 |----------------------------|-------|------|----|-----|--------------------------- 
 | War Scythe                 | Melee | User | -8 | Inf | -
 
+
 ## Unit Datasheets
 
-### \[HQ] Royal Warden
 
-Note: The role of this model is unclear under the new core rules
+### \[HQ] Lesser Lord
 
----
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
+| Lesser Lord              | 105 | 6" | 4" |  6 |  8 | 5 | 5 | 4 | 3 | ? | * | 3+ | 32mm 
 
-### \[HQ] Skorpekh Lord
+This unit contains one Lesser Lord, who is equipped with a Staff of Light.
 
-| NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
-|--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Skorpekh Lord            | 200 |  8" | 4" |  7 |  8 | 6 | 6 | 6 | 5 | ? | * | 3+ | 50mm 
+**FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
-This unit contains one Skorpekh Lord, who is equipped with an Enmitic annihilator, (?) claw and a Hyperphase harvester.
-
-**FACTION KEYWORDS:** NECRONS, DESTROYER CULT, \<DYNASTY\>
-
-**KEYWORDS:** INFANTRY, CHARACTER, CORE, SKORPEKH LORD
+**KEYWORDS:** INFANTRY, CHARACTER, CORE, NOBLE, LESSER LORD
 
 #### > SPECIAL RULES:
-- TODO
-- **Living Metal**
-- **Hardwired for Destruction**
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
+- **Relentless March (Aura):** Whenever a friendly \<DYNASTY\> CORE unit starts moving for whatever reason while being 
+within 6" of the Lesser Lord, they may use the Lesser Lord's Move characteristic instead of their own until the end of
+the action.
+- **The Lord's Will:** (TODO)
 
 #### > OPTIONS:
-- TODO
+- This model's staff of light can be replaced with one of the following: 1 hyperphase sword; 1 void blade; 1 warscythe.
+- This model can be equipped with 1 resurrection orb.
 
 ---
 
@@ -149,8 +165,7 @@ This unit contains one Lokhust Lord, who is equipped with a Staff of Light.
 **KEYWORDS:** INFANTRY, CHARACTER, CORE, FLY, LOKHUST LORD
 
 #### > SPECIAL RULES:
-- TODO
-- **Living Metal**
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**
 - **Hardwired for Destruction**
 
 #### > OPTIONS:
@@ -159,29 +174,54 @@ This unit contains one Lokhust Lord, who is equipped with a Staff of Light.
 
 ---
 
-### \[HQ] Lesser Lord
+### \[HQ] Skorpekh Lord
 
-| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
-|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Lesser Lord              | 105 | 6" | 4" |  6 |  8 | 5 | 5 | 4 | 3 | ? | * | 3+ | 32mm 
+| NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
+| Skorpekh Lord            | 200 |  8" | 4" |  7 |  8 | 6 | 6 | 6 | 5 | ? | * | 3+ | 50mm 
 
-This unit contains one Lesser Lord, who is equipped with a Staff of Light.
+This unit contains one Skorpekh Lord, who is equipped with an Enmitic annihilator, (?) claw and a Hyperphase harvester.
 
-**FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
+**FACTION KEYWORDS:** NECRONS, DESTROYER CULT, \<DYNASTY\>
 
-**KEYWORDS:** INFANTRY, CHARACTER, CORE, NOBLE, LESSER LORD
+**KEYWORDS:** INFANTRY, CHARACTER, CORE, SKORPEKH LORD
 
 #### > SPECIAL RULES:
-- TODO
-- **The Lord's Will:** (TODO)
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**
+- **Hardwired for Destruction**
 
 #### > OPTIONS:
-- This model's staff of light can be replaced with one of the following: 1 hyperphase sword; 1 void blade; 1 warscythe.
-- This model can be equipped with 1 resurrection orb.
+- TODO
 
 ---
 
 ### \[HQ] Overlord
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
+| Overlord                 | 150 | 6" | 4" |  7 |  9 | 5 | 5 | 5 | 4 | ? | * | 3+ | 40mm 
+
+This unit contains one Overlord, who is equipped with a Hyperphase glaive and a Tachyon arrow.
+
+**FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
+
+**KEYWORDS:** INFANTRY, CHARACTER, CORE, NOBLE, OVERLORD
+
+#### > SPECIAL RULES:
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
+- **Relentless March (Aura):** Whenever a friendly \<DYNASTY\> CORE unit starts moving for whatever reason while being 
+within 6" of the Overlord, they may use the Overlord's Move characteristic instead of their own until the end of
+the action.
+- TODO
+
+#### > OPTIONS:
+(TODO)
+
+---
+
+### \[HQ] Royal Warden
+
+Note: The role of this model is unclear under the new core rules
 
 ---
 
@@ -215,6 +255,7 @@ is equipped with a Gauss flayer.
 **KEYWORDS:** INFANTRY, CORE, NECRON WARRIORS
 
 #### > SPECIAL RULES:
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
 - TODO
 
 #### > OPTIONS:
@@ -236,6 +277,7 @@ is equipped with a Gauss blaster.
 **KEYWORDS:** INFANTRY, CORE, IMMORTALS
 
 #### > SPECIAL RULES:
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
 - TODO
 
 #### > OPTIONS:
@@ -286,6 +328,13 @@ is equipped with a Warscythe.
 
 **KEYWORDS:** INFANTRY, CORE, LYCHGUARD
 
+#### > SPECIAL RULES:
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
+- TODO
+
+#### > OPTIONS:
+- TODO
+
 ---
 
 ### \[Elite] Deathmarks
@@ -306,7 +355,8 @@ is equipped with a Synaptic disintegrator.
 | Synaptic disintegrator        |  36"  | Heavy 1      |  5 | -2 |  D2  | Attacks made with this weapon ignore the "Look Out, Sir" rule.
 
 #### > SPECIAL RULES:
-- **Deep Strike**
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
+- **Dimensional Translocation**
 
 #### > OPTIONS:
 (none)
@@ -331,7 +381,9 @@ is equipped with a Flayer claws.
 | Flayer claws               | Melee | User | -1 |  1  | Wounds rolls of 61 or more with this weapon are resolved with AP improved by 1.
 
 #### > SPECIAL RULES:
-- **Deep Strike**
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
+
+- **Deep Strike** (???)
 
 - **Flesh Hunger:** Increase this unit's Move characteristic by 1 whenever it's moving towards
 an enemy non-VEHICLE unit (the bonus lasts until the end of the action). Each time a model in 
@@ -356,7 +408,7 @@ Every model is equipped with Hyperphase threshers.
 
 **FACTION KEYWORDS:** NECRONS, DESTROYER CULT, \<DYNASTY\>
 
-**KEYWORDS:** INFANTRY, SKORPEKH DESTROYERS
+**KEYWORDS:** INFANTRY, CORE, SKORPEKH DESTROYERS
 
 | WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
 |----------------------------|-------|------|----|-----|--------------------------- 
@@ -364,6 +416,7 @@ Every model is equipped with Hyperphase threshers.
 | Hyperphase threshers       | Melee | User | -2 |  2  | Each time the bearer fights, it makes 1 additional attack with this weapon.
 
 #### > SPECIAL RULES:
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**
 - **Hardwired for Destruction**
 - TODO
 
@@ -505,6 +558,7 @@ Every model is equipped with a Gauss destructor.
 | Synaptic disintegrator        |  36"  | Heavy 1      |  5 | -2 |  D2  | Attacks made with this weapon can ignore the "Look Out, Sir" rule.
 
 #### > SPECIAL RULES:
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**
 - **Hardwired for Destruction**
 - **Relentless*
 
