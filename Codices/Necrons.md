@@ -88,7 +88,109 @@
   
   For other units (which there aren't so many of) special rules will be determined on a case-by-case basis.
 
-## Tomb World Attributes
+## Dynasties
+
+  ### Dynasty Template
+  **\[Ability] Name:** -
+  **\[Stratagem] Name:** -
+  **\[Relic] Name:** -
+  **\[Warlord Trait] Name:** -
+  **\[Favoured Command Protocol]:** -
+  
+  ### Mephrit
+  (we like to shoot)
+  
+  ### Nephrekh
+  (we like to teleport)
+  
+  ### Nihilakh
+  (we like to conquer)
+  
+  ### Novokh
+  (we like to butcher people)
+  
+  ### Sautekh
+  (we like to pretend we're the death guard)
+  
+  ### Szarekhan
+  (we like to make quality stuff)
+  
+  ### Mokhor
+  (?)
+  
+  ### Takhrit
+  (?)
+
+  ### Vozkhol
+  (?)
+
+## Command Protocols
+
+  ### 1. Analyse Weaknesses
+  Each time a model affected by this protocol makes a ranged attack against a target within 12", the wound roll
+  gains Advantage.
+
+  ### 2. Calibrate
+  TODO
+  
+  ### 3. Coalesce
+  Each time a unit affected by this protocol unit uses its **Living Metal** special rule, each model in this unit regains
+  1 additional lost wound. At the start of Morale phase, each unit affected by this protocol loses 1 Strain.
+
+  ### 4. Conceal
+  Each time a ranged attack targets a unit affected by this protocol at a range greater than 12", the hit roll of that attack
+  gains an Impairment.
+
+  ### 5. Concentrate Fire
+  Each time a whole unit affected by this protocols declares all attacks against the same enemy unit when selected to
+  shoot, hit rolls of all attacks that are made at a range of 12" or less gain Advantage.
+
+  ### 6. Defend
+  Enemy units that are within 1" of units affected by this protocol have their Attack characteristics reduced by 1, down to a
+  minimum of 1.  
+
+  ### 7. Disable Force Limiters
+  Each time a model affected by this protocol makes a melee attack while not being in Defensive stance, the wound roll
+  gains Advantage.
+
+  ### 8. Enhance Multitasking
+  Units affected by this protocol never count as being Flat-Footed in the Fight phase.
+
+  ### 9. Enhance Precision
+  Each time a model affected by this protocol makes a melee attack while not being in Defensive stance, the hit roll
+  gains Advantage.
+
+  ### 10. Fend Off
+  When a unit affected by this protocols performs "Prepare to Repel" in the Charge phase, all models in it gain +1 Attack
+  until the end of the following Fight phase.
+
+  ### 11. Flush Out
+  Each time a model affected by this protocol makes a ranged attack against a target within 12", the target receives no
+  benefit of cover.
+
+  ### 12. Lock Down
+  Units affected by this protocol gain the **Objective Secured** special rule. If a model in such a unit already has this
+  ability, that model counts as one additional model when determining control of an objective marker.
+  
+  ### 13. Overcharge Servos
+  Add 1" to the Move and Charge Bonus characteristics of units affected by this protocol.
+
+  ### 14. Overpower
+  Each time a model affected by this protocol makes a melee attack while being in Aggressive stance, if its unit charged
+  this turn, the Strength of the attack is improved by 1.
+  
+  ### 15. Reinforce
+  Units affected by this protocol gain +1 to their Exhaustion rolls after arriving as Reinforcements.
+
+  ### 16. Sunder
+  Each time a model affected by this protocol makes an attack, after the wound roll is made, if the attack would be resolved
+  with AP 0, it's resolved with AP -1 instead.
+  
+  ### 17. (name)
+  (something about reanimation protocols)
+  
+  ### 18. (name)
+  (???)
 
 ## Weapons
 
