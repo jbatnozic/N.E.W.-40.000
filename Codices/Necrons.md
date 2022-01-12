@@ -222,6 +222,7 @@
   - Undying (whatever that does)
   - Refund CP on 5+
   - Something else for endurance
+  - Gain NOBLE keyword
   
 ## Weapons
 
