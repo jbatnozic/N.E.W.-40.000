@@ -118,7 +118,7 @@ Shooting phase.
   
   ### Nihilakh
   (we like to conquer)
-  - **\[Ability] Name:** ?
+  - **\[Ability] Aggresively Territorial:** When this unit is selected to shoot, if it is within 6" of an objective marker and all of its attacks are declared against enemy units that are within 6" of the same objective marker, this unit gains the **Relentless** special rule until the end of the action. In addition... TODO
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
@@ -134,10 +134,20 @@ Shooting phase.
   
   ### Sautekh
   (we like to pretend we're the death guard)
-  
+  - **\[Ability] Name:** ?
+  - **\[Stratagem] Name:** ?
+  - **\[Relic] Name:** ?
+  - **\[Warlord Trait] Name:** ?
+  - **\[Favoured Command Protocols]:** ?
+  - 
   ### Szarekhan
   (we like to make quality stuff) ability = +1 to reassemble rolls
-  
+  - **\[Ability] Name:** ?
+  - **\[Stratagem] Name:** ?
+  - **\[Relic] Name:** ?
+  - **\[Warlord Trait] Name:** ?
+  - **\[Favoured Command Protocols]:** ?
+
   ### Mokhor
   (?)
   
