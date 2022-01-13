@@ -157,6 +157,9 @@ Shooting phase.
   ### Vozkhol
   (?)
 
+  ### IDEAS
+  - In the Fight phase, during Initiative step 1, if this unit is in Enagagement Range of enemy units, each model in it can make 1 additional attack with any weapon it is equipped with.
+
 ## Command Protocols
 
   ### 1. Analyse Weaknesses
