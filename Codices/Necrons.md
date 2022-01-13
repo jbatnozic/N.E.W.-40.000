@@ -91,29 +91,52 @@
 ## Dynasties
 
   ### Dynasty Template
-  **\[Ability] Name:** -
-  **\[Stratagem] Name:** -
-  **\[Relic] Name:** -
-  **\[Warlord Trait] Name:** -
-  **\[Favoured Command Protocol]:** -
+  - **\[Ability] Name:** ?
+  - **\[Stratagem] Name:** ?
+  - **\[Relic] Name:** ?
+  - **\[Warlord Trait] Name:** ?
+  - **\[Favoured Command Protocols]:** ?
   
   ### Mephrit
   (we like to shoot)
+  - **\[Ability] Solar Fury:** Each time a model in this unit makes a ranged attack, the target unit is considered to be 2" closer than it actually is (this applies to determining whether the target is within range, as well as to range-dependent effects such as Rapid Fire, those confered by Command Protocols, and others). In addition... TODO
+  - **\[Stratagem] Name:** ?
+  - **\[Relic] Name:** ?
+  - **\[Warlord Trait] Name:** ?
+  - **\[Favoured Command Protocols]:** ?
   
   ### Nephrekh
   (we like to teleport)
+  - **\[Ability] Translocation Beams:** Models in this unit have a 6+ invulnerable save. In addition, when this unit
+Advances, you may choose to have it Translocate - if it does, models in it can move horizontally through terrain and
+other models when resolving this Advance move, but the unit will not be eligible to perform any actions in the following
+Shooting phase.
+  - **\[Stratagem] Name:** ?
+  - **\[Relic] Name:** ?
+  - **\[Warlord Trait] Name:** ?
+  - **\[Favoured Command Protocols]:** **Reinforce**, **Enhance Multitasking**
   
   ### Nihilakh
   (we like to conquer)
+  - **\[Ability] Name:** ?
+  - **\[Stratagem] Name:** ?
+  - **\[Relic] Name:** ?
+  - **\[Warlord Trait] Name:** ?
+  - **\[Favoured Command Protocols]:** **Lock Down**, **Defend**
   
   ### Novokh
   (we like to butcher people)
+  - **\[Ability] Name:** ?
+  - **\[Stratagem] Name:** ?
+  - **\[Relic] Name:** ?
+  - **\[Warlord Trait] Name:** ?
+  - **\[Favoured Command Protocols]:** ?
   
   ### Sautekh
   (we like to pretend we're the death guard)
   
   ### Szarekhan
-  (we like to make quality stuff)
+  (we like to make quality stuff) ability = +1 to reassemble rolls
   
   ### Mokhor
   (?)
@@ -190,7 +213,10 @@
   with AP 0, it's resolved with AP -1 instead.
   
   ### 18. (name)
-  (???)
+  (something for long range / Heavy fire)
+  
+  ### ???
+  (fire Rapid Fire normally during Snap Shooting and without penalties)
   
 ## Warlord Traits
 
@@ -204,8 +230,8 @@
   ### 3. (name)
   ?
   
-  ### 4. Thrall of the Silent King
-  ?
+  ### 4. Envoy of the Silent King
+  This WARLORD gains the 'NOBLE' keyword.
   
   ### 5. (name)
   ?
@@ -215,12 +241,12 @@
   
   ### IDEAS:
   - Terrifying aura (strain)
-  - Alternate between using 2 Command Protocols and no Command Protocols
+  - Alternate between using 2 Command Protocols and no Command Protocols (Short-Circuit  Tactician)
   - Re-roll all melee hit and wound rolls
   - Gain Deep Strike; he and 1 unit he's joining autopass Exhaustion roll
   - +2" M (counts for Relentless March)
   - Undying (whatever that does)
-  - Refund CP on 5+
+  - Refund CP on 5+ (Logistics Optimizer)
   - Something else for endurance
   - Gain NOBLE keyword
   
@@ -247,7 +273,7 @@ double the number of shots the weapon makes.
 | Gauss blaster                 |  30"  | Rapid Fire 1 |  5 | -1 |   1  | **Gauss weapon**
 | Gauss destructor              |  36"  | Heavy 1      |    |    |      | **Gauss weapon**
 | Gauss flayer                  |  24"  | Rapid Fire 1 |  4 |  0 |   1  | **Gauss weapon**
-| Gauss reaper                  |  12"  | Assault 2    |  5 | -1 |   1  | **Gauss weapon**
+| Gauss reaper                  |  12"  | Assault 2    |  4 | -1 |   1  | **Gauss weapon**
 | Tesla cannon                  |  30"  | Heavy 3      |  6 |  0 |   1  | **Tesla weapon**
 | Tesla carbine                 |  24"  | Assault 2    |  5 |  0 |   1  | **Tesla weapon**
 
