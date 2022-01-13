@@ -141,7 +141,7 @@ Shooting phase.
   - **\[Favoured Command Protocols]:** ?
   - 
   ### Szarekhan
-  (we like to make quality stuff) ability = +1 to reassemble rolls
+  (we like to make quality stuff)
   - **\[Ability] Name:** ?
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
@@ -159,6 +159,10 @@ Shooting phase.
 
   ### IDEAS
   - In the Fight phase, during Initiative step 1, if this unit is in Enagagement Range of enemy units, each model in it can make 1 additional attack with any weapon it is equipped with.
+  - (Rad-wreathed) -1 S aura
+  - Turn AP -1 into AP -2 in melee
+  - Chance for +1 D when shooting
+  - +1 to Reassembly rolls
 
 ## Command Protocols
 
