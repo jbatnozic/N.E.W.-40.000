@@ -303,12 +303,30 @@ double the number of shots the weapon makes.
 
 ## Unit Datasheets
 
+### \[Philosophy] Nerve scores
+No units in this codex will have a Nerve score dependant on the number of models remaining in the unit - that's one
+of their "special things".
+- Canoptek - 9
+- "Regular" Necrons - 10
+- HQ - 11
+- Top-end HQs - 12
+- DESTROYER CULT units get -1 to the above rules because they are crazy
+
+### \[Philosophy] Initiative scores
+- Baseline is 2. They are indifferent zombie robots. This applies to "regular" necrons.
+- Canopteks have baseline 3 because they are not zombified and not so indifferent.
+- Close combat units get +1 because they are specialised for it.
+- Some Elites can get a further +1 for being so elite.
+- HQs get +1.
+- DESTROYER CULT units get +1 to the above rules because they are, as previously stated, crazed.
+
+---
 
 ### \[HQ] Lesser Lord
 
-| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
-|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Lesser Lord              | 105 | 6" | 4" |  6 |  8 | 5 | 5 | 4 | 3 | ? | * | 3+ | 32mm 
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Lesser Lord              | 105 | 6" | 4" |  6 |  8 | 5 | 5 | 4 | 3 | 4 | 11 | 3+ | 32mm 
 
 This unit contains one Lesser Lord, who is equipped with a Staff of Light.
 
@@ -331,9 +349,9 @@ the action.
 
 ### \[HQ] Lokhust Lord
 
-| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
-|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Lokhust Lord             | 155 | 8" | 4" |  6 |  8 | 5 | 6 | 6 | 4 | ? | * | 3+ | 60mm 
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Lokhust Lord             | 155 | 8" | 4" |  6 |  8 | 5 | 6 | 6 | 4 | 4 | 10 | 3+ | 60mm 
 
 This unit contains one Lokhust Lord, who is equipped with a Staff of Light.
 
@@ -353,9 +371,9 @@ This unit contains one Lokhust Lord, who is equipped with a Staff of Light.
 
 ### \[HQ] Skorpekh Lord
 
-| NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
-|--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Skorpekh Lord            | 200 |  8" | 4" |  7 |  8 | 6 | 6 | 6 | 5 | ? | * | 3+ | 50mm 
+| NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
+| Skorpekh Lord            | 200 |  8" | 4" |  7 |  8 | 6 | 6 | 6 | 5 | 5 | 10 | 3+ | 50mm 
 
 This unit contains one Skorpekh Lord, who is equipped with an Enmitic annihilator, (?) claw and a Hyperphase harvester.
 
@@ -374,9 +392,9 @@ This unit contains one Skorpekh Lord, who is equipped with an Enmitic annihilato
 
 ### \[HQ] Overlord
 
-| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
-|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Overlord                 | 150 | 6" | 4" |  7 |  9 | 5 | 5 | 5 | 4 | ? | * | 3+ | 40mm 
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Overlord                 | 150 | 6" | 4" |  7 |  9 | 5 | 5 | 5 | 4 | 5 | 11 | 3+ | 40mm 
 
 This unit contains one Overlord, who is equipped with a Hyperphase glaive and a Tachyon arrow.
 
@@ -407,10 +425,12 @@ Note: The role of this model is unclear under the new core rules
 ---
 
 ### \[HQ] Psychomancer
+(Note: Leave for later)
 
 ---
 
 ### \[HQ] Chronomancer
+(Note: Leave for later)
 
 ---
 
@@ -420,9 +440,9 @@ Note: The role of this model is unclear under the new core rules
 
 ### \[Troop] Necron Warriors
 
-| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
-|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Necron Warrior           |  19 | 5" | 4" |  5 |  7 | 4 | 4 | 1 | 1 | 2 | * | 4+ | 32mm 
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Necron Warrior           |  19 | 5" | 4" |  4 |  7 | 4 | 4 | 1 | 1 | 2 | 10 | 4+ | 32mm 
 
 This unit contains 10 Necron Warriors. It can contain up to 10 additional Warriors. Every model 
 is equipped with a Gauss flayer.
@@ -442,9 +462,9 @@ is equipped with a Gauss flayer.
 
 ### \[Troop] Immortals
 
-| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
-|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Immortal                 |  28 | 5" | 4" |  5 |  7 | 4 | 5 | 2 | 2 | 2 | * | 3+ | 32mm 
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Immortal                 |  28 | 5" | 4" |  5 |  7 | 4 | 5 | 2 | 2 | 2 | 10 | 3+ | 32mm 
 
 This unit contains 5 Immortals. It can contain up to 5 additional Immortals. Every model 
 is equipped with a Gauss blaster.
@@ -466,7 +486,7 @@ is equipped with a Gauss blaster.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Canoptek Reanimator      | 110 | 8" | 4" |  4 |  5 | 6 | 6 | 7 | 4 | ? | * | 3+ | 60mm 
+| Canoptek Reanimator      | 110 | 8" | 4" |  3 |  5 | 6 | 6 | 7 | 4 | 3 | 9 | 3+ | 60mm 
 
 This unit contains 1 Canoptek Reanimator. It is equipped with 2 Atomiser beams and reanimator's claws.
 
@@ -494,9 +514,9 @@ This unit contains 1 Canoptek Reanimator. It is equipped with 2 Atomiser beams a
 
 ### \[Elite] Lychguard
 
-| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
-|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Lychguard                |  42 | 5" | 4" |  5 |  7 | 5 | 5 | 2 | 3 | ? | * | 3+ | 32mm 
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Lychguard                |  42 | 5" | 4" |  5 |  7 | 5 | 5 | 2 | 3 | 4 | 10 | 3+ | 32mm 
 
 This unit contains 5 Lychguard. It can contain up to 5 additional Lychguard. Every model 
 is equipped with a Warscythe.
@@ -516,9 +536,9 @@ is equipped with a Warscythe.
 
 ### \[Elite] Deathmarks
 
-| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
-|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Deathmarks               |  25 | 5" | 4" |  5 |  8 | 4 | 4 | 1 | 1 | 2 | * | 3+ | 32mm 
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Deathmarks               |  25 | 5" | 4" |  4 |  8 | 4 | 4 | 1 | 1 | 2 | 10 | 3+ | 32mm 
 
 This unit contains 5 Deathmarks. It can contain up to 5 additional Deathmarks. Every model 
 is equipped with a Synaptic disintegrator.
@@ -542,9 +562,9 @@ is equipped with a Synaptic disintegrator.
 
 ### \[Elite] Flayed Ones
 
-| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
-|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Flayed One               |  19 | 5" | 4" |  5 |  1 | 4 | 4 | 1 | 3 | 4 | * | 4+ | 32mm 
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Flayed One               |  19 | 5" | 4" |  5 |  1 | 4 | 4 | 1 | 3 | 4 | 10 | 4+ | 32mm 
 
 This unit contains 5 Flayed Ones. It can contain up to 15 additional Flayed Ones. Every model 
 is equipped with a Flayer claws.
@@ -576,9 +596,9 @@ scores 1 additional hit.
 
 ### \[Elite] Skorpekh Destroyers
 
-| NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
-|--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Skorpekh Destroyer       |  52 |  8" | 4" |  5 |  7 | 5 | 5 | 3 | 3 | ? | * | 3+ | 50mm 
+| NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
+| Skorpekh Destroyer       |  52 |  8" | 4" |  5 |  7 | 5 | 5 | 3 | 3 | 4 |  9 | 3+ | 50mm 
 
 This unit contains 3 Skorpekh Destroyers. It can contain up to 3 additional Skorpekh Destroyers. 
 Every model is equipped with Hyperphase threshers.
@@ -607,7 +627,7 @@ threshers with a Hyperphase reap-blade.
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Canoptek Plasmacyte      |  25 |  8" | 4" |  2 |  - | 4 | 4 | 2 | 1 | ? | * | 3+ | 28mm 
+| Canoptek Plasmacyte      |  25 |  8" | 4" |  2 |  - | 4 | 4 | 2 | 1 | 3 | 9 | 3+ | 28mm 
 
 This unit contains 1 Canoptek Plasmacyte.
 
@@ -627,7 +647,7 @@ This unit contains 1 Canoptek Plasmacyte.
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Canoptek Spyder          |  80 |  7" | 4" |  4 |  5 | 6 | 6 | 5 | 5 | ? | * | 3+ | 60mm flying base 
+| Canoptek Spyder          |  80 |  7" | 4" |  3 |  5 | 6 | 6 | 5 | 5 | 3 | 9 | 3+ | 60mm flying base 
 
 This unit contains 1 Canoptek Spyder. It can contain up to 2 additional Canoptek Spyders. 
 Every model is equipped with Automaton claws.
@@ -662,7 +682,7 @@ Every model is equipped with Automaton claws.
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Scarab Swarm             |  22 | 10" | 4" |  3 |  - | 3 | 3 | 4 | 4 | 3 | * | 6+ | 40mm 
+| Scarab Swarm             |  22 | 10" | 4" |  3 |  - | 3 | 3 | 4 | 4 | 3 | 9 | 6+ | 40mm 
 
 This unit contains 3 Scarab Swarms. It can contain up to 6 additional Scarab Swarms. Every model 
 is equipped with Feeder mandibles.
@@ -687,7 +707,7 @@ is equipped with Feeder mandibles.
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Canoptek Wraith          |  55 | 10" | 4" |  5 |  5 | 4 | 5 | 3 | 4 | ? | * | 4+ | 50mm 
+| Canoptek Wraith          |  55 | 10" | 4" |  4 |  5 | 4 | 5 | 3 | 4 | 4 | 9 | 4+ | 50mm 
 
 This unit contains 1 Canoptek Wraith. It can contain up to 5 additional Canoptek Wraiths. 
 Every model is equipped with Vicious claws.
@@ -721,10 +741,10 @@ can move horizontally through models and terrain features (but they cannot finis
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Lokhust Destroyer        |  70 | 8" | 4" |  5 |  8 | 4 | 5 | 3 | 2 | ? | * | 3+ | 60mm 
+| Lokhust Destroyer        |  65 | 8" | 4" |  5 |  8 | 4 | 5 | 3 | 2 | 3 | 9 | 3+ | 60mm 
 
 This unit contains 1 Lokhust Destroyer. It can contain up to 5 additional Lokhust Destroyers.
-Every model is equipped with a Gauss destructor.
+Every model is equipped with a Gauss cannon.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
@@ -732,7 +752,7 @@ Every model is equipped with a Gauss destructor.
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
 |-------------------------------|-------|--------------|----|----|------|--------------------------- 
-| Synaptic disintegrator        |  36"  | Heavy 1      |  5 | -2 |  D2  | Attacks made with this weapon can ignore the "Look Out, Sir" rule.
+| Gauss cannon                  |  24"  | Heavy 3      |  6 | -2 |   2  | **Gauss Weapon**
 
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**
@@ -745,6 +765,30 @@ Every model is equipped with a Gauss destructor.
 ---
 
 ### \[Heavy Support] Lokhust Heavy Destroyers
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
+| Lokhust Heavy Destroyer  |  80 | 8" | 4" |  5 |  8 | 4 | 5 | 4 | 2 | 3 | 9 | 3+ | 60mm 
+
+This unit contains 1 Lokhust Heavy Destroyer. It can contain up to 2 additional Lokhust Heavy 
+Destroyers. Every model is equipped with a Gauss destructor.
+
+**FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
+
+**KEYWORDS:**: INFANTRY, CORE, FLY, DESTROYER CULT, LOKHUST HEAVY DESTROYERS
+
+| WEAPON                        | RANGE |     TYPE     |  S | AP |   D   | QUALITIES
+|-------------------------------|-------|--------------|----|----|-------|--------------------------- 
+| Enmitic exterminator          |  36"  | Heavy D3     |  7 | -1 |   1   | **Blast (Small)**
+| Gauss destructor              |  36"  | Heavy 1      | 10 | -3 |   ?   | **Gauss Weapon**
+
+#### > SPECIAL RULES:
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**
+- **Hardwired for Destruction**
+- **Relentless*
+
+#### > OPTIONS:
+- Any number of models can each have their Gauss destructor replaced with 1 Enmitic exterminator.
 
 ---
 
