@@ -142,6 +142,7 @@ Shooting phase.
   - 
   ### Szarekhan
   (we like to make quality stuff)
+  _You can't spell Szarekhan without zarek!_
   - **\[Ability] Name:** ?
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
@@ -159,10 +160,10 @@ Shooting phase.
 
   ### IDEAS
   - In the Fight phase, during Initiative step 1, if this unit is in Enagagement Range of enemy units, each model in it can make 1 additional attack with any weapon it is equipped with.
-  - (Rad-wreathed) -1 S aura
+  - (Rad-wreathed) -1 S aura, bonus to particle weapons
   - Turn AP -1 into AP -2 in melee
   - Chance for +1 D when shooting
-  - +1 to Reassembly rolls
+  - +1 to Reassembly rolls and can stack up to +2
 
 ## Command Protocols
 
