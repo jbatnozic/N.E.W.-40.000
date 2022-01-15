@@ -570,8 +570,8 @@ ghostswords.
 ### \[Fast Attack] Warp Spiders
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Warp Spider              |  22 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 4+ | 28mm 
-| Warp Spider Exarch       |  22 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 4+ | 28mm 
+| Warp Spider              |  22 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 3+ | 28mm 
+| Warp Spider Exarch       |  22 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 3+ | 28mm 
 
 This unit contains 4 Warp Spiders and 1 Warp Spider Exarch. In can include up to 5 additional Warp Spiders.
 Each model is armed with a death spinner.
@@ -591,7 +591,7 @@ Each model is armed with a death spinner.
 - **Warp Jump Generator:** When this unit would perform the Charge action, it may instead do a short-range warp jump. To do so, nominate a direction and move every model in the unit exactly 4D6" in that direction (roll once for the whole unit), as if the unit had FLY. Any model that cannot be placed because of terrain, other units or battlefield edge is destroyed and immediately removed. This counts as a Charge phase action that Exhausts the unit, but not as a charge.
 - **Flickerjump:** When this unit is targeted by a ranged weapon, you can declare that they will make a flickerjump - all hit rolls of ranged attacks
 that target this unit until the end of the phase suffer an Impairment.
-- **Warp Passage:** Whenever this unit makes use of one of the following abilities: Deep Strike, Warp Jump Generator, Flickerjump - roll a D66. On a 11 or 12, one model is claimed by the Warp - destroy it and immediately remove it.
+- **Warp Passage:** Whenever this unit makes use of one of the following abilities: Deep Strike, Warp Jump Generator, Flickerjump - roll a 2D6. On a 3 or less, one model is claimed by the Warp - destroy it and immediately remove it.
 
 #### > OPTIONS:
 - The Warp Spider Exarch can be equipped with one of the following:
@@ -602,8 +602,9 @@ that target this unit until the end of the phase suffer an Impairment.
 - The Warp Spider Exarch can take one exarch power from the list below at the listed point cost.
 
 #### > WARP SPIDERS EXARCH POWERS:
-- **A (?pts):** ?
-- **B (?pts):** Warp passage tests automatically pass
+- **Iron Resolve (free):** While this unit contains a Warp Spider Exarch, it loses up to 1 strain at the start of each of your Morale phases.
+- **Surprise Assault (5 pts):** Whilst this unit contains a Warp Spider Exarch, when resolving a ranged attack made by a model in this unit in a turn in which it was set up on the battlefield using the Deep Strike special rule, you can re-roll the hit roll.
+- **Warp Guide (10 pts):** While this unit contains a Warp Spider Exarch, you may re-roll its Warp Passage rolls.
 
 ---
 
