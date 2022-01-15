@@ -22,6 +22,16 @@ or Panicking), its Melee Skill (MS) and Ballistic Skill (BS) characteristics are
   - **Spirit Guide:** If a Wraith Construct unit is within 3" of a SPIRITSEER model (except those that are In Disarray
 or Panicking), they can be affected by friendly Psychic powers from the Runes of Battle discipline as if they had the CORE keyword.
 
+  ### Clairvoyance Dice:
+  Certain rules in the codex will allow units to gain Clairvoyance dice. When a unit gains a Clairvoyance die, roll a D6 and place
+  it next to that unit. These dice can be used until the end of the battle round in one of the following ways:
+  - When that unit would make a Hit or a Wound D66 roll, you can use the Clairvoyance die as both the 'tens' roll and the 'ones' roll.
+  - When that unit would make a Damage roll, you can instead use the Clairvoyance die. If that Damage roll is something other than a D6 (for example, a D3 roll), read the value on the Clairvoyance die accordingly.
+  - When that unit would make a Saving throw or a Deny the Witch roll, you can use the Clairvoyance die instead.
+  - When that unit would make a Psychic test, you can use the Clairvoyance die instead of one of the dice that would be rolled.
+  - When that unit would make a Charge roll, you can use the result on the Clairvoyance die instead of the usual 2D3 roll to determine charge distance.
+  Clairvoyance dice must be substituted for any of these rolls before these rolls are made.
+  
 ---
 
 ## Craftworld Attributes
@@ -31,90 +41,93 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   
   ### Biel-Tan - Swordwind:
   (indomitable spirit, shuriken upgrade; some Aspect Warriors -> troop)
-  - **\[Trait] ?:** ?
+  - **\[Ability] ?:** ?
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
   
   ### Iyanden - Stoic Endurance:
   (leadership, strong spirit)
-  - **\[Trait] ?:** ?
-  - **\[Stratagem] ?:** (wraithguard/wraithblade unit can become troop/obsec; 1CP if <= models, otherwise 3CP)
+  - **\[Ability] ?:** ?
+  - **\[Stratagem] Ghost Batallion (1/2 CP):** Use this Stratagem before the battle, when you are mustering your army. Select
+one IYANDEN WRAITHGUARD or IYANDEN WRAITHBLADES unit from your army. That unit now takes up a Troop Battlefield Role slot, 
+instead of Elite, and gains the **Objective Secured** special rule. If this unit contains 5 models or less, this Stratagem
+costs 1 CP. Otherwise, it costs 2 CP.
   - **\[Relic] ?:** ?
   
   ### Saim-Hann - Wild Host:
   (charging savages; jetbikes as troop/obsec)
-  - **\[Trait] ?:** ?
+  - **\[Ability] ?:** ?
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
   
   ### Ulthwe:
-  (foresight)
-  - **\[Trait] Foresight of the Damned:** ?
+  - **\[Ability] Foresight of the Damned:** At the start of your Command phase, this unit gains 1 Clairvoyance die.
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
   
   ### Black Library:
-  - **\[Trait] Forbidden Knowledge:** Before a psyker with this attribute attempts to manifest a psychic power, you may choose to have them use forbidden knowledge. If you do, the psyker gains +1 to Psychic tests, -1 to Ghosthelm rolls, and all Psychic test results of 11 or higher result in Perils of the Warp. Enemies' Deny the Witch rolls of 6 must be re-rolled when used against forbidden knowledge. This is a Command Effect.
+  - **\[Ability] Forbidden Knowledge:** If this unit is a PSYKER, before it attempts to manifest a psychic power, you may choose to have it use forbidden knowledge. If you do, it gains +1 to Psychic tests, -1 to Ghosthelm rolls, and all Psychic test results of 11 or higher result in Perils of the Warp. Enemies' Deny the Witch rolls of 6 must be re-rolled when used against forbidden knowledge. This is a Command Effect.
   - **\[Stratagem] ?:** (better webway strike)
   - **\[Relic] The Book of Mol'Kerian:** ? 
   
   ### Qavilon:
-  - **\[Trait] Predator's Web:** For every enemy unit that is wholly within any perimiter defined by 3 different units* with this trait within 8" of it, and by the lines connecting these 3 units, the following hindrances apply:
+  - **\[Ability] Predator's Web:** For every enemy unit that is wholly within any perimiter defined by 3 different units* with this ability within 8" of it, and by the lines connecting these 3 units, the following hindrances apply:
     - The Nerve characteristic of that enemy unit is reduced by 1.
     - When that enemy unit is being shot at by units** with this trait, all wound rolls gain an Advantage.
 
 **Notes:** (\*) Units that are In Disarray or in Engagement Range of enemy units don't contribute to defining the relevant perimiters for this trait. (\*\*) Units that are In Disarray also don't benefit from it when shooting.
-  - **\[Stratagem] Portal Mastery (1CP):** Use this stratagem at the start of your Shooting phase. Select a QAVILON PSYKER, then select another QAVILON unit within 18" (none of the selected units may be In Disarray). Finally, select one enemy unit within 18" of the psyker (it doesn't have to be visible). Until the end of the phase, the selected QAVILON unit may shoot at the selected enemy unit without requiring any line of sight, and if it does, the target doesn't receive any benefits of cover.
+  - **\[Stratagem] Portal Mastery (1 CP):** Use this stratagem at the start of your Shooting phase. Select a QAVILON PSYKER, then select another QAVILON unit within 18" (none of the selected units may be In Disarray). Finally, select one enemy unit within 18" of the psyker (it doesn't have to be visible). Until the end of the phase, the selected QAVILON unit may shoot at the selected enemy unit without requiring any line of sight, and if it does, the target doesn't receive any benefits of cover.
   - **\[Relic] ?:** (equip to INFANTRY CHARACTER, he can move same as a Warp Spider)
   
   ### Altansar - ???
   (Maugan Ra, eye of terror)
-  - **\[Trait] ?:** ?
+  - **\[Ability] ?:** ?
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
   
   ### Il-Kaithe - ???
   (bonesingers -> repair shit)
-  - **\[Trait] Extraordinary Bonesingers:** At the start of each Command phase, select one model from each VEHICLE, TITANIC or WRAITH CONSTRUCT unit that has this trait. All the selected models regain 1 lost wound.
+  - **\[Ability] Extraordinary Bonesingers:** At the start of your Command phase, if this unit has at least one one of the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it regains 1 lost wound.
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
   
   ### Iybraesil - ???
   (matriarchal; hags; sacrifice -> knowledge)
   - \[?] psyker -> to re-roll psychic test/cast additional spell; take MW (can't be avoided) afterwards
-  - **\[Trait] ?:** ?
+  - **\[Ability] ?:** ?
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
   
   ### Kaelor - ???
   (indulgence, deprivation, civil war; good/veteran guardians)
-  - **\[Trait] ?:** ?
+  - **\[Ability] ?:** ?
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
   
   ### Lugganath - ???
   (corsairs, pirates)
-  - **\[Trait] ?:** ?
+  - **\[Ability] ?:** ?
   - **\[Stratagem] ?:** (Turn failed Exhaustion roll into a successful one for reinforcements)
   - **\[Relic] ?:** (Any 1 relic from another craftworld)
   
   ### Mymeara - ???
   (madness, grief; stealth, speed, shadow spectres; Irillyth's armour; extermination of lower races)
-  - **\[Trait] ?:** ?
+  - **\[Ability] ?:** ?
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
   
   ### Yme-Loc - ???
   (artificiers; wraith stuff)
   - \[?] Expert Crafters -> 1 H/W re-roll
-  - **\[Trait] ?:** ?
+  - **\[Ability] ?:** ?
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
   
 ---
   
 ## Rune Disciplines - Runes of Battle:
-  TODO: opposites in pairs count as different psychic powers
+  Note that the Runes of Battle psychic powers have two names, and two effects, and each effect counts as a
+  different psychic power.
 
   ### Conceal/Reveal
 
@@ -174,10 +187,12 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
 ## Rune Disciplines - Runes of Power:
 
   ### Executioner (Warp Charge: 7)
-  ???
+  TODO
   
   ### Will of Asuryan (Warp Charge: 5)
-  (CHOOSE remove In Disarray / Panicking from unit OR +1 to another's psychic test)
+  If manifested, choose a friendly ASURYANI unit within 18" of the caster, and select one of the following effects:
+  1. The chosen unit loses In Disarray and Panicking statuses if it has them.
+  2. The chosen unit gains +1 to all Psychic tests until the end of this Psychic phase.
   
   ### Mind War (Warp Charge: 7)
   If manifested, choose an enemy CHARACTER model within 18" of the caster. Each player then rolls a D6
@@ -188,10 +203,10 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   the two scores (max 5).
   
   ### Eldritch Storm (Warp Charge: ?)
-  ???
+  TODO
   
   ### Nullifying Zone (Warp Charge: ?)
-  ???
+  TODO
   
   ### Witch Strike (Warp Charge: 5)
   If manifested, until the next Psychic phase, whenever the caster makes a melee attack, its Damage characteristic is increased by 1 against VEHICLE models and by 2 against all other models.
@@ -213,13 +228,8 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   ???
   
   ### Clairvoyance (Warp Charge: 7)
-  If manifested, roll a D6 and place the rolled die next to the caster. This is called the Clairvoyance die. Until
-  the next Psychic phase, that die may be used once in one of the following ways:
-  - When a friendly unit within 12" of the caster would make a Hit or a Wound D66 roll, you can use the Clairvoyance die as both the 'tens' roll and the 'ones' roll.
-  - When a friendly unit within 12" of the caster would make a Damage roll, you can instead use the Clairvoyance die. If that Damage roll is something other than a D6 (for example, a D3 roll), read the value on the Clairvoyance die accordingly.
-  - When a friendly unit within 12" of the caster would make a Saving throw or a Deny the Witch roll, you can use the Clairvoyance die instead of rolling.
-  - When a friendly unit within 12" of the caster would make a Psychic test, you can use the Clairvoyance die instead of one of the dice that would be rolled.
-  - When a friendly unit within 12" of the caster would make a Charge roll, you can use the result on the Clairvoyance die instead of the usual 2D3 roll to determine charge distance.
+  If manifested, the caster gains 2 Clairvoyance dice. They can be used for the caster or for any friendly
+  ASURYANI <CRAFTWORLD> unit within 12" of the caster.
 
   ### Safe Passage (Warp Charge: 6)
   If manifested, choose a friendly Reinforcements unit. You may immediately set it up on the battlefield using any relevant special rules available to that unit, along with any accompanying CHARACTERs (as per the usual rules for CHARACTER Reinforcements), as if it were the Reinforcements Phase. All models that arrive on the battlefield using Safe Passage must be set up in unit coherency and wholly within 12" of the caster - if this is not possible, then they cannot arrive in this way. When units arrive on the battlefield using Safe Passage, their associated Exhaustion Roll succeeds automatically.
@@ -312,7 +322,7 @@ When a unit's datasheet states that it may take weapons from the "Heavy Weapons 
 ### \[HQ] Farseer
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Farseer                  | 150 | 7" | 4" |  6 |  9 | 3 | 3 | 4 | 2 | 7 | 11 | 6+ | 25mm 
+| Farseer                  | 120 | 7" | 4" |  6 |  9 | 3 | 3 | 4 | 2 | 7 | 11 | 6+ | 25mm 
 
 A Farseer is a single model armed with a shuriken pistol and a witchblade.
 
@@ -322,20 +332,23 @@ A Farseer is a single model armed with a shuriken pistol and a witchblade.
 
 #### > SPECIAL RULES:
 - **Battle Focus**
-- **Ghosthelm:** If this model suffers Perils of the Warp, roll a D6. On a 3+, its effects are ignored.
-- **Rune Armour:** This model has a 4+ invulnerable save.
+- **Ghosthelm (if equipped):** If this model suffers Perils of the Warp, roll a D6. On a 3+, its effects are ignored.
+- **Rune Armour (if equipped):** This model has a 4+ invulnerable save.
 - **Psyker:** This model can attempt to manifest two psychic powers in each friendly Psychic phase, and attempt to deny two
 psychic powers in each enemy Psychic phase. It knows the Smite power and a total of two psychic powers from the following
 disciplines: Runes of Fate, Runes of Power.
 
 #### > OPTIONS:
-- This model may replace its witchblade with a singing spear.
+- This model may replace its Witchblade with a Singing spear.
+- This model may be equipped with a Ghosthelm (+10 pts).
+- This model may be equipped with a Rune Armour (+20 pts).
 
+---
 
 ### \[HQ] Warlock
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Warlock                  |  80 | 7" | 4" |  5 |  8 | 3 | 3 | 2 | 2 | 6 | 10 | 6+ | 25mm 
+| Warlock                  |  50 | 7" | 4" |  5 |  8 | 3 | 3 | 2 | 2 | 6 | 10 | 6+ | 25mm 
 
 A Warlock is a single model armed with a shuriken pistol and a witchblade.
 
@@ -345,22 +358,25 @@ A Warlock is a single model armed with a shuriken pistol and a witchblade.
 
 #### > SPECIAL RULES:
 - **Battle Focus**
-- **Ghosthelm:** If this model suffers Perils of the Warp, roll a D6. On a 3+, its effects are ignored.
-- **Rune Armour:** This model has a 4+ invulnerable save.
+- **Ghosthelm (if equipped):** If this model suffers Perils of the Warp, roll a D6. On a 3+, its effects are ignored.
+- **Rune Armour (if equipped):** This model has a 4+ invulnerable save.
 - **Psyker:** This model can attempt to manifest one psychic power in each friendly Psychic phase, and attempt to deny
 one psychic power in each enemy Psychic phase. It knows the Smite power and a total of one psychic power from the following
 disciplines: Runes of Battle, Runes of Power.
 
 #### > OPTIONS:
-- **Journeyman:** A Warlock may be upgraded to a Journeyman Warlock. It gains the JOURNEYMAN keyword and knows an
-additional power from disciplines available to it. It can also attempt to manifest 1 extra power in the friendly Psychic
-phase. (20pts)
+- **Journeyman:** A Warlock may be upgraded to a Journeyman Warlock (+20 pts). It then gains the JOURNEYMAN keyword and 
+knows an additional power from disciplines available to it. It can also attempt to manifest 1 extra power in the friendly
+Psychic phase.
+- This model may be equipped with a Ghosthelm (+10 pts).
+- This model may be equipped with a Rune Armour (+20 pts).
 
+---
 
 ### \[HQ] Spiritseer
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Spiritseer               | 130 | 7" | 4" |  5 |  8 | 3 | 3 | 3 | 2 | 6 | 11 | 6+ | 25mm 
+| Spiritseer               | 100 | 7" | 4" |  5 |  8 | 3 | 3 | 3 | 2 | 6 | 11 | 6+ | 25mm 
 
 A Warlock is a single model armed with a shuriken pistol and a witchblade.
 
@@ -370,15 +386,17 @@ A Warlock is a single model armed with a shuriken pistol and a witchblade.
 
 #### > SPECIAL RULES:
 - **Battle Focus**
-- **Ghosthelm:** If this model suffers Perils of the Warp, roll a D6. On a 3+, its effects are ignored.
-- **Rune Armour:** This model has a 4+ invulnerable save.
+- **Ghosthelm (if equipped):** If this model suffers Perils of the Warp, roll a D6. On a 3+, its effects are ignored.
+- **Rune Armour (if equipped):** This model has a 4+ invulnerable save.
 - **Psyker:** This model can attempt to manifest two psychic powers in each friendly Psychic phase, and attempt to deny
 one psychic power in each enemy Psychic phase. It knows the Smite power, one psychic power from the Runes of Battle
 discipline, and one power from the Runes of the Dead discipline.
 
 #### > OPTIONS:
-- /
+- This model may be equipped with a Ghosthelm (+10 pts).
+- This model may be equipped with a Rune Armour (+20 pts).
 
+---
 
 ### \[HQ] Avatar of Khaine
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I  |  N | Sv | Base 
@@ -406,6 +424,7 @@ The Avatar of Khaine is a single model armed with the Wailing Doom. Only one of 
 #### > OPTIONS:
 (none)
 
+---
 
 ### \[Troop] Guardian Defenders
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
@@ -440,6 +459,7 @@ multiple Heavy Weapon Platforms in this way in a single turn. A Heavy Weapon Pla
 #### > OPTIONS:
 - Any Heavy Weapon Platform may replace its shuriken cannon with an item from the Heavy Weapons list.
 
+---
 
 ### \[Troop] Dire Avengers
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
@@ -473,6 +493,7 @@ Each model is armed with an avenger shuriken catapult and plasma grenades.
 - **Stand Firm:** ???
 - **Avenging Strikes (?pts):**  ???
 
+---
 
 ### \[Elite] Howling Banshees
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
@@ -503,6 +524,7 @@ Every model is equipped with a shuriken pistol, power sword and a banshee mask.
 - **B (?pts):**
 - **Nerve-shredding Shriek (? pts):** At the end of the Charge phase, if this unit performed a charge and if it includes a Howling Banshee Exarch, you can select one enemy unit within 1" of this unit and roll one D6; on a 1-3 that enemy unit gains 1 strain, and on a 4-6 it gains 2 strain.
 
+---
 
 ### \[Elite] Wraithguard
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
@@ -522,6 +544,7 @@ a wraithcannon and Wraithguard fists.
 #### > OPTIONS:
 - /
 
+---
 
 ### \[Elite] Wraithblades
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
@@ -542,6 +565,7 @@ ghostswords.
 #### > OPTIONS:
 - Any model in the unit may replace its ghostswords with a ghostaxe and a forceshield.
 
+---
 
 ### \[Fast Attack] Warp Spiders
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
@@ -581,6 +605,7 @@ that target this unit until the end of the phase suffer an Impairment.
 - **A (?pts):** ?
 - **B (?pts):** Warp passage tests automatically pass
 
+---
 
 ### \[Heavy Support] War Walkers
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
@@ -602,6 +627,7 @@ shuriken cannons.
 #### > OPTIONS:
 - Any model may replace any shuriken cannon with an item from the Heavy Weapons list.
 
+---
 
 ### \[Heavy Support] Fire Prism
 | NAME                     | PTS |  M  | CB | MS | BS | S |   T   |  W   | A | I |  N | Sv | Base 
@@ -625,7 +651,8 @@ A Fire Prism is a single model equipped with a prism cannon and a twin shuriken 
 - This model may replace its twin shuriken catapult with a shuriken cannon.
 - This model may take items from the Vehicle Equipment list.
 
-
+---
+  
 ### \[Heavy Support] Wraithlord
 | NAME                     | PTS |  M  | CB | MS | BS | S | T |  W   | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|------|---|---|----|----|------
@@ -647,6 +674,7 @@ A Wraithlord is a single model armed with two shuriken catapults and wraithbone 
 - This model may take a ghostglaive.
 - This model may take up to two items from the Heavy Weapons list.
 
+---
 
 ### \[Heavy Support] Dark Reapers
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
@@ -689,6 +717,7 @@ Aeldari missile launcher (+? pts) or Tempest launcher (+15 pts).
 - **Aggressive Tactics (15 pts):** A unit where the Exarch has this power loses Inescapable Accuracy, and the Range characteristics of all weapons used by that unit are halved - these effects persist even if the Exarch is destroyed. While the unit contains a Dark Reaper Exarch, models in the unit may treat Heavy weapons as Rapid Fire weapons when shooting, and they gain +1 Attack. Note: The bonus Attack is for the models, not for the ranged weapons.
 - **Focused Fire: (25 pts):** When this unit is selected to shoot, if it contains a Dark Reaper Exarch, and if all models are targeting the same enemy unit, add 1 to the Ballistic Skill of this unit until the end of the action. Note: Blast (\*) weapons are considered to be targeting a unit if the centre of the blast template intersects at least one model from that unit.
 
+---
 
 ### \[Dedicated Transport] Wave Serpent
 | NAME                     | PTS |  M  | CB | MS | BS | S |   T   |  W   | A | I |  N | Sv | Base 
@@ -699,6 +728,7 @@ Aeldari missile launcher (+? pts) or Tempest launcher (+15 pts).
 
 A Wave Serpent is a single model equipped with a twin shuriken cannon and a twin shuriken catapult.
 
+---
 
 ### \[Lord of War] Wraithknight
 (TODO)
