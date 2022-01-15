@@ -28,29 +28,6 @@
   
   A single Reanimation Protocol roll cannot be modified by more than +1 or -1 after all the modifiers are totalled.
   
-  **\<OLD\>**
-  the protocols are enacted as destroyed models begin to reassemble.
-  
-  Each time a unit's reanimation protocols are enacted, make Reanimation Protocol rolls for that unit by rolling a number of
-  D6 equal to the combined Wounds characteristics of all the models in the unit that would now be removed as casualties. Each
-  Reanimation Protocol roll of 5+ is put into a pool.
-  
-  If the number of dice in the pool is greater or equal to the Wounds characteristic of any of the reassembling models, do the
-  following:
-   - Select one of the reassembling models to be Reanimated with full wounds remaining.
-   - Reduce the number of dice in that pool by a number equal to the Wounds characteristic of the Reanimated model.
-   - Repeat this process until either there are no more reassembling models, or the number of dice remaining in the pool is less than the Wounds characteristic of any of the reassembling models.
-
-  Then, if there is at least one die remaining in the pool and at least one remaining reassembling model, select one of the 
-  reassembling models to be Reanimated with a number of wounds remaining equal to the number of dice remaining in the pool.
-  
-  Models that are successfully Reanimated are NOT removed during this Remove Casualties step (and their wounds are adjusted as 
-  stated above) and no longer count as having been destroyed or otherwise made a casualty. All the rest are removed as normal.
-  
-  (???)A Reanimation Protocol roll can never be modified by more than -1 or +1.
-  (???) WHAT IF THE WHOLE UNIT WAS DESTROYED?
-  **\</OLD\>**
-  
   ### Command Protocols:
   (TODO)
   
@@ -526,12 +503,18 @@ is equipped with a Warscythe.
 
 **KEYWORDS:** INFANTRY, CORE, LYCHGUARD
 
+| WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
+|----------------------------|-------|------|----|-----|--------------------------- 
+| Hyperphase sword           | Melee |  +1  | -2 |  1  | -
+| Warscythe                  | Melee |  +2  | -3 |  D3 | -
+
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
-- TODO
+- **Dispersion Shield (only if equipped):** The bearer has a 6+ invulnerable save. In addition, add 1 to all saving
+throws made for the bearer.
 
 #### > OPTIONS:
-- TODO
+- Any number of models in the unit can each have their Warscythe replaced with a Hyperphase sword and Dispersion shield.
 
 ---
 
@@ -691,7 +674,7 @@ Every model is equipped with Automaton claws.
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Scarab Swarm             |  22 | 10" | 4" |  3 |  - | 3 | 3 | 4 | 4 | 3 | 9 | 6+ | 40mm 
+| Scarab Swarm             |  23 | 10" | 4" |  3 |  - | 3 | 3 | 4 | 4 | 3 | 9 | 6+ | 40mm 
 
 This unit contains 3 Scarab Swarms. It can contain up to 6 additional Scarab Swarms. Every model 
 is equipped with Feeder mandibles.
@@ -706,8 +689,11 @@ is equipped with Feeder mandibles.
 
 #### > SPECIAL RULES:
 - \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless**
-- TODO
-- **Self-destruct**
+- **Self-destruct:** When a model from this unit would make its melee attacks during the Fight phase, 
+it may instead self-destruct. If it does, select one enemy unit in Engagement Range of that model and
+roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3
+mortal wounds. Then this unit suffers 4 mortal wounds (can't be ignored). Each CANOPTEK SCARAB SWARMS
+unit can only use this rule once per Fight phase.
 
 #### > OPTIONS:
 (none)
@@ -769,7 +755,7 @@ Every model is equipped with a Gauss cannon.
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**
 - **Hardwired for Destruction**
-- **Relentless*
+- **Relentless**
 
 #### > OPTIONS:
 (none)
@@ -797,7 +783,7 @@ Destroyers. Every model is equipped with a Gauss destructor.
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**
 - **Hardwired for Destruction**
-- **Relentless*
+- **Relentless**
 
 #### > OPTIONS:
 - Any number of models can each have their Gauss destructor replaced with 1 Enmitic exterminator.
@@ -805,3 +791,28 @@ Destroyers. Every model is equipped with a Gauss destructor.
 ---
 
 ### \[Heavy Support] Canoptek Doomstalker
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
+| Canoptek Doomstalker     |     |  " | 4" |  3 |  5 | 6 | 6 |   |   |   | 9 | 3+ | 90mm 
+
+This unit contains 1 Canoptek Doomstalker. It is equipped with...?
+
+**FACTION KEYWORDS:** NECRONS, CANOPTEK, \<DYNASTY\>
+
+**KEYWORDS:** VEHICLE, CANOPTEK DOOMSTALKER
+
+| WEAPON                        | RANGE |     TYPE     |  S | AP | D | QUALITIES
+|-------------------------------|-------|--------------|----|----|---|--------------------------- 
+| Doomsday blaster              |  12"  | Assault 3    |  6 | -2 | 1 | -
+
+| WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
+|----------------------------|-------|------|----|-----|--------------------------- 
+| Reanimator's claws         | Melee | User | -2 | D2  | -
+
+#### > SPECIAL RULES:
+- \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless**
+- **Explodes** (TODO)
+
+#### > OPTIONS:
+(none)
