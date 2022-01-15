@@ -504,7 +504,7 @@ This unit contains 1 Canoptek Reanimator. It is equipped with 2 Atomiser beams a
 | Reanimator's claws         | Melee | User | -2 | D2  | -
 
 #### > SPECIAL RULES:
-- **Living Metal**
+- \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless*
 - **Explodes** (TODO)
 - **(?) (Aura):**
 
@@ -555,6 +555,8 @@ is equipped with a Synaptic disintegrator.
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
 - **Dimensional Translocation**
+- **Translocation Stabilisation:** Models in this unit don't count as having moved at all when this unit is set up on the
+battlefield as Reinforcements using its **Dimensional Translocation** special rule.
 
 #### > OPTIONS:
 (none)
@@ -616,11 +618,10 @@ Every model is equipped with Hyperphase threshers.
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**
 - **Hardwired for Destruction**
-- TODO
 
 #### > OPTIONS:
 - One model in the unit, or two if the unit contains 6 models, may replace their Hyperphase
-threshers with a Hyperphase reap-blade.
+threshers with a Hyperphase reap-blade (+5 pts).
 
 ---
 
@@ -637,6 +638,14 @@ This unit contains 1 Canoptek Plasmacyte.
 **KEYWORDS:** BEAST, FLY, CANOPTEK PLASMACYTE
 
 #### > SPECIAL RULES:
+- \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless*
+- **Viral Construct:** For each <DYNASTY> DESTROYER CULT unit included in a Detachment, one <DYNASTY> CANOPTEK PLASMACYTE unit
+can be included in that Detachment without taking up a Battlefield Role slot. You cannot include more <DYNASTY> CANOPTEK
+PLASMACYTE units in a Detachment than there are <DYNASTY> DESTROYER CULT units in that Detachment.
+- **Infused Madness:** Once per turn, at the start of either the Charge phase or the Fight phase, you can select one friendly
+<DYNASTY> DESTROYER CULT unit within 3" of this model. If you do, roll one D6: on a 1, one model in that unit is destroyed.
+Regardless of the result, until the end of the turn, add 1 to the Strength and Attacks characteristics of models in that unit.
+Each unit can only be selected for this ability once per turn.
 - TODO
 
 #### > OPTIONS:
@@ -666,8 +675,7 @@ Every model is equipped with Automaton claws.
 | Automaton claws            | Melee | User | -2 |  2  | Each time an attack is made with this weapon against a VEHICLE, the hit roll and wound roll gain Advantage.
 
 #### > SPECIAL RULES:
-- TODO
-- **Living Metal**
+- \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless*
 - **Scarab Hive:** At the start of your Morale phase, for each model with this ability, select one friendly \<DYNASTY\> CANOPTEK SCARAB SWARM unit within 6" of that model. If the selected unit is below its starting strength, one model is returned to that unit - set it up with full wounds remaining in Unit Coherency with its unit and as close as possible to the Canoptek Spyder, but not within Engagement Range of enemy models. If this is not possible, then the model cannot be returned.
 - **Fabricator Claw Array (only if equipped):** This model's "Scarab Hive" ability can target any NECRONS \<DYNASTY\> INFANTRY or NECRONS \<DYNASTY\> VEHICLE unit (other than AIRCRAFT or TITANIC), in which case its range is reduced to 3". If an INFANTRY unit is targeted, a successful Reassembly roll is required (as if the unit's reanimation protocols were enacted, though none of the modifiers apply), or nothing happens. If a VEHICLE unit is targeted, its effect is instead that the VEHICLE regains up to D3 lost wounds.
 - **Gloom Prism (only if equipped):** In your opponent's Psychic phase, the bearer's unit can attempt to deny one psychic power as if it were a PSYKER.
@@ -697,7 +705,9 @@ is equipped with Feeder mandibles.
 | Feeder mandibles           | Melee | User |  0 |  1  | -
 
 #### > SPECIAL RULES:
+- \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless*
 - TODO
+- **Self-destruct**
 
 #### > OPTIONS:
 (none)
@@ -728,6 +738,7 @@ Every model is equipped with Vicious claws.
 | Whip coils                 | Melee | User | -1 |  1  | Each time an attack is made with this weapon, make 2 hit rolls instead of 1.
 
 #### > SPECIAL RULES:
+- \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless*
 - **Wraith Form:** Models in this unit have a 4+ invulnerable save. In addition, whenever this unit moves for any reason, models in it
 can move horizontally through models and terrain features (but they cannot finish a move on top of another model or its base).
 - TODO
