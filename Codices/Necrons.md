@@ -432,10 +432,12 @@ is equipped with a Gauss flayer.
 
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
-- TODO
+- **Their Number is Legion:** ?
+- **Polyalloy Bodies (only if equipped):** Models in this unit have a 3+ armour save.
 
 #### > OPTIONS:
 - Any number of models may replace their Gauss flayer with a Gauss reaper.
+- The whole unit may be upgraded with Polyalloy Bodies (+3 pts per model).
 
 ---
 
