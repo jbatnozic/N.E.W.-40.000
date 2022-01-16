@@ -263,12 +263,11 @@ double the number of shots the weapon makes.
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
 |-------------------------------|-------|--------------|----|----|------|--------------------------- 
 | Atomiser beam                 |       |              |    |    |      | -
-| Doomsday blaster (low power)  |       |              |    |    |      | -
-| Doomsday blaster (high power) |       |              |    |    |      | -
 | Gauss blaster                 |  30"  | Rapid Fire 1 |  5 | -1 |   1  | **Gauss weapon**
 | Gauss destructor              |  36"  | Heavy 1      |    |    |      | **Gauss weapon**
 | Gauss flayer                  |  24"  | Rapid Fire 1 |  4 |  0 |   1  | **Gauss weapon**
 | Gauss reaper                  |  12"  | Assault 2    |  4 | -1 |   1  | **Gauss weapon**
+| Staff of light (shooting)     |  18"  | Assault 3    |  5 | -2 |   1  | - 
 | Tesla cannon                  |  30"  | Heavy 3      |  6 |  0 |   1  | **Tesla weapon**
 | Tesla carbine                 |  24"  | Assault 2    |  5 |  0 |   1  | **Tesla weapon**
 
@@ -276,7 +275,9 @@ double the number of shots the weapon makes.
 
 | WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
 |----------------------------|-------|------|----|-----|--------------------------- 
-| War Scythe                 | Melee | User | -8 | Inf | -
+| Staff of light (melee)     | Melee | User | -2 |  1  | -
+| Voidblade                  | Melee |  +1  | -3 |  1  | Each time the bearer fights, it can make 1 additional attack with this weapon.
+| War scythe                 | Melee |  +2  | -4 |  2  | -
 
 
 ## Unit Datasheets
@@ -538,11 +539,16 @@ is equipped with a Synaptic disintegrator.
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
 - **Dimensional Translocation**
-- **Translocation Stabilisation:** Models in this unit don't count as having moved at all when this unit is set up on the
-battlefield as Reinforcements using its **Dimensional Translocation** special rule.
+- **Translocation Stabilisation:** When this unit is set up on the battlefield as Reinforcements using its
+**Dimensional Translocation** special rule, models in this unit don't count as having moved at all, and the
+unit automatically passes its Exhaustion roll.
 
 #### > OPTIONS:
 (none)
+
+**IDEAS:**
+- they can "mark" a unit for some internal/global buff
+- when they kill the marked unit, they can go back to reinforcements, or maybe mark another one
 
 ---
 
