@@ -245,6 +245,39 @@ Shooting phase.
   - Something else for endurance
   - Gain NOBLE keyword
   
+  #### Mephrit
+  (we like to shoot) - ?, ?
+  
+  #### Nephrekh
+  (we like to teleport) - Reinforce, Enhance Multitasking
+  
+  #### Nihilakh
+  (we like to conquer) - Lock Down, Defend
+  
+  #### Novokh
+  (we like to butcher people) - Overcharge Servos, Overpower
+  
+  #### Sautekh
+  (we like to pretend we're the death guard) - Coalesce, Fend Off
+  
+  #### Szarekhan
+  (we like to make quality stuff) - Augment Precision / Seek Opportunity, Calibrate
+  
+  #### Mokhor
+  (?)
+  
+  #### Takhrit
+  (we like to hide and engage from afar) - Conceal, (???: Long range fire support)
+
+  #### Vozkhol
+  (?) - Assist Reanimation, ?
+  
+  Analyse Weaknesses
+  Concentrate Fire
+  Disable Force Limiters
+  Flush Out
+  Sunder
+
 ## Weapons
 
 ### Qualities
@@ -263,13 +296,9 @@ double the number of shots the weapon makes.
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
 |-------------------------------|-------|--------------|----|----|------|--------------------------- 
 | Atomiser beam                 |       |              |    |    |      | -
-| Gauss blaster                 |  30"  | Rapid Fire 1 |  5 | -1 |   1  | **Gauss weapon**
 | Gauss destructor              |  36"  | Heavy 1      |    |    |      | **Gauss weapon**
-| Gauss flayer                  |  24"  | Rapid Fire 1 |  4 |  0 |   1  | **Gauss weapon**
-| Gauss reaper                  |  12"  | Assault 2    |  4 | -1 |   1  | **Gauss weapon**
 | Staff of light (shooting)     |  18"  | Assault 3    |  5 | -2 |   1  | - 
 | Tesla cannon                  |  30"  | Heavy 3      |  6 |  0 |   1  | **Tesla weapon**
-| Tesla carbine                 |  24"  | Assault 2    |  5 |  0 |   1  | **Tesla weapon**
 
 ### Melee Weapons list
 
@@ -430,6 +459,11 @@ is equipped with a Gauss flayer.
 
 **KEYWORDS:** INFANTRY, CORE, NECRON WARRIORS
 
+| WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
+|-------------------------------|-------|--------------|----|----|------|---------------------------
+| Gauss flayer                  |  24"  | Rapid Fire 1 |  4 |  0 |   1  | **Gauss weapon**
+| Gauss reaper                  |  12"  | Assault 2    |  4 | -1 |   1  | **Gauss weapon**
+
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
 - **Their Number is Legion:** ?
@@ -454,12 +488,17 @@ is equipped with a Gauss blaster.
 
 **KEYWORDS:** INFANTRY, CORE, IMMORTALS
 
+| WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
+|-------------------------------|-------|--------------|----|----|------|---------------------------
+| Gauss blaster                 |  30"  | Rapid Fire 1 |  5 | -1 |   1  | **Gauss weapon**
+| Tesla carbine                 |  24"  | Assault 2    |  5 |  0 |   1  | **Tesla weapon**
+
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
 - TODO
 
 #### > OPTIONS:
-- Any number of models may replace their Gauss flayer with a Tesla carbine.
+- Any number of models may replace their Gauss blaster with a Tesla carbine (free).
 
 ---
 
@@ -786,7 +825,7 @@ Destroyers. Every model is equipped with a Gauss destructor.
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D   | QUALITIES
 |-------------------------------|-------|--------------|----|----|-------|--------------------------- 
 | Enmitic exterminator          |  36"  | Heavy D3     |  7 | -1 |   1   | **Blast (Small)**
-| Gauss destructor              |  36"  | Heavy 1      | 10 | -3 |   ?   | **Gauss Weapon**
+| Gauss destructor              |  36"  | Heavy 1      | 10 | -3 |  2D3  | **Gauss Weapon**
 
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**
