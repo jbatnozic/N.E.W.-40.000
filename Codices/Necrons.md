@@ -73,18 +73,18 @@
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
-  - **\[Favoured Command Protocols]:** **Ranged to-Wound Advantage**, ? (rapid fire thing)
+  - **\[Favoured Command Protocols]:** **Zero-in**, ? (rapid fire thing)
   
   ### Nephrekh
   (we like to teleport)
   - **\[Ability] Translocation Beams:** Models in this unit have a 6+ invulnerable save. In addition, when this unit
-Advances, you may choose to have it Translocate - if it does, models in it can move horizontally through terrain and
+Advances or Disengages, you may choose to have it Translocate - if it does, models in it can move horizontally through terrain and
 other models when resolving this Advance move, but the unit will not be eligible to perform any actions in the following
 Shooting phase.
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
-  - **\[Favoured Command Protocols]:** **Reinforce**, ?
+  - **\[Favoured Command Protocols]:** **Reinforce**, **Flash-blitz**
   
   ### Nihilakh
   (we like to conquer)
@@ -97,9 +97,9 @@ Shooting phase.
   ### Novokh
   (we like to butcher people)
   - **\[Ability] Murder-crazed:** In the Fight phase, during Initiative step 1, if this unit is in Enagagement Range of enemy units, each model in it can make 1 additional attack with any weapon it is equipped with. In addition... TODO
-  - **\[Stratagem] Name:** ? (something to re-roll charges or similar)
+  - **\[Stratagem] Synthetic Bloodlust:** ? (something to re-roll charges or similar)
   - **\[Relic] Name:** ?
-  - **\[Warlord Trait] Name:** ?
+  - **\[Warlord Trait] Name:** ? (Violencemancer haha)
   - **\[Favoured Command Protocols]:** **Overcharge Servos**, **Overpower**
 
   ### Sautekh
@@ -128,19 +128,19 @@ activate (to double the number of shots made), make 1 extra attack with that wea
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
-  - **\[Favoured Command Protocols]:** **Flush Out**, ?
+  - **\[Favoured Command Protocols]:** **Flush Out**, **Enhance Multitasking**
 
   ### Kyverkhynn
-  (TBD)
+  (calculated but ruthless killers)
   - **\[Ability] Name:** ?
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
-  - **\[Favoured Command Protocols]:** **Calibrate**, ?
+  - **\[Favoured Command Protocols]:** **Calculate Weakpoint**, **Calibrate**
 
   ### Takhrit
   (we like to hide and engage from afar)
-  - **\[Ability] Name:** ?
+  - **\[Ability] Name:** ? (maybe: having 1 type of cover gives the other type of cover)
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
@@ -148,29 +148,27 @@ activate (to double the number of shots made), make 1 extra attack with that wea
 
   ### Vozkhol
   _The fluff for this Dynasty is that they are all brain-linked into something akin to a hive-mind, dominated by their Overlord._
-  - **\[Ability] Neurosingularity:** This unit's Reanimation Protocol rolls can be modified by up to +2 or -1 (instead of the usual +1 or -1). In addition,
+  - **\[Ability] Neural Singularity:** This unit's Reanimation Protocol rolls can be modified by up to +2 or -1 (instead of the usual +1 or -1). In addition,
 models in this unit receive a +1 bonus to their Reassembly rolls.
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
-  - **\[Warlord Trait] Name:** ?
+  - **\[Warlord Trait] Name:** ? (neuromancer)
   - **\[Favoured Command Protocols]:** **Assist Reanimation**, **Concentrate Fire**
-
-  ### Unused
-  - Augment Precision (melee hit)
-  - Disable Force Limiters (melee wound)
-  - Enhance Multitasking (never flat-footed)
   
+ ### IDEAS
+ - Extra range
+
 ## Command Protocols
 
-  ### 1. Ranged to-Wound Advantage (ex Analyse Weaknesses)
-  Each time a model affected by this protocol makes a ranged attack against a target within 12", the wound roll
+  ### 1. Zero-in
+  Each time a model affected by this protocol makes a ranged attack against a target within 12", the hit roll
   gains Advantage.
 
   ### 2. Assist Reanimation
   (something about reanimation protocols)
 
-  ### 3. Augment Precision
-  Each time a model affected by this protocol makes a melee attack while not being in Defensive stance, the hit roll
+  ### 3. Calculate Weakpoint
+  Each time a model affected by this protocol makes a melee attack while not being in Defensive stance, the wound roll
   gains Advantage.
 
   ### 4. Calibrate
@@ -186,22 +184,23 @@ models in this unit receive a +1 bonus to their Reassembly rolls.
 
   ### 7. Concentrate Fire
   Each time a whole unit affected by this protocols declares all attacks against the same enemy unit when selected to
-  shoot, hit rolls of all attacks that are made at a range of 12" or less gain Advantage.
+  shoot, wound rolls of all attacks that are made at a range of 12" or less gain Advantage.
 
   ### 8. Defend
   Enemy units that are within 1" of units affected by this protocol have their Attack characteristics reduced by 1, down to a
   minimum of 1.  
 
-  ### 9. Disable Force Limiters
-  Each time a model affected by this protocol makes a melee attack while not being in Defensive stance, the wound roll
-  gains Advantage.
+  ### 9. Enhance Multitasking
+  Models affected by this protcol gain Advantage to all hit rolls for attacks made with Pistol-type weapons, and
+  never count as being Flat-Footed in the Fight phase.
 
-  ### 10. Enhance Multitasking
-  Units affected by this protocol never count as being Flat-Footed in the Fight phase.
-
-  ### 11. Fend Off
+  ### 10. Fend Off
   When a unit affected by this protocols performs "Prepare to Repel" in the Charge phase, all models in it gain +1 Attack
   until the end of the following Fight phase.
+
+  ### 11. Flash-blitz
+  Each time a model affected by this protocol makes a melee attack while not being in Defensive stance, the hit roll
+  gains Advantage.
 
   ### 12. Flush Out
   Each time a model affected by this protocol makes a ranged attack against a target within 12", the target receives no
@@ -321,6 +320,18 @@ double the number of shots the weapon makes.
 | War scythe                 | Melee |  +2  | -4 |  2  | -
 
 ## Stratagems
+
+  ### ?
+  Canoptek unit gains Dynastic Codes
+
+  ### ? 
+  Canoptek unit gains RP until the end of the turn
+
+  ### ?
+  Unit w/ RP becomes unexhausted but loses RP until the end of the turn
+
+  ### ?
+  Additional Relics
 
 ## Unit Datasheets
 
