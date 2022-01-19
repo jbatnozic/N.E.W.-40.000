@@ -117,7 +117,7 @@ Shooting phase.
 unit makes a melee attack, after the wound roll, if the attack would be resolved with AP -1, resolve it with AP -2 instead. 
   - **\[Stratagem] Name:** ?
   - **\[(NOT A) Relic] Empyric Dampers:** Each SZAREKHAN NECRON CHARACTER model may be equipped with an Empyric Damper (+15 pts). This allows those models to
-do a Deny the Witch roll once per phase, as if it were a Psyker.
+do a Deny the Witch roll once per phase, as if it were a Psyker. A model can be equipped with both an Empyric Damper and a relic.
   - **\[Warlord Trait] Name:** ?
   - **\[Favoured Command Protocols]:** **Sunder**, ? (something defensive - maybe Coalesce?)
 
