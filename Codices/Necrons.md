@@ -282,6 +282,9 @@ models in this unit receive a +1 bonus to their Reassembly rolls.
   ### Voidreaper
   ?
   
+  ### Dimensional Anchor
+  (bearer cannot use deep strike or equivalent, but units that deep strike within 6" autopass exhaustion roll / can deep strikw within 6" of enemy units instead of 8")
+  
   ### IDEAS:
   - Something with (false) vacuum Decay
   
