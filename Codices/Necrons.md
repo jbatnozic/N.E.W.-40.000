@@ -69,11 +69,11 @@
   
   ### Mephrit
   (we like to shoot)
-  - **\[Ability] Solar Fury:** Each time a model in this unit makes a ranged attack, the target unit is considered to be 2" closer than it actually is (this applies to determining whether the target is within range, as well as to range-dependent effects such as Rapid Fire, those confered by Command Protocols, and others). In addition... TODO
+  - **\[Ability] Solar Fury:** Each time a model in this unit makes a ranged attack, the target unit is considered to be 2" closer than it actually is (this applies to determining whether the target is within range, as well as to range-dependent effects such as Rapid Fire, those confered by Command Protocols, and others). In addition, each time a model in this unit makes a ranged attack, if the wound roll is 61 or higher, you can choose to resolve the attack with damage 2.
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
-  - **\[Favoured Command Protocols]:** ?
+  - **\[Favoured Command Protocols]:** **Ranged to-Wound Advantage**, ? (rapid fire thing)
   
   ### Nephrekh
   (we like to teleport)
@@ -84,7 +84,7 @@ Shooting phase.
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
-  - **\[Favoured Command Protocols]:** **Reinforce**, **Enhance Multitasking**
+  - **\[Favoured Command Protocols]:** **Reinforce**, ?
   
   ### Nihilakh
   (we like to conquer)
@@ -96,7 +96,7 @@ Shooting phase.
   
   ### Novokh
   (we like to butcher people)
-  - **\[Ability] Name:** In the Fight phase, during Initiative step 1, if this unit is in Enagagement Range of enemy units, each model in it can make 1 additional attack with any weapon it is equipped with. In addition... TODO
+  - **\[Ability] Murder-crazed:** In the Fight phase, during Initiative step 1, if this unit is in Enagagement Range of enemy units, each model in it can make 1 additional attack with any weapon it is equipped with. In addition... TODO
   - **\[Stratagem] Name:** ? (something to re-roll charges or similar)
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
@@ -114,12 +114,12 @@ Shooting phase.
   (we like to make quality stuff)
   _You can't spell Szarekhan without zarek!_
   - **\[Ability] Uncanny Artificiers:** When this unit is selected to shoot, you may re-roll one hit roll and one wound roll. In addition, when a model in this
-unit makes a melee attack, after the wound roll, if the attack would be resolved with AP -1, resolve it with AP -2 instead. 
+unit makes a melee attack, after the wound roll, if the attack would be resolved with AP -1, resolve it with AP -2 instead (stacks with "Sunder" Command Protocol).
   - **\[Stratagem] Name:** ?
   - **\[(NOT A) Relic] Empyric Dampers:** Each SZAREKHAN NECRON CHARACTER model may be equipped with an Empyric Damper (+15 pts). This allows those models to
 do a Deny the Witch roll once per phase, as if it were a Psyker. A model can be equipped with both an Empyric Damper and a relic.
   - **\[Warlord Trait] Name:** ?
-  - **\[Favoured Command Protocols]:** **Sunder**, ? (something defensive - maybe Coalesce?)
+  - **\[Favoured Command Protocols]:** **Sunder**, ? (something for armour/toughness)
 
   ### Mokhor
   - **\[Ability] Rad-wreathed:** Enemy units within 1" of this unit have their Strength characteristic reduced by 1 (down to a minimum of 1).
@@ -128,42 +128,41 @@ activate (to double the number of shots made), make 1 extra attack with that wea
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
-  - **\[Favoured Command Protocols]:** ?
-  
+  - **\[Favoured Command Protocols]:** **Flush Out**, ?
+
+  ### Kyverkhynn
+  (TBD)
+  - **\[Ability] Name:** ?
+  - **\[Stratagem] Name:** ?
+  - **\[Relic] Name:** ?
+  - **\[Warlord Trait] Name:** ?
+  - **\[Favoured Command Protocols]:** **Calibrate**, ?
+
   ### Takhrit
   (we like to hide and engage from afar)
   - **\[Ability] Name:** ?
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
-  - **\[Favoured Command Protocols]:** **Conceal**, ? (long range fire support))
+  - **\[Favoured Command Protocols]:** **Conceal**, ? (long range fire support)
 
   ### Vozkhol
-  - **\[Ability] Name:** This unit's Reanimation Protocol rolls can be modified by up to +2 or -1 (instead of the usual +1 or -1). In addition,
+  _The fluff for this Dynasty is that they are all brain-linked into something akin to a hive-mind, dominated by their Overlord._
+  - **\[Ability] Neurosingularity:** This unit's Reanimation Protocol rolls can be modified by up to +2 or -1 (instead of the usual +1 or -1). In addition,
 models in this unit receive a +1 bonus to their Reassembly rolls.
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
-  - **\[Favoured Command Protocols]:** **Assist Reanimation**, ?
+  - **\[Favoured Command Protocols]:** **Assist Reanimation**, **Concentrate Fire**
 
-  ### IDEAS
-  - Chance for +1 D when shooting
-    
-  Augment Precision
+  ### Unused
+  - Augment Precision (melee hit)
+  - Disable Force Limiters (melee wound)
+  - Enhance Multitasking (never flat-footed)
   
-  Calibrate
-  
-  Concentrate Fire
-  
-  Analyse Weaknesses
-
-  Disable Force Limiters
-  
-  Flush Out
-
 ## Command Protocols
 
-  ### 1. Analyse Weaknesses
+  ### 1. Ranged to-Wound Advantage (ex Analyse Weaknesses)
   Each time a model affected by this protocol makes a ranged attack against a target within 12", the wound roll
   gains Advantage.
 
@@ -229,8 +228,11 @@ models in this unit receive a +1 bonus to their Reassembly rolls.
   ### 18. (name)
   (something for long range / Heavy fire)
   
-  ### ???
-  (fire Rapid Fire normally during Snap Shooting and without penalties)
+  ### 19. (name)
+  (rapid fire thing; fire Rapid Fire normally during Snap Shooting and without penalties)
+
+  ### 20. (name)
+  (something for armour/toughness)
   
 ## Warlord Traits
 
@@ -318,6 +320,7 @@ double the number of shots the weapon makes.
 | Voidblade                  | Melee |  +1  | -3 |  1  | Each time the bearer fights, it can make 1 additional attack with this weapon.
 | War scythe                 | Melee |  +2  | -4 |  2  | -
 
+## Stratagems
 
 ## Unit Datasheets
 
