@@ -66,13 +66,6 @@
   For other units (which there aren't so many of) special rules will be determined on a case-by-case basis.
 
 ## Dynasties
-
-  ### Dynasty Template
-  - **\[Ability] Name:** ?
-  - **\[Stratagem] Name:** ?
-  - **\[Relic] Name:** ?
-  - **\[Warlord Trait] Name:** ?
-  - **\[Favoured Command Protocols]:** ?
   
   ### Mephrit
   (we like to shoot)
@@ -103,44 +96,65 @@ Shooting phase.
   
   ### Novokh
   (we like to butcher people)
-  - **\[Ability] Name:** ?
-  - **\[Stratagem] Name:** ?
+  - **\[Ability] Name:** In the Fight phase, during Initiative step 1, if this unit is in Enagagement Range of enemy units, each model in it can make 1 additional attack with any weapon it is equipped with. In addition... TODO
+  - **\[Stratagem] Name:** ? (something to re-roll charges or similar)
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
-  - **\[Favoured Command Protocols]:** ?
-  
+  - **\[Favoured Command Protocols]:** **Overcharge Servos**, **Overpower**
+
   ### Sautekh
   (we like to pretend we're the death guard)
   - **\[Ability] Name:** ?
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
-  - **\[Favoured Command Protocols]:** ?
-  - 
+  - **\[Favoured Command Protocols]:** **Coalesce**, **Fend off**
+  
   ### Szarekhan
   (we like to make quality stuff)
   _You can't spell Szarekhan without zarek!_
-  - **\[Ability] Name:** ?
+  - **\[Ability] Name:** When this unit is selected to shoot, you may re-roll one hit roll and one wound roll. In addition, when a model in this
+unit makes a melee attack, after the wound roll, if the attack would be resolved with AP -1, resolve it with AP -2 instead. 
+  - **\[Stratagem] Name:** ?
+  - **\[Relic] Name:** ?
+  - **\[Warlord Trait] Name:** ?
+  - **\[Favoured Command Protocols]:** **Sunder**, ? (something defensive - maybe Coalesce?)
+
+  ### Mokhor
+  - **\[Ability] Rad-wreathed:** Enemy units within 1" of this unit have their Strength characteristic reduced by 1 (down to a minimum of 1).
+In addition, when a model in this unit makes a ranged attack with a Particle Weapon, if the weapon's **Particle Weapon** ability would
+activate (to double the number of shots made), make 1 extra attack with that weapon.
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
   - **\[Favoured Command Protocols]:** ?
-
-  ### Mokhor
-  (?)
   
   ### Takhrit
-  (?)
+  (we like to hide and engage from afar)
+  - **\[Ability] Name:** ?
+  - **\[Stratagem] Name:** ?
+  - **\[Relic] Name:** ?
+  - **\[Warlord Trait] Name:** ?
+  - **\[Favoured Command Protocols]:** **Conceal**, ? (long range fire support))
 
   ### Vozkhol
-  (?)
+  - **\[Ability] Name:** This unit's Reanimation Protocol rolls can be modified by up to +2 or -1 (instead of the usual +1 or -1). In addition,
+models in this unit receive a +1 bonus to their Reassembly rolls.
+  - **\[Stratagem] Name:** ?
+  - **\[Relic] Name:** ?
+  - **\[Warlord Trait] Name:** ?
+  - **\[Favoured Command Protocols]:** **Assist Reanimation**, ?
 
   ### IDEAS
-  - In the Fight phase, during Initiative step 1, if this unit is in Enagagement Range of enemy units, each model in it can make 1 additional attack with any weapon it is equipped with.
-  - (Rad-wreathed) -1 S aura, bonus to particle weapons
-  - Turn AP -1 into AP -2 in melee
   - Chance for +1 D when shooting
-  - +1 to Reassembly rolls and can stack up to +2
+    
+  Augment Precision
+  Calibrate
+  Concentrate Fire
+  Analyse Weaknesses
+  Concentrate Fire
+  Disable Force Limiters
+  Flush Out
 
 ## Command Protocols
 
@@ -148,7 +162,7 @@ Shooting phase.
   Each time a model affected by this protocol makes a ranged attack against a target within 12", the wound roll
   gains Advantage.
 
-  ### 2. Assist Reanimations
+  ### 2. Assist Reanimation
   (something about reanimation protocols)
 
   ### 3. Augment Precision
@@ -244,39 +258,6 @@ Shooting phase.
   - Refund CP on 5+ (Logistics Optimizer)
   - Something else for endurance
   - Gain NOBLE keyword
-  
-  #### Mephrit
-  (we like to shoot) - ?, ?
-  
-  #### Nephrekh
-  (we like to teleport) - Reinforce, Enhance Multitasking
-  
-  #### Nihilakh
-  (we like to conquer) - Lock Down, Defend
-  
-  #### Novokh
-  (we like to butcher people) - Overcharge Servos, Overpower
-  
-  #### Sautekh
-  (we like to pretend we're the death guard) - Coalesce, Fend Off
-  
-  #### Szarekhan
-  (we like to make quality stuff) - Augment Precision / Seek Opportunity, Calibrate
-  
-  #### Mokhor
-  (?)
-  
-  #### Takhrit
-  (we like to hide and engage from afar) - Conceal, (???: Long range fire support)
-
-  #### Vozkhol
-  (?) - Assist Reanimation, ?
-  
-  Analyse Weaknesses
-  Concentrate Fire
-  Disable Force Limiters
-  Flush Out
-  Sunder
 
 ## Weapons
 
