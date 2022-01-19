@@ -113,10 +113,11 @@ Shooting phase.
   ### Szarekhan
   (we like to make quality stuff)
   _You can't spell Szarekhan without zarek!_
-  - **\[Ability] Name:** When this unit is selected to shoot, you may re-roll one hit roll and one wound roll. In addition, when a model in this
+  - **\[Ability] Uncanny Artificiers:** When this unit is selected to shoot, you may re-roll one hit roll and one wound roll. In addition, when a model in this
 unit makes a melee attack, after the wound roll, if the attack would be resolved with AP -1, resolve it with AP -2 instead. 
   - **\[Stratagem] Name:** ?
-  - **\[Relic] Name:** ?
+  - **\[(NOT A) Relic] Empyric Dampers:** Each SZAREKHAN NECRON CHARACTER model may be equipped with an Empyric Damper (+15 pts). This allows those models to
+do a Deny the Witch roll once per phase, as if it were a Psyker.
   - **\[Warlord Trait] Name:** ?
   - **\[Favoured Command Protocols]:** **Sunder**, ? (something defensive - maybe Coalesce?)
 
