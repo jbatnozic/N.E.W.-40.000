@@ -150,11 +150,15 @@ models in this unit receive a +1 bonus to their Reassembly rolls.
   - Chance for +1 D when shooting
     
   Augment Precision
+  
   Calibrate
+  
   Concentrate Fire
+  
   Analyse Weaknesses
-  Concentrate Fire
+
   Disable Force Limiters
+  
   Flush Out
 
 ## Command Protocols
@@ -234,32 +238,53 @@ models in this unit receive a +1 bonus to their Reassembly rolls.
   (something for endurance)
   
   ### 2. Veteran of a Thousand Millenia
-  Increase this WARLORD's Ballistic SKill by 1 (to a maximum of 9) and Melee Skill by 1 (to a maximum of 10). 
+  Increase this WARLORD's Ballistic Skill by 1 (to a maximum of 9) and Melee Skill by 1 (to a maximum of 10). 
   During each Fight phase, he may select 2 different Stances to fight in.
   
   ### 3. (name)
   ?
   
   ### 4. Envoy of the Silent King
-  This WARLORD gains the 'NOBLE' keyword.
+  This WARLORD gains the 'NOBLE' keyword and its Nerve characteristic is increased by 1.
   
-  ### 5. (name)
-  ?
+  ### Short-circuit Tactician
+  During your Command phase, if this WARLORD is on the battlefield, and if in the previous battle round you chose
+  not to enact any Command Protocol, then in this Command phase you may choose to enact 2 (different) Command Protocols
+  at the same time.
   
   ### 6. (name)
   ?
   
   ### IDEAS:
   - Terrifying aura (strain)
-  - Alternate between using 2 Command Protocols and no Command Protocols (Short-Circuit  Tactician)
   - Re-roll all melee hit and wound rolls
   - Gain Deep Strike; he and 1 unit he's joining autopass Exhaustion roll
   - +2" M (counts for Relentless March)
   - Undying (whatever that does)
   - Refund CP on 5+ (Logistics Optimizer)
   - Something else for endurance
-  - Gain NOBLE keyword
 
+## Relics
+
+  ### Trinary Orb
+  Model with a Resurrection Orb only. The Trinary Orb replaces a Resurrection Orb, and works in exactly the same way, except
+  that it can be used twice per battle, instead of once.
+  
+  ### Orb of Eternity
+  ?
+  
+  ### Arrow of Infinity (maybe I could come up with a less generic name for this)
+  ?
+  
+  ### Voltaic Staff
+  ?
+  
+  ### Voidreaper
+  ?
+  
+  ### IDEAS:
+  - Something with (false) vacuum Decay
+  
 ## Weapons
 
 ### Qualities
