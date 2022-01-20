@@ -153,7 +153,7 @@ models in this unit receive a +1 bonus to their Reassembly rolls.
   - **\[Stratagem] Name (2CP):** Use this Stratagem in your Shooting phase, after a VOZKHOL unit from your army has finished making its attacks.
 Select one enemy unit that was targeted by an attack made by a model in that unit this phase. Until the end of the phase, each time an attack is made by a
 model in another friendly VOZKHOL unit against that enemy unit, that attack's hit roll gains an Advantage.
-  - **\[Relic] Name:** ? (some scary shit for melee)
+  - **\[Relic] Name:** ? (mind shackle scarab)
   - **\[Warlord Trait] Name:** ? (neuromancer)
   - **\[Favoured Command Protocols]:** **Assist Reanimation**, **Concentrate Fire**
   
@@ -745,6 +745,12 @@ Every model is equipped with Automaton claws.
 - Any number of models can each be equipped with 1 Gloom prism (+10 pts).
 
 ---
+  
+\[Elite] Canoptek Tombstalker
+  
+TODO
+  
+---
 
 ### \[Fast Attack] Canoptek Scarab Swarms
 
@@ -808,7 +814,25 @@ can move horizontally through models and terrain features (but they cannot finis
 #### > OPTIONS:
 - Any number of models can each be equipped with one of the following: 1 Particle caster (+5 pts); 1 Transdimensional beamer (+5 pts).
 - Any number of models can each have their Vicious claws replaced with Whip coils (free).
-
+  
+---
+  
+### \[Fast Attack] Tomb Blades
+  
+TODO
+  
+---
+  
+### \[Fast Attack] Canoptek Acanthrites
+  
+TODO
+  
+---
+  
+### \[Fast Attack] Canoptek Tomb Sentinel
+  
+I am the millipede...
+  
 ---
 
 ### \[Heavy Support] Lokhust Destroyers
@@ -866,6 +890,12 @@ Destroyers. Every model is equipped with a Gauss destructor.
 
 ---
 
+### \[Heavy Support] Annihilation Barge
+  
+TODO
+  
+---
+  
 ### \[Heavy Support] Canoptek Doomstalker
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
