@@ -79,10 +79,11 @@
   (we like to teleport)
   - **\[Ability] Translocation Beams:** Models in this unit have a 6+ invulnerable save. In addition, when this unit
 Advances or Disengages, you may choose to have it Translocate - if it does, models in it can move horizontally through terrain and
-other models when resolving this Advance move, but the unit will not be eligible to perform any actions in the following
-Shooting phase.
-  - **\[Stratagem] Name:** ?
-  - **\[Relic] Name:** ?
+other models when resolving this Advance or Disengage move, but the unit will not be eligible to perform any actions in the following
+Shooting phase. Units that Disengage by Translocating cannot be pursued.
+  - **\[Stratagem] Event Horizon Shift (2CP):** Use this Stratagem after a NEPREKH CORE unit Translocates using its **Translocation Beams** ability. 
+That unit becomes unexhausted and can perform actions normally in the subsequent phases (even if it Disengaged in this way).
+  - **\[Relic] Name:** ? (maybe: solar staff)
   - **\[Warlord Trait] Name:** ?
   - **\[Favoured Command Protocols]:** **Reinforce**, **Flash-blitz**
   
@@ -119,7 +120,7 @@ unit makes a melee attack, after the wound roll, if the attack would be resolved
   - **\[(NOT A) Relic] Empyric Dampers:** Each SZAREKHAN NECRON CHARACTER model may be equipped with an Empyric Damper (+15 pts). This allows those models to
 do a Deny the Witch roll once per phase, as if it were a Psyker. A model can be equipped with both an Empyric Damper and a relic.
   - **\[Warlord Trait] Name:** ?
-  - **\[Favoured Command Protocols]:** **Sunder**, ? (something for armour/toughness)
+  - **\[Favoured Command Protocols]:** **Shield**, **Sunder**
 
   ### Mokhor
   - **\[Ability] Rad-wreathed:** Enemy units within 1" of this unit have their Strength characteristic reduced by 1 (down to a minimum of 1).
@@ -174,7 +175,15 @@ model in another friendly VOZKHOL unit against that enemy unit, that attack's hi
   gains Advantage.
 
   ### 4. Calibrate
-  TODO
+  As soon as a unit is affected by this protocol, it starts calibrating, unless it already finished calibrating in one of the previous turns. 
+  While a unit is calibrating, its Melee Skill and Ballistic Skill characteristics are reduced to 2 (unless they would otherwise be lower).
+  Calibration finishes at the end of the current turn, and from that point on (for the remainder of the battle), whenever a model from the
+  calibrated unit makes a melee or ranged attack against an enemy unit, the hit and/or wound roll may be re-rolled. A maximum of 3 re-rolls
+  per phase, per unit, can be gained from this protocol.
+  
+  Note that after a unit has started calibrating, the effects (both positive and negative) of this protocol persist for their defined duration,
+  regardless of whether there is a friendly NOBLE on the battlefield or the affected unit is In Disarray. This is an exception to the normal
+  rules that all other command protocols follow.
   
   ### 5. Coalesce
   Each time a unit affected by this protocol unit uses its **Living Metal** special rule, each model in this unit regains
@@ -232,8 +241,8 @@ model in another friendly VOZKHOL unit against that enemy unit, that attack's hi
   ### 19. (name)
   (rapid fire thing; fire Rapid Fire normally during Snap Shooting and without penalties)
 
-  ### 20. (name)
-  (something for armour/toughness)
+  ### 20. Shield
+  Each time a model affected by pthis protocol would lose a wound, roll a D6. On a roll of 6, the wound is not lost.
   
 ## Warlord Traits
 
@@ -268,6 +277,7 @@ model in another friendly VOZKHOL unit against that enemy unit, that attack's hi
   - +2" M (counts for Relentless March)
   - Undying (whatever that does)
   - Refund CP on 5+ (Logistics Optimizer)
+  - My Name Is Madness / Corroded (Eroded) Mind
   - Something else for endurance
 
 ## Relics
