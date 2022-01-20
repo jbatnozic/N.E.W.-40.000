@@ -125,9 +125,9 @@ do a Deny the Witch roll once per phase, as if it were a Psyker. A model can be 
   - **\[Ability] Rad-wreathed:** Enemy units within 1" of this unit have their Strength characteristic reduced by 1 (down to a minimum of 1).
 In addition, when a model in this unit makes a ranged attack with a Particle Weapon, if the weapon's **Particle Weapon** ability would
 activate (to double the number of shots made), make 1 extra attack with that weapon.
-  - **\[Stratagem] Name:** ?
-  - **\[Relic] Name:** ?
-  - **\[Warlord Trait] Name:** ?
+  - **\[Stratagem] Name:** ? (maybe: -1T in addition to -1S for one unit)
+  - **\[Relic] Name:** ? (maybe: -1T in addition to -1S for one unit)
+  - **\[Warlord Trait] The Glow:** ?
   - **\[Favoured Command Protocols]:** **Flush Out**, **Enhance Multitasking**
 
   ### Kyverkhynn
