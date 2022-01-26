@@ -69,13 +69,11 @@
   
   ### Mephrit
   (we like to shoot)
-  - **\[Ability] Solar Fury:** Each time a model in this unit makes a ranged attack, the target unit is considered to be 2" closer than it actually is (this applies to determining whether the target is within range, as well as to range-dependent effects such as Rapid Fire, those confered by Command Protocols, and others). In addition, each time a model in this unit makes a ranged attack, if the wound roll is 61 or higher, you can choose to resolve the attack with damage 2.
+  - **\[Ability] Solar Fury:** Each time a model in this unit makes an attack with a ranged weapon (exclusing those with **Flamer Template** and **Blast (...)**), the target unit is considered to be 2" closer than it actually is (this applies to determining whether the target is within range, as well as to range-dependent effects such as Rapid Fire, those confered by Command Protocols, and others). In addition, each time a model in this unit makes a ranged attack, if the wound roll is 61 or higher, you can choose to resolve the attack with damage 2.
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
   - **\[Favoured Command Protocols]:** **Zero-in**, ? (rapid fire thing)
-
-  TODO: Solar Fury - what to do with Blast/Flamer weapons
   
   ### Nephrekh
   (we like to teleport)
@@ -83,11 +81,14 @@
 Advances or Disengages, you may choose to have it Translocate - if it does, models in it can move horizontally through terrain and
 other models when resolving this Advance or Disengage move, but the unit will not be eligible to perform any actions in the following
 Shooting phase. Units that Disengage by Translocating cannot be pursued.
+  - **\[Stratagem] Translocation Crypt (1CP):** Use this Stratagem before the battle when declaring reserves and transports (if you are playing a mission without this step, use this Stratagem during deployment instead). Select one NEPHREKH unit (excluding VEHICLE or MONSTER units) from your army. That unit gains the Dimensional Translocation ability.
   - **\[Stratagem] Event Horizon Shift (2CP):** Use this Stratagem after a NEPREKH CORE unit Translocates using its **Translocation Beams** ability. 
 That unit becomes unexhausted and can perform actions normally in the subsequent phases (even if it Disengaged in this way).
   - **\[Relic] Name:** ? (maybe: solar staff)
   - **\[Warlord Trait] Name:** ?
   - **\[Favoured Command Protocols]:** **Reinforce**, **Flash-blitz**
+  
+  **SPECIAL:** This dynasty unlocks 2 Stratagems (instead of 1).
   
   ### Nihilakh
   (we like to conquer)
@@ -125,12 +126,12 @@ do a Deny the Witch roll once per phase, as if it were a Psyker. A model can be 
   - **\[Favoured Command Protocols]:** **Shield**, **Sunder**
 
   ### Mokhor
-  - **\[Ability] Rad-wreathed:** Enemy units within 2" of this unit have their Strength characteristic reduced by 1 (down to a minimum of 1).
+  - **\[Ability] Rad-wreathed:** Enemy units, as well as friendly non-MOKHOR units that are within 2" of this unit have their Strength characteristic reduced by 1 (down to a minimum of 1).
 In addition, when a model in this unit makes a ranged attack with a Particle Weapon, if the weapon's **Particle Weapon** ability would
 activate (to double the number of shots made), make 1 extra attack with that weapon.
-  - **\[Stratagem] Name:** ? (maybe: -1T in addition to -1S for one unit)
-  - **\[Relic] Name:** ? (maybe: -1T in addition to -1S for one unit)
-  - **\[Warlord Trait] The Glow:** ?
+  - **\[Stratagem] Name:** ?
+  - **\[Relic] Name:** ?
+  - **\[Warlord Trait] The Glow:** _The warlord's body exudes radiation so intense, that it burns flesh, scrambles electronic, and makes the air around him glow as an eerie halo._ Enemy units, as well as friendly non-MOKHOR units that are within 2" of this WARLORD have their Toughness characteristic reduced by 1 (down to a minimum of 1).
   - **\[Favoured Command Protocols]:** **Flush Out**, **Enhance Multitasking**
 
   **SPECIAL:** All MOKHOR units gain **Rad-wreathed**, instead of only those with (TODO).
