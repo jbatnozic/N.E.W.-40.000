@@ -69,7 +69,7 @@
   
   ### Mephrit
   (we like to shoot)
-  - **\[Ability] Solar Fury:** Each time a model in this unit makes an attack with a ranged weapon (exclusing those with **Flamer Template** and **Blast (...)**), the target unit is considered to be 2" closer than it actually is (this applies to determining whether the target is within range, as well as to range-dependent effects such as Rapid Fire, those confered by Command Protocols, and others). In addition, each time a model in this unit makes a ranged attack, if the wound roll is 61 or higher, you can choose to resolve the attack with damage 2.
+  - **\[Ability] Solar Fury:** Each time a model in this unit makes an attack with a ranged weapon (excluding those with **Flamer Template** and **Blast (...)**), the target unit is considered to be 2" closer than it actually is (this applies to determining whether the target is within range, as well as to range-dependent effects such as Rapid Fire, those confered by Command Protocols, and others). In addition, each time a model in this unit makes a ranged attack, if the wound roll is 61 or higher, you can choose to resolve the attack with damage 2.
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
@@ -92,7 +92,9 @@ That unit becomes unexhausted and can perform actions normally in the subsequent
   
   ### Nihilakh
   (we like to conquer)
-  - **\[Ability] Aggresively Territorial:** When this unit is selected to shoot, if it is within 6" of an objective marker and all of its attacks are declared against enemy units that are within 6" of the same objective marker, this unit gains the **Relentless** special rule until the end of the action. In addition... TODO
+  - **\[Ability] Aggresively Territorial:** When this unit is selected to shoot, if it is within 6" of an objective 
+marker and all of its attacks are declared against enemy units that are within 6" of the same objective marker, this
+unit gains the **Relentless** special rule until the end of the action. In addition... TODO
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
@@ -126,12 +128,21 @@ do a Deny the Witch roll once per phase, as if it were a Psyker. A model can be 
   - **\[Favoured Command Protocols]:** **Shield**, **Sunder**
 
   ### Mokhor
-  - **\[Ability] Rad-wreathed:** Enemy units, as well as friendly non-MOKHOR units that are within 2" of this unit have their Strength characteristic reduced by 1 (down to a minimum of 1).
-In addition, when a model in this unit makes a ranged attack with a Particle Weapon, if the weapon's **Particle Weapon** ability would
-activate (to double the number of shots made), make 1 extra attack with that weapon.
-  - **\[Stratagem] Name:** ? (upon death, MOKHOR unit explodes and leaves a fire/radiation marker (difficult terrain within 6"))
+  - **\[Ability] Rad-wreathed:** All non-MOKHOR and non-C'TAN SHARD units that are within 2" of this unit have their
+Strength characteristic reduced by 1 (down to a minimum of 1). In addition, when a model in this unit makes a ranged
+attack with a Particle Weapon, if the weapon's **Particle Weapon** ability would activate (to double the number of
+shots made), make 1 extra attack with that weapon.
+  - **\[Stratagem] Radfire Canisters (1CP):** Use this Stratagem when a MOKHOR CANOPTEK unit is destroyed. The unit 
+immediately explodes, as if it had the **Explodes** special rule with the following profile:
+`Roll: 1+ Range: 6" Strength: 4 AP: 0 Qualities: This explosion affects only non-MOKHOR and non-C'TAN SHARD units.`
+This is in addition to the unit's usual **Explodes** special rule (if any). Then, place a marker within 1/2" of this
+unit. From the end of this phase, until the end of the same phase on the next battle round, the area within 6" of the
+marker counts as difficult terrain. This unit must be removed from the battlefield during the next Remove Casualties
+step (it cannot be kept by effect of Reanimation Protocols or equivalent rules).
   - **\[Relic] Entropy Sphere:** ?
-  - **\[Warlord Trait] The Glow:** _The warlord's body exudes radiation so intense, that it burns flesh, scrambles electronics, and makes the air around him glow as an eerie halo._ Enemy units, as well as friendly non-MOKHOR units that are within 2" of this WARLORD have their Toughness characteristic reduced by 1 (down to a minimum of 1).
+  - **\[Warlord Trait] The Glow:** _The warlord's body exudes radiation so intense, that it burns flesh, scrambles
+electronics, and makes the air around him glow as an eerie halo._ All non-MOKHOR and non-C'TAN SHARD units that are
+within 2" of this WARLORD have their Toughness characteristic reduced by 1 (down to a minimum of 1).
   - **\[Favoured Command Protocols]:** **Flush Out**, **Enhance Multitasking**
 
   **SPECIAL:** All MOKHOR units gain **Rad-wreathed**, instead of only those with (TODO).
@@ -153,12 +164,14 @@ activate (to double the number of shots made), make 1 extra attack with that wea
   - **\[Favoured Command Protocols]:** **Conceal**, ? (long range fire support)
 
   ### Vozkhol
-  _The fluff for this Dynasty is that they are all brain-linked into something akin to a hive-mind, dominated by their Overlord._
-  - **\[Ability] Neural Singularity:** This unit's Reanimation Protocol rolls can be modified by up to +2 or -1 (instead of the usual +1 or -1). In addition,
-models in this unit receive a +1 bonus to their Reassembly rolls.
-  - **\[Stratagem] Name (2CP):** Use this Stratagem in your Shooting phase, after a VOZKHOL unit from your army has finished making its attacks.
-Select one enemy unit that was targeted by an attack made by a model in that unit this phase. Until the end of the phase, each time an attack is made by a
-model in another friendly VOZKHOL unit against that enemy unit, that attack's hit roll gains an Advantage.
+  _The fluff for this Dynasty is that they are all brain-linked into something akin to a hive-mind, dominated by their
+Overlord._
+  - **\[Ability] Neural Singularity:** This unit's Reanimation Protocol rolls can be modified by up to +2 or -1
+(instead of the usual +1 or -1). In addition, models in this unit receive a +1 bonus to their Reassembly rolls.
+  - **\[Stratagem] Name (2CP):** Use this Stratagem in your Shooting phase, after a VOZKHOL unit from your army has
+finished making its attacks. Select one enemy unit that was targeted by an attack made by a model in that unit this
+phase. Until the end of the phase, each time an attack is made by a model in another friendly VOZKHOL unit against that
+enemy unit, that attack's hit roll gains an Advantage.
   - **\[Relic] Name:** ? (mind shackle scarab)
   - **\[Warlord Trait] Name:** ? (neuromancer)
   - **\[Favoured Command Protocols]:** **Assist Reanimation**, **Concentrate Fire**
