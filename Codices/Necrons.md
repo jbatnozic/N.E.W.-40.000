@@ -129,9 +129,9 @@ do a Deny the Witch roll once per phase, as if it were a Psyker. A model can be 
   - **\[Ability] Rad-wreathed:** Enemy units, as well as friendly non-MOKHOR units that are within 2" of this unit have their Strength characteristic reduced by 1 (down to a minimum of 1).
 In addition, when a model in this unit makes a ranged attack with a Particle Weapon, if the weapon's **Particle Weapon** ability would
 activate (to double the number of shots made), make 1 extra attack with that weapon.
-  - **\[Stratagem] Name:** ?
-  - **\[Relic] Name:** ?
-  - **\[Warlord Trait] The Glow:** _The warlord's body exudes radiation so intense, that it burns flesh, scrambles electronic, and makes the air around him glow as an eerie halo._ Enemy units, as well as friendly non-MOKHOR units that are within 2" of this WARLORD have their Toughness characteristic reduced by 1 (down to a minimum of 1).
+  - **\[Stratagem] Name:** ? (upon death, MOKHOR unit explodes and leaves a fire/radiation marker (difficult terrain within 6"))
+  - **\[Relic] Entropy Sphere:** ?
+  - **\[Warlord Trait] The Glow:** _The warlord's body exudes radiation so intense, that it burns flesh, scrambles electronics, and makes the air around him glow as an eerie halo._ Enemy units, as well as friendly non-MOKHOR units that are within 2" of this WARLORD have their Toughness characteristic reduced by 1 (down to a minimum of 1).
   - **\[Favoured Command Protocols]:** **Flush Out**, **Enhance Multitasking**
 
   **SPECIAL:** All MOKHOR units gain **Rad-wreathed**, instead of only those with (TODO).
