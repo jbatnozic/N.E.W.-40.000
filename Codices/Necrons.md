@@ -74,6 +74,8 @@
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
   - **\[Favoured Command Protocols]:** **Zero-in**, ? (rapid fire thing)
+
+  TODO: Solar Fury - what to do with Blast/Flamer weapons
   
   ### Nephrekh
   (we like to teleport)
@@ -123,7 +125,7 @@ do a Deny the Witch roll once per phase, as if it were a Psyker. A model can be 
   - **\[Favoured Command Protocols]:** **Shield**, **Sunder**
 
   ### Mokhor
-  - **\[Ability] Rad-wreathed:** Enemy units within 1" of this unit have their Strength characteristic reduced by 1 (down to a minimum of 1).
+  - **\[Ability] Rad-wreathed:** Enemy units within 2" of this unit have their Strength characteristic reduced by 1 (down to a minimum of 1).
 In addition, when a model in this unit makes a ranged attack with a Particle Weapon, if the weapon's **Particle Weapon** ability would
 activate (to double the number of shots made), make 1 extra attack with that weapon.
   - **\[Stratagem] Name:** ? (maybe: -1T in addition to -1S for one unit)
@@ -131,8 +133,10 @@ activate (to double the number of shots made), make 1 extra attack with that wea
   - **\[Warlord Trait] The Glow:** ?
   - **\[Favoured Command Protocols]:** **Flush Out**, **Enhance Multitasking**
 
+  **SPECIAL:** All MOKHOR units gain **Rad-wreathed**, instead of only those with (TODO).
+
   ### Kyverkhynn
-  (calculated but ruthless killers)
+  (calculated but ruthless killers... but aren't all Necrons like that?)
   - **\[Ability] Name:** ?
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
@@ -543,9 +547,9 @@ is equipped with a Gauss blaster.
 
 ### \[Elite] Canoptek Reanimator
 
-| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
-|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Canoptek Reanimator      | 110 | 8" | 4" |  3 |  5 | 6 | 6 | 7 | 4 | 3 | 9 | 3+ | 60mm 
+| NAME                     | PTS |  M | CB | MS | BS | S | T (FSR) | W | A | I | N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---------|---|---|---|---|----|------
+| Canoptek Reanimator      | 110 | 8" | 4" |  3 |  5 | 6 |  6/6/6  | 8 | 4 | 3 | 9 | 3+ | 60mm 
 
 This unit contains 1 Canoptek Reanimator. It is equipped with 2 Atomiser beams and reanimator's claws.
 
@@ -557,14 +561,54 @@ This unit contains 1 Canoptek Reanimator. It is equipped with 2 Atomiser beams a
 |-------------------------------|-------|--------------|----|----|---|--------------------------- 
 | Atomiser beam                 |  12"  | Assault 3    |  6 | -2 | 1 | -
 
+**Weapon Facings:** Atomiser beam: Front.
+
 | WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
 |----------------------------|-------|------|----|-----|--------------------------- 
 | Reanimator's claws         | Melee | User | -2 | D2  | -
 
 #### > SPECIAL RULES:
 - \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless**
-- **Explodes** (TODO)
+- **Explodes:** Roll: 5+ Range: 6" Strength: 6 AP: -1 Qualities: -
 - **(?) (Aura):**
+
+#### > OPTIONS:
+(none)
+
+---
+
+### \[Elite] Canoptek Warbringer
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T (FSR) | W | A | I | N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---------|---|---|---|---|----|------
+| Canoptek Warbringer      | 135 | 8" | 4" |  3 |  5 | 6 |  6/6/6  | 8 | 4 | 3 | 9 | 3+ | 60mm 
+
+This unit contains 1 Canoptek Warbringer. It is equipped with a Heat ray, 2 Atomiser beams and Warbringer's claws.
+
+**Note:** Use a Canoptek Reanimator model to represent a Canoptek Warbringer on the battlefield.
+
+**FACTION KEYWORDS:** NECRONS, CANOPTEK, \<DYNASTY\>
+
+**KEYWORDS:** VEHICLE, CANOPTEK WARBRINGER
+
+| WEAPON                        | RANGE |     TYPE     |  S | AP |  D  | QUALITIES
+|-------------------------------|-------|--------------|----|----|-----|--------------------------- 
+| Atomiser beam                 |  12"  | Assault 3    |  6 | -2 |  1  | -
+| Heat ray (point)              |  18"  | Steady 2     |  8 | -3 | 2D3 | **Melta**
+| Heat ray (line)               |  18"  | Steady 2     |  6 | -1 |  1  | **Flamer Template**; When placing this weapon's flamer template, place it anywhere wholly within 18" of the bearer. If you place it wholly within 9" of the bearer, treat it as a **Melta** weapon.
+
+**Note:** Before making attacks with the Heat ray, choose one of its profiles to use.
+
+**Weapon Facings:** Atomiser beam: Front; Heat ray: Front.
+
+| WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
+|----------------------------|-------|------|----|-----|--------------------------- 
+| Warbringer's claws         | Melee | User | -2 | D2  | -
+
+#### > SPECIAL RULES:
+- \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless**
+- **Explodes:** Roll: 5+ Range: 6" Strength: 6 AP: -1 Qualities: -
+- **War of the Worlds:** This unit is **Relentless**.
 
 #### > OPTIONS:
 (none)
@@ -620,15 +664,15 @@ is equipped with a Synaptic disintegrator.
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
 - **Dimensional Translocation**
 - **Translocation Stabilisation:** When this unit is set up on the battlefield as Reinforcements using its
-**Dimensional Translocation** special rule, models in this unit don't count as having moved at all, and the
-unit automatically passes its Exhaustion roll.
+**Dimensional Translocation** special rule, its Exhaustion roll passes automatically.
+- **Hunter's Mark:** When this unit is set up on the battlefield, select one enemy unit - that unit is marked for death
+by this unit. Whenever a model in this unit makes a ranged attack against the marked enemy unit, the hit roll gains Advantage.
+(Clarification: No unit gains Advantage against units that have been marked for death by units other than itself.)
+At the end of any Morale phase, if the marked unit is destroyed, this unit may mark another enemy unit, or immediately be removed
+from the battlefield and placed back in reserves.
 
 #### > OPTIONS:
 (none)
-
-**IDEAS:**
-- they can "mark" a unit for some internal/global buff
-- when they kill the marked unit, they can go back to reinforcements, or maybe mark another one
 
 ---
 
@@ -756,7 +800,7 @@ Every model is equipped with Automaton claws.
 
 ---
   
-\[Elite] Canoptek Tombstalker
+### \[Elite] Canoptek Tombstalker
   
 TODO
   
@@ -902,8 +946,32 @@ Destroyers. Every model is equipped with a Gauss destructor.
 
 ### \[Heavy Support] Annihilation Barge
   
-TODO
+| NAME                     | PTS |  M  | CB | MS | BS | S | T (FSR) | W | A | I |  N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---------|---|---|---|----|----|------
+| Annihilation Barge       | 175 | 12" | 4" |  1 |  7 | 6 |  7/7/7  | 8 | 3 | 2 | 10 | 3+ | ?
+
+This unit contains 1 Annihilation Barge. It is equipped with a Tesla cannon and a Twin tesla destructor.
+
+**FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
+
+**KEYWORDS:** VEHICLE, FLY, ANNIHILATION BARGE
+
+| WEAPON                        | RANGE |     TYPE     |  S | AP |  D  | QUALITIES
+|-------------------------------|-------|--------------|----|----|-----|--------------------------- 
+| Gauss cannon                  |  24"  | Heavy 3      |  6 | -2 |  2  | **Gauss Weapon**
+| Tesla cannon                  |  30"  | Heavy 3      |  6 |  0 |  1  | **Tesla Weapon**
+| Twin tesla destructor         |  30"  | Heavy 10     |  7 |  0 |  1  | **Tesla Weapon**
+
+**Weapon Facings:** Gauss cannon: Front; Tesla cannon: Front, Twin tesla destructor: Front.
+
+#### > SPECIAL RULES:
+- \[Specialised traits] **Command Protocols**, **Living Metal** and **Fearless**
+- **Explodes:** Roll: 5+ Range: 6" Strength: 6 AP: -1 Qualities: -
+- **Quantum Shielding:** TODO
   
+#### > OPTIONS:
+- This model's Tesla cannon can be replaced with a Gauss cannon (+10 pts).
+
 ---
   
 ### \[Heavy Support] Canoptek Doomstalker
