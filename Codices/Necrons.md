@@ -119,13 +119,21 @@ unit gains the **Relentless** special rule until the end of the action. In addit
   ### Szarekhan
   (we like to make quality stuff)
   _You can't spell Szarekhan without zarek!_
-  - **\[Ability] Uncanny Artificiers:** When this unit is selected to shoot, you may re-roll one hit roll and one wound roll. In addition, when a model in this
-unit makes a melee attack, after the wound roll, if the attack would be resolved with AP -1, resolve it with AP -2 instead (stacks with "Sunder" Command Protocol).
-  - **\[Stratagem] Name:** ?
-  - **\[(NOT A) Relic] Empyric Dampers:** Each SZAREKHAN NECRON CHARACTER model may be equipped with an Empyric Damper (+15 pts). This allows those models to
-do a Deny the Witch roll once per phase, as if it were a Psyker. A model can be equipped with both an Empyric Damper and a relic.
+  - **\[Ability] Uncanny Artificiers:** When this unit is selected to shoot, you may re-roll one hit roll and one wound
+roll. In addition, when a model in this unit makes a melee attack, after the wound roll, if the attack would be resolved
+with AP -1, resolve it with AP -2 instead (stacks with "Sunder" Command Protocol).
+  - **\[Stratagem] Replicator Nanoscarabs (1 CP):** Use this Stratagem when a SZAREKHAN unit's Living Metal special rule
+would be resolved to no effect (all the models in the unit are at full wounds). Before resolving that rule, if this unit
+is below its starting strength, you can return one previously destroyed model to the unit with 1 remaining wound - place
+it anywhere in Unit Coherency with the existing models; if this is not possible, you cannot use the Stratagem. A single
+unit can only be affected by this Stratagem once per battle.
+  - **\[Relic] (none)**
   - **\[Warlord Trait] Name:** ?
   - **\[Favoured Command Protocols]:** **Shield**, **Sunder**
+
+  **SPECIAL:** This dynasty does not unlock a Relic. However, each SZAREKHAN NECRON CHARACTER model may be equipped with
+an Empyric Damper (+15 pts). Models equipped with Empyric Dampers can each do a Deny the Witch roll once per phase, as
+if they were PSYKERs.
 
   ### Mokhor
   - **\[Ability] Rad-wreathed:** All non-MOKHOR and non-C'TAN SHARD units that are within 2" of this unit have their
@@ -172,7 +180,7 @@ Overlord._
 finished making its attacks. Select one enemy unit that was targeted by an attack made by a model in that unit this
 phase. Until the end of the phase, each time an attack is made by a model in another friendly VOZKHOL unit against that
 enemy unit, that attack's hit roll gains an Advantage.
-  - **\[Relic] Name:** ? (mind shackle scarab)
+  - **\[Relic] Mindshackle Scarabs:** ?
   - **\[Warlord Trait] Name:** ? (neuromancer)
   - **\[Favoured Command Protocols]:** **Assist Reanimation**, **Concentrate Fire**
   
@@ -583,7 +591,7 @@ This unit contains 1 Canoptek Reanimator. It is equipped with 2 Atomiser beams a
 
 #### > SPECIAL RULES:
 - \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless**
-- **Explodes:** Roll: 5+ Range: 6" Strength: 6 AP: -1 Qualities: -
+- **Explodes:** `Roll: 5+ Range: 6" Strength: 6 AP: -1 Qualities: -`
 - **(?) (Aura):**
 
 #### > OPTIONS:
@@ -609,7 +617,7 @@ This unit contains 1 Canoptek Warbringer. It is equipped with a Heat ray, 2 Atom
 |-------------------------------|-------|--------------|----|----|-----|--------------------------- 
 | Atomiser beam                 |  12"  | Assault 3    |  6 | -2 |  1  | -
 | Heat ray (point)              |  18"  | Steady 2     |  8 | -3 | 2D3 | **Melta**
-| Heat ray (line)               |  18"  | Steady 2     |  6 | -1 |  1  | **Flamer Template**; When placing this weapon's flamer template, place it anywhere wholly within 18" of the bearer. If you place it wholly within 9" of the bearer, treat it as a **Melta** weapon.
+| Heat ray (line)               |  18"  | Steady 2     |  6 | -1 |  1  | **Flamer Template**; When placing this weapon's flamer template, place it anywhere wholly within 18" of the bearer. If you place it wholly within 9" of the bearer, treat it as a **Melta** weapon. Hit rolls are generated only against models directly intersecting the template.
 
 **Note:** Before making attacks with the Heat ray, choose one of its profiles to use.
 
@@ -980,7 +988,7 @@ This unit contains 1 Annihilation Barge. It is equipped with a Tesla cannon and 
 
 #### > SPECIAL RULES:
 - \[Specialised traits] **Command Protocols**, **Living Metal** and **Fearless**
-- **Explodes:** Roll: 5+ Range: 6" Strength: 6 AP: -1 Qualities: -
+- **Explodes:** `Roll: 5+ Range: 6" Strength: 6 AP: -1 Qualities: -`
 - **Quantum Shielding:** TODO
   
 #### > OPTIONS:
