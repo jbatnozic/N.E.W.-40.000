@@ -94,7 +94,7 @@ That unit becomes unexhausted and can perform actions normally in the subsequent
   (we like to conquer)
   - **\[Ability] Aggresively Territorial:** When this unit is selected to shoot, if it is within 6" of an objective 
 marker and all of its attacks are declared against enemy units that are within 6" of the same objective marker, this
-unit gains the **Relentless** special rule until the end of the action. In addition... TODO
+unit gains the **Relentless** special rule until the end of the action. In addition... TODO (+1 model against phasing out if within 6" of objective or wholly within its own deployment zone)
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
@@ -110,7 +110,7 @@ unit gains the **Relentless** special rule until the end of the action. In addit
 
   ### Sautekh
   (we like to pretend we're the death guard)
-  - **\[Ability] Name:** ?
+  - **\[Ability] Name:** ? (after advancing, rapid fire = assault; something for morale)
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
