@@ -147,7 +147,7 @@ This is in addition to the unit's usual **Explodes** special rule (if any). Then
 unit. From the end of this phase, until the end of the same phase on the next battle round, the area within 6" of the
 marker counts as difficult terrain. This unit must be removed from the battlefield during the next Remove Casualties
 step (it cannot be kept by effect of Reanimation Protocols or equivalent rules).
-  - **\[Relic] Entropy Sphere:** ?
+  - **\[Relic] Entropy Sphere:** (pistol; roll 2d6 over S+T to ...)
   - **\[Warlord Trait] The Glow:** _The warlord's body exudes radiation so intense, that it burns flesh, scrambles
 electronics, and makes the air around him glow as an eerie halo._ All non-MOKHOR and non-C'TAN SHARD units that are
 within 2" of this WARLORD have their Toughness characteristic reduced by 1 (down to a minimum of 1).
