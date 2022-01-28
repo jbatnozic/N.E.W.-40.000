@@ -104,8 +104,9 @@ deployment zone, it counts as having 1 additional model for purposes of determin
   
   ### Novokh
   (we like to butcher people)
-  - **\[Ability] Murder-craze:** In the Fight phase, during Initiative step 1, if this unit is in Enagagement Range of
-enemy units, each model in it can make 1 additional attack with any weapon it is equipped with. In addition... TODO
+  - **\[Ability] Murder-craze:** During your first Command phase, this unit may perform a Normal Move of up to 5". This
+move must be towards the closest enemy unit. In addition, in the Fight phase, during Initiative step 1, if this unit is
+in Enagagement Range of enemy units, each model in it can make 1 additional attack with any weapon it is equipped with.
   - **\[Stratagem] Synthetic Bloodlust:** Use this Stratagem at the start of the Fight phase. Select 1 CHARACTER unit,
 or 1 non-CHARACTER unit, or both (in which case they must be within 2" of each other). You may only select units that
 have the **Murder-craze** special rule. Select 1 of the effects below and apply it to all selected units:
@@ -174,7 +175,7 @@ within 2" of this WARLORD have their Toughness characteristic reduced by 1 (down
   ### Takhrit
   (we like to hide and engage from afar)
   - **\[Ability] Name:** ? (maybe: having 1 type of cover gives the other type of cover)
-  - **\[Stratagem] Name:** ?
+  - **\[Stratagem] Name:** ? (unit gains infiltrate)
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
   - **\[Favoured Command Protocols]:** **Conceal**, ? (long range fire support)
