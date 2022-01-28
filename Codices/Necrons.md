@@ -104,9 +104,14 @@ deployment zone, it counts as having 1 additional model for purposes of determin
   
   ### Novokh
   (we like to butcher people)
-  - **\[Ability] Murder-crazed:** In the Fight phase, during Initiative step 1, if this unit is in Enagagement Range of
+  - **\[Ability] Murder-craze:** In the Fight phase, during Initiative step 1, if this unit is in Enagagement Range of
 enemy units, each model in it can make 1 additional attack with any weapon it is equipped with. In addition... TODO
-  - **\[Stratagem] Synthetic Bloodlust:** ? (something to re-roll charges or similar)
+  - **\[Stratagem] Synthetic Bloodlust:** Use this Stratagem at the start of the Fight phase. Select 1 CHARACTER unit,
+or 1 non-CHARACTER unit, or both (in which case they must be within 2" of each other). You may only select units that
+have the **Murder-craze** special rule. Select 1 of the effects below and apply it to all selected units:
+    1. This unit's Initiative characteristic is doubled (up to 10) until the end of the phase.
+    2. Until the end of the phase, this unit's Initiative is calculated as if it had performed a Charge in the 
+preceding Charge phase.
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ? (Violencemancer haha)
   - **\[Favoured Command Protocols]:** **Overcharge Servos**, **Overpower**
