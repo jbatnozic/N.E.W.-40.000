@@ -58,7 +58,7 @@
   
   **CORE:** "Normal" (and mostly humanoid) Necrons, such as Lords, Overlords, Warriors, Immortals etc. will get CORE. Probably Destroyers too, even if they are a little bit insane and not so humanoid anymore. CANOPTEK things and especially large monsters will NOT be CORE.
 
-  **Standard Core traits:** All "Normal" Necrons, i.e. those that get CORE, will all have the following special rules: **Reanimation Protocols**, **Command Protocols**, **Living Metal** and **Cold Hard Logic**.
+  **Standard Core traits:** All "Normal" Necrons, i.e. those that get CORE, will all have the following special rules: **Reanimation Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic** and **Dynastic Ability**.
   - Exception: DESTROYER CULT units will not get **Cold Hard Logic** (because they are insane) but they will get **Hardwired for Destruction**.
     
   **Standard Canoptek traits:** All CANOPTEK units will have the following special rules: **Command Protocols**, **Living Metal** and **Fearless**.
@@ -69,7 +69,11 @@
   
   ### Mephrit
   (we like to shoot)
-  - **\[Ability] Solar Fury:** Each time a model in this unit makes an attack with a ranged weapon (excluding those with **Flamer Template** and **Blast (...)**), the target unit is considered to be 2" closer than it actually is (this applies to determining whether the target is within range, as well as to range-dependent effects such as Rapid Fire, those confered by Command Protocols, and others). In addition, each time a model in this unit makes a ranged attack, if the wound roll is 61 or higher, you can choose to resolve the attack with damage 2.
+  - **\[Ability] Solar Fury:** Each time a model in this unit makes an attack with a ranged weapon (excluding those with
+**Flamer Template** and **Blast (\*)**), the target unit is considered to be 2" closer than it actually is (this
+applies to determining whether the target is within range, as well as to range-dependent effects such as Rapid Fire,
+those confered by Command Protocols, and others). In addition, each time a model in this unit makes a ranged attack, if
+the wound roll is 61 or higher, you can choose to resolve the attack with damage 2.
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
@@ -78,12 +82,16 @@
   ### Nephrekh
   (we like to teleport)
   - **\[Ability] Translocation Beams:** Models in this unit have a 6+ invulnerable save. In addition, when this unit
-Advances or Disengages, you may choose to have it Translocate - if it does, models in it can move horizontally through terrain and
-other models when resolving this Advance or Disengage move, but the unit will not be eligible to perform any actions in the following
-Shooting phase. Units that Disengage by Translocating cannot be pursued.
-  - **\[Stratagem] Translocation Crypt (1CP):** Use this Stratagem before the battle when declaring reserves and transports (if you are playing a mission without this step, use this Stratagem during deployment instead). Select one NEPHREKH unit (excluding VEHICLE or MONSTER units) from your army. That unit gains the Dimensional Translocation ability.
-  - **\[Stratagem] Event Horizon Shift (2CP):** Use this Stratagem after a NEPREKH CORE unit Translocates using its **Translocation Beams** ability. 
-That unit becomes unexhausted and can perform actions normally in the subsequent phases (even if it Disengaged in this way).
+Advances or Disengages, you may choose to have it Translocate - if it does, models in it can move horizontally through
+terrain and other models when resolving this Advance or Disengage move, but the unit will not be eligible to perform any
+actions in the following Shooting phase. Units that Disengage by Translocating cannot be pursued.
+  - **\[Stratagem] Translocation Crypt (1CP):** Use this Stratagem before the battle when declaring reserves and
+transports (if you are playing a mission without this step, use this Stratagem during deployment instead). Select one
+NEPHREKH unit (excluding VEHICLE or MONSTER units) from your army. That unit gains the **Dimensional Translocation**
+special rule.
+  - **\[Stratagem] Event Horizon Shift (2CP):** Use this Stratagem after a NEPREKH CORE unit Translocates using its
+**Translocation Beams** ability. That unit becomes unexhausted and can perform actions normally in the subsequent phases
+(even if it Disengaged in this way).
   - **\[Relic] Name:** ? (maybe: solar staff)
   - **\[Warlord Trait] Name:** ?
   - **\[Favoured Command Protocols]:** **Reinforce**, **Flash-blitz**
@@ -119,7 +127,11 @@ preceding Charge phase.
 
   ### Sautekh
   (we like to pretend we're the death guard)
-  - **\[Ability] (some such) Advance:** ? (secondary: after advancing, rapid fire/pistol = assault)
+  - **\[Ability] Unstoppable Advance:** At the end of your Shooting phase, if this unit is not in Engagement Range of
+enemy units, you may roll a Morale test for it. If the test is successful, this unit may make a Normal Move of up to 2"
+either towards the closest enemy unit or towards the closest objective marker. In addition, after this unit Advances in
+the Movement phase, it can treat any or all Pistol-type and Rapid Fire-type weapons as Assault-type weapons in the
+following Shooting Phase.
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
@@ -162,7 +174,7 @@ electronics, and makes the air around him glow as an eerie halo._ All non-MOKHOR
 within 2" of this WARLORD have their Toughness characteristic reduced by 1 (down to a minimum of 1).
   - **\[Favoured Command Protocols]:** **Flush Out**, **Enhance Multitasking**
 
-  **SPECIAL:** All MOKHOR units gain **Rad-wreathed**, instead of only those with (TODO).
+  **SPECIAL:** All MOKHOR units gain **Rad-wreathed**, instead of only those with the **Dynastic Ability** special rule.
 
   ### Kyverkhynn
   (calculated but ruthless killers... but aren't all Necrons like that?)
@@ -175,7 +187,9 @@ within 2" of this WARLORD have their Toughness characteristic reduced by 1 (down
   ### Takhrit
   (we like to hide and engage from afar)
   - **\[Ability] Name:** ? (maybe: having 1 type of cover gives the other type of cover)
-  - **\[Stratagem] Name:** ? (unit gains infiltrate)
+  - **\[Stratagem] Obfuscation Algorithms (1CP):** Use this Stratagem before the battle when declaring reserves and
+transports (if you are playing a mission without this step, use this Stratagem during deployment instead). Select one
+TAKHRIT unit (excluding VEHICLE or MONSTER units) from your army. That unit gains the **Infiltrate** special rule.
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
   - **\[Favoured Command Protocols]:** **Conceal**, ? (long range fire support)
@@ -417,7 +431,7 @@ This unit contains one Lesser Lord, who is equipped with a Staff of Light.
 **KEYWORDS:** INFANTRY, CHARACTER, CORE, NOBLE, LESSER LORD
 
 #### > SPECIAL RULES:
-- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
 - **Relentless March (Aura):** Whenever a friendly \<DYNASTY\> CORE unit starts moving for whatever reason while being 
 within 6" of the Lesser Lord, they may use the Lesser Lord's Move characteristic instead of their own until the end of
 the action.
@@ -442,7 +456,7 @@ This unit contains one Lokhust Lord, who is equipped with a Staff of Light.
 **KEYWORDS:** INFANTRY, CHARACTER, CORE, FLY, LOKHUST LORD
 
 #### > SPECIAL RULES:
-- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Dynastic Ability**
 - **Hardwired for Destruction**
 
 #### > OPTIONS:
@@ -464,7 +478,7 @@ This unit contains one Skorpekh Lord, who is equipped with an Enmitic annihilato
 **KEYWORDS:** INFANTRY, CHARACTER, CORE, SKORPEKH LORD
 
 #### > SPECIAL RULES:
-- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Dynastic Ability**
 - **Hardwired for Destruction**
 
 #### > OPTIONS:
@@ -485,7 +499,7 @@ This unit contains one Overlord, who is equipped with a Hyperphase glaive and a 
 **KEYWORDS:** INFANTRY, CHARACTER, CORE, NOBLE, OVERLORD
 
 #### > SPECIAL RULES:
-- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
 - **Relentless March (Aura):** Whenever a friendly \<DYNASTY\> CORE unit starts moving for whatever reason while being 
 within 6" of the Overlord, they may use the Overlord's Move characteristic instead of their own until the end of
 the action.
@@ -539,7 +553,7 @@ is equipped with a Gauss flayer.
 | Gauss reaper                  |  12"  | Assault 2    |  4 | -1 |   1  | **Gauss weapon**
 
 #### > SPECIAL RULES:
-- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
 - **Their Number is Legion:** ?
 - **Polyalloy Bodies (only if equipped):** Models in this unit have a 3+ armour save.
 
@@ -568,7 +582,7 @@ is equipped with a Gauss blaster.
 | Tesla carbine                 |  24"  | Assault 2    |  5 |  0 |   1  | **Tesla weapon**
 
 #### > SPECIAL RULES:
-- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
 - TODO
 
 #### > OPTIONS:
@@ -665,7 +679,7 @@ is equipped with a Warscythe.
 | Warscythe                  | Melee |  +2  | -3 |  D3 | -
 
 #### > SPECIAL RULES:
-- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
 - **Dispersion Shield (only if equipped):** The bearer has a 6+ invulnerable save. In addition, add 1 to all saving
 throws made for the bearer.
 
@@ -692,7 +706,7 @@ is equipped with a Synaptic disintegrator.
 | Synaptic disintegrator        |  36"  | Heavy 1      |  5 | -2 |  D2  | Attacks made with this weapon ignore the "Look Out, Sir" rule.
 
 #### > SPECIAL RULES:
-- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
 - **Dimensional Translocation**
 - **Translocation Stabilisation:** When this unit is set up on the battlefield as Reinforcements using its
 **Dimensional Translocation** special rule, its Exhaustion roll passes automatically.
@@ -725,7 +739,7 @@ is equipped with a Flayer claws.
 | Flayer claws               | Melee | User | -1 |  1  | Wounds rolls of 61 or more with this weapon are resolved with AP improved by 1.
 
 #### > SPECIAL RULES:
-- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
 
 - **Deep Strike** (???)
 
@@ -760,7 +774,7 @@ Every model is equipped with Hyperphase threshers.
 | Hyperphase threshers       | Melee | User | -2 |  2  | Each time the bearer fights, it makes 1 additional attack with this weapon.
 
 #### > SPECIAL RULES:
-- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Dynastic Ability**
 - **Hardwired for Destruction**
 
 #### > OPTIONS:
@@ -938,7 +952,7 @@ Every model is equipped with a Gauss cannon.
 | Gauss cannon                  |  24"  | Heavy 3      |  6 | -2 |   2  | **Gauss Weapon**
 
 #### > SPECIAL RULES:
-- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Dynastic Ability**
 - **Hardwired for Destruction**
 - **Relentless**
 
@@ -966,7 +980,7 @@ Destroyers. Every model is equipped with a Gauss destructor.
 | Gauss destructor              |  36"  | Heavy 1      | 10 | -3 |  2D3  | **Gauss Weapon**
 
 #### > SPECIAL RULES:
-- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Dynastic Ability**
 - **Hardwired for Destruction**
 - **Relentless**
 
