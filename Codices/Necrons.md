@@ -331,6 +331,7 @@ enemy unit, that attack's hit roll gains an Advantage.
   - My Name Is Madness / Corroded (Eroded) Mind
   - Something else for endurance
   - Roll to-wound against N instead of T
+  - Nearby gauss weapons always gain bonus AP as if a 66 was rolled to wound
 
 ## Relics
 
