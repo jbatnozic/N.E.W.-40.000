@@ -302,8 +302,10 @@ enemy unit, that attack's hit roll gains an Advantage.
   Increase this WARLORD's Ballistic Skill by 1 (to a maximum of 9) and Melee Skill by 1 (to a maximum of 10). 
   During each Fight phase, he may select 2 different Stances to fight in.
   
-  ### 3. (name)
-  ?
+  ### 3. Unnerving Presence (Aura)
+  Whenever an enemy unit needs to use its Nerve score to resolve another rule (for example, a Morale test), if
+  it is within 6" of this WARLORD, reduce its Nerve score by D3. This reduction lasts until the end of the phase
+  and a single unit can only be affected by this effect once per phase.
   
   ### 4. Envoy of the Silent King
   This WARLORD gains the 'NOBLE' keyword and its Nerve characteristic is increased by 1.
@@ -315,8 +317,8 @@ enemy unit, that attack's hit roll gains an Advantage.
   
   ### 6. I'll Be Back
   Once per battle, this WARLORD's reanimation attempt (which means Rectivation roll + Reassembly roll) can succeed
-  automatically (player's choice as to when to use this). After this effect is used, the WARLORD is inactive
-  until the same phase of the next turn.
+  automatically (player's choice as to when to use this, but it must be before any Reanimation rolls).
+  After this effect is used, the WARLORD is inactive until the same phase of the next turn.
   TODO: Clarify the effect a bit (and what does inactive mean?)
   
   ### IDEAS:
@@ -328,6 +330,7 @@ enemy unit, that attack's hit roll gains an Advantage.
   - Refund CP on 5+ (Logistics Optimizer)
   - My Name Is Madness / Corroded (Eroded) Mind
   - Something else for endurance
+  - Roll to-wound against N instead of T
 
 ## Relics
 
