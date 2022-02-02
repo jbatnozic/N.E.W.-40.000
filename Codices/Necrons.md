@@ -127,7 +127,7 @@ preceding Charge phase.
 
   ### Sautekh
   (we like to pretend we're the death guard)
-  - **\[Ability] Unstoppable Advance:** At the end of your Shooting phase, if this unit is not in Engagement Range of
+  - **\[Ability] Unstoppable Advance:** At the start of your Charge phase, if this unit is not in Engagement Range of
 enemy units, you may roll a Morale test for it. If the test is successful, this unit may make a Normal Move of up to 2"
 either towards the closest enemy unit or towards the closest objective marker. In addition, after this unit Advances in
 the Movement phase, it can treat any or all Pistol-type and Rapid Fire-type weapons as Assault-type weapons in the
@@ -332,8 +332,8 @@ enemy unit, that attack's hit roll gains an Advantage.
 ## Relics
 
   ### Trinary Orb
-  Model with a Resurrection Orb only. The Trinary Orb replaces a Resurrection Orb, and works in exactly the same way, except
-  that it can be used twice per battle, instead of once.
+  Model with a Resurrection Orb only. The Trinary Orb replaces a Resurrection Orb, and works in exactly the same way,
+  except that it can be used twice per battle, instead of once.
   
   ### Orb of Eternity
   ?
@@ -517,6 +517,7 @@ Note: The role of this model is unclear under the new core rules
 ---
 
 ### \[HQ] Technomancer
+(TODO)
 
 ---
 
@@ -531,6 +532,7 @@ Note: The role of this model is unclear under the new core rules
 ---
 
 ### \[HQ] Plasmancer
+(TODO)
 
 ---
 
@@ -550,7 +552,7 @@ is equipped with a Gauss flayer.
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
 |-------------------------------|-------|--------------|----|----|------|---------------------------
 | Gauss flayer                  |  24"  | Rapid Fire 1 |  4 |  0 |   1  | **Gauss weapon**
-| Gauss reaper                  |  12"  | Assault 2    |  4 | -1 |   1  | **Gauss weapon**
+| Gauss reaper                  |  12"  | Assault 2    |  5 |  0 |   1  | **Gauss weapon**
 
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
@@ -741,7 +743,7 @@ is equipped with a Flayer claws.
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
 
-- **Deep Strike** (???)
+- **Infiltrate**
 
 - **Flesh Hunger:** Increase this unit's Move characteristic by 1 whenever it's moving towards
 an enemy non-VEHICLE unit (the bonus lasts until the end of the action). Each time a model in 
@@ -834,9 +836,18 @@ Every model is equipped with Automaton claws.
 
 #### > SPECIAL RULES:
 - \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless**
-- **Scarab Hive:** At the start of your Morale phase, for each model with this ability, select one friendly \<DYNASTY\> CANOPTEK SCARAB SWARM unit within 6" of that model. If the selected unit is below its starting strength, one model is returned to that unit - set it up with full wounds remaining in Unit Coherency with its unit and as close as possible to the Canoptek Spyder, but not within Engagement Range of enemy models. If this is not possible, then the model cannot be returned.
-- **Fabricator Claw Array (only if equipped):** This model's "Scarab Hive" ability can target any NECRONS \<DYNASTY\> INFANTRY or NECRONS \<DYNASTY\> VEHICLE unit (other than AIRCRAFT or TITANIC), in which case its range is reduced to 3". If an INFANTRY unit is targeted, a successful Reassembly roll is required (as if the unit's reanimation protocols were enacted, though none of the modifiers apply), or nothing happens. If a VEHICLE unit is targeted, its effect is instead that the VEHICLE regains up to D3 lost wounds.
-- **Gloom Prism (only if equipped):** In your opponent's Psychic phase, the bearer's unit can attempt to deny one psychic power as if it were a PSYKER.
+- **Scarab Hive:** At the start of your Morale phase, for each model with this ability, select one friendly \<DYNASTY\>
+CANOPTEK SCARAB SWARM unit within 6" of that model. If the selected unit is below its starting strength, one model is 
+returned to that unit - set it up with full wounds remaining in Unit Coherency with its unit and as close as possible to
+the Canoptek Spyder, but not within Engagement Range of enemy models. If this is not possible, then the model cannot be
+returned.
+- **Fabricator Claw Array (only if equipped):** This model's "Scarab Hive" ability can target any NECRONS \<DYNASTY\>
+INFANTRY or NECRONS \<DYNASTY\> VEHICLE unit (other than AIRCRAFT or TITANIC), in which case its range is reduced to 3".
+If an INFANTRY unit is targeted, a successful Reassembly roll is required (as if the unit's reanimation protocols were
+enacted, though none of the modifiers apply), or nothing happens. If a VEHICLE unit is targeted, its effect is instead
+that the VEHICLE regains up to D3 lost wounds.
+- **Gloom Prism (only if equipped):** In your opponent's Psychic phase, the bearer's unit can attempt to deny one
+psychic power as if it were a PSYKER.
 
 #### > OPTIONS:
 - Any number of models can each be equipped with 2 Particle beamers (+15 pts total (not per Particle beamer)).
@@ -918,8 +929,35 @@ can move horizontally through models and terrain features (but they cannot finis
   
 ### \[Fast Attack] Tomb Blades
   
-TODO
+| NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
+| Tomb Blades              |  32 | 12" | 4" |  3 |  7 | 4 | 5 | 3 | 1 | 2 | 10 | 3+ | 32mm flying base
+
+This unit contains 3 Tomb Blades. It can contain up to 6 additional Tomb Blades. 
+Every model is equipped with a Particle beamer.
+
+**FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
+
+**KEYWORDS:** BIKERS, FLY, CORE, TOMB BLADES
+
+| WEAPON                        | RANGE |     TYPE     |  S | AP | D | QUALITIES
+|-------------------------------|-------|--------------|----|----|---|--------------------------- 
+| Particle beamer               |  18"  | Assault 3    |  5 |  0 | 1 | **Particle Weapon**
+| Twin gauss blaster            |  30"  | Rapid Fire 2 |  5 | -1 | 1 | **Gauss weapon**
+| Twin tesla carbine            |  24"  | Assault 4    |  5 |  0 | 1 | **Tesla weapon**
   
+#### > SPECIAL RULES:
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
+- **Evasion Engrams:** Each time a ranged attack is made against this unit, the hit roll suffers an Impairment.
+- **Nebuloscope (only if equipped):** Whenever the bearer makes a hit roll for a ranged attack, it may ignore all
+Impairments caused by the target unit being Partially Obscured or Heavily Obscured. 
+- **Shadowloom (only if equipped):** The bearer has a 5+ invulnerable save.
+
+#### > OPTIONS:
+- Any number of models can each have their Particle Beamers replaced with one of the following: 
+1 Twin gauss blaster (+8 pts); 1 Twin tesla carbine (+8 pts).
+-  Any number of models can each be equipped with one of the following: 1 Nebuloscope (+5 pts); 1 Shadowloom (+7 pts).
+
 ---
   
 ### \[Fast Attack] Canoptek Acanthrites
@@ -1033,7 +1071,7 @@ This unit contains 1 Canoptek Doomstalker. It is equipped with...?
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP | D | QUALITIES
 |-------------------------------|-------|--------------|----|----|---|--------------------------- 
-| Doomsday blaster              |  12"  | Assault 3    |  6 | -2 | 1 | -
+| Doomsday blaster (TODO)       |  12"  | Assault 3    |  6 | -2 | 1 | -
 
 | WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
 |----------------------------|-------|------|----|-----|--------------------------- 
