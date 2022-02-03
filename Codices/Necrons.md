@@ -168,13 +168,18 @@ This is in addition to the unit's usual **Explodes** special rule (if any). Then
 unit. From the end of this phase, until the end of the same phase on the next battle round, the area within 6" of the
 marker counts as difficult terrain. This unit must be removed from the battlefield during the next Remove Casualties
 step (it cannot be kept by effect of Reanimation Protocols or equivalent rules).
-  - **\[Relic] Entropy Sphere:** (pistol; roll 2d6 over S+T to ...)
+  - **\[Relic] Entropy Sphere:** Equip to a MOKHOR CHARACTER. The Entropy Sphere is a ranged weapon with the profile
+given below.
   - **\[Warlord Trait] The Glow:** _The warlord's body exudes radiation so intense, that it burns flesh, scrambles
 electronics, and makes the air around him glow as an eerie halo._ All non-MOKHOR and non-C'TAN SHARD units that are
 within 2" of this WARLORD have their Toughness characteristic reduced by 1 (down to a minimum of 1).
   - **\[Favoured Command Protocols]:** **Flush Out**, **Enhance Multitasking**
 
   **SPECIAL:** All MOKHOR units gain **Rad-wreathed**, instead of only those with the **Dynastic Ability** special rule.
+
+  | WEAPON         | RANGE |   TYPE    | S | AP |  D  | QUALITIES
+  |----------------|-------|-----------|---|----|-----|--------------------------- 
+  | Entropy Sphere |   6"  | Pistol \* | 3 | -4 |  1  | This weapon can be used up to 6 times per battle .The first time it is fired, its type is Pistol 6. The second time it is used, its type is Pistol 5, and so on. Each time a successful hit is scored with this weapon, roll a 2D6. If the result is higher than the sum of the target unit's Strength and Toughness characteristics, the target unit suffers a mortal wound (in addition to any usual damage the weapon may deal).
 
   ### Kyverkhynn
   (calculated but ruthless killers... but aren't all Necrons like that?)
@@ -186,7 +191,9 @@ within 2" of this WARLORD have their Toughness characteristic reduced by 1 (down
 
   ### Takhrit
   (we like to hide and engage from afar)
-  - **\[Ability] Name:** ? (maybe: having 1 type of cover gives the other type of cover)
+  - **\[Ability] Obscurity Slant:** This unit receives a +1 bonus to all Cover save rolls. In addition, all ranged
+weapons this unit is equipped with have their range characteristics increased by 6" when targeting enemy units that see
+this unit as Obscured.
   - **\[Stratagem] Obfuscation Algorithms (1CP):** Use this Stratagem before the battle when declaring reserves and
 transports (if you are playing a mission without this step, use this Stratagem during deployment instead). Select one
 TAKHRIT unit (excluding VEHICLE or MONSTER units) from your army. That unit gains the **Infiltrate** special rule.
@@ -202,8 +209,13 @@ Overlord._
   - **\[Stratagem] Name (2CP):** Use this Stratagem in your Shooting phase, after a VOZKHOL unit from your army has
 finished making its attacks. Select one enemy unit that was targeted by an attack made by a model in that unit this
 phase. Until the end of the phase, each time an attack is made by a model in another friendly VOZKHOL unit against that
-enemy unit, that attack's hit roll gains an Advantage.
-  - **\[Relic] Mindshackle Scarabs:** ?
+enemy unit, that attack's hit roll gains an Advantage. (name = TODO)
+  - **\[Relic] Mindshackle Scarabs:** At the start of Initiative step 20 in the Fight phase, you may select one enemy
+model within 1/2" of the bearer. That model must immediately make a Morale test (with a -1 modifier to the 2D6 roll if
+the model is a CHARACTER). If the test is failed, when it's that model's turn to attack in this Fight phase, the 
+controlling player of the Mindshacke Scarabs' bearer selects the targets for the first 3 attacks (or up to 3 if the
+model's Attack characteristic is lower than 3). In this case the model may attack friendly units or even its own unit.
+If it survives this, it may make its remaining attacks (if any) as usual.
   - **\[Warlord Trait] Name:** ? (neuromancer)
   - **\[Favoured Command Protocols]:** **Assist Reanimation**, **Concentrate Fire**
   
@@ -286,6 +298,11 @@ enemy unit, that attack's hit roll gains an Advantage.
   
   ### 18. (name)
   (something for long range / Heavy fire)
+  Each time a model affected by this protocol makes a ranged attack with a Rapid Fire, Steady or Heavy weapon at a range
+  greater than 24", ... TODO
+  
+  Note: When attacking a multi-model unit, or a model with a hull, the range of the attack is always the shortest
+  possile range - to the closest visible model/closest visible part of the hull.
   
   ### 19. (name)
   (rapid fire thing; fire Rapid Fire normally during Snap Shooting and without penalties)
