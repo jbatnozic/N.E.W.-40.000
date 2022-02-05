@@ -93,7 +93,10 @@ special rule.
 **Translocation Beams** ability. That unit becomes unexhausted and can perform actions normally in the subsequent phases
 (even if it Disengaged in this way).
   - **\[Relic] Name:** ? (maybe: solar staff)
-  - **\[Warlord Trait] Name:** ?
+  - **\[Warlord Trait] Hyperlight Drifter:** This unit WARLORD gains the **Dimensional Translocation** special rule. If
+it is set up on the battlefield using that rule, its Exhaustion rolls passes automatically. If it is set up together
+with another unit (following the rules for CHARACTERS joining other units during the Reinforcements phase), that unit's
+(max. 1 other unit can be affected by this) Exhaustion roll also passes automatically.
   - **\[Favoured Command Protocols]:** **Reinforce**, **Flash-blitz**
   
   **SPECIAL:** This dynasty unlocks 2 Stratagems (instead of 1).
@@ -107,7 +110,8 @@ Logic** special rule, while it is within 6" of an objective marker or wholly wit
 deployment zone, it counts as having 1 additional model for purposes of determining whether it will phase out.
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
-  - **\[Warlord Trait] Name:** ?
+  - **\[Warlord Trait] Implacable Conqueror:** _This warlord drives his legions onward without respite, eternally driven
+to claim and rule over ever more land._ (+2 M", stacks with those whatsitsname buffs)
   - **\[Favoured Command Protocols]:** **Lock Down**, **Defend**
   
   ### Novokh
@@ -218,9 +222,6 @@ model's Attack characteristic is lower than 3). In this case the model may attac
 If it survives this, it may make its remaining attacks (if any) as usual.
   - **\[Warlord Trait] Name:** ? (neuromancer)
   - **\[Favoured Command Protocols]:** **Assist Reanimation**, **Concentrate Fire**
-  
- ### IDEAS
- - Extra range
 
 ## Command Protocols
 
@@ -313,8 +314,8 @@ If it survives this, it may make its remaining attacks (if any) as usual.
 ## Warlord Traits
 
   ### 1. (name)
-  (something for endurance)
-  
+  Impairment to wound this warlord
+
   ### 2. Veteran of a Thousand Millenia
   Increase this WARLORD's Ballistic Skill by 1 (to a maximum of 9) and Melee Skill by 1 (to a maximum of 10). 
   During each Fight phase, he may select 2 different Stances to fight in.
@@ -337,18 +338,22 @@ If it survives this, it may make its remaining attacks (if any) as usual.
   automatically (player's choice as to when to use this, but it must be before any Reanimation rolls).
   After this effect is used, the WARLORD is inactive until the same phase of the next turn.
   TODO: Clarify the effect a bit (and what does inactive mean?)
+
+  ### 7. Eroded Mind
+  _Mašina za mlevenje mesa._
+
+  TODO
+
+  ### 8. Logistics Optimizer
+  Refund CP on 5+
   
   ### IDEAS:
-  - Terrifying aura (strain)
   - Re-roll all melee hit and wound rolls
-  - Gain Deep Strike; he and 1 unit he's joining autopass Exhaustion roll
   - +2" M (counts for Relentless March)
-  - Undying (whatever that does)
-  - Refund CP on 5+ (Logistics Optimizer)
-  - My Name Is Madness / Corroded (Eroded) Mind
-  - Something else for endurance
   - Roll to-wound against N instead of T
   - Nearby gauss weapons always gain bonus AP as if a 66 was rolled to wound
+  - The Collector - army gains +2 Relics
+  - Undying/Hyper-something Body = Once per phase saving throw succeeds automatically instead of rolling
 
 ## Relics
 
