@@ -52,6 +52,10 @@
   ### Dimensional Translocation:
   \[Same as Deep Strike]
 
+  ### Quantum Shielding
+  Each time the model would suffer damage from an unsaved attack, roll a D6. If the result is 6 or less than the damage 
+  inflicted by the attack, the damage is ignored. Mortal wounds are never affected by this rule.
+
   ---
   
   ### \[Philosophy] Keyword and Special Rule allocation:
@@ -111,7 +115,8 @@ deployment zone, it counts as having 1 additional model for purposes of determin
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Implacable Conqueror:** _This warlord drives his legions onward without respite, eternally driven
-to claim and rule over ever more land._ (+2 M", stacks with those whatsitsname buffs)
+to claim and rule over ever more land._ If this WARLORD has the **Relentless March** special rule, its Move 
+characteristic is increased by 2".
   - **\[Favoured Command Protocols]:** **Lock Down**, **Defend**
   
   ### Novokh
@@ -119,9 +124,9 @@ to claim and rule over ever more land._ (+2 M", stacks with those whatsitsname b
   - **\[Ability] Murder-craze:** During your first Command phase, this unit may perform a Normal Move of up to 5". This
 move must be towards the closest enemy unit. In addition, in the Fight phase, during Initiative step 1, if this unit is
 in Enagagement Range of enemy units, each model in it can make 1 additional attack with any weapon it is equipped with.
-  - **\[Stratagem] Synthetic Bloodlust:** Use this Stratagem at the start of the Fight phase. Select 1 CHARACTER unit,
-or 1 non-CHARACTER unit, or both (in which case they must be within 2" of each other). You may only select units that
-have the **Murder-craze** special rule. Select 1 of the effects below and apply it to all selected units:
+  - **\[Stratagem] Synthetic Bloodlust (1CP):** Use this Stratagem at the start of the Fight phase. Select 1 CHARACTER
+unit, or 1 non-CHARACTER unit, or both (in which case they must be within 2" of each other). You may only select units 
+that have the **Murder-craze** special rule. Select 1 of the effects below and apply it to all selected units:
     1. This unit's Initiative characteristic is doubled (up to 10) until the end of the phase.
     2. Until the end of the phase, this unit's Initiative is calculated as if it had performed a Charge in the 
 preceding Charge phase.
@@ -138,12 +143,14 @@ the Movement phase, it can treat any or all Pistol-type and Rapid Fire-type weap
 following Shooting Phase.
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
-  - **\[Warlord Trait] Name:** ?
+  - **\[Warlord Trait] Undying:** _Aeons of battle have hardened this warlord even against the deadliest of threats._
+Once per phase, one saving throw made for this WARLORD can succeed automatically (instead of rolling).
   - **\[Favoured Command Protocols]:** **Coalesce**, **Fend off**
   
   ### Szarekhan
   (we like to make quality stuff)
-  _You can't spell Szarekhan without zarek!_
+
+  _You can't spell Szarekhan without 'zarek'!_
   - **\[Ability] Uncanny Artificiers:** When this unit is selected to shoot, you may re-roll one hit roll and one wound
 roll. In addition, when a model in this unit makes a melee attack, after the wound roll, if the attack would be resolved
 with AP -1, resolve it with AP -2 instead (stacks with "Sunder" Command Protocol).
@@ -186,7 +193,7 @@ within 2" of this WARLORD have their Toughness characteristic reduced by 1 (down
   | Entropy Sphere |   6"  | Pistol \* | 3 | -4 |  1  | This weapon can be used up to 6 times per battle .The first time it is fired, its type is Pistol 6. The second time it is used, its type is Pistol 5, and so on. Each time a successful hit is scored with this weapon, roll a 2D6. If the result is higher than the sum of the target unit's Strength and Toughness characteristics, the target unit suffers a mortal wound (in addition to any usual damage the weapon may deal).
 
   ### Kyverkhynn
-  (calculated but ruthless killers... but aren't all Necrons like that?)
+  (calculated but ruthless killers... but aren't all Necrons like that? TODO)
   - **\[Ability] Name:** ?
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
@@ -309,7 +316,7 @@ If it survives this, it may make its remaining attacks (if any) as usual.
   (rapid fire thing; fire Rapid Fire normally during Snap Shooting and without penalties)
 
   ### 20. Shield
-  Each time a model affected by pthis protocol would lose a wound, roll a D6. On a roll of 6, the wound is not lost.
+  Each time a model affected by this protocol would lose a wound, roll a D6. On a roll of 6, the wound is not lost.
   
 ## Warlord Traits
 
@@ -349,11 +356,9 @@ If it survives this, it may make its remaining attacks (if any) as usual.
   
   ### IDEAS:
   - Re-roll all melee hit and wound rolls
-  - +2" M (counts for Relentless March)
   - Roll to-wound against N instead of T
   - Nearby gauss weapons always gain bonus AP as if a 66 was rolled to wound
   - The Collector - army gains +2 Relics
-  - Undying/Hyper-something Body = Once per phase saving throw succeeds automatically instead of rolling
 
 ## Relics
 
@@ -383,14 +388,15 @@ If it survives this, it may make its remaining attacks (if any) as usual.
 
 ### Qualities
 
-**Gauss Weapon:** This weapon ignores the Puny Force rule. Each time an attack is made with this weapon, wound rolls of 61 or
-more always successfully wound the target. A wound roll of 61 or more that would successfully wound the target anyway is instead
-resolved with Armour Penetration increased by 1.
+**Gauss Weapon:** This weapon ignores the Puny Force rule. Each time an attack is made with this weapon, wound rolls of 
+61 or more always successfully wound the target. A wound roll of 61 or more that would successfully wound the target
+anyway is instead resolved with Armour Penetration increased by 1.
 
-**Tesla Weapon:** Each time an attack is made with this weapon, an unmodified hit roll of 61 or more scores 2 additional hits.
+**Tesla Weapon:** Each time an attack is made with this weapon, an unmodified hit roll of 61 or more scores 2 additional
+hits.
 
-**Particle Weapon:** When this weapon targets a unit within half range, or the bearer hasn't moved in the previous Movement phase,
-double the number of shots the weapon makes.
+**Particle Weapon:** When this weapon targets a unit within half range, or the bearer hasn't moved in the previous
+Movement phase, double the number of shots the weapon makes.
 
 ### Ranged Weapons list
 
