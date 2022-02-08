@@ -101,7 +101,13 @@
 applies to determining whether the target is within range, as well as to range-dependent effects such as Rapid Fire,
 those confered by Command Protocols, and others). In addition, each time a model in this unit makes a ranged attack, if
 the wound roll is 61 or higher, you can choose to resolve the attack with damage 2.
-  - **\[Stratagem] Name:** ?
+  - **\[Stratagem] Name (1CP):** Use this Stratagem at the start of the current first player's 
+Shooting phase. Select 1 unexhausted MEPHRIT unit, counting 7 or more models armed with a ranged weapon; then select 1
+enemy unit within 14" of the MEPHRIT unit and visible to the MEPHRIT unit. Until the end of both Shooting phases, the
+MEPHRIT unit can target only the selected enemy unit with its ranged attacks; during its Shooting phase, it must attempt
+to fire as many ranged weapons as possible at it, performing the Full Shooting action, if at all possible. Until the end
+of the battle round, all ranged attacks made by the selected enemy unit suffer an Impairment to their hit rolls. 
+(name = TODO)
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
   - **\[Favoured Command Protocols]:** **Zero-in**, ? (rapid fire thing)
@@ -366,7 +372,8 @@ If it survives this, it may make its remaining attacks (if any) as usual.
   and a single unit can only be affected by this effect once per phase.
   
   ### 4. Envoy of the Silent King
-  This WARLORD gains the 'NOBLE' keyword and its Nerve characteristic is increased by 1.
+  This WARLORD gains the 'NOBLE' keyword and its Nerve characteristic is increased by 1. In addition, one model in the
+  army can take a Relic for free.
   
   ### 5. Short-circuit Tactician
   During your Command phase, if this WARLORD is on the battlefield, and if in the previous battle round you chose
@@ -871,7 +878,9 @@ PLASMACYTE units in a Detachment than there are <DYNASTY> DESTROYER CULT units i
 <DYNASTY> DESTROYER CULT unit within 3" of this model. If you do, roll one D6: on a 1, one model in that unit is destroyed.
 Regardless of the result, until the end of the turn, add 1 to the Strength and Attacks characteristics of models in that unit.
 Each unit can only be selected for this ability once per turn.
-- TODO
+- **Evasion Protocols:** This unit can be affected by the "Look Out, Sir!" rule as if it were a CHARACTER. Rules that ignore
+"Look Out, Sir!" also ignore this rule.
+- **Recall Protocol:** TODO
 
 #### > OPTIONS:
 (none)
