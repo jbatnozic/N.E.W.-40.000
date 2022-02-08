@@ -29,7 +29,29 @@
   A single Reanimation Protocol roll cannot be modified by more than +1 or -1 after all the modifiers are totalled.
   
   ### Command Protocols:
-  (TODO)
+  If every unit from your army (excluding DYNASTIC AGENT, C’TAN SHARD and UNALIGNED units) is from the same Dynasty, and
+  you select a NOBLE model to be your WARLORD, this unit is eligible to benefit from Command Protocols and the following
+  rules apply.
+
+  After both sides have deployed, but before you have determined who will be the first player, you must choose X Command
+  Protocols (there is a list of 20 protocols later in the document), where X is the number of battle rounds the game
+  will last (or the maximum number of battle rounds it could last if it's not predetermined). Only chosen protocols are
+  available for this battle. Each chosen protocol must be unique.
+
+  At the start of each battle round, before either player begins their Command phase*, if you have a NOBLE WARLORD on
+  the battlefield (or in Reinforcements if it's currently battle round 1 or 2), you **may** select one of the available
+  protocols to be activated and remain active for the remainder of the battle round. Normally, each protocol can only be
+  activated once. However, if the activated protocol is one of those favoured by your army's Dynasty, and this is the 
+  first time it has been activated (by your army) during this battle, choose and resolve one of the 
+  following effects immediately upon activation:
+  1. Gain 1 CP.
+  2. This Command Protocol can be activated a second time later in the battle.
+
+  *Note: If both sides have rules that need to be resolved at this time, the current First Player goes first.
+
+  After a Command Protocol is activated, each unit with the **Command Protocols** special rule is affected by that
+  protocol until the end of the battle round. Units that are In Disarray are not affected by Command Protocols unless
+  otherwise stated.
   
   ### Cold Hard Logic:
   This unit ignores the effects of "Panicking" and is never considered to have this status. However, if this unit would receive
@@ -73,6 +95,7 @@
   
   ### Mephrit
   (we like to shoot)
+
   - **\[Ability] Solar Fury:** Each time a model in this unit makes an attack with a ranged weapon (excluding those with
 **Flamer Template** and **Blast (\*)**), the target unit is considered to be 2" closer than it actually is (this
 applies to determining whether the target is within range, as well as to range-dependent effects such as Rapid Fire,
@@ -85,6 +108,7 @@ the wound roll is 61 or higher, you can choose to resolve the attack with damage
   
   ### Nephrekh
   (we like to teleport)
+
   - **\[Ability] Translocation Beams:** Models in this unit have a 6+ invulnerable save. In addition, when this unit
 Advances or Disengages, you may choose to have it Translocate - if it does, models in it can move horizontally through
 terrain and other models when resolving this Advance or Disengage move, but the unit will not be eligible to perform any
@@ -95,7 +119,7 @@ NEPHREKH unit (excluding VEHICLE or MONSTER units) from your army. That unit gai
 special rule.
   - **\[Stratagem] Event Horizon Shift (2CP):** Use this Stratagem after a NEPREKH CORE unit Translocates using its
 **Translocation Beams** ability. That unit becomes unexhausted and can perform actions normally in the subsequent phases
-(even if it Disengaged in this way).
+(even if it Disengaged in this way). This is a Command Effect.
   - **\[Relic] Name:** ? (maybe: solar staff)
   - **\[Warlord Trait] Hyperlight Drifter:** This unit WARLORD gains the **Dimensional Translocation** special rule. If
 it is set up on the battlefield using that rule, its Exhaustion rolls passes automatically. If it is set up together
@@ -107,12 +131,16 @@ with another unit (following the rules for CHARACTERS joining other units during
   
   ### Nihilakh
   (we like to conquer)
+
   - **\[Ability] Aggresively Territorial:** When this unit is selected to shoot, if it is within 6" of an objective 
 marker and all of its attacks are declared against enemy units that are within 6" of the same objective marker, this
 unit gains the **Relentless** special rule until the end of the action. In addition, if this unit has the **Cold Hard 
 Logic** special rule, while it is within 6" of an objective marker or wholly within its controlling player's
 deployment zone, it counts as having 1 additional model for purposes of determining whether it will phase out.
-  - **\[Stratagem] Name:** ?
+  - **\[Stratagem] Name (1CP):** Use this Stratagem when a NIHILAKH INFANTRY or NIHILAKH BEAST unit is selected to
+shoot. Until the end of the action, models in this unit can make attacks with a Assault and Rapid Fire ranged weapons
+against enemy units that are in Engagement Range of this unit. If they do, disregard the usual rules for firing at
+enemy units locked in combat, but resolve all hit rolls as if firing Overwatch. This is a Command Effect. (name = TODO)
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Implacable Conqueror:** _This warlord drives his legions onward without respite, eternally driven
 to claim and rule over ever more land._ If this WARLORD has the **Relentless March** special rule, its Move 
@@ -121,12 +149,14 @@ characteristic is increased by 2".
   
   ### Novokh
   (we like to butcher people)
+
   - **\[Ability] Murder-craze:** During your first Command phase, this unit may perform a Normal Move of up to 5". This
 move must be towards the closest enemy unit. In addition, in the Fight phase, during Initiative step 1, if this unit is
 in Enagagement Range of enemy units, each model in it can make 1 additional attack with any weapon it is equipped with.
   - **\[Stratagem] Synthetic Bloodlust (1CP):** Use this Stratagem at the start of the Fight phase. Select 1 CHARACTER
 unit, or 1 non-CHARACTER unit, or both (in which case they must be within 2" of each other). You may only select units 
-that have the **Murder-craze** special rule. Select 1 of the effects below and apply it to all selected units:
+that have the **Murder-craze** special rule. Select 1 of the effects below and apply it to all selected units (this is a
+Command Effect):
     1. This unit's Initiative characteristic is doubled (up to 10) until the end of the phase.
     2. Until the end of the phase, this unit's Initiative is calculated as if it had performed a Charge in the 
 preceding Charge phase.
@@ -136,12 +166,14 @@ preceding Charge phase.
 
   ### Sautekh
   (we like to pretend we're the death guard)
+
   - **\[Ability] Unstoppable Advance:** At the start of your Charge phase, if this unit is not in Engagement Range of
 enemy units, you may roll a Morale test for it. If the test is successful, this unit may make a Normal Move of up to 2"
 either towards the closest enemy unit or towards the closest objective marker. In addition, after this unit Advances in
 the Movement phase, it can treat any or all Pistol-type and Rapid Fire-type weapons as Assault-type weapons in the
 following Shooting Phase.
-  - **\[Stratagem] Name:** ?
+  - **\[Stratagem] Assume Control (1CP):** Use this Stratagem at any time. Select a SAUTEKH unit that is In Disarray - 
+the unit immediately loses that status.
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Undying:** _Aeons of battle have hardened this warlord even against the deadliest of threats._
 Once per phase, one saving throw made for this WARLORD can succeed automatically (instead of rolling).
@@ -158,7 +190,7 @@ with AP -1, resolve it with AP -2 instead (stacks with "Sunder" Command Protocol
 would be resolved to no effect (all the models in the unit are at full wounds). Before resolving that rule, if this unit
 is below its starting strength, you can return one previously destroyed model to the unit with 1 remaining wound - place
 it anywhere in Unit Coherency with the existing models; if this is not possible, you cannot use the Stratagem. A single
-unit can only be affected by this Stratagem once per battle.
+unit can only be affected by this Stratagem once per battle. This is a Command Effect.
   - **\[Relic] (none)**
   - **\[Warlord Trait] Name:** ?
   - **\[Favoured Command Protocols]:** **Shield**, **Sunder**
@@ -219,8 +251,8 @@ Overlord._
 (instead of the usual +1 or -1). In addition, models in this unit receive a +1 bonus to their Reassembly rolls.
   - **\[Stratagem] Name (2CP):** Use this Stratagem in your Shooting phase, after a VOZKHOL unit from your army has
 finished making its attacks. Select one enemy unit that was targeted by an attack made by a model in that unit this
-phase. Until the end of the phase, each time an attack is made by a model in another friendly VOZKHOL unit against that
-enemy unit, that attack's hit roll gains an Advantage. (name = TODO)
+phase. Until the end of the phase, each time an attack is made by a model in another friendly VOZKHOL unit (except units
+that are In Disarray) against that enemy unit, that attack's hit roll gains an Advantage. (name = TODO)
   - **\[Relic] Mindshackle Scarabs:** At the start of Initiative step 20 in the Fight phase, you may select one enemy
 model within 1/2" of the bearer. That model must immediately make a Morale test (with a -1 modifier to the 2D6 roll if
 the model is a CHARACTER). If the test is failed, when it's that model's turn to attack in this Fight phase, the 
@@ -244,19 +276,20 @@ If it survives this, it may make its remaining attacks (if any) as usual.
   gains Advantage.
 
   ### 4. Calibrate
-  As soon as a unit is affected by this protocol, it starts calibrating, unless it already finished calibrating in one of the previous turns. 
-  While a unit is calibrating, its Melee Skill and Ballistic Skill characteristics are reduced to 2 (unless they would otherwise be lower).
-  Calibration finishes at the end of the current turn, and from that point on (for the remainder of the battle), whenever a model from the
-  calibrated unit makes a melee or ranged attack against an enemy unit, the hit and/or wound roll may be re-rolled. A maximum of 3 re-rolls
-  per phase, per unit, can be gained from this protocol.
+  As soon as a unit is affected by this protocol, it starts calibrating, unless it already finished calibrating in one 
+  of the previous turns. While a unit is calibrating, its Melee Skill and Ballistic Skill characteristics are reduced to
+  2 (unless they would otherwise be lower). Calibration finishes at the end of the current battle round, and from that
+  point on (for the remainder of the battle), whenever a model from the calibrated unit makes a melee or ranged attack
+  against an enemy unit, the hit and/or wound roll may be re-rolled. A maximum of 3 re-rolls per phase, per unit, can be
+  gained from this protocol.
   
-  Note that after a unit has started calibrating, the effects (both positive and negative) of this protocol persist for their defined duration,
-  regardless of whether there is a friendly NOBLE on the battlefield or the affected unit is In Disarray. This is an exception to the normal
-  rules that all other command protocols follow.
+  This protocols always affects all units with the **Command Protocols** special rule, even while they are In Disarray.
   
   ### 5. Coalesce
   Each time a unit affected by this protocol unit uses its **Living Metal** special rule, each model in this unit regains
   1 additional lost wound. At the start of Morale phase, each unit affected by this protocol loses 1 Strain.
+
+  This protocols always affects all units with the **Command Protocols** special rule, even while they are In Disarray.
 
   ### 6. Conceal
   Each time a ranged attack targets a unit affected by this protocol at a range greater than 12", the hit roll of that attack
@@ -283,8 +316,8 @@ If it survives this, it may make its remaining attacks (if any) as usual.
   gains Advantage.
 
   ### 12. Flush Out
-  Each time a model affected by this protocol makes a ranged attack against a target within 12", the target receives no
-  benefit of cover.
+  Each time a model affected by this protocol makes a ranged attack against a target within 12", the target cannot make
+  Cover saves.
 
   ### 13. Lock Down
   Units affected by this protocol gain the **Objective Secured** special rule. If a model in such a unit already has this
