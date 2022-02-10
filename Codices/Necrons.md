@@ -103,7 +103,11 @@ those confered by Command Protocols, and others). In addition, each time a model
 the wound roll is 61 or higher, you can choose to resolve the attack with damage 2.
   - **\[Stratagem] Name:** ?
   - **\[Relic] Name:** ?
-  - **\[Warlord Trait] Name:** ?
+  - **\[Warlord Trait] Starheart:** _The core of a dying star sits contained within this warlord's chest._ At the start
+of your Shooting phase, you may select a friendly MEPHRIT unit within 6" of this WARLORD. Until the end of the phase,
+all ranged weapons that unit is equipped with have their Strength characteristic improved by 1. In addition, this
+WARLORD gains the **Explodes** special rule with the following profile:
+`Roll: 4+ Range: 3" Strength: 8 AP: -3 Qualities: -`
   - **\[Favoured Command Protocols]:** **Zero-in**, ? (rapid fire thing)
   
   ### Nephrekh
@@ -118,8 +122,8 @@ transports (if you are playing a mission without this step, use this Stratagem d
 NEPHREKH unit (excluding VEHICLE or MONSTER units) from your army. That unit gains the **Dimensional Translocation**
 special rule.
   - **\[Stratagem] Event Horizon Shift (2CP):** Use this Stratagem after a NEPREKH CORE unit Translocates using its
-**Translocation Beams** ability. That unit becomes unexhausted and can perform actions normally in the subsequent phases
-(even if it Disengaged in this way). This is a Command Effect.
+**Translocation Beams** ability. That unit becomes unexhausted and can perform actions normally in the subsequent
+phases, as if it hadn't Disengaged, even if it had. This is a Command Effect.
   - **\[Relic] Name:** ? (maybe: solar staff)
   - **\[Warlord Trait] Hyperlight Drifter:** This unit WARLORD gains the **Dimensional Translocation** special rule. If
 it is set up on the battlefield using that rule, its Exhaustion rolls passes automatically. If it is set up together
@@ -161,8 +165,11 @@ Command Effect):
     2. Until the end of the phase, this unit's Initiative is calculated as if it had performed a Charge in the 
 preceding Charge phase.
   - **\[Relic] Name:** ?
-  - **\[Warlord Trait] Name:** ? (Violencemancer haha)
+  - **\[Warlord Trait] Violencemancer:** Whenever this WARLORD makes a melee attack while in the aggressive stance, you
+may re-roll the hit roll and you may re-roll the wound roll.
   - **\[Favoured Command Protocols]:** **Overcharge Servos**, **Overpower**
+
+  Note: C'tan Shard <- Crimson God
 
   ### Sautekh
   (we like to pretend we're the death guard)
@@ -259,7 +266,12 @@ the model is a CHARACTER). If the test is failed, when it's that model's turn to
 controlling player of the Mindshacke Scarabs' bearer selects the targets for the first 3 attacks (or up to 3 if the
 model's Attack characteristic is lower than 3). In this case the model may attack friendly units or even its own unit.
 If it survives this, it may make its remaining attacks (if any) as usual.
-  - **\[Warlord Trait] Name:** ? (neuromancer)
+  - **\[Warlord Trait] Neuromancer:** Once per battle round, at the start of any phase, select one enemy unit visible to
+this WARLORD and within 9" of it, and then choose one of the effects below to resolve:
+    1. Until the end of the phase, whenever a model in the chosen unit would re-roll a hit roll, a wound roll, or a morale
+test, you can choose to negate it and use the original roll instead.
+    2. Until the end of the phase, whenever a model in the chosen unit would make a hit roll or a wound roll, that roll
+cannot be affected by more Advantages than there are Impairments affecting it.
   - **\[Favoured Command Protocols]:** **Assist Reanimation**, **Concentrate Fire**
 
 ## Command Protocols
@@ -388,10 +400,11 @@ If it survives this, it may make its remaining attacks (if any) as usual.
   Refund CP on 5+
   
   ### IDEAS:
-  - Re-roll all melee hit and wound rolls
   - Roll to-wound against N instead of T
   - Nearby gauss weapons always gain bonus AP as if a 66 was rolled to wound
   - The Collector - army gains +2 Relics
+  - Trade Initiative for Attacks
+  - If the warlord would attack first... ?
 
 ## Relics
 
