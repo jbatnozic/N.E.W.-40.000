@@ -78,6 +78,12 @@
   Each time the model would suffer damage from an unsaved attack, roll a D6. If the result is 6 or less than the damage 
   inflicted by the attack, the damage is ignored. Mortal wounds are never affected by this rule.
 
+  ### Phase Cycler: 
+  This model has a 5+ invulnerable save.
+
+  ### Phase Shifter: 
+  This model has a 4+ invulnerable save.
+
   ---
   
   ### \[Philosophy] Keyword and Special Rule allocation:
@@ -178,7 +184,7 @@ may re-roll the hit roll and you may re-roll the wound roll.
   Note: C'tan Shard <- Crimson God
 
   ### Sautekh
-  (we like to pretend we're the death guard)
+  (we like to pretend we're the death guard... ehhh....)
 
   - **\[Ability] Unstoppable Advance:** At the start of your Charge phase, if this unit is not in Engagement Range of
 enemy units, you may roll a Morale test for it. If the test is successful, this unit may make a Normal Move of up to 2"
@@ -188,8 +194,9 @@ following Shooting Phase.
   - **\[Stratagem] Assume Control (1CP):** Use this Stratagem at any time. Select a SAUTEKH unit that is In Disarray - 
 the unit immediately loses that status.
   - **\[Relic] Name:** ?
-  - **\[Warlord Trait] Undying:** _Aeons of battle have hardened this warlord even against the deadliest of threats._
-Once per phase, one saving throw made for this WARLORD can succeed automatically (instead of rolling).
+  - **\[Warlord Trait] Unwavering Commander:** While this WARLORD is on the battlefield, you can use the **Command
+Re-roll** Stratagem 3 times per phase (instead of 1), and you can gain 1 CP more than usual per battle round from your
+units' abilities.
   - **\[Favoured Command Protocols]:** **Coalesce**, **Fend off**
   
   ### Szarekhan
@@ -205,7 +212,8 @@ is below its starting strength, you can return one previously destroyed model to
 it anywhere in Unit Coherency with the existing models; if this is not possible, you cannot use the Stratagem. A single
 unit can only be affected by this Stratagem once per battle. This is a Command Effect.
   - **\[Relic] (none)**
-  - **\[Warlord Trait] Name:** ?
+  - **\[Warlord Trait] Netherforged Body:** Once per phase, one saving throw made for this WARLORD can succeed 
+automatically (instead of rolling).
   - **\[Favoured Command Protocols]:** **Shield**, **Sunder**
 
   **SPECIAL:** This dynasty does not unlock a Relic. However, each SZAREKHAN NECRON CHARACTER model may be equipped with
@@ -509,7 +517,7 @@ of their "special things".
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
 | Lesser Lord              | 105 | 6" | 4" |  6 |  8 | 5 | 5 | 4 | 3 | 4 | 11 | 3+ | 32mm 
 
-This unit contains one Lesser Lord, who is equipped with a Staff of Light.
+This unit contains one Lesser Lord equipped with a Staff of Light.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
@@ -523,8 +531,9 @@ the action.
 - **The Lord's Will:** (TODO)
 
 #### > OPTIONS:
-- This model's staff of light can be replaced with one of the following: 1 hyperphase sword; 1 void blade; 1 warscythe.
-- This model can be equipped with 1 resurrection orb.
+- This model's staff of light can be replaced with one of the following: 1 Hyperphase sword; 1 Void blade; 1 Warscythe.
+- This model can be equipped with a Resurrection orb (+45 pts).
+- This model can be equipped with a Phase Cycler (+15 pts).
 
 ---
 
@@ -532,9 +541,9 @@ the action.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Lokhust Lord             | 155 | 8" | 4" |  6 |  8 | 5 | 6 | 6 | 4 | 4 | 10 | 3+ | 60mm 
+| Lokhust Lord             | 130 | 8" | 4" |  6 |  8 | 5 | 6 | 6 | 4 | 4 | 10 | 3+ | 60mm 
 
-This unit contains one Lokhust Lord, who is equipped with a Staff of Light.
+This unit contains one Lokhust Lord equipped with a Staff of Light.
 
 **FACTION KEYWORDS:** NECRONS, DESTROYER CULT, \<DYNASTY\>
 
@@ -543,10 +552,14 @@ This unit contains one Lokhust Lord, who is equipped with a Staff of Light.
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Dynastic Ability**
 - **Hardwired for Destruction**
+- **United in Destruction (Aura):** While a friendly \<DYNASTY\> DESTROYER CULT unit is within 6" of this model, each
+time a model in that unit makes a wound roll for an attack, you can re-roll a 'tens' roll of 1. 
 
 #### > OPTIONS:
 - This model's Staff of Light can be replaced with one of the following: 1 Hyperphase sword; 1 Voidblade; 1 Warscythe.
-- TODO
+- This model can be equipped with a Phase Cycler (+25 pts) or a Phase Shifter (+40 pts).
+- This model can be equipped with a Resurrection orb (+45 pts).
+- TODO (Phylactery)
 
 ---
 
@@ -554,9 +567,9 @@ This unit contains one Lokhust Lord, who is equipped with a Staff of Light.
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
-| Skorpekh Lord            | 200 |  8" | 4" |  7 |  8 | 6 | 6 | 6 | 5 | 5 | 10 | 3+ | 50mm 
+| Skorpekh Lord            | 175 |  8" | 4" |  7 |  8 | 6 | 6 | 6 | 5 | 5 | 10 | 3+ | 50mm 
 
-This unit contains one Skorpekh Lord, who is equipped with an Enmitic annihilator, (?) claw and a Hyperphase harvester.
+This unit contains one Skorpekh Lord equipped with an Enmitic annihilator, (?) claw and a Hyperphase harvester.
 
 **FACTION KEYWORDS:** NECRONS, DESTROYER CULT, \<DYNASTY\>
 
@@ -565,9 +578,11 @@ This unit contains one Skorpekh Lord, who is equipped with an Enmitic annihilato
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Dynastic Ability**
 - **Hardwired for Destruction**
+- **United in Destruction (Aura):** While a friendly \<DYNASTY\> DESTROYER CULT unit is within 6" of this model, each
+time a model in that unit makes a wound roll for an attack, you can re-roll a 'tens' roll of 1. 
 
 #### > OPTIONS:
-- TODO
+- This model can be equipped with a Phase Cycler (+25 pts) or a Phase Shifter (+40 pts).
 
 ---
 
@@ -575,9 +590,9 @@ This unit contains one Skorpekh Lord, who is equipped with an Enmitic annihilato
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Overlord                 | 150 | 6" | 4" |  7 |  9 | 5 | 5 | 5 | 4 | 5 | 11 | 3+ | 40mm 
+| Overlord                 | 125 | 6" | 4" |  7 |  9 | 5 | 5 | 5 | 4 | 5 | 11 | 3+ | 40mm 
 
-This unit contains one Overlord, who is equipped with a Hyperphase glaive and a Tachyon arrow.
+This unit contains one Overlord equipped with a Hyperphase glaive and a Tachyon arrow.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
@@ -588,10 +603,12 @@ This unit contains one Overlord, who is equipped with a Hyperphase glaive and a 
 - **Relentless March (Aura):** Whenever a friendly \<DYNASTY\> CORE unit starts moving for whatever reason while being 
 within 6" of the Overlord, they may use the Overlord's Move characteristic instead of their own until the end of
 the action.
-- TODO
+- TODO (My Will Be Done)
 
 #### > OPTIONS:
-(TODO)
+- This model can be equipped with a Phase Cycler (+25 pts) or a Phase Shifter (+40 pts).
+- This model can be equipped with a Resurrection orb (+45 pts).
+(TODO) (weapon loadouts)
 
 ---
 
