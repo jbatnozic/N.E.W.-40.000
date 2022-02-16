@@ -69,7 +69,10 @@
   
   ### Hardwired for Destruction:
   When rolling to hit for an attack made by this unit, you may re-roll a 'tens' roll of 1.
-  TODO: Fearless, but...?
+
+  In the Morale phase, if this unit fails a Morale test, it becomes Crazed until the start of the next Morale phase.
+  While Crazed, models in this unit must use this special rule to re-roll ones whenever possible, but each time they do
+  so, the unit suffers a mortal wound. However, this unit is also **Fearless** while Crazed.
   
   ### Dimensional Translocation:
   \[Same as Deep Strike]
@@ -102,18 +105,17 @@
   ### Mephrit
   (we like to shoot)
 
-  - **\[Ability] Solar Fury:** Each time a model in this unit makes an attack with a ranged weapon (excluding those with
+  - **\[Ability] Stellar Fury:** Each time a model in this unit makes an attack with a ranged weapon (excluding those with
 **Flamer Template** and **Blast (\*)**), the target unit is considered to be 2" closer than it actually is (this
 applies to determining whether the target is within range, as well as to range-dependent effects such as Rapid Fire,
 those confered by Command Protocols, and others). In addition, each time a model in this unit makes a ranged attack, if
 the wound roll is 61 or higher, you can choose to resolve the attack with damage 2.
-  - **\[Stratagem] Name (1CP):** Use this Stratagem at the start of the current first player's 
+  - **\[Stratagem] Solar Flare (1CP):** Use this Stratagem at the start of the current first player's 
 Shooting phase. Select 1 unexhausted MEPHRIT unit, counting 7 or more models armed with a ranged weapon; then select 1
 enemy unit within 14" of the MEPHRIT unit and visible to the MEPHRIT unit. Until the end of both Shooting phases, the
 MEPHRIT unit can target only the selected enemy unit with its ranged attacks; during its Shooting phase, it must attempt
 to fire as many ranged weapons as possible at it, performing the Full Shooting action, if at all possible. Until the end
 of the battle round, all ranged attacks made by the selected enemy unit suffer an Impairment to their hit rolls. 
-(name = TODO)
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Starheart:** _The core of a dying star sits contained within this warlord's chest._ At the start
 of your Shooting phase, you may select a friendly MEPHRIT unit within 6" of this WARLORD. Until the end of the phase,
@@ -191,8 +193,8 @@ enemy units, you may roll a Morale test for it. If the test is successful, this 
 either towards the closest enemy unit or towards the closest objective marker. In addition, after this unit Advances in
 the Movement phase, it can treat any or all Pistol-type and Rapid Fire-type weapons as Assault-type weapons in the
 following Shooting Phase.
-  - **\[Stratagem] Assume Control (1CP):** Use this Stratagem at any time. Select a SAUTEKH unit that is In Disarray - 
-the unit immediately loses that status.
+  - **\[Stratagem] Assert Control (1CP):** Use this Stratagem at any time. Select a SAUTEKH unit that is In Disarray
+and/or Crazed (see **Hardwired for Destruction**) - the unit immediately loses those statuses.
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Unwavering Commander:** While this WARLORD is on the battlefield, you can use the **Command
 Re-roll** Stratagem 3 times per phase (instead of 1), and you can gain 1 CP more than usual per battle round from your
@@ -263,7 +265,7 @@ transports (if you are playing a mission without this step, use this Stratagem d
 TAKHRIT unit (excluding VEHICLE or MONSTER units) from your army. That unit gains the **Infiltrate** special rule.
   - **\[Relic] Name:** ?
   - **\[Warlord Trait] Name:** ?
-  - **\[Favoured Command Protocols]:** **Conceal**, ? (long range fire support)
+  - **\[Favoured Command Protocols]:** **Conceal**, **Snipe**
 
   ### Vozkhol
   _The fluff for this Dynasty is that they are all brain-linked into something akin to a hive-mind, dominated by their
@@ -342,8 +344,9 @@ cannot be affected by more Advantages than there are Impairments affecting it.
   gains Advantage.
 
   ### 12. Flush Out
-  Each time a model affected by this protocol makes a ranged attack against a target within 12", the target cannot make
-  Cover saves.
+  Each time a model affected by this protocol makes a ranged attack against a target unit within 12", if that unit is
+  Partially Obscured, make attacks as if it were Completely Visible, and if it is Heavily Obscured, make attacks as if
+  it is Partially Obscured.
 
   ### 13. Lock Down
   Units affected by this protocol gain the **Objective Secured** special rule. If a model in such a unit already has this
@@ -363,10 +366,9 @@ cannot be affected by more Advantages than there are Impairments affecting it.
   Each time a model affected by this protocol makes an attack, after the wound roll is made, if the attack would be resolved
   with AP 0, it's resolved with AP -1 instead.
   
-  ### 18. (name)
-  (something for long range / Heavy fire)
+  ### 18. Snipe
   Each time a model affected by this protocol makes a ranged attack with a Rapid Fire, Steady or Heavy weapon at a range
-  greater than 24", ... TODO
+  greater than 24", the target cannot make Cover saves against this attack.
   
   Note: When attacking a multi-model unit, or a model with a hull, the range of the attack is always the shortest
   possile range - to the closest visible model/closest visible part of the hull.
@@ -450,8 +452,7 @@ cannot be affected by more Advantages than there are Impairments affecting it.
 ### Qualities
 
 **Gauss Weapon:** This weapon ignores the Puny Force rule. Each time an attack is made with this weapon, wound rolls of 
-61 or more always successfully wound the target. A wound roll of 61 or more that would successfully wound the target
-anyway is instead resolved with Armour Penetration increased by 1.
+61 or more always successfully wound the target and is resolved with Armour Penetration increased by 1.
 
 **Tesla Weapon:** Each time an attack is made with this weapon, an unmodified hit roll of 61 or more scores 2 additional
 hits.
@@ -478,17 +479,56 @@ Movement phase, double the number of shots the weapon makes.
 
 ## Stratagems
 
-  ### ?
-  Canoptek unit gains Dynastic Codes
+  ### Aetheric Interception (1CP)
+  Use this Stratagem in your opponent's Reinforcements phase, after an enemy unit has been set up on the battlefield.
+  Select one HYPERSPACE HUNTER unit from your army that is either on the battlefield or in Reserves.
+  - If that HYPERSPACE HUNTER unit is in Reserves, set it up on the battlefield using its **Dimensional Translocation**
+  special rule so that it's within 18" of that unit.
+  - That HYPERSPACE HUNTER unit can, at the end of the phase, perform the Normal Shooting or Snap Shooting action, as if
+  it were the Shooting phase, but until the end of the phase it can only target the enemy unit that was just set up on 
+  the battlefield (and only if that enemy unit is an eligible target for that attack).
 
-  ### ? 
-  Canoptek unit gains RP until the end of the turn
+  ### Personality Circuits (1CP)
+  Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the NECRONS keyword.
+  Select one CANOPTEK unit in your army - it gains the **Dynastic Ability** special rule.
 
-  ### ?
-  Unit w/ RP becomes unexhausted but loses RP until the end of the turn
+  ### Repair Subroutines (1CP)
+  Use this Stratagem at the start of any battle phase. Select one CANOPTEK unit in your army - it gains the 
+  **Reanimation Protocols** special rule until the end of the battle round.
 
-  ### ?
-  Additional Relics
+  ### Safety Override (1CP)
+  Use this Stratagem at the start of any battle phase. Select one of your units that has the **Reanimation Protocols**
+  special rule. The unit immediately becomes unexhausted but cannot benefit from this special rule until the end of the
+  battle round.
+
+  ### Dynastic Heirlooms (1CP)
+  Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the NECRONS keyword. 
+  Select one NECRONS CHARACTER model (excluding C'TAN SHARD models) in your army and give them one Relic (this must be a
+  Relic they can have). Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two
+  Relics. 
+  
+  (TODO) You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case you can use 
+  this Stratagem twice), or an Onslaught battle (in which case you can use this Stratagem three times).
+
+  ### Rarefied Nobility (1CP)
+  Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the NECRONS keyword. 
+  Select one NECRONS CHARACTER model (excluding C'TAN SHARD models) in your army and determine one Warlord Trait for
+  that model (this must be a Warlord Trait they can have); that model is only regarded as your WARLORD for the purposes
+  of that Warlord Trait. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate
+  results), and you cannot use this Stratagem to give a model two Warlord Traits. 
+  
+  (TODO) You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case you can use
+  this Stratagem twice), or an Onslaught battle (in which case you can use this Stratagem three times).
+
+  ### Extermination Protocols (?CP)
+  TODO
+
+  ### Curse of the Phaeron (?CP)
+  TODO
+
+  ### IDEAS
+  - Disintegration Capacitors
+  - Malevolent Arcing
 
 ## Unit Datasheets
 
@@ -614,12 +654,48 @@ the action.
 
 ### \[HQ] Royal Warden
 
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Royal Warden             | 110 | 6" | 4" |  5 |  8 | 5 | 5 | 4 | 3 | 3 | 11 | 3+ | 32mm 
+
+This unit contains one Royal Warden equipped with a TODO
+
 Note: The role of this model is unclear under the new core rules
+
+**FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
+
+**KEYWORDS:** INFANTRY, CHARACTER, CORE, ROYAL WARDEN
+
+#### > SPECIAL RULES:
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
+- **Relentless March (Aura):** Whenever a friendly \<DYNASTY\> CORE unit starts moving for whatever reason while being 
+within 6" of the Royal Warden, they may use the Royal Warden's Move characteristic instead of their own until the end of
+the action.
+- TODO
+
+#### > OPTIONS:
+- This model can be equipped with a Phase Cycler (+15 pts).
 
 ---
 
 ### \[HQ] Technomancer
-(TODO)
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Technomancer             | 110 | 5" | 4" |  5 |  7 | 4 | 4 | 4 | 1 | 3 | 10 | 4+ | 50mm 
+
+This unit contains one Technomancer equipped with a Staff of light.
+
+**FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
+
+**KEYWORDS:** INFANTRY, CHARACTER, CORE, CRYPTEK, TECHNOMANCER
+
+#### > SPECIAL RULES:
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
+- TODO
+
+#### > OPTIONS:
+- TODO
 
 ---
 
@@ -634,7 +710,23 @@ Note: The role of this model is unclear under the new core rules
 ---
 
 ### \[HQ] Plasmancer
-(TODO)
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Plasmancer               | 110 | 5" | 4" |  5 |  7 | 4 | 4 | 4 | 1 | 3 | 10 | 4+ | 50mm 
+
+This unit contains one Plasmancer equipped with a Staff of light.
+
+**FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
+
+**KEYWORDS:** INFANTRY, CHARACTER, CORE, CRYPTEK, PLASMANCER
+
+#### > SPECIAL RULES:
+- \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
+- TODO
+
+#### > OPTIONS:
+- TODO
 
 ---
 
