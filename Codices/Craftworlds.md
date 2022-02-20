@@ -17,10 +17,10 @@
   
   Each Wraith Construct has the WRAITH CONSTRUCT keyword and the following special rules:
   - **Fearless**
-  - **Wraithsight:** While a Wraith Construct unit is not within 6" of a friendly PSYKER model (except those that are In Disarray
-or Panicking), its Melee Skill (MS) and Ballistic Skill (BS) characteristics are reduced by 1.
-  - **Spirit Guide:** If a Wraith Construct unit is within 3" of a SPIRITSEER model (except those that are In Disarray
-or Panicking), they can be affected by friendly Psychic powers from the Runes of Battle discipline as if they had the CORE keyword.
+  - **Wraithsight:** While a Wraith Construct unit is not within 6" of a friendly PSYKER model (except those that are In
+Disarray), its Melee Skill (MS) and Ballistic Skill (BS) characteristics are reduced by 1.
+  - **Spirit Guide:** If a Wraith Construct unit is within 3" of a SPIRITSEER model (except those that are In Disarray),
+they can be affected by friendly Psychic powers from the Runes of Battle discipline as if they had the CORE keyword.
 
   ### Clairvoyance Dice:
   Certain rules in the codex will allow units to gain Clairvoyance dice. When a unit gains a Clairvoyance die, roll a D6 and place
@@ -34,10 +34,20 @@ or Panicking), they can be affected by friendly Psychic powers from the Runes of
   
 ---
 
+  ### \[Philoshopy] Command effects:
+  - Craftworld abilities (some)
+  - Exarch Abilities
+  - Stratagems
+
+---
+
 ## Craftworld Attributes
 
-  ### Alaitoc - Fieldcraft:
-  Hit rolls of attacks made against units with this attribute at a range of more than 12" suffer an Impairment.
+  ### Alaitoc:
+  - **\[Ability] Fieldcraft:** Hit rolls of attacks made against units with this attribute at a range of more than 12"
+suffer an Impairment.
+  - **\[Stratagem] ?:**
+  - **\[Relic] ?:** ?
   
   ### Biel-Tan - Swordwind:
   (indomitable spirit, shuriken upgrade; some Aspect Warriors -> troop)
@@ -54,24 +64,33 @@ instead of Elite, and gains the **Objective Secured** special rule. If this unit
 costs 1 CP. Otherwise, it costs 2 CP.
   - **\[Relic] ?:** ?
   
-  ### Saim-Hann - Wild Host:
-  (charging savages; jetbikes as troop/obsec)
-  - **\[Ability] ?:** ?
-  - **\[Stratagem] ?:**
+  ### Saim-Hann:
+  - **\[Ability] Wild Host:** After this unit makes a charge move, it gains a +1 bonus to its Attack characteristic in
+the following Fight phase. In addition, if this unit is a BIKER, all models in this unit can treat all Heavy weapons 
+they are equipped with as Assault weapons.
+  - **\[Stratagem] Name (1/2 CP):** Use this Stratagem before the battle, when you are mustering your army. 
+Select one SAIM-HANN SHINING SPEARS or SAIM-HANN (?) unit from your army. That unit now takes up a Troop Battlefield 
+Role slot, instead of Fast Attack, and gains the **Objective Secured** special rule. If this unit contains 5 models or
+less, this Stratagem costs 1 CP. Otherwise, it costs 2 CP.
   - **\[Relic] ?:** ?
   
   ### Ulthwe:
-  - **\[Ability] Foresight of the Damned:** At the start of your Command phase, this unit gains 1 Clairvoyance die.
+  - **\[Ability] Foresight of the Damned:** At the start of your Command phase, if this unit is not In Disarray, it
+gains 1 Clairvoyance die.
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
   
   ### Black Library:
-  - **\[Ability] Forbidden Knowledge:** If this unit is a PSYKER, before it attempts to manifest a psychic power, you may choose to have it use forbidden knowledge. If you do, it gains +1 to Psychic tests, -1 to Ghosthelm rolls, and all Psychic test results of 11 or higher result in Perils of the Warp. Enemies' Deny the Witch rolls of 6 must be re-rolled when used against forbidden knowledge. This is a Command Effect.
+  - **\[Ability] Forbidden Knowledge:** If this unit is a PSYKER, before it attempts to manifest a psychic power, you
+may choose to have it use forbidden knowledge. If you do, it gains +1 to Psychic tests, -1 to Ghosthelm rolls, and all
+Psychic test results of 11 or higher result in Perils of the Warp. Enemies' Deny the Witch rolls of 6 must be re-rolled
+when used against forbidden knowledge. This is a Command Effect.
   - **\[Stratagem] ?:** (better webway strike)
   - **\[Relic] The Book of Mol'Kerian:** ? 
   
   ### Qavilon:
-  - **\[Ability] Predator's Web:** For every enemy unit that is wholly within any perimiter defined by 3 different units* with this ability within 8" of it, and by the lines connecting these 3 units, the following hindrances apply:
+  - **\[Ability] Predator's Web:** For every enemy unit that is wholly within any perimiter defined by 3 different 
+units* with this ability within 8" of it, and by the lines connecting these 3 units, the following hindrances apply:
     - The Nerve characteristic of that enemy unit is reduced by 1.
     - When that enemy unit is being shot at by units** with this trait, all wound rolls gain an Advantage.
 
@@ -87,7 +106,8 @@ costs 1 CP. Otherwise, it costs 2 CP.
   
   ### Il-Kaithe - ???
   (bonesingers -> repair shit)
-  - **\[Ability] Extraordinary Bonesingers:** At the start of your Command phase, if this unit has at least one one of the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it regains 1 lost wound.
+  - **\[Ability] Extraordinary Bonesingers:** At the start of your Command phase, if this unit has at least one one of
+the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it regains 1 lost wound.
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
   
@@ -95,7 +115,9 @@ costs 1 CP. Otherwise, it costs 2 CP.
   (matriarchal; hags; sacrifice -> knowledge)
   - \[?] psyker -> to re-roll psychic test/cast additional spell; take MW (can't be avoided) afterwards
   - **\[Ability] ?:** ?
-  - **\[Stratagem] ?:**
+  - **\[Stratagem] Matriarchy (1 CP):** Use this Stratagem before the battle, when you are mustering your army. 
+Select one IYBRAESIL HOWLING BANSHEES unit from your army. That unit now takes up a Troop Battlefield Role slot, instead
+of Fast Attack, and gains the **Objective Secured** special rule.
   - **\[Relic] ?:** ?
   
   ### Kaelor - ???
@@ -258,11 +280,16 @@ costs 1 CP. Otherwise, it costs 2 CP.
 
 ### Qualities
 
-**Psychically-attuned Weapon:** When attacking with this weapon (except against targets that are VEHICLES or TITANIC), an unmodified wound roll of 21 or higher always wounds the target successfully and that attack is resolved with Armour Penetration improved by 2.
+**Psychically-attuned Weapon:** When attack is made with this weapon with this weapon against targets that is not
+a VEHICLE and not TITANIC, you can choose to make the hit roll at Exponent 8 regardless of the target's Melee Skill 
+(other modifiers then apply as normal), and this attack is resolved with Armour Penetration improved by 1.
 
 **Shuriken Weapon:** When attacking with this weapon, a successful wound roll of 61 or more has Armour Penetration improved by 2.
 
-**Soul Reaper:** This weapon is fired as if it had **Flamer Template**, though it can generate a maximum of 3 hit rolls (the controlling player picks which ones if the template intersects more than 3 enemy models). All the hit rolls succeed automatically, cannot hit friendly units, and ignore armour saves of all units that don't have the VEHICLE or TITANIC keyword.
+**Soul Reaper:** This weapon is fired as if it had **Flamer Template**, though it can generate a maximum of 3 hit rolls
+(the controlling player picks which ones if the template intersects more than 3 enemy models). All the hit rolls succeed
+automatically, cannot hit friendly units, and ignore armour saves of all units that don't have the VEHICLE or TITANIC 
+keyword. TODO
 
 ### Ranged Weapons list
 
@@ -273,7 +300,6 @@ costs 1 CP. Otherwise, it costs 2 CP.
 | Avenger shuriken catapult  |  18"  | Assault 2   |  4 |  0 |    1 | **Shuriken weapon**
 | Bright lance               |  36"  | Heavy 1     |  8 | -3 | D3+1 | **Armourbane**
 | D-cannon                   |       |             |    |    |      | -
-| D-scythe                   |   2"  | Assault 1   | 10 |  0 |      | **Soul Reaper**
 | Flamer                     |   2"  | Steady 1    |  4 |  0 |    1 | **Flamer Template**
 | Fusion gun                 |  12"  | Assault 1   |  8 | -3 |      | **Melta**
 | Fusion pistol              |   6"  | Pistol 1    |  8 | -3 |      | **Melta**
@@ -285,10 +311,11 @@ costs 1 CP. Otherwise, it costs 2 CP.
 | Singing spear (ranged)     |  12"  | Assault 1   |    |    |      | -
 | Starcannon                 |  36"  | Heavy 2     |    |    |      | -
 | Triskele (ranged)          |   8"  | Assault 3   | +1 | -2 |    1 | -
-| Wraithcannon               |  12"  | Assault 1   | 10 |    |      | (horrible death)
+| Twin shuriken catapult     |  12"  | Assault 4   |  4 |  0 |    1 | **Shuriken weapon**
 
 ### Heavy Weapons list
-When a unit's datasheet states that it may take weapons from the "Heavy Weapons list", that refers to the list below. Unless othwerise noted in the datasheet, the points costs are as noted in this list.
+When a unit's datasheet states that it may take weapons from the "Heavy Weapons list", that refers to the list below. 
+Unless othwerise noted in the datasheet, the points costs are as noted in this list.
 - Aeldari missile launcher (30 pts)
 - Bright lance (30 pts)
 - Scatter laser (15 pts)
@@ -302,10 +329,8 @@ When a unit's datasheet states that it may take weapons from the "Heavy Weapons 
 | Aeldari chainsword         | Melee | User |  0 |  1  | -
 | Diresword                  | Melee | User |  0 |  1  | -
 | Executioner                | Melee |  +1  | -3 |  2  | -
-| Ghostaxe                   | Melee |  +2  | -2 |  D3 | **Unwieldy**
 | Ghostglaive                | Melee |      |    |  1  | (wraithlord thingy)
 | Ghostspear                 | Melee |      |    |  1  | (wraithseer thingy)
-| Ghostswords                | Melee |  +1  | -3 |  1  | Each time the bearer fights, it can make 1 additional attack with this weapon.
 | Mirrorswords               | Melee | User | -3 |  1  | -
 | Singing spear (melee)      | Melee | User |  0 |  D3 | **Psychically-attuned Weapon**, **Unwieldy**
 | Star glaive                | Melee |  ×2  | -2 |  2  | **Unwieldy**
@@ -320,11 +345,12 @@ When a unit's datasheet states that it may take weapons from the "Heavy Weapons 
 
 
 ### \[HQ] Farseer
+
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
 | Farseer                  | 120 | 7" | 4" |  6 |  9 | 3 | 3 | 4 | 2 | 7 | 11 | 6+ | 25mm 
 
-A Farseer is a single model armed with a shuriken pistol and a witchblade.
+A Farseer is a single model armed with a Shuriken pistol and a Witchblade.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
@@ -332,8 +358,8 @@ A Farseer is a single model armed with a shuriken pistol and a witchblade.
 
 #### > SPECIAL RULES:
 - **Battle Focus**
-- **Ghosthelm (if equipped):** If this model suffers Perils of the Warp, roll a D6. On a 3+, its effects are ignored.
-- **Rune Armour (if equipped):** This model has a 4+ invulnerable save.
+- **Ghosthelm (only if equipped):** If this model suffers Perils of the Warp, roll a D6. On a 3+, its effects are ignored.
+- **Rune Armour (only if equipped):** This model has a 4+ invulnerable save.
 - **Psyker:** This model can attempt to manifest two psychic powers in each friendly Psychic phase, and attempt to deny two
 psychic powers in each enemy Psychic phase. It knows the Smite power and a total of two psychic powers from the following
 disciplines: Runes of Fate, Runes of Power.
@@ -346,6 +372,7 @@ disciplines: Runes of Fate, Runes of Power.
 ---
 
 ### \[HQ] Warlock
+
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
 | Warlock                  |  50 | 7" | 4" |  5 |  8 | 3 | 3 | 2 | 2 | 6 | 10 | 6+ | 25mm 
@@ -358,8 +385,8 @@ A Warlock is a single model armed with a shuriken pistol and a witchblade.
 
 #### > SPECIAL RULES:
 - **Battle Focus**
-- **Ghosthelm (if equipped):** If this model suffers Perils of the Warp, roll a D6. On a 3+, its effects are ignored.
-- **Rune Armour (if equipped):** This model has a 4+ invulnerable save.
+- **Ghosthelm (only if equipped):** If this model suffers Perils of the Warp, roll a D6. On a 3+, its effects are ignored.
+- **Rune Armour (only if equipped):** This model has a 4+ invulnerable save.
 - **Psyker:** This model can attempt to manifest one psychic power in each friendly Psychic phase, and attempt to deny
 one psychic power in each enemy Psychic phase. It knows the Smite power and a total of one psychic power from the following
 disciplines: Runes of Battle, Runes of Power.
@@ -374,6 +401,7 @@ Psychic phase.
 ---
 
 ### \[HQ] Spiritseer
+
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
 | Spiritseer               | 100 | 7" | 4" |  5 |  8 | 3 | 3 | 3 | 2 | 6 | 11 | 6+ | 25mm 
@@ -386,8 +414,8 @@ A Warlock is a single model armed with a shuriken pistol and a witchblade.
 
 #### > SPECIAL RULES:
 - **Battle Focus**
-- **Ghosthelm (if equipped):** If this model suffers Perils of the Warp, roll a D6. On a 3+, its effects are ignored.
-- **Rune Armour (if equipped):** This model has a 4+ invulnerable save.
+- **Ghosthelm (only if equipped):** If this model suffers Perils of the Warp, roll a D6. On a 3+, its effects are ignored.
+- **Rune Armour (only if equipped):** This model has a 4+ invulnerable save.
 - **Psyker:** This model can attempt to manifest two psychic powers in each friendly Psychic phase, and attempt to deny
 one psychic power in each enemy Psychic phase. It knows the Smite power, one psychic power from the Runes of Battle
 discipline, and one power from the Runes of the Dead discipline.
@@ -399,9 +427,10 @@ discipline, and one power from the Runes of the Dead discipline.
 ---
 
 ### \[HQ] Avatar of Khaine
+
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I  |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|----|----|----|------
-| Avatar of Khaine         | 250 | 8" | 4" | 10 |  9 | 6 | 6 | 9 | 6 | 10 | 12 | 3+ | 60mm 
+| Avatar of Khaine         | 250 | 8" | 4" | 10 |  9 | 6 | 6 | 9 | 6 | 10 | 11 | 3+ | 60mm 
 
 The Avatar of Khaine is a single model armed with the Wailing Doom. Only one of this model may be included in your army.
 
@@ -417,9 +446,12 @@ The Avatar of Khaine is a single model armed with the Wailing Doom. Only one of 
 | The Wailing Doom (Great Axe)      | Melee | Melee     |  +2  | -3 | 3 | -
 
 #### > SPECIAL RULES:
+- **Point-blank shooting**
 - **Daemonic:** This unit has a 5+ invulnerable save.
-- **Molten Body:** This unit receives a +1 bonus to all saving throws against attacks with a Damage characteristic of 1. In addition, roll a D6 whenever the it would suffer a wound. On a 5+, that wound is ignored.
-- **Khaine Awakened:** Friendly ASURYANI units within 12" of the Avatar of Khaine are Fearless, and you can re-roll their Charge rolls.
+- **Molten Body:** This unit receives a +1 bonus to all saving throws against attacks with a Damage characteristic of 1.
+In addition, roll a D6 whenever the it would suffer a wound. On a 5+, that wound is ignored.
+- **Khaine Awakened:** Friendly ASURYANI units within 12" of the Avatar of Khaine (including the Avatar itself) are 
+Fearless, and you can re-roll their Charge rolls.
 
 #### > OPTIONS:
 (none)
@@ -427,6 +459,7 @@ The Avatar of Khaine is a single model armed with the Wailing Doom. Only one of 
 ---
 
 ### \[Troop] Guardian Defenders
+
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
 | Guardian                 |  12 | 7" | 4" |  4 |  7 | 3 | 3 | 1 | 1 | 5 | * | 5+ | 25mm 
@@ -434,10 +467,10 @@ The Avatar of Khaine is a single model armed with the Wailing Doom. Only one of 
 
 | Guardians in unit   | Nerve 
 |---------------------|-------
-| 1-5                 |    7 
-| 6-10                |    8 
-| 11-15               |    9 
-| 16-20               |   10 
+| 1-5                 |    6 
+| 6-10                |    7 
+| 11-15               |    8 
+| 16-20               |    9 
 
 This unit contains 10 Guardians. It can include up to 10 additional Guardians. 
 For every 10 Guardians in the unit, you may include one Heavy Weapon Platform.
@@ -462,6 +495,7 @@ multiple Heavy Weapon Platforms in this way in a single turn. A Heavy Weapon Pla
 ---
 
 ### \[Troop] Dire Avengers
+
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
 | Dire Avenger             |  16 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 4+ | 25mm 
@@ -469,11 +503,11 @@ multiple Heavy Weapon Platforms in this way in a single turn. A Heavy Weapon Pla
 
 | Dire Avengers in unit   | Nerve 
 |-------------------------|-------
-| 1-5                     |    9 
-| 6-10                    |   10 
+| 1-5                     |    8 
+| 6-10                    |    9 
 
 This unit contains 4 Dire Avengers and 1 Dire Avenger Exarch. It can include up to 5 additional Dire Avengers.
-Each model is armed with an avenger shuriken catapult and plasma grenades.
+Each model is armed with an Avenger shuriken catapult and Plasma grenades.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
 
@@ -481,6 +515,7 @@ Each model is armed with an avenger shuriken catapult and plasma grenades.
 
 #### > SPECIAL RULES:
 - **Battle Focus**
+- **Exarch Guidance:** While this unit contains an Exarch, its Nerve characteristic is improved by 1.
 
 #### > OPTIONS:
 - The Dire Avenger Exarch can take one exarch power from the list below at the listed point cost.
@@ -493,16 +528,24 @@ Each model is armed with an avenger shuriken catapult and plasma grenades.
 - **Stand Firm:** ???
 - **Avenging Strikes (?pts):**  ???
 
+As with all exarch powers, Dire Avenger Exarch powers are NOT in effect while the unit is In Disarray.
+
 ---
 
 ### \[Elite] Howling Banshees
+
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Howling Banshee          |  22 | 8" | 4" |  6 |  7 | 3 | 3 | 1 | 2 | 8 | * | 4+ | 28mm 
-| Howling Banshee Exarch   |  22 | 8" | 4" |  6 |  7 | 3 | 3 | 1 | 3 | 8 | * | 4+ | 28mm 
+| Howling Banshee          |  23 | 8" | 4" |  6 |  7 | 3 | 3 | 1 | 2 | 8 | * | 4+ | 28mm 
+| Howling Banshee Exarch   |  23 | 8" | 4" |  6 |  7 | 3 | 3 | 1 | 3 | 8 | * | 4+ | 28mm 
+
+| Howling Banshees in unit   | Nerve 
+|----------------------------|-------
+| 1-5                        |    8 
+| 6-10                       |    9 
 
 This unit contains 4 Howling Banshees and 1 Howling Banshee Exarch. It can include up to 5 additional Howling Banshees.
-Every model is equipped with a shuriken pistol, power sword and a banshee mask.
+Every model is equipped with a Shuriken pistol, Power sword and a Banshee mask.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
 
@@ -510,43 +553,67 @@ Every model is equipped with a shuriken pistol, power sword and a banshee mask.
 
 #### > SPECIAL RULES:
 - **Battle Focus**
-- **Acrobatic:** ???
-- **War Shout:** ???
-- **Banshee Mask:** ???
+- **Exarch Guidance:** While this unit contains an Exarch, its Nerve characteristic is improved by 1.
+- **Acrobatic:** After rolling 2D3 to determine this unit's Charge Distance, you may turn one of the rolled D3s to a 3.
+- **Banshee Mask:** At the start of the Fight phase, if this unit performed a charge, you can select one enemy unit 
+within 1" of this unit to make a Morale test. If the test is failed, that enemy unit is Flat-footed until the end of the
+phase. In addition, enemy units cannot fire Overwatch at this unit.
 
 #### > OPTIONS:
-- The Howling Banshee Exarch's power sword can be replaced with an executioner or a triskele.
-- The Howling Banshee Exarch's power sword and shuriken pistol can be replaced with mirrorswords.
+- The Howling Banshee Exarch's Power sword can be replaced with an Executioner or a Triskele.
+- The Howling Banshee Exarch's Power sword and Shuriken pistol can be replaced with Mirrorswords.
 - The Howling Banshee Exarch can take one exarch power from the list below at the listed point cost.
 
 #### > HOWLING BANSHEES EXARCH POWERS:
-- **A (?pts):** ?
-- **B (?pts):**
-- **Nerve-shredding Shriek (? pts):** At the end of the Charge phase, if this unit performed a charge and if it includes a Howling Banshee Exarch, you can select one enemy unit within 1" of this unit and roll one D6; on a 1-3 that enemy unit gains 1 strain, and on a 4-6 it gains 2 strain.
+- **Whirling Blades (free):** Add 1 to the Attacks characteristic of this unit’s Howling Banshee Exarch. If that Howling
+Banshee Exarch is equipped with Mirrorswords, add 2 to its Attacks characteristic instead.
+- **Crushing Strike (5 pts):** When this unit is about to make its first attack in the Fight phase, a Howling Banshee 
+Exarch in this unit that is equipped with an Executioner can choose to make a crushing strike. If they do, until the end
+of the phase, subtract 1 from the Attacks characteristic and add 3 to the Strength characteristic of that Howling 
+Banshee Exarch, and that executioner has a Damage characteristic of 3.
+- **Piercing Howl (10 pts):** At the start of the Fight phase, if this unit performed a charge and if it includes a 
+Howling Banshee Exarch, you can select one enemy unit within 1" of this unit - that unit's Initiative characteristic is 
+reduced to 1 until the end of the Phase and it receives no Initiative bonus from having charged (if it did).
+- **Nerve-shredding Shriek (10 pts):** At the end of the Charge phase, if this unit performed a charge and if it includes
+a Howling Banshee Exarch, you can select one enemy unit within 1" of this unit and roll one D6; on a 1-3 that enemy unit
+gains 1 strain, and on a 4-6 it gains 2 strain.
+- **Graceful Avoidance (15 pts):** If this unit contains a Howling Banshee Exarch, all melee attacks made against this
+unit suffer an Impairment to their hit roll.
+- **War Shout (15 pts):** At the start of the Fight phase, if this unit performed a charge and if it includes a Howling
+Banshee Exarch, its Strength and Attack characteristics are improved by 1 until the end of the phase.
+
+As with all exarch powers, Howling Banshee Exarch powers are NOT in effect while the unit is In Disarray.
 
 ---
 
 ### \[Elite] Wraithguard
+
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
 | Wraithguard              |  52 | 5" | 4" |  5 |  7 | 5 | 6 | 3 | 2 | 4 | 10 | 3+ | 40mm 
 
 This unit contains 5 Wraithguard. It can include up to 5 additional Wraithguard. Each model is armed with
-a wraithcannon and Wraithguard fists.
+a Wraithcannon and Wraithguard fists.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, SPIRIT HOST, \<CRAFTWORLD\>
 
 **KEYWORDS:** INFANTRY, WRAITH CONSTRUCT, WRAITHGUARD
 
+| WEAPON                     | RANGE |     TYPE    |  S | AP |  D | QUALITIES
+|----------------------------|-------|-------------|----|----|----|--------------------------- 
+| D-scythe                   |   2"  | Assault 1   | 10 |  0 |    | **Soul Reaper**
+| Wraithcannon               |  12"  | Assault 1   | 10 |    |    | (horrible death)
+
 #### > SPECIAL RULES:
 - **Wraith Construct**
 
 #### > OPTIONS:
-- /
+- Any model in the unit may replace its Wraithcannon with a D-scythe.
 
 ---
 
 ### \[Elite] Wraithblades
+
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
 | Wraithblade              |  55 | 5" | 4" |  5 |  7 | 5 | 6 | 3 | 3 | 4 | 10 | 3+ | 40mm 
@@ -558,20 +625,32 @@ ghostswords.
 
 **KEYWORDS:** INFANTRY, WRAITH CONSTRUCT, WRAITHBLADES
 
+| WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
+|----------------------------|-------|------|----|-----|--------------------------- 
+| Ghostaxe                   | Melee |  +2  | -2 |  D3 | **Unwieldy**   
+| Ghostswords                | Melee |  +1  | -3 |  1  | Each time the bearer fights, it can make 1 additional attack with this weapon.
+
 #### > SPECIAL RULES:
 - **Wraith Construct**
-- **Forceshield:** A model equipped with a forceshield has a 5+ invulnerable save.
+- **Forceshield (only if equipped):** This model has a 5+ invulnerable save. During the Fight phase, it also receives +1
+to all saving throws against melee attacks while it fights in the Defensive stance.
 
 #### > OPTIONS:
-- Any model in the unit may replace its ghostswords with a ghostaxe and a forceshield.
+- Any model in the unit may replace its Ghostswords with a Ghostaxe and a Forceshield.
 
 ---
 
 ### \[Fast Attack] Warp Spiders
+
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
 | Warp Spider              |  22 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 3+ | 28mm 
 | Warp Spider Exarch       |  22 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 3+ | 28mm 
+
+| Warp Spiders in unit       | Nerve 
+|----------------------------|-------
+| 1-5                        |    8 
+| 6-10                       |    9 
 
 This unit contains 4 Warp Spiders and 1 Warp Spider Exarch. In can include up to 5 additional Warp Spiders.
 Each model is armed with a death spinner.
@@ -587,6 +666,7 @@ Each model is armed with a death spinner.
 
 #### > SPECIAL RULES:
 - **Battle Focus**
+- **Exarch Guidance:** While this unit contains an Exarch, its Nerve characteristic is improved by 1.
 - **Deep Strike**
 - **Warp Jump Generator:** When this unit would perform the Charge action, it may instead do a short-range warp jump. To do so, nominate a direction and move every model in the unit exactly 4D6" in that direction (roll once for the whole unit), as if the unit had FLY. Any model that cannot be placed because of terrain, other units or battlefield edge is destroyed and immediately removed. This counts as a Charge phase action that Exhausts the unit, but not as a charge.
 - **Flickerjump:** When this unit is targeted by a ranged weapon, you can declare that they will make a flickerjump - all hit rolls of ranged attacks
@@ -606,12 +686,58 @@ that target this unit until the end of the phase suffer an Impairment.
 - **Surprise Assault (5 pts):** Whilst this unit contains a Warp Spider Exarch, when resolving a ranged attack made by a model in this unit in a turn in which it was set up on the battlefield using the Deep Strike special rule, you can re-roll the hit roll.
 - **Warp Guide (10 pts):** While this unit contains a Warp Spider Exarch, you may re-roll its Warp Passage rolls.
 
+As with all exarch powers, Warp Spider Exarch powers are NOT in effect while the unit is In Disarray.
+
+---
+
+### \[Fast Attack] Shining Spears
+
+| NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
+| Shining Spear            |  50 | 14" | 4" |  5 |  7 | 3 | 4 | 2 | 2 | 6 | * | 3+ | 32mm flying base
+| Shining Spear Exarch     |  50 | 14" | 4" |  5 |  7 | 3 | 4 | 2 | 3 | 6 | * | 3+ | 32mm flying base
+
+| Shining Spears in unit     | Nerve 
+|----------------------------|-------
+| 1-5                        |    8 
+| 6-10                       |    9 
+
+This unit contains 2 Shining Spears and 1 Shining Spear Exarch. In can include up to 6 additional Shining Spears.
+Each model is armed with a Laser lance and Twin shuriken catapult.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
+
+**KEYWORDS:** BIKER, CORE, FLY, SHINING SPEARS
+
+| WEAPON                            | RANGE | TYPE      |   S  | AP | D | Qualities
+|-----------------------------------|-------|-----------|------|----|---|-----------
+| Laser lance (ranged)              |   8"  | Assault 1 |   6  | -3 | 2 | -
+| Laser lance (melee)               | Melee | Melee     | User | -3 | 2 | If the bearer charged this turn, attacks with this weapon are made at Strength 6.
+
+#### > SPECIAL RULES:
+- **Battle Focus**
+- **Exarch Guidance:** While this unit contains an Exarch, its Nerve characteristic is improved by 1.
+- **Aerobatic Grace:** Models in this unit have a 4+ invulnerable save against ranged attacks.
+
+#### > OPTIONS:
+(TODO)
+- The Shining Spear Exarch can take one exarch power from the list below at the listed point cost.
+
+#### > SHINING SPEARS EXARCH POWERS:
+- **Expert Hunter (free):** You can re-roll wound rolls for a Shining Spear Exarch when attacking a MONSTER or VEHICLE.
+- **Ride the Wind (15 pts):** While this unit contains a Shining Spear Exarch, its Move characteristic is increased by 2".
+- **Withdraw (20 pts):** When this unit Disengages, it cannot be Pursued except by an enemy unit with an equal or better
+Move characteristic.
+
+As with all exarch powers, Shining Spear Exarch powers are NOT in effect while the unit is In Disarray.
+
 ---
 
 ### \[Heavy Support] War Walkers
+
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
-| War Walker               |  90 | 10" | 4" |  4 |  7 | 6 | 6 | 6 | 2 | 5 | 10 | 4+ | 60mm 
+| War Walker               |  90 | 10" | 4" |  4 |  7 | 6 | 6 | 6 | 2 | 5 |  9 | 4+ | 60mm 
 
 This unit contains 1 War Walker. It can include up to 2 additional War Walkers. Each model is armed with 2
 shuriken cannons.
@@ -622,8 +748,9 @@ shuriken cannons.
 
 #### > SPECIAL RULES:
 - **Battle Focus**
+- **Point-blank Shooting**
 - **Power Field:** Models in this unit have 5+ invulnerable save.
-- **Explodes:** When a model in this unit is destroyed, immediately roll a D6. ...
+- **Explodes:** TODO
 
 #### > OPTIONS:
 - Any model may replace any shuriken cannon with an item from the Heavy Weapons list.
@@ -631,9 +758,10 @@ shuriken cannons.
 ---
 
 ### \[Heavy Support] Fire Prism
+
 | NAME                     | PTS |  M  | CB | MS | BS | S |   T   |  W   | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|-------|------|---|---|----|----|------
-| Fire Prism               | 232 | 16" | 4" |  1 |  7 | 6 | ?/?/? | 7-12 | 3 | 3 | 10 | 3+ | 60mm flying base 
+| Fire Prism               | 232 | 16" | 4" |  1 |  7 | 6 | 8/8/7 | 7-12 | 3 | 3 |  9 | 3+ | 60mm flying base 
 |                          |     | 12" | 4" |    |  5 |   |       |  4-6 | 2 |   |    | 3+ |
 |                          |     |  8" | 4" |    |  3 |   |       |  1-3 | 1 |   |    | 3+ |
 
@@ -645,8 +773,9 @@ A Fire Prism is a single model equipped with a prism cannon and a twin shuriken 
 
 #### > SPECIAL RULES:
 - **Hover Tank:** Distance and ranges are always measured to and from this model’s hull, even though it has a base.
+- **Point-blank Shooting**
 - **Pulsed Laser Discharge:** ???
-- **Explodes:** ???
+- **Explodes:** TODO
 
 #### > OPTIONS:
 - This model may replace its twin shuriken catapult with a shuriken cannon.
@@ -655,9 +784,10 @@ A Fire Prism is a single model equipped with a prism cannon and a twin shuriken 
 ---
   
 ### \[Heavy Support] Wraithlord
+
 | NAME                     | PTS |  M  | CB | MS | BS | S | T |  W   | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|------|---|---|----|----|------
-| Wraithlord               | 150 |  8" | 4" |  0 |  7 | 7 | 8 | 6-10 | 4 | 3 | 11 | 3+ | 60mm 
+| Wraithlord               | 150 |  8" | 4" |  0 |  7 | 7 | 8 | 6-10 | 4 | 3 | 10 | 3+ | 60mm 
 |                          |     |  7" | 4" |    |  5 |   |   |  3-5 | 4 |   |    | 3+ |
 |                          |     |  6" | 4" |    |  3 |   |   |  1-2 | 4 |   |    | 3+ |
 
@@ -669,6 +799,7 @@ A Wraithlord is a single model armed with two shuriken catapults and wraithbone 
 
 #### > SPECIAL RULES:
 - **Wraith Construct**
+- **Point-blank shooting**
 
 #### > OPTIONS:
 - This model may replace any shuriken catapult with a flamer.
@@ -678,6 +809,7 @@ A Wraithlord is a single model armed with two shuriken catapults and wraithbone 
 ---
 
 ### \[Heavy Support] Dark Reapers
+
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
 | Dark Reaper              |  48 | 6" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 3+ | 25mm 
@@ -685,8 +817,8 @@ A Wraithlord is a single model armed with two shuriken catapults and wraithbone 
 
 | Dark Reapers in unit    | Nerve 
 |-------------------------|-------
-| 1-5                     |    9 
-| 6-10                    |   10 
+| 1-5                     |    8 
+| 6-10                    |    9 
 
 This unit contains 2 Dark Reapers and 1 Dark Reaper Exarch. It can contain up to 7 additional Dark Reapers.
 Each model is armed with a Reaper Launcher.
@@ -702,6 +834,8 @@ Each model is armed with a Reaper Launcher.
 | Tempest launcher                  |  36"  | Heavy 2   |   5  | -2 |    1 | **Blast (Small).**
 
 #### > SPECIAL RULES:
+- **Battle Focus**
+- **Exarch Guidance:** While this unit contains an Exarch, its Nerve characteristic is improved by 1.
 - **Inescapable Accuracy:** Models in this unit can ignore 1 Impairment when making ranged attacks.
 
 #### > OPTIONS:
@@ -711,25 +845,58 @@ Aeldari missile launcher (+? pts) or Tempest launcher (+15 pts).
 
 #### > DARK REAPERS EXARCH POWERS:
 - **Crack Shot (free):** When this unit’s Dark Reaper Exarch shoots, you may re-roll Hit 'tens' rolls of 1.
-- **Rain of Death (5 pts):** When this unit’s Dark Reaper Exarch shoots with a Tempest launcher, you can treat it as a Heavy 1 weapon with the Blast (Large) quality istead of Blast (Small). If you do, add +3 when rolling to determine if a Direct Hit is scored.
-- **Rapid Shot (10 pts):** When this unit’s Dark Reaper Exarch shoots, add 1 to the number of attacks made with that model’s ranged weapon (for example, he would treat Heavy 2 as Heavy 3).
-- **Long-ranged Fire (10 pts):** Whilst this unit contains a Dark Reaper Exarch, add 6" to the Range characteristic of ranged weapons models in this unit are equipped with.
-- **Grim Visage (15 pts):** One per phase, when an enemy unit suffers a casualty as a result of an attack made by this unit while it contains a Dark Reaper Exarch, you can roll a die. On a 1-3, that enemy unit gains 1 strain. On a 4-6, it gains 2 strain.
-- **Aggressive Tactics (15 pts):** A unit where the Exarch has this power loses Inescapable Accuracy, and the Range characteristics of all weapons used by that unit are halved - these effects persist even if the Exarch is destroyed. While the unit contains a Dark Reaper Exarch, models in the unit may treat Heavy weapons as Rapid Fire weapons when shooting, and they gain +1 Attack. Note: The bonus Attack is for the models, not for the ranged weapons.
-- **Focused Fire: (25 pts):** When this unit is selected to shoot, if it contains a Dark Reaper Exarch, and if all models are targeting the same enemy unit, add 1 to the Ballistic Skill of this unit until the end of the action. Note: Blast (\*) weapons are considered to be targeting a unit if the centre of the blast template intersects at least one model from that unit.
+- **Rain of Death (5 pts):** When this unit’s Dark Reaper Exarch shoots with a Tempest launcher, you can treat it as a 
+Heavy 1 weapon with the Blast (Large) quality istead of Blast (Small). If you do, add +3 when rolling to determine if a 
+Direct Hit is scored.
+- **Rapid Shot (10 pts):** When this unit’s Dark Reaper Exarch shoots, add 1 to the number of attacks made with that 
+model’s ranged weapon (for example, he would treat Heavy 2 as Heavy 3).
+- **Long-ranged Fire (10 pts):** Whilst this unit contains a Dark Reaper Exarch, add 6" to the Range characteristic of 
+ranged weapons models in this unit are equipped with.
+- **Grim Visage (15 pts):** One per phase, when an enemy unit suffers a casualty as a result of an attack made by this 
+unit while it contains a Dark Reaper Exarch, you can roll a die. On a 1-3, that enemy unit gains 1 strain. On a 4-6, it 
+gains 2 strain.
+- **Aggressive Tactics (15 pts):** A unit where the Exarch has this power loses Inescapable Accuracy, and the Range 
+characteristics of all weapons used by that unit are halved - these effects persist even if the Exarch is destroyed or 
+while the unit is In Disarray. While the unit contains a Dark Reaper Exarch, models in the unit may treat Heavy weapons 
+as Rapid Fire weapons when shooting, and they gain +1 Attack (the bonus Attack is for the models, not for the ranged 
+weapons).
+- **Focused Fire: (20 pts):** When this unit is selected to shoot, if it contains a Dark Reaper Exarch, and if all
+models are targeting the same enemy unit, add 1 to the Ballistic Skill of this unit until the end of the action. 
+(Blast (\*) weapons are considered to be targeting a unit if the centre of the blast template intersects at least one 
+model from that unit).
+
+As with all exarch powers, Dark Reaper Exarch powers are NOT in effect while the unit is In Disarray. The exception is
+Aggressive Tactics, as noted in the power's description.
 
 ---
 
 ### \[Dedicated Transport] Wave Serpent
+
 | NAME                     | PTS |  M  | CB | MS | BS | S |   T   |  W   | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|-------|------|---|---|----|----|------
-| Wave Serpent             | 195 | 16" | 4" |  1 |  7 | 6 | ?/?/? | 7-12 | 3 | 3 | 10 | 3+ | 60mm flying base 
+| Wave Serpent             | 195 | 16" | 4" |  1 |  7 | 6 | 8/8/7 | 7-12 | 3 | 3 |  9 | 3+ | 60mm flying base 
 |                          |     | 12" | 4" |    |  5 |   |       |  4-6 | 2 |   |    | 3+ |
 |                          |     |  8" | 4" |    |  3 |   |       |  1-3 | 1 |   |    | 3+ |
 
 A Wave Serpent is a single model equipped with a twin shuriken cannon and a twin shuriken catapult.
 
+**FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
+
+**KEYWORDS:** VEHICLE, TRANSPORT, FLY, WAVE SERPENT
+
+#### > SPECIAL RULES:
+- **Point-blank Shooting**
+- **Transport:** This model can transport 12 PHOENIX LORD or \<CRAFTWORLD\> INFANTRY models. Each WRAITHGUARD or
+WRAITHBLADE model takes the space of two other models. It cannot transport JUMP PACK models.
+- **Serpent Shield:** (TODO)
+- **Hovering:** Distance and ranges are always measured to and from this model’s hull, even though it has a base.
+- **Explodes:** (TODO)
+
+#### > OPTIONS:
+(TODO)
+
 ---
 
 ### \[Lord of War] Wraithknight
+
 (TODO)
