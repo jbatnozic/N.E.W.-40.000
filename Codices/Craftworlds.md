@@ -48,25 +48,35 @@ they can be affected by friendly Psychic powers from the Runes of Battle discipl
 suffer an Impairment.
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
+  - **\[Warlord Trait] ?:**
   
-  ### Biel-Tan - Swordwind:
+  ### Biel-Tan:
   (indomitable spirit, shuriken upgrade; some Aspect Warriors -> troop)
-  - **\[Ability] ?:** ?
-  - **\[Stratagem] ?:**
+  - **\[Ability] Swordwind:** Whenever this unit makes a ranged attack with a **Shuriken Weapon**, a hit roll of 61 or
+more scores 1 additional hit (this additional hit is resolved with AP improved by 2 as well).
+  - **\[Stratagem] Militant Heritage (1CP):** Use this Stratagem before the battle, when you are mustering your army. 
+Select one BIEL-TAN FIRE DRAGONS, BIEL-TAN STRIKING SCORPIONS or BIEL-TAN SWOOPING HAWKS unit from your army. That unit
+now takes up a Troop Battlefield Role slot, instead of Elite/Fast Attack, and gains the **Objective Secured** special rule.
   - **\[Relic] ?:** ?
+  - **\[Warlord Trait] ?:**
   
   **SPECIAL:** Any BIEL-TAN ASPECT WARRIOR Exarch can be upgraded to an Exemplar. An Exemplar can have two different Exarch
   Powers, and you only pay points for the costlier of the two. No more than one Exemplar of each Aspect Warrior type can
   be included in an army (so: no more than 1 Dire Avenger Exemplar, no more than 1 Swooping Hawks Exemplar, and so on).
   
-  ### Iyanden - Stoic Endurance:
-  (leadership, strong spirit)
-  - **\[Ability] ?:** ?
+  ### Iyanden:
+  - **\[Ability] Stoic Endurance:** Once per phase, you may re-roll an armour (but not a cover or invulnerable) saving
+throw made for a model in this unit. In addition, if this unit has the CORE keyword, increase its Nerve characteristic 
+by 1 (up to a maximum of 11).
   - **\[Stratagem] Ghost Batallion (1/2 CP):** Use this Stratagem before the battle, when you are mustering your army. Select
 one IYANDEN WRAITHGUARD or IYANDEN WRAITHBLADES unit from your army. That unit now takes up a Troop Battlefield Role slot, 
 instead of Elite, and gains the **Objective Secured** special rule. If this unit contains 5 models or less, this Stratagem
 costs 1 CP. Otherwise, it costs 2 CP.
-  - **\[Relic] ?:** ?
+  - **\[Relic] Psytronome of Iyanden:** Equip to a IYANDEN PSYKER CHARACTER model. While this model is within 9" of a
+friendly WRAITH CONSTRUCT unit, it is considered to be within 3" of that unit for the purposes of **Wraith Sight**
+and **Spirit Guide** special rules. In addition, while a friendly WRAITH CONSTRUCT unit is within 9" of this model, that
+unit may re-roll one hit roll per phase.
+  - **\[Warlord Trait] ?:**
   
   ### Saim-Hann:
   - **\[Ability] Wild Host:** After this unit makes a charge move, it gains a +1 bonus to its Attack characteristic in
@@ -77,12 +87,20 @@ Select one SAIM-HANN SHINING SPEARS or SAIM-HANN (?) unit from your army. That u
 Role slot, instead of Fast Attack, and gains the **Objective Secured** special rule. If this unit contains 5 models or
 less, this Stratagem costs 1 CP. Otherwise, it costs 2 CP.
   - **\[Relic] ?:** ?
+  - **\[Warlord Trait] Wild Rider Chieftain:** ?
   
   ### Ulthwe:
   - **\[Ability] Foresight of the Damned:** At the start of your Command phase, if this unit is not In Disarray, it
 gains 1 Clairvoyance die.
-  - **\[Stratagem] ?:**
-  - **\[Relic] ?:** ?
+  - **\[Stratagem] Discipline of the Black Guardians (1CP):** Use this Stratagem when a unit of ULTHWE GUARDIANS is
+selected to shoot, or when it is about to make its attacks in the Fight phase. Until the end of the phase, hit rolls of
+all attacks made by this unit gain Advantage.
+  - **\[Relic] Ghosthelm of Alishazier:** Equip to an ULTHWE PSYKER CHARACTER model. That model knows one additional
+psychic power from the disciplines available to it, and can receive a +1 bonus to its psychic test once per Psychic phase.
+  - **\[Warlord Trait] Fateweaver:** Whenever this WARLORD would gain a Clairvoyance Die, do not roll it. Instead, turn
+the die to whatever number you wish.
+
+  **SPECIAL:** When an ULTHWE PSYKER manifests the Clairvoyance psychic power, they gain an extra Clairvoyance Die.
   
   ### Black Library:
   - **\[Ability] Forbidden Knowledge:** If this unit is a PSYKER, before it attempts to manifest a psychic power, you
@@ -91,6 +109,7 @@ Psychic test results of 11 or higher result in Perils of the Warp. Enemies' Deny
 when used against forbidden knowledge. This is a Command Effect.
   - **\[Stratagem] ?:** (better webway strike)
   - **\[Relic] The Book of Mol'Kerian:** ? 
+  - **\[Warlord Trait] ?:**
   
   ### Qavilon:
   - **\[Ability] Predator's Web:** For every enemy unit that is wholly within any perimiter defined by 3 different 
@@ -101,12 +120,14 @@ units* with this ability within 8" of it, and by the lines connecting these 3 un
 **Notes:** (\*) Units that are In Disarray or in Engagement Range of enemy units don't contribute to defining the relevant perimiters for this trait. (\*\*) Units that are In Disarray also don't benefit from it when shooting.
   - **\[Stratagem] Portal Mastery (1 CP):** Use this stratagem at the start of your Shooting phase. Select a QAVILON PSYKER, then select another QAVILON unit within 18" (none of the selected units may be In Disarray). Finally, select one enemy unit within 18" of the psyker (it doesn't have to be visible). Until the end of the phase, the selected QAVILON unit may shoot at the selected enemy unit without requiring any line of sight, and if it does, the target doesn't receive any benefits of cover.
   - **\[Relic] ?:** (equip to INFANTRY CHARACTER, he can move same as a Warp Spider)
+  - **\[Warlord Trait] ?:**
   
   ### Altansar - ???
   (Maugan Ra, eye of terror)
   - **\[Ability] ?:** ?
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
+  - **\[Warlord Trait] ?:**
   
   ### Il-Kaithe - ???
   (bonesingers -> repair shit)
@@ -114,6 +135,7 @@ units* with this ability within 8" of it, and by the lines connecting these 3 un
 the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it regains 1 lost wound.
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
+  - **\[Warlord Trait] ?:**
   
   ### Iybraesil - ???
   (matriarchal; hags; sacrifice -> knowledge)
@@ -123,24 +145,28 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
 Select one IYBRAESIL HOWLING BANSHEES unit from your army. That unit now takes up a Troop Battlefield Role slot, instead
 of Fast Attack, and gains the **Objective Secured** special rule.
   - **\[Relic] ?:** ?
+  - **\[Warlord Trait] ?:**
   
   ### Kaelor - ???
   (indulgence, deprivation, civil war; good/veteran guardians)
   - **\[Ability] ?:** ?
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
+  - **\[Warlord Trait] ?:**
   
   ### Lugganath - ???
   (corsairs, pirates)
   - **\[Ability] ?:** ?
   - **\[Stratagem] ?:** (Turn failed Exhaustion roll into a successful one for reinforcements)
   - **\[Relic] ?:** (Any 1 relic from another craftworld)
+  - **\[Warlord Trait] ?:**
   
   ### Mymeara - ???
   (madness, grief; stealth, speed, shadow spectres; Irillyth's armour; extermination of lower races)
   - **\[Ability] ?:** ?
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
+  - **\[Warlord Trait] ?:**
   
   ### Yme-Loc - ???
   (artificiers; wraith stuff)
@@ -148,6 +174,7 @@ of Fast Attack, and gains the **Objective Secured** special rule.
   - **\[Ability] ?:** ?
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
+  - **\[Warlord Trait] ?:**
   
 ---
   
@@ -255,7 +282,7 @@ of Fast Attack, and gains the **Objective Secured** special rule.
   
   ### Clairvoyance (Warp Charge: 7)
   If manifested, the caster gains 2 Clairvoyance dice. They can be used for the caster or for any friendly
-  ASURYANI <CRAFTWORLD> unit within 12" of the caster.
+  ASURYANI \<CRAFTWORLD\> unit within 12" of the caster.
 
   ### Safe Passage (Warp Charge: 6)
   If manifested, choose a friendly Reinforcements unit. You may immediately set it up on the battlefield using any relevant special rules available to that unit, along with any accompanying CHARACTERs (as per the usual rules for CHARACTER Reinforcements), as if it were the Reinforcements Phase. All models that arrive on the battlefield using Safe Passage must be set up in unit coherency and wholly within 12" of the caster - if this is not possible, then they cannot arrive in this way. When units arrive on the battlefield using Safe Passage, their associated Exhaustion Roll succeeds automatically.
@@ -279,6 +306,10 @@ of Fast Attack, and gains the **Objective Secured** special rule.
   ### Tireless Onslaught (Warp Charge: ?)
   If manifested, choose a friendly WRAITH CONSTRUCT unit within 12" of the caster.
   (after Full Shooting, fire again at the end of phase - max 3 models in target unit)
+
+## Warlord Traits
+
+
 
 ## Weapons
 
