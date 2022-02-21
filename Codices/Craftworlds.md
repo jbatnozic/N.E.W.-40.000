@@ -55,6 +55,10 @@ suffer an Impairment.
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
   
+  **SPECIAL:** Any BIEL-TAN ASPECT WARRIOR Exarch can be upgraded to an Exemplar. An Exemplar can have two different Exarch
+  Powers, and you only pay points for the costlier of the two. No more than one Exemplar of each Aspect Warrior type can
+  be included in an army (so: no more than 1 Dire Avenger Exemplar, no more than 1 Swooping Hawks Exemplar, and so on).
+  
   ### Iyanden - Stoic Endurance:
   (leadership, strong spirit)
   - **\[Ability] ?:** ?
@@ -895,7 +899,7 @@ gains 2 strain.
 characteristics of all weapons used by that unit are halved - these effects persist even if the Exarch is destroyed or 
 while the unit is In Disarray. While the unit contains a Dark Reaper Exarch, models in the unit may treat Heavy weapons 
 as Rapid Fire weapons when shooting, and they gain +1 Attack (the bonus Attack is for the models, not for the ranged 
-weapons).
+weapons). If a Dark Reaper Exarch/Exemplar has this power, they cannot have another Exarch power by any means.
 - **Focused Fire: (20 pts):** When this unit is selected to shoot, if it contains a Dark Reaper Exarch, and if all
 models are targeting the same enemy unit, add 1 to the Ballistic Skill of this unit until the end of the action. 
 (Blast (\*) weapons are considered to be targeting a unit if the centre of the blast template intersects at least one 
