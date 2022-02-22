@@ -32,6 +32,9 @@ they can be affected by friendly Psychic powers from the Runes of Battle discipl
   - When that unit would make a Charge roll, you can use the result on the Clairvoyance die instead of the usual 2D3 roll to determine charge distance.
   Clairvoyance dice must be substituted for any of these rolls before these rolls are made.
   
+  ### The Path of Command:
+  (TODO)
+
 ---
 
   ### \[Philoshopy] Command effects:
@@ -44,8 +47,10 @@ they can be affected by friendly Psychic powers from the Runes of Battle discipl
 ## Craftworld Attributes
 
   ### Alaitoc:
-  - **\[Ability] Fieldcraft:** Hit rolls of attacks made against units with this attribute at a range of more than 12"
-suffer an Impairment.
+  - **\[Ability] Fieldcraft:** While a model in this unit is more than 12" away from an enemy model, if it would be
+considered Completely Visible from the point of view of that enemy model, it is considered Partially Obscured instead,
+and if it would be considered Partially Obscured, it is considered Heavily Obscured instead. In addition, when this unit
+moves through Difficult Ground, its movement is reduced by 1" instead of 2". Both of these effects are Command Effects.
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
   - **\[Warlord Trait] ?:**
@@ -77,6 +82,8 @@ friendly WRAITH CONSTRUCT unit, it is considered to be within 3" of that unit fo
 and **Spirit Guide** special rules. In addition, while a friendly WRAITH CONSTRUCT unit is within 9" of this model, that
 unit may re-roll one hit roll per phase.
   - **\[Warlord Trait] ?:**
+
+  **SPECIAL:** Stoic Endurance is not a Command Effect and stays active even while the unit is In Disarray.
   
   ### Saim-Hann:
   - **\[Ability] Wild Host:** After this unit makes a charge move, it gains a +1 bonus to its Attack characteristic in
@@ -166,7 +173,7 @@ of Fast Attack, and gains the **Objective Secured** special rule.
   - **\[Ability] ?:** ?
   - **\[Stratagem] ?:**
   - **\[Relic] ?:** ?
-  - **\[Warlord Trait] ?:**
+  - **\[Warlord Trait] ?:** (melee attacks against I instead of MS)
   
   ### Yme-Loc - ???
   (artificiers; wraith stuff)
@@ -309,6 +316,73 @@ of Fast Attack, and gains the **Objective Secured** special rule.
 
 ## Warlord Traits
 
+  Traits 1, 3, 4 and 6 are in kind of a TODO state, may be moved to be Craftworld traits, but they are usable for now.
+
+  ### Trait 1
+  Hit and wound rolls of attacks directed against this WARLORD cannot benefit from more Advantages than Impairments
+  and they cannot be re-rolled.
+
+  ### An Eye on Distant Events
+  Enemy units cannot fire Overwatch at this WARLORD.
+
+  ### Trait 3
+  This WARLORD can attempt to deny one psychic power in each enemy Psychic phase (if this WARLORD is a PSYKER, 
+  they can attempt to deny one psychic power more than usual).
+
+  ### Trait 4
+  Deny the Witch rolls by this WARLORD may be re-rolled.
+
+  ### Mark of the Incomparable Hunter
+  Each time you select a target for a ranged weapon this WARLORD is equipped with, you can ignore the "Look Out, Sir!"
+  rule.
+
+  ### Trait 6
+  At the start of your Command phase, if this WARLORD is on the battlefield (or in Reserves if it's the 1st or 2nd
+  battle round), roll a D6. On a 4+, gain 1 CP.
+
+## Stratagems
+ 
+  ### Cloudstrike
+
+  ### Forewarned
+
+  ### Unparalleled Mastery (1CP)
+  Use this Stratagem when an ASURYANI FARSEER successfully manifests their last psychic power in a Psychic phase. 
+  That psyker can attempt to manifest an additional psychic power this turn.
+
+  ### Treasures of the Craftworld (1CP)
+  Use this Stratagem before the battle, when you are mustering your army. (Army gains 1 extra Relic; use up to 3 times)
+
+  ### Lightning-Fast Reactions (2CP)
+  Use this Stratagem when a friendly ASURYANI CORE INFANTRY unit, or a friendly ASURYANI CORE UNIT WITH THE FLY keyword
+  is targeted by a ranged or melee weapon. Until the end of the phase, hit rolls of all attacks made against that unit 
+  suffer an Impairment.
+
+  ### Seer Council
+
+  ### Supreme Disdain (1CP)
+  Use this Stratagem when an ASURYANI unit is about to make its attacks in the Fight phase. Each time you make a hit 
+  roll of 61 or more for a model in this unit during this phase, it can immediately make an extra attack against the
+  same target using the same weapon. These extra attacks cannot themselves generate any further attacks.
+
+  ### Webway Strike
+
+  ### Phantasms (2CP)
+  Use this Stratagem at the start of the first battle round, but before the first turn has begun. Pick up to three 
+  ASURYANI units from your army that are on the battlefield. You can immediately remove these units from the battlefield
+  and set them up again as described in the Deployment section of the mission you are playing (if you redeploy a 
+  TRANSPORT, all units embarked inside it remain so when it is set up again).
+
+  ### The Avatar Resurgent (3CP)
+  _:ok\_hand:_
+
+  ### Tears of Isha (1CP)
+
+  ### Warriors of the Raging Winds (1CP)
+  _Ride the sky, give me wings to fly!_
+
+  Use this Stratagem when an ASURYANI BIKER unit is about to perform the Normal Move action. It can move an extra 6"
+  during this move.
 
 
 ## Weapons
@@ -367,12 +441,12 @@ Unless othwerise noted in the datasheet, the points costs are as noted in this l
 | Ghostglaive                | Melee |      |    |  1  | (wraithlord thingy)
 | Ghostspear                 | Melee |      |    |  1  | (wraithseer thingy)
 | Mirrorswords               | Melee | User | -3 |  1  | -
+| Power sword                | Melee |  +1  | -3 |  1  | -
 | Singing spear (melee)      | Melee | User |  0 |  D3 | **Psychically-attuned Weapon**, **Unwieldy**
 | Star glaive                | Melee |  ×2  | -2 |  2  | **Unwieldy**
 | The Spear of Twilight      | Melee | User | -1 |  3  | **Psychically-attuned Weapon**
 | Triskele (melee)           | Melee | User | -2 |  1  | -
 | Witchblade                 | Melee | User |  0 |  D3 | **Psychically-attuned Weapon**
-| Wraithbone fists           | Melee | User | -2 |  3  | -
 | Wraithguard fists          | Melee | User |  0 |  D2 | -
 
 
@@ -458,6 +532,62 @@ discipline, and one power from the Runes of the Dead discipline.
 #### > OPTIONS:
 - This model may be equipped with a Ghosthelm (+10 pts).
 - This model may be equipped with a Rune Armour (+20 pts).
+
+---
+
+### \[HQ] Autarch
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I  |  N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|----|----|----|------
+| Autarch                  | 105 | 7" | 4" |  7 |  9 | 3 | 3 | 4 | 4 | 8  | 11 | 3+ | 32mm 
+
+An Autarch is a single model armed with a Power sword, Shuriken pistol and Plasma grenades.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
+
+**KEYWORDS:** CHARCTER, INFANTRY, CORE, AUTARCH
+
+#### > SPECIAL RULES:
+- **Battle Focus**
+- **The Path of Command:**
+- **Forceshield (only if equipped):** This model has a 5+ invulnerable save. During the Fight phase, it also receives +1
+to all saving throws against melee attacks while it fights in the Defensive stance.
+
+#### > OPTIONS:
+- This model may be equipped with a Forceshield (+15 pts).
+- This model's Power sword may be replaced with one of the folowing:
+  - Scorpion chainsword (free)
+  - Star glaive (free)
+  - Triskele (free)
+- This model's Shuriken pistol may be replaced with one of the folowing:
+  - Fusion gun (+10 pts)
+- This model's Power sword and Shuriken pistol can be replaced with one of the following:
+  - Executioner (free)
+
+TODO: Add more weapon options; swooping hawk wings; guns: death spinner, reaper launcher; banshee mask, warp jump generator
+
+---
+
+### \[HQ] Autarch Skyrunner
+
+| NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I  |  N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---|---|---|----|----|----|------
+| Autarch                  | 140 | 16" | 4" |  7 |  9 | 3 | 4 | 5 | 4 | 8  | 11 | 3+ | 32mm flying base
+
+An Autarch is a single model armed with a Power sword and Plasma grenades. Their Aeldari jetbike is
+equipped with a Twin shuriken catapult.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
+
+**KEYWORDS:** CHARCTER, BIKER, FLY, CORE, AUTARCH, AUTARCH SKYRUNNER
+
+#### > SPECIAL RULES:
+- **Battle Focus**
+- **The Path of Command:**
+- **Aerobatic Grace:** This model has a 4+ invulnerable save against ranged attacks.
+
+#### > OPTIONS:
+- This model may replace its Power sword with a Laser lance (+8 pts).
 
 ---
 
@@ -867,6 +997,10 @@ A Wraithlord is a single model armed with two shuriken catapults and wraithbone 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, SPIRIT HOST, \<CRAFTWORLD\>
 
 **KEYWORDS:** MONSTER, WRAITH CONSTRUCT, WRAITHLORD
+
+| WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
+|----------------------------|-------|------|----|-----|---------------------------
+| Wraithbone fists           | Melee | User | -2 |  3  | -
 
 #### > SPECIAL RULES:
 - **Wraith Construct**
