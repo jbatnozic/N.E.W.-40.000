@@ -33,7 +33,15 @@ they can be affected by friendly Psychic powers from the Runes of Battle discipl
   Clairvoyance dice must be substituted for any of these rolls before these rolls are made.
   
   ### The Path of Command:
-  (TODO)
+  While this unit is not In Disarray, whenever a friendly \<CRAFTWORLD\> CORE unit within 6" that is also not In 
+  Disarray makes a hit roll for an attack, you may re-roll a 'tens' roll of 1.
+
+  ### Spirit Stones
+  If this model would lose a wound, roll a D6. On a roll of 6, the wound is not lost.
+
+  ### Vectored Engines
+  If this unit Advances, then until the end of the battle round, hit rolls of all ranged attacks targeting this unit
+  suffer an Impairment.
 
 ---
 
@@ -51,10 +59,23 @@ they can be affected by friendly Psychic powers from the Runes of Battle discipl
 considered Completely Visible from the point of view of that enemy model, it is considered Partially Obscured instead,
 and if it would be considered Partially Obscured, it is considered Heavily Obscured instead. In addition, when this unit
 moves through Difficult Ground, its movement is reduced by 1" instead of 2". Both of these effects are Command Effects.
-  - **\[Stratagem] ?:**
-  - **\[Relic] ?:** ?
-  - **\[Warlord Trait] ?:**
+  - **\[Stratagem] Ranger Ambush (1CP):** Use this Stratagem in your opponent's Reinforcements phase, after an enemy 
+unit has been set up on the battlefield. Select one RANGERS unit from your army that is either on the battlefield or in
+Reserves.
+- If that RANGERS unit is in Reserves, set it up on the battlefield using the **Deep Strike** special rule so that it's
+within 18" of that unit.
+- That RANGERS unit can, at the end of the phase, perform the Normal Shooting or Snap Shooting action, as if
+it were the Shooting phase, but until the end of the phase it can only target the enemy unit that was just set up on 
+the battlefield (and only if that enemy unit is an eligible target for that attack).
+  - **\[Relic] Shiftshroud of Alanssair:** Equip to an ALAITOC INFANTRY CHARACTER model. When an enemy unit that is more
+than 12" away from this model makes a ranged attack against this model, if it sees this model as at least Partially
+Obscured, and this model is not the closest visible enemy unit to it, make the hit rolls as if firing Overwatch.
+  - **\[Warlord Trait] Master of Ambush:** This WARLORD gains the **Infiltrate** and **Scout** special rules. In
+addition, other \<CRAFTWORLD> CORE units within 6" of this WARLORD gain the **Scout** special rule.
   
+  **SPECIAL:** ALAITOC RANGERS units of no more than 5 models can be upgraded to Pathfinders (+4 pts per model). If
+  upgraded, they gain +1 to their Move, Ballistic Skill and Nerve characteristics.
+
   ### Biel-Tan:
   (indomitable spirit, shuriken upgrade; some Aspect Warriors -> troop)
   - **\[Ability] Swordwind:** Whenever this unit makes a ranged attack with a **Shuriken Weapon**, a hit roll of 61 or
@@ -62,8 +83,11 @@ more scores 1 additional hit (this additional hit is resolved with AP improved b
   - **\[Stratagem] Militant Heritage (1CP):** Use this Stratagem before the battle, when you are mustering your army. 
 Select one BIEL-TAN FIRE DRAGONS, BIEL-TAN STRIKING SCORPIONS or BIEL-TAN SWOOPING HAWKS unit from your army. That unit
 now takes up a Troop Battlefield Role slot, instead of Elite/Fast Attack, and gains the **Objective Secured** special rule.
-  - **\[Relic] ?:** ?
-  - **\[Warlord Trait] ?:**
+  - **\[Relic] Spirit Stone of Anath'Lan:** Equip to a BIEL-TAN PSYKER CHARACTER model. You can re-roll any failed 
+Psychic tests made by this model. However, should this result in a second failure, then this model is overwhelmed by 
+waves of grief and cannot attempt to manifest any more psychic powers for the remainder of the phase.
+  - **\[Warlord Trait] Defiant Leader:** Friendly BIEL-TAN units within 6" of this WARLORD do not gain Strain when a
+friendly unit within 8" of them is removed from the battlefield (as a result of being destroyed).
   
   **SPECIAL:** Any BIEL-TAN ASPECT WARRIOR Exarch can be upgraded to an Exemplar. An Exemplar can have two different Exarch
   Powers, and you only pay points for the costlier of the two. No more than one Exemplar of each Aspect Warrior type can
@@ -81,21 +105,28 @@ costs 1 CP. Otherwise, it costs 2 CP.
 friendly WRAITH CONSTRUCT unit, it is considered to be within 3" of that unit for the purposes of **Wraith Sight**
 and **Spirit Guide** special rules. In addition, while a friendly WRAITH CONSTRUCT unit is within 9" of this model, that
 unit may re-roll one hit roll per phase.
-  - **\[Warlord Trait] ?:**
+  - **\[Warlord Trait] Commander of the Dead:** If this WARLORD has the **The Path of Command** special rule, it can 
+also affect \<CRAFTWORLD> WRAITH CONSTRUCT INFANTRY units (despite them not having the CORE keyword).
 
   **SPECIAL:** Stoic Endurance is not a Command Effect and stays active even while the unit is In Disarray.
   
   ### Saim-Hann:
   - **\[Ability] Wild Host:** After this unit makes a charge move, it gains a +1 bonus to its Attack characteristic in
 the following Fight phase. In addition, if this unit is a BIKER, all models in this unit can treat all Heavy weapons 
-they are equipped with as Assault weapons.
+they are equipped with as Assault weapons. Both of these effects are Command Effects.
   - **\[Stratagem] Name (1/2 CP):** Use this Stratagem before the battle, when you are mustering your army. 
 Select one SAIM-HANN SHINING SPEARS or SAIM-HANN (?) unit from your army. That unit now takes up a Troop Battlefield 
 Role slot, instead of Fast Attack, and gains the **Objective Secured** special rule. If this unit contains 5 models or
 less, this Stratagem costs 1 CP. Otherwise, it costs 2 CP.
-  - **\[Relic] ?:** ?
-  - **\[Warlord Trait] Wild Rider Chieftain:** ?
+  - **\[Relic] Talisman of Tionchar:** Equip to a SAIM-HANN INFANTRY CHARACTER or SAIM-HANN BIKER CHARACTER. After this
+model makes a charge move, its melee attacks gain +1 Strength, +1 Damage and AP improved by 1 in the following Fight 
+phase.
+  - **\[Warlord Trait] Wild Rider Chieftain:** When this WARLORD Disengages, if it has the BIKER keyword, it cannot be
+Pursued except by an enemy unit with an equal or better Move characteristic.
   
+  **SPECIAL:** A SAIM-HANN unit that has the **Aerobatic Grace** special rule can take a 6+ invulnerable save against
+  melee attacks.
+
   ### Ulthwe:
   - **\[Ability] Foresight of the Damned:** At the start of your Command phase, if this unit is not In Disarray, it
 gains 1 Clairvoyance die.
@@ -114,21 +145,52 @@ the die to whatever number you wish.
 may choose to have it use forbidden knowledge. If you do, it gains +1 to Psychic tests, -1 to Ghosthelm rolls, and all
 Psychic test results of 11 or higher result in Perils of the Warp. Enemies' Deny the Witch rolls of 6 must be re-rolled
 when used against forbidden knowledge. This is a Command Effect.
-  - **\[Stratagem] ?:** (better webway strike)
-  - **\[Relic] The Book of Mol'Kerian:** ? 
-  - **\[Warlord Trait] ?:**
+  - **\[Stratagem] (none)**
+  - **\[Relic] The Book of Mol'Kerian:** Equip to an ULTHWE PSYKER CHARACTER model. One per Psychic phase, this model
+may attempt to manifest any psychic power known by another friendly ULTHWE PSYKER.
+  - **\[Warlord Trait] I am the Black Librarians:** _Their essence is mine... Because I am the spirit of their 
+existence... I am them... I am them... I am them..._ When this WARLORD attempts to manifest a psychic power that has 
+already been manifested during this Psychic phase, use its original Warp Charge value increased by 1, no matter how many
+times it has been attempted so far.
   
+  **SPECIAL:** This Craftworld doesn't unlock a unique Stratagem, however, you can use the Webway Strike Stratagem any
+  number of times per battle and it always costs 1 CP. In addition, each BLACK LIBRARY INFANTRY and BLACK LIBRARY BIKER
+  unit gains this special rule: "**Webway Dwellers:** If this unit is set up on the battlefield using the 
+  **Deep Strike** special rule, it gains a +1 bonus to its Exhaustion roll."
+
   ### Qavilon:
   - **\[Ability] Predator's Web:** For every enemy unit that is wholly within any perimiter defined by 3 different 
-units* with this ability within 8" of it, and by the lines connecting these 3 units, the following hindrances apply:
+units (except those In Disarray) with this ability within 8" of it, and by the lines connecting these 3 units, the 
+following hindrances apply:
     - The Nerve characteristic of that enemy unit is reduced by 1.
-    - When that enemy unit is being shot at by units** with this trait, all wound rolls gain an Advantage.
-
-**Notes:** (\*) Units that are In Disarray or in Engagement Range of enemy units don't contribute to defining the relevant perimiters for this trait. (\*\*) Units that are In Disarray also don't benefit from it when shooting.
-  - **\[Stratagem] Portal Mastery (1 CP):** Use this stratagem at the start of your Shooting phase. Select a QAVILON PSYKER, then select another QAVILON unit within 18" (none of the selected units may be In Disarray). Finally, select one enemy unit within 18" of the psyker (it doesn't have to be visible). Until the end of the phase, the selected QAVILON unit may shoot at the selected enemy unit without requiring any line of sight, and if it does, the target doesn't receive any benefits of cover.
-  - **\[Relic] ?:** (equip to INFANTRY CHARACTER, he can move same as a Warp Spider)
+    - When that enemy unit is being shot at by units with this trait (except those In Disarray), all wound rolls gain an
+      Advantage.
+  - **\[Stratagem] Portal Mastery (1 CP):** Use this stratagem at the start of your Shooting phase. Select a QAVILON
+PSYKER, then select another QAVILON unit within 18" (none of the selected units may be In Disarray). Finally, select one
+enemy unit within 18" of the psyker (it doesn't have to be visible). Until the end of the phase, the selected QAVILON
+unit always considers the selected enemy unit as Completely Visible (and so that enemy unit cannot take Cover saves 
+against its attacks).
+  - **\[Relic] ?:** Equip to a QAVILON INFANTRY CHARACTER. (he can move same as a Warp Spider)
   - **\[Warlord Trait] ?:**
+
+  **SPECIAL:** ?
   
+  ### Iybraesil - ???
+  (matriarchal; hags; sacrifice -> knowledge) The Crone's Blessing / No Knowledge Without Sacrifice
+  - \[?] psyker -> to re-roll psychic test/cast additional spell; take MW (can't be avoided) afterwards
+  - **\[Ability] ?:** ?
+  - **\[Stratagem] Matriarchy (1 CP):** Use this Stratagem before the battle, when you are mustering your army. 
+Select one IYBRAESIL HOWLING BANSHEES unit from your army. That unit now takes up a Troop Battlefield Role slot, instead
+of Fast Attack, and gains the **Objective Secured** special rule.
+  - **\[Relic] ?:** ?
+  - **\[Warlord Trait] ?:**
+
+  **SPECIAL:** ?
+
+  ---
+
+  Craftworlds below are Work-in-progress and are not to be used.
+
   ### Altansar - ???
   (Maugan Ra, eye of terror)
   - **\[Ability] ?:** ?
@@ -144,16 +206,6 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
   - **\[Relic] ?:** ?
   - **\[Warlord Trait] ?:**
   
-  ### Iybraesil - ???
-  (matriarchal; hags; sacrifice -> knowledge)
-  - \[?] psyker -> to re-roll psychic test/cast additional spell; take MW (can't be avoided) afterwards
-  - **\[Ability] ?:** ?
-  - **\[Stratagem] Matriarchy (1 CP):** Use this Stratagem before the battle, when you are mustering your army. 
-Select one IYBRAESIL HOWLING BANSHEES unit from your army. That unit now takes up a Troop Battlefield Role slot, instead
-of Fast Attack, and gains the **Objective Secured** special rule.
-  - **\[Relic] ?:** ?
-  - **\[Warlord Trait] ?:**
-  
   ### Kaelor - ???
   (indulgence, deprivation, civil war; good/veteran guardians)
   - **\[Ability] ?:** ?
@@ -164,7 +216,7 @@ of Fast Attack, and gains the **Objective Secured** special rule.
   ### Lugganath - ???
   (corsairs, pirates)
   - **\[Ability] ?:** ?
-  - **\[Stratagem] ?:** (Turn failed Exhaustion roll into a successful one for reinforcements)
+  - **\[Stratagem] ?:** (Turn failed Exhaustion roll into a successful one for reinforcements; 2CP if 1st round, 1CP otherwise)
   - **\[Relic] ?:** (Any 1 relic from another craftworld)
   - **\[Warlord Trait] ?:**
   
@@ -269,7 +321,8 @@ of Fast Attack, and gains the **Objective Secured** special rule.
   TODO
   
   ### Witch Strike (Warp Charge: 5)
-  If manifested, until the next Psychic phase, whenever the caster makes a melee attack, its Damage characteristic is increased by 1 against VEHICLE models and by 2 against all other models.
+  If manifested, until the next Psychic phase, whenever the caster makes a melee attack, its Damage characteristic is
+  increased by 1 against VEHICLE models and by 2 against all other models.
   
 ---
   
@@ -285,17 +338,23 @@ of Fast Attack, and gains the **Objective Secured** special rule.
   by Doom multiple times and the effect stacks.
 
   ### Fortune (Warp Charge: 7)
-  ???
+  If manifested, choose a friendly ASURYANI unit. Until the start of the next Psychic phase, that unit gains a 5+
+  invulnerable save.
   
   ### Clairvoyance (Warp Charge: 7)
   If manifested, the caster gains 2 Clairvoyance dice. They can be used for the caster or for any friendly
   ASURYANI \<CRAFTWORLD\> unit within 12" of the caster.
 
   ### Safe Passage (Warp Charge: 6)
-  If manifested, choose a friendly Reinforcements unit. You may immediately set it up on the battlefield using any relevant special rules available to that unit, along with any accompanying CHARACTERs (as per the usual rules for CHARACTER Reinforcements), as if it were the Reinforcements Phase. All models that arrive on the battlefield using Safe Passage must be set up in unit coherency and wholly within 12" of the caster - if this is not possible, then they cannot arrive in this way. When units arrive on the battlefield using Safe Passage, their associated Exhaustion Roll succeeds automatically.
+  If manifested, choose a friendly unit that's currently in Reserves. You may immediately set it up on the battlefield 
+  using any relevant special rules available to that unit, along with any accompanying CHARACTERs (as per the usual 
+  rules for CHARACTER Reinforcements), as if it were the Reinforcements Phase. All models that arrive on the battlefield
+  using Safe Passage must be set up in unit coherency and wholly within 12" of the caster - if this is not possible,
+  then they cannot arrive in this way. When units arrive on the battlefield using Safe Passage, their associated
+  Exhaustion Roll succeeds automatically.
   
   ### Power 6 Placeholder (Warp Charge: ?)
-  If manifested, nothing happens.
+  If manifested, ...?
 
 ---
 
@@ -348,7 +407,7 @@ of Fast Attack, and gains the **Objective Secured** special rule.
 
   ### Unparalleled Mastery (1CP)
   Use this Stratagem when an ASURYANI FARSEER successfully manifests their last psychic power in a Psychic phase. 
-  That psyker can attempt to manifest an additional psychic power this turn.
+  That psyker can attempt to manifest an additional psychic power this turn. This is a Command Effect.
 
   ### Treasures of the Craftworld (1CP)
   Use this Stratagem before the battle, when you are mustering your army. (Army gains 1 extra Relic; use up to 3 times)
@@ -356,22 +415,26 @@ of Fast Attack, and gains the **Objective Secured** special rule.
   ### Lightning-Fast Reactions (2CP)
   Use this Stratagem when a friendly ASURYANI CORE INFANTRY unit, or a friendly ASURYANI CORE UNIT WITH THE FLY keyword
   is targeted by a ranged or melee weapon. Until the end of the phase, hit rolls of all attacks made against that unit 
-  suffer an Impairment.
+  suffer an Impairment. This is a Command Effect.
 
   ### Seer Council
 
   ### Supreme Disdain (1CP)
   Use this Stratagem when an ASURYANI unit is about to make its attacks in the Fight phase. Each time you make a hit 
   roll of 61 or more for a model in this unit during this phase, it can immediately make an extra attack against the
-  same target using the same weapon. These extra attacks cannot themselves generate any further attacks.
+  same target using the same weapon. These extra attacks cannot themselves generate any further attacks. This is a
+  Command Effect.
 
-  ### Webway Strike
+  ### Webway Strike (1/3CP)
+  Use this Stratagem during deployment, when declaring which of your units will be placed in Reserves. If you spend
+  1 CP, choose one ASURYANI INFANTRY or ASURYANI BIKER unit - that unit gains the **Deep Strike** special rule. If you
+  spend 3 CP, select another such unit to gain the same special rule. This Stratagem can only be used once per battle.
 
   ### Phantasms (2CP)
   Use this Stratagem at the start of the first battle round, but before the first turn has begun. Pick up to three 
   ASURYANI units from your army that are on the battlefield. You can immediately remove these units from the battlefield
   and set them up again as described in the Deployment section of the mission you are playing (if you redeploy a 
-  TRANSPORT, all units embarked inside it remain so when it is set up again).
+  TRANSPORT model, all units embarked inside it remain so when it is set up again).
 
   ### The Avatar Resurgent (3CP)
   _:ok\_hand:_
@@ -382,8 +445,48 @@ of Fast Attack, and gains the **Objective Secured** special rule.
   _Ride the sky, give me wings to fly!_
 
   Use this Stratagem when an ASURYANI BIKER unit is about to perform the Normal Move action. It can move an extra 6"
-  during this move.
+  during this move. This is a Command Effect.
 
+  ### And Thou Shall Trust... The Seer (1CP)
+  Use this Stratagem at the start of any phase. Select 1 ASURYANI unit from your army that is not In Disarray and that
+  is within 6" of a friendly FARSEER, SPIRITSEER or WRATHSEER model. Roll 2D6, choose one to give to the selected unit 
+  as a Clairvoyance Die and discard the other.
+
+  ### Something Something Vroom Vroom (1CP)
+  Use this Stratagem at the start of your Movement phase. Select one ASURYANI TRANSPORT unit from your army - that unit
+  gains the **Assault Vehicle** special rule until the end of the battle round. This is a Command Effect.
+
+## Relics
+
+  ### Firesabre
+  Equip to an ASURYANI CHARACTER model equipped with a Power sword. Firesabre replaces their Power sword and has the
+  following profile:
+
+  | WEAPON           | RANGE | TYPE      |  S  | AP | D | Qualities
+  |------------------|-------|-----------|-----|----|---|-----------
+  | Firesabre        | Melee | Melee     |  +2 | -3 | 1 | Each time you make a wound roll of 61 or higher for this weapon, it inflicts 1 mortal wound in addition to any other damage the attack may deal.
+
+  ### Shimmerplume of Achillrial
+  Equip to an AUTARCH model. All attacks that target this model suffer an Impairment to their hit rolls.
+
+  ### Kurnous' Bow
+  Equip to an ASURYANI CHARACTER model equipped with a Shuriken pistol. Kurnous' Bow replaces their Shuriken pistol and
+  has the following profile:
+
+  | WEAPON           | RANGE | TYPE      |  S  | AP | D | Qualities
+  |------------------|-------|-----------|-----|----|---|-----------
+  | Kurnous' Bow     |  12"  | Pistol 3  |  4  | -1 | 2 | **Shuriken Weapon**
+
+  ### Jar of Gypsy Tears
+  _Procured by the great Farseer by the name of Bor'Athus._
+  Equip to any ASURYANI CHARACTER model. At the start of your Command phase, this model gains 1 Clairvoyance Die.
+
+  ### The Phoenix Gem
+  Equip to any ASURYANI CHARACTER model. The first time this model is slain, roll a D6 for each unit (friend or foe) 
+  within 3" of this model. On a roll of 2 or more, that unit suffers D3 mortal wounds. If at least one model is 
+  destroyed as a result of this, then this model is not slain, but remains in play with a number of wounds equal to the
+  number of models slain by this effect (capped at this model's Wounds characteristic). Otherwise, this model is slain
+  as usual.
 
 ## Weapons
 
@@ -584,7 +687,8 @@ equipped with a Twin shuriken catapult.
 #### > SPECIAL RULES:
 - **Battle Focus**
 - **The Path of Command:**
-- **Aerobatic Grace:** This model has a 4+ invulnerable save against ranged attacks.
+- **Aerobatic Grace:** While this model is not in Engagament Range of enemy units, it has a 4+ invulnerable save 
+against ranged attacks.
 
 #### > OPTIONS:
 - This model may replace its Power sword with a Laser lance (+8 pts).
@@ -683,16 +787,18 @@ Each model is armed with an Avenger shuriken catapult and Plasma grenades.
 - **Battle Focus**
 - **Objective Secured**
 - **Exarch Guidance:** While this unit contains an Exarch, its Nerve characteristic is improved by 1.
+- **Bladestorm:** (TODO)
 
 #### > OPTIONS:
 - The Dire Avenger Exarch can take one exarch power from the list below at the listed point cost.
 
 #### > DIRE AVENGER EXARCH POWERS:
-- **Battle Fortune (?pts):** This unit's Dire Avenger Exarch has a 7+ invulnerable save and a +1 bonus to all saving throws.
-- **Bladestorm (?pts):** Whilst this unit contains a Dire Avenger Exarch, when resolving an attack made with a ranged weapon that has the "Shuriken Weapon" quality by a model in this unit, an unmodified hit roll of 61 or higher scores 1 additional hit.
-- **Martial Adept (?pts):** This unit's Dire Avenger Exarch receives a +1 bonus to his Melee Skill, Ballistic Skill and Attacks attributes.
-- **Shredding Fire (?pts):** When resolving an attack made with a ranged weapon that has the "Shuriken Weapon" quality by this unit's Dire Avenger Exarch, that quality confers its +2 bonus to Armour Penetration regardless of the wound roll.
-- **Stand Firm:** ???
+- **Martial Adept (free):** This unit's Dire Avenger Exarch receives a +1 bonus to his Melee Skill, Ballistic Skill and
+Attacks attributes.
+- **Battle Fortune (5 pts):** This unit's Dire Avenger Exarch has a 5+ invulnerable save and a 3+ armour save.
+- **Shredding Fire (10 pts):** When resolving an attack made with a ranged weapon that has the "Shuriken Weapon" quality
+by this unit's Dire Avenger Exarch, that quality confers its +2 bonus to Armour Penetration regardless of the wound roll.
+- **Stand Firm (? pts):** ???
 - **Avenging Strikes (?pts):**  ???
 
 As with all exarch powers, Dire Avenger Exarch powers are NOT in effect while the unit is In Disarray.
@@ -918,7 +1024,8 @@ Each model is armed with a Laser lance and Twin shuriken catapult.
 #### > SPECIAL RULES:
 - **Battle Focus**
 - **Exarch Guidance:** While this unit contains an Exarch, its Nerve characteristic is improved by 1.
-- **Aerobatic Grace:** Models in this unit have a 4+ invulnerable save against ranged attacks.
+- **Aerobatic Grace:** While this unit is not in Engagament Range of enemy units, models in it have a 4+ invulnerable 
+save against ranged attacks.
 
 #### > OPTIONS:
 (TODO)
@@ -926,9 +1033,11 @@ Each model is armed with a Laser lance and Twin shuriken catapult.
 
 #### > SHINING SPEARS EXARCH POWERS:
 - **Expert Hunter (free):** You can re-roll wound rolls for a Shining Spear Exarch when attacking a MONSTER or VEHICLE.
+- **Lancer (8 pts):** When resolving an attack made with a Laser lance or Star lance by this unit’s Shining Spear 
+Exarch, a hit roll of 61 or more scores 1 additional hit.
 - **Ride the Wind (15 pts):** While this unit contains a Shining Spear Exarch, its Move characteristic is increased by 2".
-- **Withdraw (20 pts):** When this unit Disengages, it cannot be Pursued except by an enemy unit with an equal or better
-Move characteristic.
+- **Swooping Dive (15 pts):** Whilst this unit contains a Shining Spear Exarch, when a charge roll is made for this
+unit, you may re-roll the result.
 
 As with all exarch powers, Shining Spear Exarch powers are NOT in effect while the unit is In Disarray.
 
@@ -980,7 +1089,8 @@ A Fire Prism is a single model equipped with a prism cannon and a twin shuriken 
 
 #### > OPTIONS:
 - This model may replace its twin shuriken catapult with a shuriken cannon.
-- This model may take items from the Vehicle Equipment list.
+- This model may be equipped with Spirit stones (+15 pts).
+- This model may be equipped with Vectored engines (+15 pts).
 
 ---
   
@@ -1098,6 +1208,8 @@ WRAITHBLADE model takes the space of two other models. It cannot transport JUMP 
 - **Explodes:** (TODO)
 
 #### > OPTIONS:
+- This model may be equipped with Spirit stones (+15 pts).
+- This model may be equipped with Vectored engines (+15 pts).
 (TODO)
 
 ---
