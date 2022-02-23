@@ -454,7 +454,8 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
 
   ### Something Something Vroom Vroom (1CP)
   Use this Stratagem at the start of your Movement phase. Select one ASURYANI TRANSPORT unit from your army - that unit
-  gains the **Assault Vehicle** special rule until the end of the battle round. This is a Command Effect.
+  gains the **Assault Vehicle** special rule until the end of the battle round. This is a Command Effect. (name = TODO,
+  obviously).
 
 ## Relics
 
@@ -513,8 +514,8 @@ keyword. TODO
 | Bright lance               |  36"  | Heavy 1     |  8 | -3 | D3+1 | **Armourbane**
 | D-cannon                   |       |             |    |    |      | -
 | Flamer                     |   2"  | Steady 1    |  4 |  0 |    1 | **Flamer Template**
-| Fusion gun                 |  12"  | Assault 1   |  8 | -3 |      | **Melta**
-| Fusion pistol              |   6"  | Pistol 1    |  8 | -3 |      | **Melta**
+| Fusion gun                 |  12"  | Assault 1   |  8 | -3 |  2D3 | **Melta**
+| Fusion pistol              |   6"  | Pistol 1    |  8 | -3 |  2D3 | **Melta**
 | Plasma grenades            |   6"  | Grenade 1   |  4 | -1 |    1 | **Blast (small)**
 | Scatter laser              |  36"  | Heavy 4     |  6 |  0 |    1 | -
 | Shuriken cannon            |  24"  | Assault 3   |  6 |  0 |    1 | **Shuriken weapon**
@@ -839,12 +840,62 @@ enemy model, it is considered Heavily Obscured instead.
 
 ---
 
+### \[Elite] Fire Dragons
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
+| Fire Dragon              |  27 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 4+ | 28mm 
+| Fire Dragon Exarch       |  27 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 3 | 5 | * | 4+ | 28mm 
+
+| Howling Banshees in unit   | Nerve 
+|----------------------------|-------
+| 1-5                        |    8 
+| 6-10                       |    9 
+
+This unit contains 4 Fire Dragons and 1 Fire Dragon Exarch. It can include up to 5 additional Fire Dragons.
+Every model is equipped with a Fusion gun and Melta bombs.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
+
+**KEYWORDS:** INFANTRY, CORE, FIRE DRAGONS
+
+| WEAPON                     | RANGE |     TYPE    |  S | AP |   D  | QUALITIES
+|----------------------------|-------|-------------|----|----|------|--------------------------- 
+| Dragon's breath flamer     |   2"  | Steady 1    |  5 | -1 |    1 | **Flamer template**
+| Firepike                   |  18"  | Heavy 1     |  9 | -4 |  2D3 | **Melta**
+| Melta bomb                 |   6"  | Grenade 1   |  8 | -4 |  2D3 | You can re-roll failed wound rolls for this weapon if the target is a VEHICLE.
+
+#### > SPECIAL RULES:
+- **Battle Focus**
+- **Exarch Guidance:** While this unit contains an Exarch, its Nerve characteristic is improved by 1.
+- **Assured Destruction:** When you make a wound roll for a ranged attack made by a model in this unit against
+a MONSTER or VEHICLE model, you may re-roll a 'tens' roll of 1.
+
+#### > OPTIONS:
+- The Fire Dragon Exarch may replace their Fusion gun with a Dragon’s breath flamer or a Firepike.
+- The Fire Dragon Exarch can take one exarch power from the list below at the listed point cost.
+
+#### > FIRE DRAGON EXARCH POWERS:
+- **Crack Shot (free):** Whenever this unit’s Fire Dragon Exarch makes a hit roll for a ranged attack, you may re-roll
+a 'tens' roll of 1.
+- **Burning Heat (10 pts):** If this unit contains a Fire Dragon Exarch, all melee attacks made against this
+unit suffer an Impairment to their hit roll.
+- **Dragon’s Bite (15 pts):** If this unit contains a Fire Dragon Exarch at the start of your Shooting phase, you can
+change the Type characteristic of this unit’s Fusion guns to Pistol 1 until the end of that phase.
+- **Face-melting Intensity (15 pts):** If this unit contains a Fire Dragon Exarch, after rolling damage for a ranged
+weapon with a Damage characteristic of 2D3, you may re-roll one D3.
+- **Wall of Fire (? pts):** TODO
+
+As with all exarch powers, Fire Dragon Exarch powers are NOT in effect while the unit is In Disarray.
+
+---
+
 ### \[Elite] Howling Banshees
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Howling Banshee          |  23 | 8" | 4" |  6 |  7 | 3 | 3 | 1 | 2 | 8 | * | 4+ | 28mm 
-| Howling Banshee Exarch   |  23 | 8" | 4" |  6 |  7 | 3 | 3 | 1 | 3 | 8 | * | 4+ | 28mm 
+| Howling Banshee          |  23 | 8" | 4" |  6 |  7 | 3 | 3 | 1 | 2 | 7 | * | 4+ | 28mm 
+| Howling Banshee Exarch   |  23 | 8" | 4" |  6 |  7 | 3 | 3 | 1 | 3 | 7 | * | 4+ | 28mm 
 
 | Howling Banshees in unit   | Nerve 
 |----------------------------|-------
@@ -1159,7 +1210,8 @@ Aeldari missile launcher (+? pts) or Tempest launcher (+15 pts).
 - The Dark Reaper Exarch can take one exarch power from the list below at the listed point cost.
 
 #### > DARK REAPERS EXARCH POWERS:
-- **Crack Shot (free):** When this unit’s Dark Reaper Exarch shoots, you may re-roll Hit 'tens' rolls of 1.
+- **Crack Shot (free):** Whenever this unit’s Dark Reaper Exarch makes a hit roll for a ranged attack, you may re-roll
+a 'tens' roll of 1.
 - **Rain of Death (5 pts):** When this unit’s Dark Reaper Exarch shoots with a Tempest launcher, you can treat it as a 
 Heavy 1 weapon with the Blast (Large) quality istead of Blast (Small). If you do, add +3 when rolling to determine if a 
 Direct Hit is scored.
