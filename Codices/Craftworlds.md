@@ -18,7 +18,7 @@
   Each Wraith Construct has the WRAITH CONSTRUCT keyword and the following special rules:
   - **Fearless**
   - **Wraithsight:** While a Wraith Construct unit is not within 6" of a friendly PSYKER model (except those that are In
-Disarray), its Melee Skill (MS) and Ballistic Skill (BS) characteristics are reduced by 1.
+Disarray), its Melee Skill (MS) and Ballistic Skill (BS) characteristics are reduced by 2.
   - **Spirit Guide:** If a Wraith Construct unit is within 3" of a SPIRITSEER model (except those that are In Disarray),
 they can be affected by friendly Psychic powers from the Runes of Battle discipline as if they had the CORE keyword.
 
@@ -440,6 +440,7 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
   _:ok\_hand:_
 
   ### Tears of Isha (1CP)
+  ?
 
   ### Warriors of the Raging Winds (1CP)
   _Ride the sky, give me wings to fly!_
@@ -510,7 +511,6 @@ keyword. TODO
 |----------------------------|-------|-------------|----|----|----|--------------------------- 
 | Aeldari missile launcher (Sunburst) | 48" | Heavy 1 |  4 | -1 | 1    | **Blast (small)**
 | Aeldari missile launcher (Starshot) | 48" | Heavy 1 |  8 | -2 | D3+1 | -
-| Avenger shuriken catapult  |  18"  | Assault 2   |  4 |  0 |    1 | **Shuriken weapon**
 | Bright lance               |  36"  | Heavy 1     |  8 | -3 | D3+1 | **Armourbane**
 | D-cannon                   |       |             |    |    |      | -
 | Flamer                     |   2"  | Steady 1    |  4 |  0 |    1 | **Flamer Template**
@@ -542,7 +542,6 @@ Unless othwerise noted in the datasheet, the points costs are as noted in this l
 | Aeldari chainsword         | Melee | User |  0 |  1  | -
 | Diresword                  | Melee | User |  0 |  1  | -
 | Executioner                | Melee |  +1  | -3 |  2  | -
-| Ghostglaive                | Melee |      |    |  1  | (wraithlord thingy)
 | Ghostspear                 | Melee |      |    |  1  | (wraithseer thingy)
 | Mirrorswords               | Melee | User | -3 |  1  | -
 | Power sword                | Melee |  +1  | -3 |  1  | -
@@ -590,7 +589,7 @@ disciplines: Runes of Fate, Runes of Power.
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
 | Warlock                  |  50 | 7" | 4" |  5 |  8 | 3 | 3 | 2 | 2 | 6 | 10 | 6+ | 25mm 
 
-A Warlock is a single model armed with a shuriken pistol and a witchblade.
+A Warlock is a single model armed with a shuriken pistol and a Witchblade.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
@@ -619,7 +618,7 @@ Psychic phase.
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
 | Spiritseer               | 100 | 7" | 4" |  5 |  8 | 3 | 3 | 3 | 2 | 6 | 11 | 6+ | 25mm 
 
-A Warlock is a single model armed with a shuriken pistol and a witchblade.
+A Warlock is a single model armed with a shuriken pistol and a Witchblade.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
@@ -713,7 +712,7 @@ The Avatar of Khaine is a single model armed with the Wailing Doom. Only one of 
 | The Wailing Doom (Inferno)        |   2"  | Steady 1  |   5  | -1 | 1 | **Flamer Template.**
 | The Wailing Doom (Piercing Spear) |  12"  | Assault 1 |  +2  | -4 | 3 | -
 | The Wailing Doom (Cleaving Sword) | Melee | Melee     | User | -1 | 2 | Each time an attack is made with this weapon profile, make 2 hit rolls instead of 1.
-| The Wailing Doom (Great Axe)      | Melee | Melee     |  +2  | -3 | 3 | -
+| The Wailing Doom (Great Axe)      | Melee | Melee     |  +3  | -3 | 3 | -
 
 #### > SPECIAL RULES:
 - **Point-blank shooting**
@@ -758,7 +757,8 @@ For every 10 Guardians in the unit, you may include one Heavy Weapon Platform.
 - **Objective Secured**
 - **Crewed Weapon:** A Heavy Weapon Platform can only fire its ranged weapon if a Guardian from its unit is
 within 3" and ‘fires’ it instead of shooting any of their own weapons. A single Guardian cannot operate
-multiple Heavy Weapon Platforms in this way in a single turn. A Heavy Weapon Platform cannot make melee attacks.
+multiple Heavy Weapon Platforms in this way in a single turn. A Heavy Weapon Platform cannot make melee attacks. If all
+the Guardians in the unit are destroyed, the Heavy Weapon Platform(s) is(are) also destroyed.
 
 #### > OPTIONS:
 - Any Heavy Weapon Platform may replace its shuriken cannon with an item from the Heavy Weapons list.
@@ -784,11 +784,19 @@ Each model is armed with an Avenger shuriken catapult and Plasma grenades.
 
 **KEYWORDS:** INFANTRY, CORE, DIRE AVENGERS
 
+| WEAPON                     | RANGE |     TYPE    |  S | AP | D | QUALITIES
+|----------------------------|-------|-------------|----|----|---|--------------------------- 
+| Avenger shuriken catapult  |  18"  | Assault 2   |  4 |  0 | 1 | **Shuriken weapon**
+
 #### > SPECIAL RULES:
 - **Battle Focus**
 - **Objective Secured**
 - **Exarch Guidance:** While this unit contains an Exarch, its Nerve characteristic is improved by 1.
-- **Bladestorm:** (TODO)
+- **Bladestorm:** When this unit is about to perform the Full Shooting action, if it is not In Disarray and it contains
+a Dire Avenger Exarch, you may choose to change the type of all Avenger shuriken catapults the unit is equipped to 
+Assault 3. If you do, after the action is completed, this unit cannot make any ranged attacks until it has perfored the
+following Shooting phase/Charge phase action: "**Reload: \[Exhaust]** After this action is completed, the unit can
+continue to make ranged attacks."
 
 #### > OPTIONS:
 - The Dire Avenger Exarch can take one exarch power from the list below at the listed point cost.
@@ -880,11 +888,12 @@ a MONSTER or VEHICLE model, you may re-roll a 'tens' roll of 1.
 a 'tens' roll of 1.
 - **Burning Heat (10 pts):** If this unit contains a Fire Dragon Exarch, all melee attacks made against this
 unit suffer an Impairment to their hit roll.
+- **Wall of Fire (10 pts):** When this unit's Fire Dragon Exarch fires Overwatch using a Dragon's breath flamer, the
+targeted charging unit must make its charge move as if moving through Difficult Ground.
 - **Dragon’s Bite (15 pts):** If this unit contains a Fire Dragon Exarch at the start of your Shooting phase, you can
 change the Type characteristic of this unit’s Fusion guns to Pistol 1 until the end of that phase.
 - **Face-melting Intensity (15 pts):** If this unit contains a Fire Dragon Exarch, after rolling damage for a ranged
 weapon with a Damage characteristic of 2D3, you may re-roll one D3.
-- **Wall of Fire (? pts):** TODO
 
 As with all exarch powers, Fire Dragon Exarch powers are NOT in effect while the unit is In Disarray.
 
@@ -1111,7 +1120,7 @@ shuriken cannons.
 - **Battle Focus**
 - **Point-blank Shooting**
 - **Power Field:** Models in this unit have 5+ invulnerable save.
-- **Explodes:** TODO
+- **Explodes:** `Roll: 6+ Range: 3" Strength: 6 AP: -2 Qualities: -`
 
 #### > OPTIONS:
 - Any model may replace any shuriken cannon with an item from the Heavy Weapons list.
@@ -1136,7 +1145,7 @@ A Fire Prism is a single model equipped with a prism cannon and a twin shuriken 
 - **Hover Tank:** Distance and ranges are always measured to and from this model’s hull, even though it has a base.
 - **Point-blank Shooting**
 - **Pulsed Laser Discharge:** ???
-- **Explodes:** TODO
+- **Explodes:** `Roll: 5+ Range: 6" Strength: 8 AP: -2 Qualities: -`
 
 #### > OPTIONS:
 - This model may replace its twin shuriken catapult with a shuriken cannon.
@@ -1149,27 +1158,28 @@ A Fire Prism is a single model equipped with a prism cannon and a twin shuriken 
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T |  W   | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|------|---|---|----|----|------
-| Wraithlord               | 150 |  8" | 4" |  0 |  7 | 7 | 8 | 6-10 | 4 | 3 | 10 | 3+ | 60mm 
+| Wraithlord               | 150 |  8" | 4" |  5 |  7 | 7 | 8 | 6-10 | 4 | 3 | 10 | 3+ | 60mm 
 |                          |     |  7" | 4" |    |  5 |   |   |  3-5 | 4 |   |    | 3+ |
 |                          |     |  6" | 4" |    |  3 |   |   |  1-2 | 4 |   |    | 3+ |
 
-A Wraithlord is a single model armed with two shuriken catapults and wraithbone fists.
+A Wraithlord is a single model armed with two Shuriken catapults and Wraithbone fists.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, SPIRIT HOST, \<CRAFTWORLD\>
 
 **KEYWORDS:** MONSTER, WRAITH CONSTRUCT, WRAITHLORD
 
-| WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
-|----------------------------|-------|------|----|-----|---------------------------
-| Wraithbone fists           | Melee | User | -2 |  3  | -
+| WEAPON                     |  TYPE |   S  | AP |   D  | QUALITIES
+|----------------------------|-------|------|----|------|---------------------------
+| Ghostglaive                | Melee |  +3  | -3 | D3+3 | -
+| Wraithbone fists           | Melee | User | -2 |   3  | -
 
 #### > SPECIAL RULES:
 - **Wraith Construct**
 - **Point-blank shooting**
 
 #### > OPTIONS:
-- This model may replace any shuriken catapult with a flamer.
-- This model may take a ghostglaive.
+- This model may replace any Shuriken catapult with a Flamer.
+- This model may take a Ghostglaive (+15 pts).
 - This model may take up to two items from the Heavy Weapons list.
 
 ---
@@ -1257,7 +1267,7 @@ A Wave Serpent is a single model equipped with a twin shuriken cannon and a twin
 WRAITHBLADE model takes the space of two other models. It cannot transport JUMP PACK models.
 - **Serpent Shield:** (TODO)
 - **Hovering:** Distance and ranges are always measured to and from this model’s hull, even though it has a base.
-- **Explodes:** (TODO)
+- **Explodes:** `Roll: 6+ Range: 6" Strength: 8 AP: -2 Qualities: -`
 
 #### > OPTIONS:
 - This model may be equipped with Spirit stones (+15 pts).
