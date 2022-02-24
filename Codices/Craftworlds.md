@@ -359,43 +359,44 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
 ---
 
 ## Rune Disciplines - Runes of the Dead:
-  ; invul. save; ??? (WRAITH CONSTRUCT only)
   
   ### Wrath of the Dead (Warp Charge: 6)
   If manifested, choose a friendly WRAITH CONSTRUCT unit within 12" of the caster. Until the start of the next Psychic phase,
   increase the Attack (A) characteristic of models in that unit by 1. If a single-model unit would be affected by this
   power (even if it contained more models at the time of casting), the Attack (A) characteristic bonus is 2 instead.
   
-  ### Ominous Presence (Warp Charge: ?)
-  If manifested, choose a friendly WRAITH CONSTRUCT unit within 12" of the caster. (-N -something_else aura)
+  ### Ominous Presence (Warp Charge: 6)
+  If manifested, choose a friendly WRAITH CONSTRUCT unit within 12" of the caster. Enemy units within 6" of this unit have
+  their Nerve characteristic reduced by 2.
   
-  ### Tireless Onslaught (Warp Charge: ?)
-  If manifested, choose a friendly WRAITH CONSTRUCT unit within 12" of the caster.
-  (after Full Shooting, fire again at the end of phase - max 3 models in target unit)
+  ### Tireless Onslaught (Warp Charge: 6)
+  If manifested, choose a friendly WRAITH CONSTRUCT unit within 12" of the caster. If this unit performs the Full Shooting
+  action in the following SHooting Phase, then at the end of that phase, up to 3 models from that unit can shoot again (as
+  if performing the same action).
 
 ## Warlord Traits
 
   Traits 1, 3, 4 and 6 are in kind of a TODO state, may be moved to be Craftworld traits, but they are usable for now.
 
-  ### Trait 1
+  ### 1. Cosset of Fate
   Hit and wound rolls of attacks directed against this WARLORD cannot benefit from more Advantages than Impairments
   and they cannot be re-rolled.
 
-  ### An Eye on Distant Events
+  ### 2. An Eye on Distant Events
   Enemy units cannot fire Overwatch at this WARLORD.
 
-  ### Trait 3
+  ### 3. Trait 3
   This WARLORD can attempt to deny one psychic power in each enemy Psychic phase (if this WARLORD is a PSYKER, 
   they can attempt to deny one psychic power more than usual).
 
-  ### Trait 4
+  ### 4. Trait 4
   Deny the Witch rolls by this WARLORD may be re-rolled.
 
-  ### Mark of the Incomparable Hunter
+  ### 5. Mark of the Incomparable Hunter
   Each time you select a target for a ranged weapon this WARLORD is equipped with, you can ignore the "Look Out, Sir!"
   rule.
 
-  ### Trait 6
+  ### 6. Trait 6
   At the start of your Command phase, if this WARLORD is on the battlefield (or in Reserves if it's the 1st or 2nd
   battle round), roll a D6. On a 4+, gain 1 CP.
 
@@ -1251,11 +1252,11 @@ Aggressive Tactics, as noted in the power's description.
 
 | NAME                     | PTS |  M  | CB | MS | BS | S |   T   |  W   | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|-------|------|---|---|----|----|------
-| Wave Serpent             | 195 | 16" | 4" |  1 |  7 | 6 | 8/8/7 | 7-12 | 3 | 3 |  9 | 3+ | 60mm flying base 
+| Wave Serpent             | 200 | 16" | 4" |  1 |  7 | 6 | 8/8/7 | 7-12 | 3 | 3 |  9 | 3+ | 60mm flying base 
 |                          |     | 12" | 4" |    |  5 |   |       |  4-6 | 2 |   |    | 3+ |
 |                          |     |  8" | 4" |    |  3 |   |       |  1-3 | 1 |   |    | 3+ |
 
-A Wave Serpent is a single model equipped with a twin shuriken cannon and a twin shuriken catapult.
+A Wave Serpent is a single model equipped with a Twin shuriken cannon and a Twin shuriken catapult.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
@@ -1265,7 +1266,10 @@ A Wave Serpent is a single model equipped with a twin shuriken cannon and a twin
 - **Point-blank Shooting**
 - **Transport:** This model can transport 12 PHOENIX LORD or \<CRAFTWORLD\> INFANTRY models. Each WRAITHGUARD or
 WRAITHBLADE model takes the space of two other models. It cannot transport JUMP PACK models.
-- **Serpent Shield:** (TODO)
+- **Serpent Shield:** Whenever this model would lose a wound, roll a die. On a 6 (or 5+ if it is also equipped
+with Spirit stones), the wound is not lost. In addition, once per battle, when selected to shoot in the Shooting
+phase, a Wave Serpent can discharge its Serpent Shield. If it does so, the nearest visible enemy unit within 12"
+suffers D3+1 mortal wounds. The Wave Serpent then gains no benefit from this ability for the remainder of the battle.
 - **Hovering:** Distance and ranges are always measured to and from this model’s hull, even though it has a base.
 - **Explodes:** `Roll: 6+ Range: 6" Strength: 8 AP: -2 Qualities: -`
 
