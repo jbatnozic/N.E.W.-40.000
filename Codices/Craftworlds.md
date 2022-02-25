@@ -1,6 +1,6 @@
 # Codex: Craftworlds
 
-TODO: Singing spear, D-cannon (Wraithguard weapon options), Revise Initiatives, Power Overwhelming
+TODO: (Wraithguard weapon options), Power Overwhelming
 
 ## Codex Special Rules
 
@@ -412,6 +412,8 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
   Whenever this WARLORD would gain a Clairvoyance Die, do not roll it. Instead, turn the die to whatever number you
   wish. (name = TODO, obviously)
 
+  ### 8. Power Overwhelming
+
 ## Stratagems
  
   ### Cloudstrike
@@ -542,8 +544,8 @@ keyword. TODO
 | Shuriken cannon            |  24"  | Assault 3   |  6 |  0 |    1 | **Shuriken weapon**
 | Shuriken catapult          |  12"  | Assault 2   |  4 |  0 |    1 | **Shuriken weapon**
 | Shuriken pistol            |  12"  | Pistol 1    |  4 |  0 |    1 | **Shuriken weapon**
-| Singing spear (ranged)     |  12"  | Assault 1   |    |    |      | -
-| Starcannon                 |  36"  | Heavy 2     |    |    |      | -
+| Singing spear (ranged)     |  12"  | Assault 1   |  9 |  0 |   D3 | **Psychically-attuned Weapon**
+| Starcannon                 |  36"  | Heavy 2     |  6 | -2 |   D3 | -
 | Triskele (ranged)          |   8"  | Assault 3   | +1 | -2 |    1 | -
 | Twin shuriken catapult     |  12"  | Assault 4   |  4 |  0 |    1 | **Shuriken weapon**
 
@@ -662,7 +664,7 @@ discipline, and one power from the Runes of the Dead discipline.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I  |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|----|----|----|------
-| Autarch                  | 105 | 7" | 4" |  7 |  9 | 3 | 3 | 4 | 4 | 8  | 11 | 3+ | 32mm 
+| Autarch                  | 105 | 7" | 4" |  7 |  9 | 3 | 3 | 4 | 4 | 7  | 11 | 3+ | 32mm 
 
 An Autarch is a single model armed with a Power sword, Shuriken pistol and Plasma grenades.
 
@@ -695,7 +697,7 @@ TODO: Add more weapon options; swooping hawk wings; guns: death spinner, reaper 
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I  |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|----|----|----|------
-| Autarch                  | 140 | 16" | 4" |  7 |  9 | 3 | 4 | 5 | 4 | 8  | 11 | 3+ | 32mm flying base
+| Autarch                  | 140 | 16" | 4" |  7 |  9 | 3 | 4 | 5 | 4 | 7  | 11 | 3+ | 32mm flying base
 
 An Autarch is a single model armed with a Power sword and Plasma grenades. Their Aeldari jetbike is
 equipped with a Twin shuriken catapult.
@@ -719,7 +721,7 @@ against ranged attacks.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I  |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|----|----|----|------
-| Avatar of Khaine         | 250 | 8" | 4" | 10 |  9 | 6 | 6 | 9 | 6 | 10 | 11 | 3+ | 60mm 
+| Avatar of Khaine         | 250 | 8" | 4" | 10 |  9 | 6 | 6 | 9 | 6 | 8  | 11 | 3+ | 60mm 
 
 The Avatar of Khaine is a single model armed with the Wailing Doom. Only one of this model may be included in your army.
 
@@ -977,7 +979,7 @@ As with all exarch powers, Howling Banshee Exarch powers are NOT in effect while
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Wraithguard              |  52 | 5" | 4" |  5 |  7 | 5 | 6 | 3 | 2 | 4 | 10 | 3+ | 40mm 
+| Wraithguard              |  52 | 5" | 4" |  5 |  7 | 5 | 6 | 3 | 2 | 3 | 10 | 3+ | 40mm 
 
 This unit contains 5 Wraithguard. It can include up to 5 additional Wraithguard. Each model is armed with
 a Wraithcannon and Wraithguard fists.
@@ -1003,7 +1005,7 @@ a Wraithcannon and Wraithguard fists.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Wraithblade              |  55 | 5" | 4" |  5 |  7 | 5 | 6 | 3 | 3 | 4 | 10 | 3+ | 40mm 
+| Wraithblade              |  55 | 5" | 4" |  5 |  7 | 5 | 6 | 3 | 3 | 3 | 10 | 3+ | 40mm 
 
 This unit contains 5 Wraithblades. It can include up to 5 additional Wraithblades. Each model is armed with
 ghostswords.
@@ -1046,32 +1048,36 @@ Each model is armed with a death spinner.
 
 **KEYWORDS:** INFANTRY, CORE, JUMP PACK, WARP SPIDERS
 
-| WEAPON                            | RANGE | TYPE      |  S  | AP |  D  | Qualities
-|-----------------------------------|-------|-----------|-----|----|-----|-----------
-| Death spinner                     |  12"  | Assault 2 |  6  | 0  |  1  | -
+| WEAPON                            | RANGE | TYPE      |  S  | AP |   D  | Qualities
+|-----------------------------------|-------|-----------|-----|----|------|-----------
+| Death spinner                     |  12"  | Assault 2 |  6  | 0  |  1   | -
 | Spinneret rifle                   |  18"  | Heavy 2   |  5  | -2 | D2+1 | -
+
+| WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
+|----------------------------|-------|------|----|-----|--------------------------- 
+| Powerblades                | Melee | User | -2 |  1  | Each time the bearer fights, it can make 1 additional attack with this weapon.
 
 #### > SPECIAL RULES:
 - **Battle Focus**
 - **Exarch Guidance:** While this unit contains an Exarch, its Nerve characteristic is improved by 1.
 - **Deep Strike**
-- **Warp Jump Generator:** When this unit would perform the Charge action, it may instead do a short-range warp jump. To do so, nominate a direction and move every model in the unit exactly 4D6" in that direction (roll once for the whole unit), as if the unit had FLY. Any model that cannot be placed because of terrain, other units or battlefield edge is destroyed and immediately removed. This counts as a Charge phase action that Exhausts the unit, but not as a charge.
+- **Warp Jump Generator:** This unit can perform the following action during the Charge phase: "**Short-range Jump: \[Exhaust]** Nominate a direction, then roll a 2D6 and a 4D6. Pick a value between the lower roll and the higher roll and move every model in the unit that many inches in the nominated direction, as if they could FLY. Any model that cannot be placed because of terrain, other units or battlefield edge is destroyed and immediately removed."
 - **Flickerjump:** When this unit is targeted by a ranged weapon, you can declare that they will make a flickerjump - all hit rolls of ranged attacks
 that target this unit until the end of the phase suffer an Impairment.
 - **Warp Passage:** Whenever this unit makes use of one of the following abilities: Deep Strike, Warp Jump Generator, Flickerjump - roll a 2D6. On a 3 or less, one model is claimed by the Warp - destroy it and immediately remove it.
 
 #### > OPTIONS:
 - The Warp Spider Exarch can be equipped with one of the following:
-  - Additional Death spinner (+? pts);
-  - Powerblades (+? pts);
-  - Additional Death spiner and Powerblades (+? pts);
-  - Spinneret rifle (+? pts).
+  - Additional Death spinner (+5 pts);
+  - Powerblades (+5 pts);
+  - Additional Death spiner and Powerblades (+10 pts);
+  - Spinneret rifle (+10 pts).
 - The Warp Spider Exarch can take one exarch power from the list below at the listed point cost.
 
 #### > WARP SPIDERS EXARCH POWERS:
 - **Iron Resolve (free):** While this unit contains a Warp Spider Exarch, it loses up to 1 strain at the start of each of your Morale phases.
 - **Surprise Assault (5 pts):** Whilst this unit contains a Warp Spider Exarch, when resolving a ranged attack made by a model in this unit in a turn in which it was set up on the battlefield using the Deep Strike special rule, you can re-roll the hit roll.
-- **Warp Guide (10 pts):** While this unit contains a Warp Spider Exarch, you may re-roll its Warp Passage rolls.
+- **Warp Guide (15 pts):** While this unit contains a Warp Spider Exarch, you may re-roll its Warp Passage rolls.
 
 As with all exarch powers, Warp Spider Exarch powers are NOT in effect while the unit is In Disarray.
 
@@ -1081,8 +1087,8 @@ As with all exarch powers, Warp Spider Exarch powers are NOT in effect while the
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Shining Spear            |  50 | 14" | 4" |  5 |  7 | 3 | 4 | 2 | 2 | 6 | * | 3+ | 32mm flying base
-| Shining Spear Exarch     |  50 | 14" | 4" |  5 |  7 | 3 | 4 | 2 | 3 | 6 | * | 3+ | 32mm flying base
+| Shining Spear            |  50 | 14" | 4" |  5 |  7 | 3 | 4 | 2 | 2 | 5 | * | 3+ | 32mm flying base
+| Shining Spear Exarch     |  50 | 14" | 4" |  5 |  7 | 3 | 4 | 2 | 3 | 5 | * | 3+ | 32mm flying base
 
 | Shining Spears in unit     | Nerve 
 |----------------------------|-------
@@ -1127,7 +1133,7 @@ As with all exarch powers, Shining Spear Exarch powers are NOT in effect while t
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
-| War Walker               |  90 | 10" | 4" |  4 |  7 | 6 | 6 | 6 | 2 | 5 |  9 | 4+ | 60mm 
+| War Walker               |  90 | 10" | 4" |  4 |  7 | 6 | 6 | 6 | 2 | 4 |  9 | 4+ | 60mm 
 
 This unit contains 1 War Walker. It can include up to 2 additional War Walkers. Each model is armed with 2
 shuriken cannons.
