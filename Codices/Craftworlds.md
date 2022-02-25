@@ -421,8 +421,9 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
 
   ### Forewarned (1CP)
   Use this Stratagem immediately after your opponent sets up a unit that is arriving on the battlefield as 
-  Reinforcements within sight of one of your \<CRAFTWORLD\> CORE units that is itself within 6" of a friendly 
-  \<CRAFTWORLD\> FARSEER. Your unit can immediately shoot at that enemy unit as if it were the Shooting phase.
+  Reinforcements within sight of one of your \<CRAFTWORLD\> CORE units (except those In Disarray) that is itself
+  within 6" of a friendly \<CRAFTWORLD\> FARSEER (except those In Disarray). Your unit can immediately shoot at that
+  enemy unit as if it were the Shooting phase.
 
   ### Unparalleled Mastery (1CP)
   Use this Stratagem when an ASURYANI FARSEER successfully manifests their last psychic power in a Psychic phase. 
@@ -1120,8 +1121,8 @@ Each model is armed with a Laser lance and Twin shuriken catapult.
 save against ranged attacks.
 
 #### > OPTIONS:
-(TODO)
 - The Shining Spear Exarch can take one exarch power from the list below at the listed point cost.
+- (TODO)
 
 #### > SHINING SPEARS EXARCH POWERS:
 - **Expert Hunter (free):** You can re-roll wound rolls for a Shining Spear Exarch when attacking a MONSTER or VEHICLE.
@@ -1167,7 +1168,7 @@ shuriken cannons.
 |                          |     | 12" | 4" |    |  5 |   |       |  4-6 | 2 |   |    | 3+ |
 |                          |     |  8" | 4" |    |  3 |   |       |  1-3 | 1 |   |    | 3+ |
 
-A Fire Prism is a single model equipped with a prism cannon and a twin shuriken catapult.
+A Fire Prism is a single model equipped with a Prism cannon and a Twin shuriken catapult.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
@@ -1178,6 +1179,8 @@ A Fire Prism is a single model equipped with a prism cannon and a twin shuriken 
 | Prism cannon (Dispersed)          |  36"  | Heavy \*  |  \*  | -2 |   1 | \*
 | Prism cannon (Focused)            |  48"  | Heavy \*  |  \*  | -3 |  D3 | \*
 | Prism cannon (Lance)              |  60"  | Heavy \*  |  \*  | -4 | 2D3 | \*
+
+**Weapon Facings:** Prism cannon: Front, Left, Right, Back; Twin shuriken catapult: Front.
 
 #### > SPECIAL RULES:
 - **Hover Tank:** Distance and ranges are always measured to and from this model’s hull, even though it has a base.
@@ -1336,6 +1339,8 @@ A Wave Serpent is a single model equipped with a Twin shuriken cannon and a Twin
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
 **KEYWORDS:** VEHICLE, TRANSPORT, FLY, WAVE SERPENT
+
+**Weapon Facings:** Twin shuriken cannon: Front, Left, Right, Back; Twin shuriken catapult: Front.
 
 #### > SPECIAL RULES:
 - **Point-blank Shooting**
