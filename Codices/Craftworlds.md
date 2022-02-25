@@ -1350,8 +1350,8 @@ A Wave Serpent is a single model equipped with a Twin shuriken cannon and a Twin
 
 #### > SPECIAL RULES:
 - **Point-blank Shooting**
-- **Transport:** This model can transport 12 PHOENIX LORD or \<CRAFTWORLD\> INFANTRY models. Each WRAITHGUARD or
-WRAITHBLADE model takes the space of two other models. It cannot transport JUMP PACK models.
+- **Transport:** This model can transport up to 12 PHOENIX LORD and/or \<CRAFTWORLD\> INFANTRY models. 
+Each WRAITHGUARD or WRAITHBLADE model takes the space of two other models.
 - **Serpent Shield:** Whenever this model would lose a wound, roll a die. On a 6 (or 5+ if it is also equipped
 with Spirit stones), the wound is not lost. In addition, once per battle, when selected to shoot in the Shooting
 phase, a Wave Serpent can discharge its Serpent Shield. If it does so, the nearest visible enemy unit within 12"
