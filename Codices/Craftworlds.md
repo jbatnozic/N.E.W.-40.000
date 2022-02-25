@@ -791,8 +791,9 @@ the Guardians in the unit are destroyed, the Heavy Weapon Platform(s) is(are) al
 
 | Dire Avengers in unit   | Nerve 
 |-------------------------|-------
-| 1-5                     |    8 
-| 6-10                    |    9 
+| 1-3                     |    7 
+| 4-6                     |    8 
+| 7-10                    |    9 
 
 This unit contains 4 Dire Avengers and 1 Dire Avenger Exarch. It can include up to 5 additional Dire Avengers.
 Each model is armed with an Avenger shuriken catapult and Plasma grenades.
@@ -872,10 +873,11 @@ enemy model, it is considered Heavily Obscured instead.
 | Fire Dragon              |  27 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 4+ | 28mm 
 | Fire Dragon Exarch       |  27 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 3 | 5 | * | 4+ | 28mm 
 
-| Howling Banshees in unit   | Nerve 
-|----------------------------|-------
-| 1-5                        |    8 
-| 6-10                       |    9 
+| Fire Dragons  in unit    | Nerve 
+|--------------------------|-------
+| 1-3                      |    7 
+| 4-6                      |    8 
+| 7-10                     |    9 
 
 This unit contains 4 Fire Dragons and 1 Fire Dragon Exarch. It can include up to 5 additional Fire Dragons.
 Every model is equipped with a Fusion gun and Melta bombs.
@@ -923,10 +925,11 @@ As with all exarch powers, Fire Dragon Exarch powers are NOT in effect while the
 | Howling Banshee          |  23 | 8" | 4" |  6 |  7 | 3 | 3 | 1 | 2 | 7 | * | 4+ | 28mm 
 | Howling Banshee Exarch   |  23 | 8" | 4" |  6 |  7 | 3 | 3 | 1 | 3 | 7 | * | 4+ | 28mm 
 
-| Howling Banshees in unit   | Nerve 
-|----------------------------|-------
-| 1-5                        |    8 
-| 6-10                       |    9 
+| Howling Banshees in unit | Nerve 
+|--------------------------|-------
+| 1-3                      |    7 
+| 4-6                      |    8 
+| 7-10                     |    9 
 
 This unit contains 4 Howling Banshees and 1 Howling Banshee Exarch. It can include up to 5 additional Howling Banshees.
 Every model is equipped with a Shuriken pistol, Power sword and a Banshee mask.
@@ -1043,10 +1046,11 @@ to all saving throws against melee attacks while it fights in the Defensive stan
 | Warp Spider              |  22 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 3+ | 28mm 
 | Warp Spider Exarch       |  22 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 3+ | 28mm 
 
-| Warp Spiders in unit       | Nerve 
-|----------------------------|-------
-| 1-5                        |    8 
-| 6-10                       |    9 
+| Warp Spiders in unit    | Nerve 
+|-------------------------|-------
+| 1-3                     |    7 
+| 4-6                     |    8 
+| 7-10                    |    9 
 
 This unit contains 4 Warp Spiders and 1 Warp Spider Exarch. In can include up to 5 additional Warp Spiders.
 Each model is armed with a death spinner.
@@ -1097,10 +1101,11 @@ As with all exarch powers, Warp Spider Exarch powers are NOT in effect while the
 | Shining Spear            |  50 | 14" | 4" |  5 |  7 | 3 | 4 | 2 | 2 | 5 | * | 3+ | 32mm flying base
 | Shining Spear Exarch     |  50 | 14" | 4" |  5 |  7 | 3 | 4 | 2 | 3 | 5 | * | 3+ | 32mm flying base
 
-| Shining Spears in unit     | Nerve 
-|----------------------------|-------
-| 1-5                        |    8 
-| 6-10                       |    9 
+| Shining Spears in unit  | Nerve 
+|-------------------------|-------
+| 1-3                     |    7 
+| 4-6                     |    8 
+| 7-10                    |    9 
 
 This unit contains 2 Shining Spears and 1 Shining Spear Exarch. In can include up to 6 additional Shining Spears.
 Each model is armed with a Laser lance and Twin shuriken catapult.
@@ -1272,8 +1277,9 @@ A Wraithlord is a single model armed with two Shuriken catapults and Wraithbone 
 
 | Dark Reapers in unit    | Nerve 
 |-------------------------|-------
-| 1-5                     |    8 
-| 6-10                    |    9 
+| 1-3                     |    7 
+| 4-6                     |    8 
+| 7-10                    |    9 
 
 This unit contains 2 Dark Reapers and 1 Dark Reaper Exarch. It can contain up to 7 additional Dark Reapers.
 Each model is armed with a Reaper Launcher.
