@@ -1,5 +1,6 @@
 # Codex: Craftworlds
 
+TODO: Singing spear, D-cannon (Wraithguard weapon options), Revise Initiatives, Power Overwhelming
 
 ## Codex Special Rules
 
@@ -52,7 +53,14 @@ they can be affected by friendly Psychic powers from the Runes of Battle discipl
 
 ---
 
-## Craftworld Attributes
+## Craftworlds
+
+  If your army includes any ASURYANI units, select which Craftworld they are from. Their \<CRAFTWORLD\> keyword is
+  replaced with the appropriate name (ALAITOC for Alaitoc, ULTHWE for Ulthwe - you get the idea). Each of these units
+  gains the Craftworld-specific ability as a special rule. The Craftworld-specific Stratagem, Relic and Warlord Trait
+  are also unlocked for your army to use.
+
+  _(Napraviću eventualno da mogu da se mešaju različiti Craftworlds, nego već je petak...)_
 
   ### Alaitoc:
   - **\[Ability] Fieldcraft:** While a model in this unit is more than 12" away from an enemy model, if it would be
@@ -135,8 +143,8 @@ selected to shoot, or when it is about to make its attacks in the Fight phase. U
 all attacks made by this unit gain Advantage.
   - **\[Relic] Ghosthelm of Alishazier:** Equip to an ULTHWE PSYKER CHARACTER model. That model knows one additional
 psychic power from the disciplines available to it, and can receive a +1 bonus to its psychic test once per Psychic phase.
-  - **\[Warlord Trait] Fateweaver:** Whenever this WARLORD would gain a Clairvoyance Die, do not roll it. Instead, turn
-the die to whatever number you wish.
+  - **\[Warlord Trait] Fateweaver:** Whenever a friendly \<CRAFTWORLD\> unit within 8" of this WARLORD gains a
+Clairvoyance Die, you can re-roll it.
 
   **SPECIAL:** When an ULTHWE PSYKER manifests the Clairvoyance psychic power, they gain an extra Clairvoyance Die.
   
@@ -157,6 +165,10 @@ times it has been attempted so far.
   number of times per battle and it always costs 1 CP. In addition, each BLACK LIBRARY INFANTRY and BLACK LIBRARY BIKER
   unit gains this special rule: "**Webway Dwellers:** If this unit is set up on the battlefield using the 
   **Deep Strike** special rule, it gains a +1 bonus to its Exhaustion roll."
+
+---
+
+  Craftworlds below are Work-in-progress and are not to be used.
 
   ### Qavilon:
   - **\[Ability] Predator's Web:** For every enemy unit that is wholly within any perimiter defined by 3 different 
@@ -186,10 +198,6 @@ of Fast Attack, and gains the **Objective Secured** special rule.
   - **\[Warlord Trait] ?:**
 
   **SPECIAL:** ?
-
-  ---
-
-  Craftworlds below are Work-in-progress and are not to be used.
 
   ### Altansar - ???
   (Maugan Ra, eye of terror)
@@ -376,7 +384,7 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
 
 ## Warlord Traits
 
-  Traits 1, 3, 4 and 6 are in kind of a TODO state, may be moved to be Craftworld traits, but they are usable for now.
+  Traits 1, 3, 4, 6 and 7 are in kind of a TODO state, may be moved to be Craftworld traits, but they are usable for now.
 
   ### 1. Cosset of Fate
   Hit and wound rolls of attacks directed against this WARLORD cannot benefit from more Advantages than Impairments
@@ -400,11 +408,19 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
   At the start of your Command phase, if this WARLORD is on the battlefield (or in Reserves if it's the 1st or 2nd
   battle round), roll a D6. On a 4+, gain 1 CP.
 
+  ### 7. Astrology Hoe
+  Whenever this WARLORD would gain a Clairvoyance Die, do not roll it. Instead, turn the die to whatever number you
+  wish. (name = TODO, obviously)
+
 ## Stratagems
  
   ### Cloudstrike
+  TODO
 
-  ### Forewarned
+  ### Forewarned (1CP)
+  Use this Stratagem immediately after your opponent sets up a unit that is arriving on the battlefield as 
+  Reinforcements within sight of one of your \<CRAFTWORLD\> CORE units that is itself within 6" of a friendly 
+  \<CRAFTWORLD\> FARSEER. Your unit can immediately shoot at that enemy unit as if it were the Shooting phase.
 
   ### Unparalleled Mastery (1CP)
   Use this Stratagem when an ASURYANI FARSEER successfully manifests their last psychic power in a Psychic phase. 
@@ -419,6 +435,7 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
   suffer an Impairment. This is a Command Effect.
 
   ### Seer Council
+  TODO
 
   ### Supreme Disdain (1CP)
   Use this Stratagem when an ASURYANI unit is about to make its attacks in the Fight phase. Each time you make a hit 
@@ -438,10 +455,12 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
   TRANSPORT model, all units embarked inside it remain so when it is set up again).
 
   ### The Avatar Resurgent (3CP)
-  _:ok\_hand:_
+  _:ok\_hand:_ (I'm not sure why I put this emoji here but I think it was my reaction when I first saw this Stratagem.)
+
+  TODO
 
   ### Tears of Isha (1CP)
-  ?
+  TODO
 
   ### Warriors of the Raging Winds (1CP)
   _Ride the sky, give me wings to fly!_
@@ -482,6 +501,7 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
 
   ### Jar of Gypsy Tears
   _Procured by the great Farseer by the name of Bor'Athus._
+
   Equip to any ASURYANI CHARACTER model. At the start of your Command phase, this model gains 1 Clairvoyance Die.
 
   ### The Phoenix Gem
@@ -543,7 +563,6 @@ Unless othwerise noted in the datasheet, the points costs are as noted in this l
 | Aeldari chainsword         | Melee | User |  0 |  1  | -
 | Diresword                  | Melee | User |  0 |  1  | -
 | Executioner                | Melee |  +1  | -3 |  2  | -
-| Ghostspear                 | Melee |      |    |  1  | (wraithseer thingy)
 | Mirrorswords               | Melee | User | -3 |  1  | -
 | Power sword                | Melee |  +1  | -3 |  1  | -
 | Singing spear (melee)      | Melee | User |  0 |  D3 | **Psychically-attuned Weapon**, **Unwieldy**
@@ -970,7 +989,7 @@ a Wraithcannon and Wraithguard fists.
 | WEAPON                     | RANGE |     TYPE    |  S | AP |  D | QUALITIES
 |----------------------------|-------|-------------|----|----|----|--------------------------- 
 | D-scythe                   |   2"  | Assault 1   | 10 |  0 |    | **Soul Reaper**
-| Wraithcannon               |  12"  | Assault 1   | 10 |    |    | (horrible death)
+| Wraithcannon               |  12"  | Assault 1   | 10 |    |    | (horrible death) TODO
 
 #### > SPECIAL RULES:
 - **Wraith Construct**
@@ -1004,7 +1023,7 @@ ghostswords.
 to all saving throws against melee attacks while it fights in the Defensive stance.
 
 #### > OPTIONS:
-- Any model in the unit may replace its Ghostswords with a Ghostaxe and a Forceshield.
+- Any model in the unit may replace its Ghostswords with a Ghostaxe and a Forceshield (+5 pts).
 
 ---
 
@@ -1142,14 +1161,58 @@ A Fire Prism is a single model equipped with a prism cannon and a twin shuriken 
 
 **KEYWORDS:** VEHICLE, FLY, FIRE PRISM
 
+| WEAPON                            | RANGE | TYPE      |   S  | AP |  D  | Qualities
+|-----------------------------------|-------|-----------|------|----|-----|-----------
+| Prism cannon (Dispersed)          |  36"  | Heavy \*  |  \*  | -2 |   1 | \*
+| Prism cannon (Focused)            |  48"  | Heavy \*  |  \*  | -3 |  D3 | \*
+| Prism cannon (Lance)              |  60"  | Heavy \*  |  \*  | -4 | 2D3 | \*
+
 #### > SPECIAL RULES:
 - **Hover Tank:** Distance and ranges are always measured to and from this model’s hull, even though it has a base.
 - **Point-blank Shooting**
-- **Pulsed Laser Discharge:** ???
+- **Hovering:** Distance and ranges are always measured to and from this model’s hull, even though it has a base.
 - **Explodes:** `Roll: 5+ Range: 6" Strength: 8 AP: -2 Qualities: -`
+- **Link Fire:** When this model is about to resolve the Full Shooting action, it can, instead of making any attacks, 
+choose to link with another friendly (and visible) Fire Prism within 30". Until the end of the phase, if that other
+Fire Prism performs the Full Shooting action, resolve any attacks made with its Prism cannon with a +1 bonus to its
+Power Level, adding another +1 if this Fire Prism remained stationary in the previous Movement phase.
+- **Pulsed Laser Discharge:** Whenever this model is about to shoot from its Prism cannon, first choose which profile to
+use, then determine the Power Level of the attack and look up the tables below to determine the characteristics of the
+attack. By default, the PL is 1. Add 1 if this Fire Prism has remained stationary in the previosu Movement phase. 
+Finally, add any bonuses coming from the **Link Fire** special rule described above. PL is capped at 6.
+
+**Dispersed:**
+| Power Level | Type    | Strength | Qualities
+|-------------|---------|----------|-----------------
+| 1           | Heavy 1 |     6    | **Blast (Large)**
+| 2           | Heavy 1 |     7    | **Blast (Large)**
+| 3           | Heavy 1 |     7    | **Blast (Large)**; Ignore up to 1 Impairment to hit rolls caused by the target being Obscured.
+| 4           | Heavy 2 |     7    | **Blast (Large)**; Ignore up to 1 Impairment to hit rolls caused by the target being Obscured.
+| 5           | Heavy 2 |     7    | **Blast (Large)**; Ignore up to 2 Impairments to hit rolls caused by the target being Obscured.
+| 6           | Heavy 3 |     7    | **Blast (Large)**; Ignore up to 2 Impairments to hit rolls caused by the target being Obscured.
+
+**Focused:**
+| Power Level | Type    | Strength | Qualities
+|-------------|---------|----------|-----------------
+| 1           | Heavy 1 |     9    | **Blast (Small)**
+| 2           | Heavy 1 |    11    | **Blast (Small)**
+| 3           | Heavy 1 |    11    | **Blast (Small)**; Ignore up to 1 Impairment to hit rolls caused by the target being Obscured.
+| 4           | Heavy 2 |    11    | **Blast (Small)**; Ignore up to 1 Impairment to hit rolls caused by the target being Obscured.
+| 5           | Heavy 2 |    11    | **Blast (Small)**; Ignore up to 2 Impairments to hit rolls caused by the target being Obscured.
+| 6           | Heavy 3 |    11    | **Blast (Small)**; Ignore up to 2 Impairments to hit rolls caused by the target being Obscured.
+
+**Lance:**
+| Power Level | Type    | Strength | Qualities
+|-------------|---------|----------|-----------------
+| 1           | Heavy 2 |    14    | -
+| 2           | Heavy 2 |    18    | -
+| 3           | Heavy 2 |    18    | Target receives -1 to all saving throws (including invulnerable saves).
+| 4           | Heavy 3 |    18    | Target receives -1 to all saving throws (including invulnerable saves).
+| 5           | Heavy 3 |    18    | The above + Target must re-roll all successful saving throws.
+| 6           | Heavy 4 |    18    | The above + Target must re-roll all successful saving throws.
 
 #### > OPTIONS:
-- This model may replace its twin shuriken catapult with a shuriken cannon.
+- This model may replace its Twin shuriken catapult with a Shuriken cannon (+10 pts).
 - This model may be equipped with Spirit stones (+15 pts).
 - This model may be equipped with Vectored engines (+15 pts).
 
