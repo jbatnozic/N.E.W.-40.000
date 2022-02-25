@@ -1,7 +1,5 @@
 # Codex: Craftworlds
 
-TODO: (Wraithguard weapon options), Power Overwhelming
-
 ## Codex Special Rules
 
   ### Battle Focus:
@@ -413,6 +411,8 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
   wish. (name = TODO, obviously)
 
   ### 8. Power Overwhelming
+  When this WARLORD is resolving any of the following powers: Psychic Storm, Psychic Bolt - you may re-roll the
+  Psychic test, the wound roll(s) and damage roll(s).
 
 ## Stratagems
  
@@ -523,11 +523,6 @@ a VEHICLE and not TITANIC, you can choose to make the hit roll at Exponent 8 reg
 
 **Shuriken Weapon:** When attacking with this weapon, a successful wound roll of 61 or more has Armour Penetration improved by 2.
 
-**Soul Reaper:** This weapon is fired as if it had **Flamer Template**, though it can generate a maximum of 3 hit rolls
-(the controlling player picks which ones if the template intersects more than 3 enemy models). All the hit rolls succeed
-automatically, cannot hit friendly units, and ignore armour saves of all units that don't have the VEHICLE or TITANIC 
-keyword. TODO
-
 ### Ranged Weapons list
 
 | WEAPON                     | RANGE |     TYPE    |  S | AP |  D | QUALITIES
@@ -572,7 +567,6 @@ Unless othwerise noted in the datasheet, the points costs are as noted in this l
 | The Spear of Twilight      | Melee | User | -1 |  3  | **Psychically-attuned Weapon**
 | Triskele (melee)           | Melee | User | -2 |  1  | -
 | Witchblade                 | Melee | User |  0 |  D3 | **Psychically-attuned Weapon**
-| Wraithguard fists          | Melee | User |  0 |  D2 | -
 
 
 ## Unit Datasheets
@@ -990,11 +984,22 @@ a Wraithcannon and Wraithguard fists.
 
 | WEAPON                     | RANGE |     TYPE    |  S | AP |  D | QUALITIES
 |----------------------------|-------|-------------|----|----|----|--------------------------- 
-| D-scythe                   |   2"  | Assault 1   | 10 |  0 |    | **Soul Reaper**
-| Wraithcannon               |  12"  | Assault 1   | 10 |    |    | (horrible death) TODO
+| D-scythe                   |   2"  | Heavy 1     |  4 |  0 | D3 | **Soul Reaper**
+| Wraithcannon               |  12"  | Heavy 1     | 10 | -4 | D6 | -
+
+**Soul Reaper:** This weapon is fired as if it had **Flamer Template**, though it can generate a maximum of 3 hit rolls
+(the controlling player picks which ones if the template intersects more than 3 models). All the hit rolls succeed
+automatically and cannot hurt friendly units. When attacking units that don't have the VEHICLE or TITANIC keyword,
+double the strength of this weapon, and such units cannot take armour nor cover saves against this weapon.
+
+| WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
+|----------------------------|-------|------|----|-----|---------------------------
+| Wraithguard fists          | Melee | User |  0 |  D2 | -
 
 #### > SPECIAL RULES:
 - **Wraith Construct**
+- **Relentless**
+- **Implacable:** Once per phase, you can re-roll a damage roll for an attack made by this unit.
 
 #### > OPTIONS:
 - Any model in the unit may replace its Wraithcannon with a D-scythe.
@@ -1021,6 +1026,7 @@ ghostswords.
 
 #### > SPECIAL RULES:
 - **Wraith Construct**
+- **Implacable:** Once per phase, you can re-roll a damage roll for an attack made by this unit.
 - **Forceshield (only if equipped):** This model has a 5+ invulnerable save. During the Fight phase, it also receives +1
 to all saving throws against melee attacks while it fights in the Defensive stance.
 
