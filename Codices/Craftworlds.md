@@ -29,6 +29,7 @@ they can be affected by friendly Psychic powers from the Runes of Battle discipl
   - When that unit would make a Saving throw or a Deny the Witch roll, you can use the Clairvoyance die instead.
   - When that unit would make a Psychic test, you can use the Clairvoyance die instead of one of the dice that would be rolled.
   - When that unit would make a Charge roll, you can use the result on the Clairvoyance die instead of the usual 2D3 roll to determine charge distance.
+
   Clairvoyance dice must be substituted for any of these rolls before these rolls are made.
   
   ### The Path of Command:
@@ -166,7 +167,7 @@ times it has been attempted so far.
 
 ---
 
-  Craftworlds below are Work-in-progress and are not to be used.
+  >>>>> Craftworlds below are Work-in-progress and are not to be used. <<<<<
 
   ### Qavilon:
   - **\[Ability] Predator's Web:** For every enemy unit that is wholly within any perimiter defined by 3 different 
@@ -248,8 +249,9 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
   different psychic power.
 
   ### Conceal/Reveal
+  TODO
 
-  ### Embolden/Horrify
+  ### Embolden/Horrify (Warp Charge: 6)
   If manifested, choose one of the following:
 
   **Embolden:** Choose a friendly ASURYANI CORE INFANTRY or ASURYANI CORE BIKER unit within 18" of the caster.
