@@ -602,6 +602,37 @@ disciplines: Runes of Fate, Runes of Power.
 
 ---
 
+### \[HQ] Farseer Skyrunner
+
+| NAME                     | PTS |   M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
+| Farseer                  | 155 | 16" | 4" |  6 |  9 | 3 | 4 | 5 | 2 | 7 | 11 | 4+ | 32mm flying base
+
+A Farseer is a single model armed with a Shuriken pistol, a Witchblade and a Twin shuriken catapult.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
+
+**KEYWORDS:** CHARCTER, BIKER, CORE, PSYKER, FARSEER, FARSEER SKYRUNNER
+
+#### > SPECIAL RULES:
+- **Battle Focus**
+- **Bike-mounted Weapon:** When selected to shoot, this model may fire its Twin shuriken catapult in addition to one
+other ranged weapon.
+- **Aerobatic Grace:** While this model is not in Engagament Range of enemy units, it has a 4+ invulnerable save 
+against ranged attacks.
+- **Ghosthelm (only if equipped):** If this model suffers Perils of the Warp, roll a D6. On a 3+, its effects are ignored.
+- **Rune Armour (only if equipped):** This model has a 4+ invulnerable save.
+- **Psyker:** This model can attempt to manifest two psychic powers in each friendly Psychic phase, and attempt to deny two
+psychic powers in each enemy Psychic phase. It knows the Smite power and a total of two psychic powers from the following
+disciplines: Runes of Fate, Runes of Power.
+
+#### > OPTIONS:
+- This model may replace its Witchblade with a Singing spear.
+- This model may be equipped with a Ghosthelm (+10 pts).
+- This model may be equipped with a Rune Armour (+20 pts).
+
+---
+
 ### \[HQ] Warlock
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
@@ -671,7 +702,7 @@ An Autarch is a single model armed with a Power sword, Shuriken pistol and Plasm
 
 #### > SPECIAL RULES:
 - **Battle Focus**
-- **The Path of Command:**
+- **The Path of Command**
 - **Forceshield (only if equipped):** This model has a 5+ invulnerable save. During the Fight phase, it also receives +1
 to all saving throws against melee attacks while it fights in the Defensive stance.
 
@@ -705,7 +736,9 @@ equipped with a Twin shuriken catapult.
 
 #### > SPECIAL RULES:
 - **Battle Focus**
-- **The Path of Command:**
+- **The Path of Command**
+- **Bike-mounted Weapon:** When selected to shoot, this model may fire its Twin shuriken catapult in addition to one
+other ranged weapon.
 - **Aerobatic Grace:** While this model is not in Engagament Range of enemy units, it has a 4+ invulnerable save 
 against ranged attacks.
 
@@ -1123,6 +1156,8 @@ Each model is armed with a Laser lance and Twin shuriken catapult.
 
 #### > SPECIAL RULES:
 - **Battle Focus**
+- **Bike-mounted Weapon:** When selected to shoot, models in this unit may fire their Twin shuriken catapults in
+addition to one other ranged weapon.
 - **Exarch Guidance:** While this unit contains an Exarch, its Nerve characteristic is improved by 1.
 - **Aerobatic Grace:** While this unit is not in Engagament Range of enemy units, models in it have a 4+ invulnerable 
 save against ranged attacks.
