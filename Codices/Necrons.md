@@ -68,11 +68,18 @@
   At the start of your Command phase, each model in this unit regains 1 lost wound.
   
   ### Hardwired for Destruction:
-  When rolling to hit for an attack made by this unit, you may re-roll a 'tens' roll of 1.
+  When rolling to hit for an attack made by this unit, you must re-roll a 'tens' roll of 1.
 
   In the Morale phase, if this unit fails a Morale test, it becomes Crazed until the start of the next Morale phase.
-  While Crazed, models in this unit must use this special rule to re-roll ones whenever possible, but each time they do
-  so, the unit suffers a mortal wound. However, this unit is also **Fearless** while Crazed.
+  While Crazed:
+   - In its Movement phase, this unit must make a Normal Move (as far as possible) towards the nearest visible enemy
+  unit, unless it is already in Engagement Range of enemies, in which case it will Remain Stationary.
+   - In its Shooting phase, it must shoot with as many ranged weapons as it can at the nearest visible enemy unit.
+   - In its Charge phase, it must attempt to Charge and engage the nearest visible enemy unit (or do a Counter-charge if
+  charged first).
+   - Whenever a model in this unit uses this special rule to re-roll a 1, the unit takes a single wound (it may take an
+  Armour or Invulnerable save).
+   - This unit is **Fearless**.
   
   ### Dimensional Translocation:
   \[Same as Deep Strike]
@@ -103,10 +110,9 @@
 ## Dynasties
   
   ### Mephrit
-  (we like to shoot)
 
-  - **\[Ability] Stellar Fury:** Each time a model in this unit makes an attack with a ranged weapon (excluding those with
-**Flamer Template** and **Blast (\*)**), the target unit is considered to be 2" closer than it actually is (this
+  - **\[Ability] Stellar Fury:** Each time a model in this unit makes an attack with a ranged weapon (excluding those 
+with **Flamer Template** and **Blast (\*)**), the target unit is considered to be 2" closer than it actually is (this
 applies to determining whether the target is within range, as well as to range-dependent effects such as Rapid Fire,
 those confered by Command Protocols, and others). In addition, each time a model in this unit makes a ranged attack, if
 the wound roll is 61 or higher, you can choose to resolve the attack with damage 2.
@@ -116,16 +122,20 @@ enemy unit within 14" of the MEPHRIT unit and visible to the MEPHRIT unit. Until
 MEPHRIT unit can target only the selected enemy unit with its ranged attacks; during its Shooting phase, it must attempt
 to fire as many ranged weapons as possible at it, performing the Full Shooting action, if at all possible. Until the end
 of the battle round, all ranged attacks made by the selected enemy unit suffer an Impairment to their hit rolls. 
-  - **\[Relic] Name:** ?
+  - **\[Relic] Bozar Spinner:** Equip to a MEPHRIT CHARACTER model armed with a Gauss exterminator. The Bozar Spinner
+replaces the Gauss exterminator and has the profile described below.
   - **\[Warlord Trait] Starheart:** _The core of a dying star sits contained within this warlord's chest._ At the start
 of your Shooting phase, you may select a friendly MEPHRIT unit within 6" of this WARLORD. Until the end of the phase,
 all ranged weapons that unit is equipped with have their Strength characteristic improved by 1. In addition, this
 WARLORD gains the **Explodes** special rule with the following profile:
 `Roll: 4+ Range: 3" Strength: 8 AP: -3 Qualities: -`
-  - **\[Favoured Command Protocols]:** **Zero-in**, ? (rapid fire thing)
+  - **\[Favoured Command Protocols]:** **Zero-in**, **Press On**
   
+  | WEAPON           | RANGE |     TYPE     |   S  | AP | D | QUALITIES
+  |------------------|-------|--------------|------|----|---|---------------------------
+  | Bozar Spinner    |  36"  | Rapid Fire 4 |   6  | -2 | 2 | -
+
   ### Nephrekh
-  (we like to teleport)
 
   - **\[Ability] Translocation Beams:** Models in this unit have a 6+ invulnerable save. In addition, when this unit
 Advances or Disengages, you may choose to have it Translocate - if it does, models in it can move horizontally through
@@ -138,7 +148,8 @@ special rule.
   - **\[Stratagem] Event Horizon Shift (2CP):** Use this Stratagem after a NEPREKH CORE unit Translocates using its
 **Translocation Beams** ability. That unit becomes unexhausted and can perform actions normally in the subsequent
 phases, as if it hadn't Disengaged, even if it had. This is a Command Effect.
-  - **\[Relic] Name:** ? (maybe: solar staff)
+  - **\[Relic] Staff of Dawn:** Equip to a NEPREKH CHARACTER model armed with a Staff of light. The Staff of Dawn
+replaces the staff of light and has the profile described below.
   - **\[Warlord Trait] Hyperlight Drifter:** This unit WARLORD gains the **Dimensional Translocation** special rule. If
 it is set up on the battlefield using that rule, its Exhaustion rolls passes automatically. If it is set up together
 with another unit (following the rules for CHARACTERS joining other units during the Reinforcements phase), that unit's
@@ -146,9 +157,17 @@ with another unit (following the rules for CHARACTERS joining other units during
   - **\[Favoured Command Protocols]:** **Reinforce**, **Flash-blitz**
   
   **SPECIAL:** This dynasty unlocks 2 Stratagems (instead of 1).
+
+  | WEAPON                       | RANGE |    TYPE   |   S  | AP | D | QUALITIES
+  |------------------------------|-------|-----------|------|----|---|---------------------------
+  | Staff of Dawn (melee)        | Melee | Melee     | User | -2 | 1 | -
+  | Staff of Dawn (shooting)     |  18"  | Assault 3 |   5  | -2 | 1 | **Blinding Light**
+
+  **Blinding Light:** If an attack made by this weapon hits an enemy unit, that unit cannot Fire Overwatch until the end
+  of the battle round. If a model in that unit loses a wound as a result of this attack, that enemy unit also cannot
+  delcare a Counter-charge until the end of the battle round.
   
   ### Nihilakh
-  (we like to conquer)
 
   - **\[Ability] Aggresively Territorial:** When this unit is selected to shoot, if it is within 6" of an objective 
 marker and all of its attacks are declared against enemy units that are within 6" of the same objective marker, this
@@ -159,14 +178,16 @@ deployment zone, it counts as having 1 additional model for purposes of determin
 shoot. Until the end of the action, models in this unit can make attacks with a Assault and Rapid Fire ranged weapons
 against enemy units that are in Engagement Range of this unit. If they do, disregard the usual rules for firing at
 enemy units locked in combat, but resolve all hit rolls as if firing Overwatch. This is a Command Effect. (name = TODO)
-  - **\[Relic] Name:** ?
-  - **\[Warlord Trait] Implacable Conqueror:** _This warlord drives his legions onward without respite, eternally driven
-to claim and rule over ever more land._ If this WARLORD has the **Relentless March** special rule, its Move 
-characteristic is increased by 2".
+  - **\[Relic] Respite Inhibitor:** Equip to a NIHILAKH CHARACTER with the **Relentless March** special rule.  This
+model's Move characteristic is increased by 2".
+  - **\[Warlord Trait] Implacable Conqueror:** _Crush your enemies, see the driven before you..._ When a friendly 
+NIHILAKH unit within 2" of this WARLORD (or this WARLORD) Pursues a Disengaging enemy unit and uses the 
+**Sweeping Advance** Stratagem, and if this WARLORD is Pursuing the same enemy unit:
+    - The Stratagem costs 0 CP to use.
+    - You may re-roll any D6 rolled while resolving its effect.
   - **\[Favoured Command Protocols]:** **Lock Down**, **Defend**
   
   ### Novokh
-  (we like to butcher people)
 
   - **\[Ability] Murder-craze:** During your first Command phase, this unit may perform a Normal Move of up to 5". This
 move must be towards the closest enemy unit. In addition, in the Fight phase, during Initiative step 1, if this unit is
@@ -178,15 +199,19 @@ Command Effect):
     1. This unit's Initiative characteristic is doubled (up to 10) until the end of the phase.
     2. Until the end of the phase, this unit's Initiative is calculated as if it had performed a Charge in the 
 preceding Charge phase.
-  - **\[Relic] Name:** ?
+  - **\[Relic] Claw of Edward Flensinghands:** Equip to a NOVOKH CHARACTER model armed with a Flensing claw. This relic
+replaces the Flensing claw and has the profile described below. (name = TODO)
   - **\[Warlord Trait] Violencemancer:** Whenever this WARLORD makes a melee attack while in the aggressive stance, you
 may re-roll the hit roll and you may re-roll the wound roll.
   - **\[Favoured Command Protocols]:** **Overcharge Servos**, **Overpower**
 
+  | WEAPON                       | RANGE |  TYPE |   S  | AP | D | QUALITIES
+  |------------------------------|-------|-------|------|----|---|---------------------------
+  | Claw of Edward Flensinghands | Melee | Melee | User | -2 | 1 | Each time an attack is made with this weapon, make 3 hit rolls instead of 1.
+
   Note: C'tan Shard <- Crimson God
 
   ### Sautekh
-  (we like to pretend we're the death guard... ehhh....)
 
   - **\[Ability] Unstoppable Advance:** At the start of your Charge phase, if this unit is not in Engagement Range of
 enemy units, you may roll a Morale test for it. If the test is successful, this unit may make a Normal Move of up to 2"
@@ -194,15 +219,16 @@ either towards the closest enemy unit or towards the closest objective marker. I
 the Movement phase, it can treat any or all Pistol-type and Rapid Fire-type weapons as Assault-type weapons in the
 following Shooting Phase.
   - **\[Stratagem] Assert Control (1CP):** Use this Stratagem at any time. Select a SAUTEKH unit that is In Disarray
-and/or Crazed (see **Hardwired for Destruction**) - the unit immediately loses those statuses.
-  - **\[Relic] Name:** ?
-  - **\[Warlord Trait] Unwavering Commander:** While this WARLORD is on the battlefield, you can use the **Command
-Re-roll** Stratagem 3 times per phase (instead of 1), and you can gain 1 CP more than usual per battle round from your
-units' abilities.
+and/or Crazed (see **Hardwired for Destruction**) - the unit immediately loses any or all of those statuses.
+  - **\[Relic] Directive Repeater:** Equip to a SAUTEKH CHARACTER model. During your Command phase, select a SAUTEKH
+unit within 8" of this model, and select one Command Protocol that you have already used during this battle. Until the
+end of this battle round, the selected unit benefits from that Command Protocol (in addition to any others).
+  - **\[Warlord Trait] Unwavering Commander:** If this WARLORD is on the battlefield (or in Reserves if it is the 1st
+or 2nd battle round), then once per battle round you may enact the effect of the **Command Re-Roll** Stratagem. This
+does not consume a CP and does not count as a usage of this Stratagem.
   - **\[Favoured Command Protocols]:** **Coalesce**, **Fend off**
-  
+
   ### Szarekhan
-  (we like to make quality stuff)
 
   _You can't spell Szarekhan without 'zarek'!_
   - **\[Ability] Uncanny Artificiers:** When this unit is selected to shoot, you may re-roll one hit roll and one wound
@@ -247,24 +273,22 @@ within 2" of this WARLORD have their Toughness characteristic reduced by 1 (down
   |----------------|-------|-----------|---|----|-----|--------------------------- 
   | Entropy Sphere |   6"  | Pistol \* | 3 | -4 |  1  | This weapon can be used up to 6 times per battle .The first time it is fired, its type is Pistol 6. The second time it is used, its type is Pistol 5, and so on. Each time a successful hit is scored with this weapon, roll a 2D6. If the result is higher than the sum of the target unit's Strength and Toughness characteristics, the target unit suffers a mortal wound (in addition to any usual damage the weapon may deal).
 
-  ### Kyverkhynn
-  (calculated but ruthless killers... but aren't all Necrons like that? TODO)
-  - **\[Ability] Name:** ?
-  - **\[Stratagem] Name:** ?
-  - **\[Relic] Name:** ?
-  - **\[Warlord Trait] Name:** ?
-  - **\[Favoured Command Protocols]:** **Calculate Weakpoint**, **Calibrate**
-
   ### Takhrit
-  (we like to hide and engage from afar)
   - **\[Ability] Obscurity Slant:** This unit receives a +1 bonus to all Cover save rolls. In addition, all ranged
 weapons this unit is equipped with have their range characteristics increased by 6" when targeting enemy units that see
 this unit as Obscured.
   - **\[Stratagem] Obfuscation Algorithms (1CP):** Use this Stratagem before the battle when declaring reserves and
 transports (if you are playing a mission without this step, use this Stratagem during deployment instead). Select one
 TAKHRIT unit (excluding VEHICLE or MONSTER units) from your army. That unit gains the **Infiltrate** special rule.
-  - **\[Relic] Name:** ?
-  - **\[Warlord Trait] Name:** ?
+  - **\[Relic] Refractor Field Generator:** Equip to a TAKHRIT CHARACTER model. While a friendly NECRONS unit is wholly
+within 8" of this model, if that unit would be considered Completely Visible from the point of view of an enemy model
+that is more than 8" away from this model, it is considered Partially Obscured instead, and if it would be considered 
+Partially Obscured, it is considered Heavily Obscured instead.
+  - **\[Warlord Trait] Night Crawler:** If this WARLORD begins its Movement phase in such a position that no enemy unit
+sees it as Completely Visible, then:
+    - Until the end of this Movement phase, if it performs a Normal move or Advance, it can move an extra 6".
+    - At the end of the following Charge phase, if it made a Charge move, select one enemy unit in Engagement Range of
+this warlord - that unit gains D3 strain.
   - **\[Favoured Command Protocols]:** **Conceal**, **Snipe**
 
   ### Vozkhol
@@ -290,6 +314,17 @@ test, you can choose to negate it and use the original roll instead.
 cannot be affected by more Advantages than there are Impairments affecting it.
   - **\[Favoured Command Protocols]:** **Assist Reanimation**, **Concentrate Fire**
 
+  ---
+
+  >>>>> Dynasties below are Work-in-progress and are not to be used. <<<<<
+
+  ### Kyverkhynn
+  - **\[Ability] Name:** ?
+  - **\[Stratagem] Name:** ?
+  - **\[Relic] Name:** ?
+  - **\[Warlord Trait] Name:** ?
+  - **\[Favoured Command Protocols]:** **Calculate Weakpoint**, **Calibrate**
+
 ## Command Protocols
 
   ### 1. Zero-in
@@ -308,8 +343,8 @@ cannot be affected by more Advantages than there are Impairments affecting it.
   of the previous turns. While a unit is calibrating, its Melee Skill and Ballistic Skill characteristics are reduced to
   2 (unless they would otherwise be lower). Calibration finishes at the end of the current battle round, and from that
   point on (for the remainder of the battle), whenever a model from the calibrated unit makes a melee or ranged attack
-  against an enemy unit, the hit and/or wound roll may be re-rolled. A maximum of 3 re-rolls per phase, per unit, can be
-  gained from this protocol.
+  against an enemy unit, the hit and/or wound roll may be re-rolled. A single unit can re-roll a maximum of 1 hit roll
+  and 1 wound roll per phase using this effect.
   
   This protocols always affects all units with the **Command Protocols** special rule, even while they are In Disarray.
   
@@ -320,8 +355,8 @@ cannot be affected by more Advantages than there are Impairments affecting it.
   This protocols always affects all units with the **Command Protocols** special rule, even while they are In Disarray.
 
   ### 6. Conceal
-  Each time a ranged attack targets a unit affected by this protocol at a range greater than 12", the hit roll of that attack
-  gains an Impairment.
+  Each time a ranged attack targets a unit affected by this protocol at a range greater than 12", the hit roll of that 
+  attack gains an Impairment.
 
   ### 7. Concentrate Fire
   Each time a whole unit affected by this protocols declares all attacks against the same enemy unit when selected to
@@ -373,40 +408,41 @@ cannot be affected by more Advantages than there are Impairments affecting it.
   Note: When attacking a multi-model unit, or a model with a hull, the range of the attack is always the shortest
   possile range - to the closest visible model/closest visible part of the hull.
   
-  ### 19. (name)
-  (rapid fire thing; fire Rapid Fire normally during Snap Shooting and without penalties)
+  ### 19. Press On
+  Each time a unit affected by this protocol performs the Snap Shooting action, it may use any Rapid Fire weapons it is
+  equipped with as if it were performing the Full Shooting action instead.
 
   ### 20. Shield
   Each time a model affected by this protocol would lose a wound, roll a D6. On a roll of 6, the wound is not lost.
   
 ## Warlord Traits
 
-  ### 1. (name)
-  Impairment to wound this warlord
-
-  ### 2. Veteran of a Thousand Millenia
+  ### 1. Veteran of a Thousand Millenia
   Increase this WARLORD's Ballistic Skill by 1 (to a maximum of 9) and Melee Skill by 1 (to a maximum of 10). 
   During each Fight phase, he may select 2 different Stances to fight in.
   
-  ### 3. Unnerving Presence (Aura)
+  ### 2. Unnerving Presence (Aura)
   Whenever an enemy unit needs to use its Nerve score to resolve another rule (for example, a Morale test), if
   it is within 6" of this WARLORD, reduce its Nerve score by D3. This reduction lasts until the end of the phase
   and a single unit can only be affected by this effect once per phase.
   
-  ### 4. Envoy of the Silent King
+  ### 3. Envoy of the Silent King
   This WARLORD gains the 'NOBLE' keyword and its Nerve characteristic is increased by 1. In addition, one model in the
   army can take a Relic for free.
   
-  ### 5. Short-circuit Tactician
+  ### 4. Short-circuit Tactician
   During your Command phase, if this WARLORD is on the battlefield, and if in the previous battle round you chose
   not to enact any Command Protocol, then in this Command phase you may choose to enact 2 (different) Command Protocols
   at the same time.
   
-  ### 6. I'll Be Back
+  ### 5. I'll Be Back
   Once per battle, this WARLORD's reanimation attempt (which means Rectivation roll + Reassembly roll) can succeed
   automatically (player's choice as to when to use this, but it must be before any Reanimation rolls).
-  After this effect is used, the WARLORD is inactive until the same phase of the next turn.
-  TODO: Clarify the effect a bit (and what does inactive mean?)
+  After this effect is used, the WARLORD is incapacitated until the same phase of the next turn.
+  TODO: Clarify the effect a bit (and what does incapacitated mean?)
+
+  ### 6. Body Made of Old Nokias
+  Whenever an attack is made against this WARLORD, the wound roll gains an Impairment. (name = TODO)
 
   ### 7. Eroded Mind
   _Mašina za mlevenje mesa._
@@ -414,7 +450,8 @@ cannot be affected by more Advantages than there are Impairments affecting it.
   TODO
 
   ### 8. Logistics Optimizer
-  Refund CP on 5+
+  If this WARLORD is on the battlefield (or in Reserves if it is the 1st or 2nd battle round), after you use a 
+  Stratagem, roll a D6. On a 5+, gain 1 CP.
   
   ### IDEAS:
   - Roll to-wound against N instead of T
@@ -432,7 +469,7 @@ cannot be affected by more Advantages than there are Impairments affecting it.
   ### Orb of Eternity
   ?
   
-  ### Arrow of Infinity (maybe I could come up with a less generic name for this)
+  ### Arrow of Sneeed
   ?
   
   ### Voltaic Staff
@@ -555,7 +592,7 @@ of their "special things".
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Lesser Lord              | 105 | 6" | 4" |  6 |  8 | 5 | 5 | 4 | 3 | 4 | 11 | 3+ | 32mm 
+| Lesser Lord              | 110 | 6" | 4" |  6 |  8 | 5 | 5 | 4 | 3 | 4 | 11 | 3+ | 32mm 
 
 This unit contains one Lesser Lord equipped with a Staff of Light.
 
@@ -568,7 +605,8 @@ This unit contains one Lesser Lord equipped with a Staff of Light.
 - **Relentless March (Aura):** Whenever a friendly \<DYNASTY\> CORE unit starts moving for whatever reason while being 
 within 6" of the Lesser Lord, they may use the Lesser Lord's Move characteristic instead of their own until the end of
 the action.
-- **The Lord's Will:** (TODO)
+- **The Lord's Will:** While this unit is not In Disarray, whenever a friendly \<DYNASTY> CORE unit within 6" that is
+also not In Disarray makes a hit roll for an attack, you may re-roll a 'tens' roll of 1.
 
 #### > OPTIONS:
 - This model's staff of light can be replaced with one of the following: 1 Hyperphase sword; 1 Void blade; 1 Warscythe.
@@ -581,7 +619,7 @@ the action.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Lokhust Lord             | 130 | 8" | 4" |  6 |  8 | 5 | 6 | 6 | 4 | 4 | 10 | 3+ | 60mm 
+| Lokhust Lord             | 135 | 8" | 4" |  6 |  8 | 5 | 6 | 6 | 4 | 4 | 10 | 3+ | 60mm 
 
 This unit contains one Lokhust Lord equipped with a Staff of Light.
 
@@ -607,13 +645,19 @@ time a model in that unit makes a wound roll for an attack, you can re-roll a 't
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
-| Skorpekh Lord            | 175 |  8" | 4" |  7 |  8 | 6 | 6 | 6 | 5 | 5 | 10 | 3+ | 50mm 
+| Skorpekh Lord            | 180 |  8" | 4" |  7 |  8 | 6 | 6 | 6 | 5 | 5 | 10 | 3+ | 50mm 
 
-This unit contains one Skorpekh Lord equipped with an Enmitic annihilator, (?) claw and a Hyperphase harvester.
+This unit contains one Skorpekh Lord equipped with an Enmitic annihilator, Flensing claw and a Hyperphase harvester.
 
 **FACTION KEYWORDS:** NECRONS, DESTROYER CULT, \<DYNASTY\>
 
 **KEYWORDS:** INFANTRY, CHARACTER, CORE, SKORPEKH LORD
+
+| WEAPON                 | RANGE |    TYPE    |   S  | AP |   D  | QUALITIES
+|------------------------|-------|------------|------|----|------|---------------------------
+| Enmitic annihilator    |  18"  | Assault 1  |   6  | -1 |   1  | **Blast (Small)**
+| Flensing claw          | Melee | Melee      | User | -1 |   1  | Each time an attack is made with this weapon, make 2 hit rolls instead of 1.
+| Hyperphase harvester   |  12"  | Assault 2  |   5  | -3 |   3  | -
 
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Dynastic Ability**
@@ -630,7 +674,7 @@ time a model in that unit makes a wound roll for an attack, you can re-roll a 't
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Overlord                 | 125 | 6" | 4" |  7 |  9 | 5 | 5 | 5 | 4 | 5 | 11 | 3+ | 40mm 
+| Overlord                 | 130 | 6" | 4" |  7 |  9 | 5 | 5 | 5 | 4 | 5 | 11 | 3+ | 40mm 
 
 This unit contains one Overlord equipped with a Hyperphase glaive and a Tachyon arrow.
 
@@ -656,7 +700,7 @@ the action.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Royal Warden             | 110 | 6" | 4" |  5 |  8 | 5 | 5 | 4 | 3 | 3 | 11 | 3+ | 32mm 
+| Royal Warden             | 115 | 6" | 4" |  5 |  8 | 5 | 5 | 4 | 3 | 3 | 11 | 3+ | 32mm 
 
 This unit contains one Royal Warden equipped with a TODO
 
@@ -666,15 +710,25 @@ Note: The role of this model is unclear under the new core rules
 
 **KEYWORDS:** INFANTRY, CHARACTER, CORE, ROYAL WARDEN
 
+| WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
+|-------------------------------|-------|--------------|----|----|------|---------------------------
+| Gauss exterminator            |  30"  | Rapid Fire 2 |  5 | -2 |   2  | **Gauss weapon**
+
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
 - **Relentless March (Aura):** Whenever a friendly \<DYNASTY\> CORE unit starts moving for whatever reason while being 
 within 6" of the Royal Warden, they may use the Royal Warden's Move characteristic instead of their own until the end of
 the action.
-- TODO
+- **Discipline Driver:** Once per Charge phase, when an enemy unit declares a charge against a friendly \<DYNASTY> unit
+within 12" of the Royal Warden, if the Royal warden is not in Engagement Range of enemy units, not In Disarray, and 
+hasn't yet fired Overwatch during this phase, then the Royal Warden may fire Overwatch against the charging unit. When 
+it does so, a friendly \<DYNASTY> CORE unit within 2" of the Royal Warden can do the same if it's not not in Engagement 
+Range of enemy units, not In Disarray, and hasn't yet fired Overwatch during this phase.
+- **Target Cogitator (only if equipped):** When this unit fires Overwatch, you may re-roll the hit roll.
 
 #### > OPTIONS:
 - This model can be equipped with a Phase Cycler (+15 pts).
+- This model can be equipped with a Target Cogitator (+5 pts).
 
 ---
 
@@ -682,7 +736,7 @@ the action.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Technomancer             | 110 | 5" | 4" |  5 |  7 | 4 | 4 | 4 | 1 | 3 | 10 | 4+ | 50mm 
+| Technomancer             | 115 | 5" | 4" |  5 |  7 | 4 | 4 | 4 | 1 | 3 | 10 | 4+ | 50mm 
 
 This unit contains one Technomancer equipped with a Staff of light.
 
@@ -713,7 +767,7 @@ This unit contains one Technomancer equipped with a Staff of light.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Plasmancer               | 110 | 5" | 4" |  5 |  7 | 4 | 4 | 4 | 1 | 3 | 10 | 4+ | 50mm 
+| Plasmancer               | 115 | 5" | 4" |  5 |  7 | 4 | 4 | 4 | 1 | 3 | 10 | 4+ | 50mm 
 
 This unit contains one Plasmancer equipped with a Staff of light.
 
@@ -734,7 +788,7 @@ This unit contains one Plasmancer equipped with a Staff of light.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Necron Warrior           |  19 | 5" | 4" |  4 |  7 | 4 | 4 | 1 | 1 | 2 | 10 | 4+ | 32mm 
+| Necron Warrior           |  20 | 5" | 4" |  4 |  7 | 4 | 4 | 1 | 1 | 2 | 10 | 4+ | 32mm 
 
 This unit contains 10 Necron Warriors. It can contain up to 10 additional Warriors. Every model 
 is equipped with a Gauss flayer.
@@ -763,7 +817,7 @@ is equipped with a Gauss flayer.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Immortal                 |  28 | 5" | 4" |  5 |  7 | 4 | 5 | 2 | 2 | 2 | 10 | 3+ | 32mm 
+| Immortal                 |  30 | 5" | 4" |  5 |  7 | 4 | 5 | 2 | 2 | 2 | 10 | 3+ | 32mm 
 
 This unit contains 5 Immortals. It can contain up to 5 additional Immortals. Every model 
 is equipped with a Gauss blaster.
@@ -811,7 +865,7 @@ This unit contains 1 Canoptek Reanimator. It is equipped with 2 Atomiser beams a
 #### > SPECIAL RULES:
 - \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless**
 - **Explodes:** `Roll: 5+ Range: 6" Strength: 6 AP: -1 Qualities: -`
-- **(?) (Aura):**
+- **(?) (Aura):** TODO
 
 #### > OPTIONS:
 (none)
@@ -860,7 +914,7 @@ This unit contains 1 Canoptek Warbringer. It is equipped with a Heat ray, 2 Atom
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Lychguard                |  42 | 5" | 4" |  5 |  7 | 5 | 5 | 2 | 3 | 4 | 10 | 3+ | 32mm 
+| Lychguard                |  45 | 5" | 4" |  5 |  7 | 5 | 5 | 2 | 3 | 4 | 10 | 3+ | 32mm 
 
 This unit contains 5 Lychguard. It can contain up to 5 additional Lychguard. Every model 
 is equipped with a Warscythe.
@@ -876,8 +930,8 @@ is equipped with a Warscythe.
 
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
-- **Dispersion Shield (only if equipped):** The bearer has a 6+ invulnerable save. In addition, add 1 to all saving
-throws made for the bearer.
+- **Dispersion Shield (only if equipped):** The bearer has a 5+ invulnerable save. During the Fight phase, it also 
+receives +1 to all saving throws against melee attacks while it fights in the Defensive stance.
 
 #### > OPTIONS:
 - Any number of models in the unit can each have their Warscythe replaced with a Hyperphase sword and Dispersion shield.
@@ -888,7 +942,7 @@ throws made for the bearer.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Deathmarks               |  25 | 5" | 4" |  4 |  8 | 4 | 4 | 1 | 1 | 2 | 10 | 3+ | 32mm 
+| Deathmarks               |  27 | 5" | 4" |  4 |  8 | 4 | 4 | 1 | 1 | 2 | 10 | 3+ | 32mm 
 
 This unit contains 5 Deathmarks. It can contain up to 5 additional Deathmarks. Every model 
 is equipped with a Synaptic disintegrator.
@@ -921,7 +975,7 @@ from the battlefield and placed back in reserves.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Flayed One               |  19 | 5" | 4" |  5 |  1 | 4 | 4 | 1 | 3 | 4 | 10 | 4+ | 32mm 
+| Flayed One               |  20 | 5" | 4" |  5 |  1 | 4 | 4 | 1 | 3 | 4 | 10 | 4+ | 32mm 
 
 This unit contains 5 Flayed Ones. It can contain up to 15 additional Flayed Ones. Every model 
 is equipped with a Flayer claws.
@@ -955,7 +1009,7 @@ scores 1 additional hit.
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
-| Skorpekh Destroyer       |  52 |  8" | 4" |  5 |  7 | 5 | 5 | 3 | 3 | 4 |  9 | 3+ | 50mm 
+| Skorpekh Destroyer       |  54 |  8" | 4" |  5 |  7 | 5 | 5 | 3 | 3 | 4 |  9 | 3+ | 50mm 
 
 This unit contains 3 Skorpekh Destroyers. It can contain up to 3 additional Skorpekh Destroyers. 
 Every model is equipped with Hyperphase threshers.
@@ -983,7 +1037,7 @@ threshers with a Hyperphase reap-blade (+5 pts).
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Canoptek Plasmacyte      |  25 |  8" | 4" |  2 |  - | 4 | 4 | 2 | 1 | 3 | 9 | 3+ | 28mm 
+| Canoptek Plasmacyte      |  30 |  8" | 4" |  2 |  - | 4 | 4 | 2 | 1 | 3 | 9 | 3+ | 28mm 
 
 This unit contains 1 Canoptek Plasmacyte.
 
@@ -1046,7 +1100,7 @@ that the VEHICLE regains up to D3 lost wounds.
 psychic power as if it were a PSYKER.
 
 #### > OPTIONS:
-- Any number of models can each be equipped with 2 Particle beamers (+15 pts total (not per Particle beamer)).
+- Any number of models can each be equipped with 2 Particle beamers (+15 pts (total, not per Particle beamer)).
 - Any number of models can each be equipped with 1 Fabricator claw array (+15 pts).
 - Any number of models can each be equipped with 1 Gloom prism (+10 pts).
 
@@ -1062,7 +1116,7 @@ TODO
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Scarab Swarm             |  23 | 10" | 4" |  3 |  - | 3 | 3 | 4 | 4 | 3 | 9 | 6+ | 40mm 
+| Scarab Swarm             |  25 | 10" | 4" |  3 |  - | 3 | 3 | 4 | 4 | 3 | 9 | 6+ | 40mm 
 
 This unit contains 3 Scarab Swarms. It can contain up to 6 additional Scarab Swarms. Every model 
 is equipped with Feeder mandibles.
@@ -1092,7 +1146,7 @@ unit can only use this rule once per Fight phase.
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Canoptek Wraith          |  55 | 10" | 4" |  4 |  5 | 4 | 5 | 3 | 4 | 4 | 9 | 4+ | 50mm 
+| Canoptek Wraith          |  56 | 10" | 4" |  4 |  5 | 4 | 5 | 3 | 4 | 4 | 9 | 4+ | 50mm 
 
 This unit contains 1 Canoptek Wraith. It can contain up to 5 additional Canoptek Wraiths. 
 Every model is equipped with Vicious claws.
@@ -1127,7 +1181,7 @@ can move horizontally through models and terrain features (but they cannot finis
   
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
-| Tomb Blades              |  32 | 12" | 4" |  3 |  7 | 4 | 5 | 3 | 1 | 2 | 10 | 3+ | 32mm flying base
+| Tomb Blades              |  34 | 12" | 4" |  3 |  7 | 4 | 5 | 3 | 1 | 2 | 10 | 3+ | 32mm flying base
 
 This unit contains 3 Tomb Blades. It can contain up to 6 additional Tomb Blades. 
 Every model is equipped with a Particle beamer.
@@ -1165,6 +1219,8 @@ TODO
 ### \[Fast Attack] Canoptek Tomb Sentinel
   
 I am the millipede...
+
+TODO
   
 ---
 
@@ -1246,7 +1302,7 @@ This unit contains 1 Annihilation Barge. It is equipped with a Tesla cannon and 
 #### > SPECIAL RULES:
 - \[Specialised traits] **Command Protocols**, **Living Metal** and **Fearless**
 - **Explodes:** `Roll: 5+ Range: 6" Strength: 6 AP: -1 Qualities: -`
-- **Quantum Shielding:** TODO
+- **Quantum Shielding**
   
 #### > OPTIONS:
 - This model's Tesla cannon can be replaced with a Gauss cannon (+10 pts).
