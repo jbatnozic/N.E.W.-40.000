@@ -69,9 +69,9 @@ moves through Difficult Ground, its movement is reduced by 1" instead of 2". Bot
   - **\[Stratagem] Ranger Ambush (1CP):** Use this Stratagem in your opponent's Reinforcements phase, after an enemy 
 unit has been set up on the battlefield. Select one RANGERS unit from your army that is either on the battlefield or in
 Reserves.
-- If that RANGERS unit is in Reserves, set it up on the battlefield using the **Deep Strike** special rule so that it's
+    - If that RANGERS unit is in Reserves, set it up on the battlefield using the **Deep Strike** special rule so that it's
 within 18" of that unit.
-- That RANGERS unit can, at the end of the phase, perform the Normal Shooting or Snap Shooting action, as if
+    - That RANGERS unit can, at the end of the phase, perform the Normal Shooting or Snap Shooting action, as if
 it were the Shooting phase, but until the end of the phase it can only target the enemy unit that was just set up on 
 the battlefield (and only if that enemy unit is an eligible target for that attack).
   - **\[Relic] Shiftshroud of Alanssair:** Equip to an ALAITOC INFANTRY CHARACTER model. When an enemy unit that is more
