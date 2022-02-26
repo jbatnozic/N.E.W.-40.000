@@ -332,7 +332,8 @@ cannot be affected by more Advantages than there are Impairments affecting it.
   gains Advantage.
 
   ### 2. Assist Reanimation
-  (something about reanimation protocols)
+  Each time a unit affected by this protocol unit uses its **Reanimation Protocols** special rule, you may re-roll up to
+  2 of the dice (for Reactivation and/or Reassembly).
 
   ### 3. Calculate Weakpoint
   Each time a model affected by this protocol makes a melee attack while not being in Defensive stance, the wound roll
@@ -463,23 +464,43 @@ cannot be affected by more Advantages than there are Impairments affecting it.
 ## Relics
 
   ### Trinary Orb
-  Model with a Resurrection Orb only. The Trinary Orb replaces a Resurrection Orb, and works in exactly the same way,
-  except that it can be used twice per battle, instead of once.
+  Equip to a model equipped with a Resurrection Orb. The Trinary Orb replaces the Resurrection Orb, and works in exactly
+  the same way, except that it can be used twice per battle, instead of once.
   
   ### Orb of Eternity
-  ?
+  Equip to a model equipped with a Resurrection Orb. The Orb of Eternity replaces the Resurrection Orb, and works in 
+  exactly the same way, except that the target unit receives a +1 bonus to all of its Reactivation rolls when the Orb
+  of Eternity is activated.
   
   ### Arrow of Sneeed
-  ?
-  
-  ### Voltaic Staff
-  ?
+  Equip to a model equipped with a Tachyon Arrow. The Arrow of Sneeed replaces the Tachyon arrow and has the following
+  profile:
+
+  | WEAPON           | RANGE |     TYPE     |  S | AP |  D  | QUALITIES
+  |------------------|-------|--------------|----|----|-----|--------------------------- 
+  | Arrow of Sneeed  |  120" | Assault 1    | 16 | -5 |  6  | If an attack by this weapon successfully hits the target, the target taked D3 mortal wounds in addition to any regular damage. The bearer can only shoot with this weapon once per battle.
   
   ### Voidreaper
-  ?
+  Equip to a model equipped with a Voidscythe. The Voidreaper replaces the bearer's Voidscythe and has the following
+  profile:
   
+  | WEAPON      |  TYPE |   S  | AP |  D  | QUALITIES
+  |-------------|-------|------|----|-----|--------------------------- 
+  | Voidreaper  | Melee |  ×2  | -4 |  3  | **Unwieldy;** Successful saving throws made against attacks made with this weapon must be re-rolled.
+
+  ### Voltaic Staff
+  Equip to a model armed with a Staff of light. The Voltaic Staff replaces the Staff of light and has the following 
+  profile:
+
+  | WEAPON                        | RANGE |     TYPE  |   S  | AP |  D  | QUALITIES
+  |-------------------------------|-------|-----------|------|----|-----|--------------------------- 
+  | Voltaic staff (melee)         | Melee | Melee     | User | -2 |  2  | -
+  | Voltaic staff (shooting)      |  18"  | Assault 4 |   5  | -2 |  2  | Each time an attack is made with this weapon, for every hit roll of 61 or higher, make 2 additional hit rolls.
+
   ### Dimensional Anchor
-  (bearer cannot use deep strike or equivalent, but units that deep strike within 6" autopass exhaustion roll / can deep strikw within 6" of enemy units instead of 8")
+  Equip to a NECRON CHARACTER model. If the bearer has the **Dimensional Translocation** special rule, it loses it.
+  Friendly \<DYNASTY\> units that arrive on the battlefield within 6" of the bearer using their
+  **Dimensional Translocation** special rule automatically pass their Exhaustion roll.
   
   ### IDEAS:
   - Something with (false) vacuum Decay
@@ -607,9 +628,16 @@ within 6" of the Lesser Lord, they may use the Lesser Lord's Move characteristic
 the action.
 - **The Lord's Will:** While this unit is not In Disarray, whenever a friendly \<DYNASTY> CORE unit within 6" that is
 also not In Disarray makes a hit roll for an attack, you may re-roll a 'tens' roll of 1.
+- **Resurrection Orb (only if equipped):** Once per battle, in your Command phase, the bearer can use its Resurrection 
+Orb. If it does, select one friendly \<DYNASTY\> unit within 6" of the bearer that is not at its Starting Strength and 
+has not been targeted by a Resurrection Orb (or equivalent) this phase. Then, make X Reactivation rolls for that
+unit (X = Starting Strength - current number of models). Follow each successful Reactivation roll is a Reassembly roll.
+For each successful Reassembly roll, return one of the slain models (with full wounds remaining) to the unit. It must
+be placerd in coherency with the rest of the unit.
 
 #### > OPTIONS:
-- This model's staff of light can be replaced with one of the following: 1 Hyperphase sword; 1 Void blade; 1 Warscythe.
+- This model's Staff of light can be replaced with one of the following: 1 Hyperphase sword; 1 Void blade.
+- This model's Hyperphase glaive can be replaced with a Warscythe (+5 pts) or Voidscythe (+10 pts).
 - This model can be equipped with a Resurrection orb (+45 pts).
 - This model can be equipped with a Phase Cycler (+15 pts).
 
@@ -630,11 +658,13 @@ This unit contains one Lokhust Lord equipped with a Staff of Light.
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Dynastic Ability**
 - **Hardwired for Destruction**
-- **United in Destruction (Aura):** While a friendly \<DYNASTY\> DESTROYER CULT unit is within 6" of this model, each
-time a model in that unit makes a wound roll for an attack, you can re-roll a 'tens' roll of 1. 
+- **United in Destruction (Aura):** While this unit is not In Disarray, whenever a friendly \<DYNASTY> DESTROYER CULT
+unit within 6" that is also not In Disarray makes a wound roll for an attack, you may re-roll a 'tens' roll of 1.
+- **Resurrection Orb (only if equipped):** \[see entry under 'Lesser Lord']
 
 #### > OPTIONS:
-- This model's Staff of Light can be replaced with one of the following: 1 Hyperphase sword; 1 Voidblade; 1 Warscythe.
+- This model's Staff of Light can be replaced with one of the following: 1 Hyperphase sword; 1 Voidblade.
+- This model's Hyperphase glaive can be replaced with a Warscythe (+5 pts) or Voidscythe (+10 pts).
 - This model can be equipped with a Phase Cycler (+25 pts) or a Phase Shifter (+40 pts).
 - This model can be equipped with a Resurrection orb (+45 pts).
 - TODO (Phylactery)
@@ -662,8 +692,8 @@ This unit contains one Skorpekh Lord equipped with an Enmitic annihilator, Flens
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Dynastic Ability**
 - **Hardwired for Destruction**
-- **United in Destruction (Aura):** While a friendly \<DYNASTY\> DESTROYER CULT unit is within 6" of this model, each
-time a model in that unit makes a wound roll for an attack, you can re-roll a 'tens' roll of 1. 
+- **United in Destruction (Aura):** While this unit is not In Disarray, whenever a friendly \<DYNASTY> DESTROYER CULT
+unit within 6" that is also not In Disarray makes a wound roll for an attack, you may re-roll a 'tens' roll of 1.
 
 #### > OPTIONS:
 - This model can be equipped with a Phase Cycler (+25 pts) or a Phase Shifter (+40 pts).
@@ -674,7 +704,7 @@ time a model in that unit makes a wound roll for an attack, you can re-roll a 't
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Overlord                 | 130 | 6" | 4" |  7 |  9 | 5 | 5 | 5 | 4 | 5 | 11 | 3+ | 40mm 
+| Overlord                 | 135 | 6" | 4" |  7 |  9 | 5 | 5 | 5 | 4 | 5 | 11 | 3+ | 40mm 
 
 This unit contains one Overlord equipped with a Hyperphase glaive and a Tachyon arrow.
 
@@ -682,17 +712,26 @@ This unit contains one Overlord equipped with a Hyperphase glaive and a Tachyon 
 
 **KEYWORDS:** INFANTRY, CHARACTER, CORE, NOBLE, OVERLORD
 
+| WEAPON                 | RANGE |    TYPE    |   S  | AP |   D  | QUALITIES
+|------------------------|-------|------------|------|----|------|---------------------------
+| Hyperphase glaive      | Melee | Melee      |  +2  | -3 |  D3  | -
+| Tachyon arrow          |  120" | Assault 1  |  12  | -5 | D3+3 | The bearer can only shoot with this weapon once per battle.
+
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
 - **Relentless March (Aura):** Whenever a friendly \<DYNASTY\> CORE unit starts moving for whatever reason while being 
 within 6" of the Overlord, they may use the Overlord's Move characteristic instead of their own until the end of
 the action.
-- TODO (My Will Be Done)
+- **My Will Be Done (Aura):** While this unit is not In Disarray, whenever a friendly \<DYNASTY> CORE unit within 6" 
+that is also not In Disarray makes an attack, the hit roll gains Advantage (doesn't stack with **My Will Be Done** auras
+from other units with the same special rule).
+- **Resurrection Orb (only if equipped):** \[see entry under 'Lesser Lord']
 
 #### > OPTIONS:
+- This model's Hyperphase glaive can be replaced with one of the following: 1 Hyperphase sword; 1 Voidblade; 1 Staff of Light.
+- This model's Hyperphase glaive can be replaced with a Warscythe (+5 pts) or Voidscythe (+10 pts).
+- This model's Tachyon arrow can be replaced with a Resurrection Orb (+35 pts).
 - This model can be equipped with a Phase Cycler (+25 pts) or a Phase Shifter (+40 pts).
-- This model can be equipped with a Resurrection orb (+45 pts).
-(TODO) (weapon loadouts)
 
 ---
 
