@@ -109,6 +109,11 @@
 
 ## Dynasties
   
+  If your army includes any NECRONS units, select which Dynasty they are from. Their \<DYNASTY\> keyword is replaced
+  with the appropriate name (MEPHRIT for Mephrit, NEPREKH for Nephrekh, and so on). Each of these units gains the 
+  Dynasty-specific ability as a special rule. The Dynasty-specific Stratagem, Relic and Warlord Trait are also unlocked 
+  for your army to use.
+
   ### Mephrit
 
   - **\[Ability] Stellar Fury:** Each time a model in this unit makes an attack with a ranged weapon (excluding those 
@@ -503,14 +508,14 @@ cannot be affected by more Advantages than there are Impairments affecting it.
   **Dimensional Translocation** special rule automatically pass their Exhaustion roll.
   
   ### IDEAS:
-  - Something with (false) vacuum Decay
+  - Something with vacuum Decay
   
 ## Weapons
 
 ### Qualities
 
 **Gauss Weapon:** This weapon ignores the Puny Force rule. Each time an attack is made with this weapon, wound rolls of 
-61 or more always successfully wound the target and is resolved with Armour Penetration increased by 1.
+61 or more always successfully wound the target and improve the Armour Penetration of the attack by 1.
 
 **Tesla Weapon:** Each time an attack is made with this weapon, an unmodified hit roll of 61 or more scores 2 additional
 hits.
@@ -521,11 +526,8 @@ Movement phase, double the number of shots the weapon makes.
 ### Ranged Weapons list
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
-|-------------------------------|-------|--------------|----|----|------|--------------------------- 
-| Atomiser beam                 |       |              |    |    |      | -
-| Gauss destructor              |  36"  | Heavy 1      |    |    |      | **Gauss weapon**
+|-------------------------------|-------|--------------|----|----|------|---------------------------
 | Staff of light (shooting)     |  18"  | Assault 3    |  5 | -2 |   1  | - 
-| Tesla cannon                  |  30"  | Heavy 3      |  6 |  0 |   1  | **Tesla weapon**
 
 ### Melee Weapons list
 
@@ -534,11 +536,12 @@ Movement phase, double the number of shots the weapon makes.
 | Staff of light (melee)     | Melee | User | -2 |  1  | -
 | Hyperphase sword           | Melee | User | -3 |  1  | Each time the bearer fights, it can make 1 additional attack with this weapon.
 | Voidblade                  | Melee |  +1  | -3 |  1  | -
+| Voidscythe                 | Melee |  ×2  | -4 |  3  | **Unwieldy**
 | War scythe                 | Melee |  +2  | -4 |  2  | -
 
 ## Stratagems
 
-  ### Aetheric Interception (1CP)
+  ### 1. Aetheric Interception (1CP)
   Use this Stratagem in your opponent's Reinforcements phase, after an enemy unit has been set up on the battlefield.
   Select one HYPERSPACE HUNTER unit from your army that is either on the battlefield or in Reserves.
   - If that HYPERSPACE HUNTER unit is in Reserves, set it up on the battlefield using its **Dimensional Translocation**
@@ -547,47 +550,75 @@ Movement phase, double the number of shots the weapon makes.
   it were the Shooting phase, but until the end of the phase it can only target the enemy unit that was just set up on 
   the battlefield (and only if that enemy unit is an eligible target for that attack).
 
-  ### Personality Circuits (1CP)
+  ### 2. Personality Circuits (1CP)
   Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the NECRONS keyword.
   Select one CANOPTEK unit in your army - it gains the **Dynastic Ability** special rule.
 
-  ### Repair Subroutines (1CP)
+  ### 3. Repair Subroutines (1CP)
   Use this Stratagem at the start of any battle phase. Select one CANOPTEK unit in your army - it gains the 
   **Reanimation Protocols** special rule until the end of the battle round.
 
-  ### Safety Override (1CP)
+  ### 4. Safety Override (1CP)
   Use this Stratagem at the start of any battle phase. Select one of your units that has the **Reanimation Protocols**
   special rule. The unit immediately becomes unexhausted but cannot benefit from this special rule until the end of the
   battle round.
 
-  ### Dynastic Heirlooms (1CP)
+  ### 5. Dynastic Heirlooms (1CP)
   Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the NECRONS keyword. 
-  Select one NECRONS CHARACTER model (excluding C'TAN SHARD models) in your army and give them one Relic (this must be a
-  Relic they can have). Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two
-  Relics. 
+  Select one model in your army (excluding C'TAN SHARD models) and give them one Relic (this must be a Relic they can 
+  have). Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. 
   
-  (TODO) You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case you can use 
-  this Stratagem twice), or an Onslaught battle (in which case you can use this Stratagem three times).
+  You can use this Stratagem up to 3 times per battle.
 
-  ### Rarefied Nobility (1CP)
+  ### 6. Rarefied Nobility (1CP)
   Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the NECRONS keyword. 
   Select one NECRONS CHARACTER model (excluding C'TAN SHARD models) in your army and determine one Warlord Trait for
   that model (this must be a Warlord Trait they can have); that model is only regarded as your WARLORD for the purposes
   of that Warlord Trait. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate
   results), and you cannot use this Stratagem to give a model two Warlord Traits. 
   
-  (TODO) You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case you can use
-  this Stratagem twice), or an Onslaught battle (in which case you can use this Stratagem three times).
+  You can use this Stratagem up to 3 times per battle.
 
-  ### Extermination Protocols (?CP)
-  TODO
+  ### 7. Extermination Protocols (2CP)
+  Use this Stratagem in your Shooting phase, when a LOKHUST DESTROYERS or LOKHUST HEAVY DESTROYERS unit from your army
+  is selected to shoot. Until the end of the phase, each time a model in that unit makes an attack, you can re-roll
+  the wound roll.
 
-  ### Curse of the Phaeron (?CP)
-  TODO
+  ### 8. Curse of the Phaeron (3CP/1CP)
+  Use this Stratagem in any phase, when a NECRONS VEHICLE model from your army that has the **Explode** special rule is
+  destroyed. Do not roll to see if that model explodes: it does so automatically. If that model has the TITANIC keyword,
+  this Stratagem costs 3CP; otherwise it costs 1 CP.
 
-  ### IDEAS
-  - Disintegration Capacitors
-  - Malevolent Arcing
+  ### 9. Spiteful Contingency (1CP)
+  Use this Stratagem if a CANOPTEK PLASMACYTE would be destroyed as a result of its **Companion Protocol** special rule.
+  It gains the **Explode** special rule with the following profile: `Roll: 1+ Range: 3" Strength: 6 AP: -2 Qualities: -`
+
+  ### 10. Disintegration Capacitors (1CP)
+  Use this Stratagem in your Shooting phase, when a NECRONS unit from your army is selected to shoot. Until the end of
+  the phase, each time a model in that unit makes an attack with a **Gauss Weapon**, if a hit roll of 61 or more is
+  rolled: Do not roll a wound roll for that attack. It is resolved as if a 61 was rolled as the wound roll.
+
+  ### 11. Quantum Deflection (1CP)
+  Use this Stratagem in any phase, when a NECRONS unit from your army that is equipped with **Quantum Shielding** is
+  selected as the target of an attack. Until the end of the phase, models in that unit have a 5+ invulnerable save.
+
+  ### 12. Reanimation Prioritisation (1CP)
+  Use this Stratagem in your opponent's Shooting phase, when a NECRONS unit from your army is selected as the target of
+  an attack. Select one CANOPTEK REANIMATOR model in your army that is within 6" of and visible to the targeted unit.
+  That model can use its **Reanimation Beam** special rule as if it was your Command phase, selecting the targeted unit
+  to be healed by its reanimation beam (any unit that was already being healed by that model's reanimation beam is no
+  longer considered to be healed by it).
+
+  ### 13. Disruption Fields (1CP)
+  Use this Stratagem in the Fight phase, when a NECRONS CORE unit from your army is about to make attacks. Until the end
+  of the phase, each time a model in that unit makes a melee attack, you can resolve it with AP -1.
+
+  ### 14. Malevolent Arcing (1CP)
+  Use this Stratagem in your Shooting phase, when a NECRONS unit from your army is selected to shoot. Until the end of
+  the phase, each time a model in that unit makes an attack with a **Tesla Weapon** if a hit roll of 61 or more is
+  rolled: 2 hits are scored against another enemy unit (of your choice) that's within 6" of the original target, in
+  addition to the usual effect of **Tesla Weapon**. This other enemy unit must be visible to the original target, but
+  doesn't have to be visible to the shooting unit.
 
 ## Unit Datasheets
 
@@ -635,11 +666,13 @@ has not been targeted by a Resurrection Orb (or equivalent) this phase. Then, ma
 unit (X = Starting Strength - current number of models). Follow each successful Reactivation roll is a Reassembly roll.
 For each successful Reassembly roll, return one of the slain models (with full wounds remaining) to the unit. It must
 be placerd in coherency with the rest of the unit.
+- **Phylactery (only if equipped):** Once per turn, when this model uses its Living Metal ability, it regains up to D3
+lost wounds instead of 1.
 
 #### > OPTIONS:
 - This model's Staff of light can be replaced with one of the following: 1 Hyperphase sword; 1 Voidblade.
 - This model's Hyperphase glaive can be replaced with a Warscythe (+5 pts) or Voidscythe (+10 pts).
-- This model can be equipped with a Resurrection orb (+45 pts).
+- This model can be equipped with a Resurrection orb (+45 pts) or a Phylactery (+8 pts).
 - This model can be equipped with a Phase Cycler (+15 pts).
 
 ---
@@ -662,13 +695,14 @@ This unit contains one Lokhust Lord equipped with a Staff of Light.
 - **United in Destruction (Aura):** While this unit is not In Disarray, whenever a friendly \<DYNASTY> DESTROYER CULT
 unit within 6" that is also not In Disarray makes a wound roll for an attack, you may re-roll a 'tens' roll of 1.
 - **Resurrection Orb (only if equipped):** \[see entry under 'Lesser Lord']
+- **Phylactery (only if equipped):** Once per turn, when this model uses its Living Metal ability, it regains up to D3
+lost wounds instead of 1.
 
 #### > OPTIONS:
 - This model's Staff of Light can be replaced with one of the following: 1 Hyperphase sword; 1 Voidblade.
 - This model's Hyperphase glaive can be replaced with a Warscythe (+5 pts) or Voidscythe (+10 pts).
 - This model can be equipped with a Phase Cycler (+25 pts) or a Phase Shifter (+40 pts).
-- This model can be equipped with a Resurrection orb (+45 pts).
-- TODO (Phylactery)
+- This model can be equipped with a Resurrection orb (+45 pts) or a Phylactery (+8 pts).
 
 ---
 
@@ -727,11 +761,13 @@ the action.
 that is also not In Disarray makes an attack, the hit roll gains Advantage (doesn't stack with **My Will Be Done** auras
 from other units with the same special rule).
 - **Resurrection Orb (only if equipped):** \[see entry under 'Lesser Lord']
+- **Phylactery (only if equipped):** Once per turn, when this model uses its Living Metal ability, it regains up to D3
+lost wounds instead of 1.
 
 #### > OPTIONS:
 - This model's Hyperphase glaive can be replaced with one of the following: 1 Hyperphase sword; 1 Voidblade; 1 Staff of Light.
 - This model's Hyperphase glaive can be replaced with a Warscythe (+5 pts) or Voidscythe (+10 pts).
-- This model's Tachyon arrow can be replaced with a Resurrection Orb (+35 pts).
+- This model's Tachyon arrow can be replaced with a Resurrection orb (+35 pts) or a Phylactery (free).
 - This model can be equipped with a Phase Cycler (+25 pts) or a Phase Shifter (+40 pts).
 
 ---
@@ -1033,14 +1069,11 @@ is equipped with a Flayer claws.
 
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
-
 - **Infiltrate**
-
 - **Flesh Hunger:** Increase this unit's Move characteristic by 1 whenever it's moving towards
 an enemy non-VEHICLE unit (the bonus lasts until the end of the action). Each time a model in 
 this unit makes a melee attack against an enemy non-VEHICLE unit, a hit roll of 61 or more
 scores 1 additional hit.
-
 - **Terrifying Foes (Aura):** TODO
 
 #### > OPTIONS:
@@ -1090,16 +1123,19 @@ This unit contains 1 Canoptek Plasmacyte.
 
 #### > SPECIAL RULES:
 - \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless**
-- **Viral Construct:** For each <DYNASTY> DESTROYER CULT unit included in a Detachment, one <DYNASTY> CANOPTEK PLASMACYTE unit
-can be included in that Detachment without taking up a Battlefield Role slot. You cannot include more <DYNASTY> CANOPTEK
-PLASMACYTE units in a Detachment than there are <DYNASTY> DESTROYER CULT units in that Detachment.
+- **Deep Strike**
+- **Viral Construct:** For each \<DYNASTY\> DESTROYER CULT unit included in a Detachment, one \<DYNASTY\> CANOPTEK
+PLASMACYTE unit can be included in that Detachment without taking up a Battlefield Role slot. You cannot include more
+\<DYNASTY\> CANOPTEK PLASMACYTE units in a Detachment than there are \<DYNASTY\> DESTROYER CULT units in that Detachment.
 - **Infused Madness:** Once per turn, at the start of either the Charge phase or the Fight phase, you can select one friendly
-<DYNASTY> DESTROYER CULT unit within 3" of this model. If you do, roll one D6: on a 1, one model in that unit is destroyed.
+\<DYNASTY\> DESTROYER CULT unit within 2" of this model. If you do, roll one D6: on a 1, one model in that unit is destroyed.
 Regardless of the result, until the end of the turn, add 1 to the Strength and Attacks characteristics of models in that unit.
 Each unit can only be selected for this ability once per turn.
 - **Evasion Protocols:** This unit can be affected by the "Look Out, Sir!" rule as if it were a CHARACTER. Rules that ignore
 "Look Out, Sir!" also ignore this rule.
-- **Recall Protocol:** TODO
+- **Companion Protocol:** This model can be deployed or set up (as Reinforcements) alongside a friendly \<DYNASTY\> 
+DESTROYER CULT and it can join such units during movement as if it were a CHARACTER. At the end of any phase, if this
+model is not within 2" of a friendly \<DYNASTY\> DESTROYER CULT unit, it is immediately destroyed.
 
 #### > OPTIONS:
 (none)
