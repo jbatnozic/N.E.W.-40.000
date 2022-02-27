@@ -532,7 +532,8 @@ Movement phase, double the number of shots the weapon makes.
 | WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
 |----------------------------|-------|------|----|-----|--------------------------- 
 | Staff of light (melee)     | Melee | User | -2 |  1  | -
-| Voidblade                  | Melee |  +1  | -3 |  1  | Each time the bearer fights, it can make 1 additional attack with this weapon.
+| Hyperphase sword           | Melee | User | -3 |  1  | Each time the bearer fights, it can make 1 additional attack with this weapon.
+| Voidblade                  | Melee |  +1  | -3 |  1  | -
 | War scythe                 | Melee |  +2  | -4 |  2  | -
 
 ## Stratagems
@@ -636,7 +637,7 @@ For each successful Reassembly roll, return one of the slain models (with full w
 be placerd in coherency with the rest of the unit.
 
 #### > OPTIONS:
-- This model's Staff of light can be replaced with one of the following: 1 Hyperphase sword; 1 Void blade.
+- This model's Staff of light can be replaced with one of the following: 1 Hyperphase sword; 1 Voidblade.
 - This model's Hyperphase glaive can be replaced with a Warscythe (+5 pts) or Voidscythe (+10 pts).
 - This model can be equipped with a Resurrection orb (+45 pts).
 - This model can be equipped with a Phase Cycler (+15 pts).
@@ -839,11 +840,12 @@ is equipped with a Gauss flayer.
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
 |-------------------------------|-------|--------------|----|----|------|---------------------------
 | Gauss flayer                  |  24"  | Rapid Fire 1 |  4 |  0 |   1  | **Gauss weapon**
-| Gauss reaper                  |  12"  | Assault 2    |  5 |  0 |   1  | **Gauss weapon**
+| Gauss reaper                  |  12"  | Assault 2    |  4 | -1 |   1  | **Gauss weapon**
 
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
-- **Their Number is Legion:** ?
+- **Their Number is Legion:** Re-roll Reanimation Protocol rolls of 1 made for this unit (both for Reactivation and
+Reassembly).
 - **Polyalloy Bodies (only if equipped):** Models in this unit have a 3+ armour save.
 
 #### > OPTIONS:
@@ -872,7 +874,6 @@ is equipped with a Gauss blaster.
 
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
-- TODO
 
 #### > OPTIONS:
 - Any number of models may replace their Gauss blaster with a Tesla carbine (free).
@@ -883,7 +884,7 @@ is equipped with a Gauss blaster.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T (FSR) | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---------|---|---|---|---|----|------
-| Canoptek Reanimator      | 110 | 8" | 4" |  3 |  5 | 6 |  6/6/6  | 8 | 4 | 3 | 9 | 3+ | 60mm 
+| Canoptek Reanimator      | 110 | 8" | 4" |  3 |  5 | 6 |  6/6/6  | 7 | 4 | 3 | 9 | 3+ | 60mm 
 
 This unit contains 1 Canoptek Reanimator. It is equipped with 2 Atomiser beams and reanimator's claws.
 
@@ -904,10 +905,13 @@ This unit contains 1 Canoptek Reanimator. It is equipped with 2 Atomiser beams a
 #### > SPECIAL RULES:
 - \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless**
 - **Explodes:** `Roll: 5+ Range: 6" Strength: 6 AP: -1 Qualities: -`
-- **(?) (Aura):** TODO
+- **Reanimation Beam (Aura):** At the end of your Movement phase, you can select one friendly \<DYNASTY\> unit within 6"
+of and visible to this model. Until the end of the battle round, while that unit is within 6" of and visible to this 
+model, that unit is being healed by this model's reanimation beam. While a unit is being healed by a reanimation beam, 
+add 1 to Reactivation rolls made for that unit. Each unit can only ever be healed by one reanimation beam at a time.
 
 #### > OPTIONS:
-(none)
+- This model may be equipped with Quantum Shielding (+20 pts).
 
 ---
 
@@ -945,7 +949,7 @@ This unit contains 1 Canoptek Warbringer. It is equipped with a Heat ray, 2 Atom
 - **War of the Worlds:** This unit is **Relentless**.
 
 #### > OPTIONS:
-(none)
+- This model may be equipped with Quantum Shielding (+20 pts).
 
 ---
 
