@@ -53,6 +53,10 @@
   protocol until the end of the battle round. Units that are In Disarray are not affected by Command Protocols unless
   otherwise stated.
   
+  ### Dynastic Advisors:
+  For each NOBLE included in a detachment, one CRYPTEK can be included in that detachment without taking up an 
+  additional Battlefield Role slot.
+
   ### Cold Hard Logic:
   This unit ignores the effects of "Panicking" and is never considered to have this status. However, if this unit would receive
   this status as a result of a failed Morale test, do the following:
@@ -84,7 +88,7 @@
   ### Dimensional Translocation:
   \[Same as Deep Strike]
 
-  ### Quantum Shielding
+  ### Quantum Shielding:
   Each time the model would suffer damage from an unsaved attack, roll a D6. If the result is 6 or less than the damage 
   inflicted by the attack, the damage is ignored. Mortal wounds are never affected by this rule.
 
@@ -445,7 +449,6 @@ cannot be affected by more Advantages than there are Impairments affecting it.
   Once per battle, this WARLORD's reanimation attempt (which means Rectivation roll + Reassembly roll) can succeed
   automatically (player's choice as to when to use this, but it must be before any Reanimation rolls).
   After this effect is used, the WARLORD is incapacitated until the same phase of the next turn.
-  TODO: Clarify the effect a bit (and what does incapacitated mean?)
 
   ### 6. Body Made of Old Nokias
   Whenever an attack is made against this WARLORD, the wound roll gains an Impairment. (name = TODO)
@@ -812,7 +815,7 @@ Range of enemy units, not In Disarray, and hasn't yet fired Overwatch during thi
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Technomancer             | 115 | 5" | 4" |  5 |  7 | 4 | 4 | 4 | 1 | 3 | 10 | 4+ | 50mm 
+| Technomancer             | 115 | 5" | 4" |  5 |  7 | 4 | 4 | 3 | 1 | 3 | 10 | 3+ | 50mm 
 
 This unit contains one Technomancer equipped with a Staff of light.
 
@@ -822,10 +825,21 @@ This unit contains one Technomancer equipped with a Staff of light.
 
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
-- TODO
+- **Dynastic Advisors**
+- **Technological Supremacy (Aura):** At the end of your Movement phase, you can select one friendly \<DYNASTY\> unit 
+within 6" of and visible to this model. Until the end of the battle round, while that unit is within 6" of and visible
+to this model, that unit is under the effects of this special rule. While a unit is under this effects, add 1 to 
+Reassembly rolls made for that unit. (this bonus doesn't stack with itself)
+- **Canoptek Cloak (only if equipped):** The bearer has a Move characteristic of 10" and the FLY keyword.
+- **Canoptek Control Node (only if equipped):** The bearer has the following special rule: 
+"**Control Node (Aura):** While a friendly \<DYNASTY\> CANOPTEK unit is within 6" of this model, each time a model in 
+that unit makes a hit roll for an attack, you can re-roll a 'tens' roll of 1.
 
 #### > OPTIONS:
-- TODO
+- This model can be equipped with any or all of the following:
+  - Phase Cycler (+15 pts),
+  - Canoptek Cloak (+10 pts),
+  - Canoptek Control Node (+20 pts).
 
 ---
 
@@ -843,20 +857,28 @@ This unit contains one Technomancer equipped with a Staff of light.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Plasmancer               | 115 | 5" | 4" |  5 |  7 | 4 | 4 | 4 | 1 | 3 | 10 | 4+ | 50mm 
+| Plasmancer               | 115 | 5" | 4" |  5 |  7 | 4 | 4 | 3 | 1 | 3 | 10 | 3+ | 50mm 
 
-This unit contains one Plasmancer equipped with a Staff of light.
+This unit contains one Plasmancer equipped with a Plasmic lance.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
 **KEYWORDS:** INFANTRY, CHARACTER, CORE, CRYPTEK, PLASMANCER
 
+| WEAPON                   | RANGE |     TYPE     |   S  | AP |   D  | QUALITIES
+|--------------------------|-------|--------------|------|----|------|---------------------------
+| Plasmic lance (shooting) |  18"  | Rapid Fire 1 |   4  |  0 |   2  | -
+| Plasmic lance (melee)    | Melee | Melee        | User | -1 |   2  | -
+
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
+- **Dynastic Advisors**
 - TODO
 
 #### > OPTIONS:
-- TODO
+- This model can be equipped with any or all of the following:
+  - Phase Cycler (+15 pts),
+  - TODO
 
 ---
 
@@ -944,7 +966,7 @@ This unit contains 1 Canoptek Reanimator. It is equipped with 2 Atomiser beams a
 - **Reanimation Beam (Aura):** At the end of your Movement phase, you can select one friendly \<DYNASTY\> unit within 6"
 of and visible to this model. Until the end of the battle round, while that unit is within 6" of and visible to this 
 model, that unit is being healed by this model's reanimation beam. While a unit is being healed by a reanimation beam, 
-add 1 to Reactivation rolls made for that unit. Each unit can only ever be healed by one reanimation beam at a time.
+add 1 to Reactivation rolls made for that unit. (this bonus doesn't stack with itself)
 
 #### > OPTIONS:
 - This model may be equipped with Quantum Shielding (+20 pts).
