@@ -1008,6 +1008,53 @@ As with all exarch powers, Howling Banshee Exarch powers are NOT in effect while
 
 ---
 
+### \[Elite] Striking Scorpions
+
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
+| Striking Scorpion        |  20 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 7 | * | 3+ | 25mm 
+| Striking Scorpion Exarch |  20 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 3 | 7 | * | 3+ | 25mm 
+
+| Striking Scorpions in unit | Nerve 
+|----------------------------|-------
+| 1-3                        |    7 
+| 4-6                        |    8 
+| 7-10                       |    9 
+
+This unit contains 4 Striking Scorpions and 1 Striking Scorpion Exarch. It can include up to 5 additional Striking 
+Scorpions. Every model is equipped with a Shuriken pistol, a Scorpion chainsword, Plasma grenades and Mandiblasters.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
+
+**KEYWORDS:** INFANTRY, CORE, STRIKING SCORPIONS
+
+| WEAPON                     | RANGE |     TYPE    |  S | AP |  D | QUALITIES
+|----------------------------|-------|-------------|----|----|----|--------------------------- 
+| Scorpion's claw (shooting) |  12"  | Assault 2   |  4 |  0 |  1 | **Shuriken Weapon**
+| Scorpion's claw (melee)    | Melee | Melee       | ×2 | -3 | D3 | -
+| Scorpion chainsword        | Melee | Melee       | +1 | -1 |  1 | -
+| Biting blade               | Melee | Melee       | +2 | -1 |  2 | -
+| Mandiblasters              | Melee | Melee       |  3 | -4 |  1 | After the bearer has made its close combat attacks in the Fight phase, it can make one additional attack using this weapon. Only one attack per Fight phase can be made with this weapon.
+
+#### > SPECIAL RULES:
+- **Battle Focus**
+- **Infiltrate**
+- **Exarch Guidance:** While this unit contains an Exarch, its Nerve characteristic is improved by 1.
+- **Terror Troops:** When an enemy model is destroyed in the Fight phase by an attack made by a model in this unit, 
+roll a D6. On a 6, that enemy model's unnit gains 1 Strain. A single unit cannot gain more than 3 Strain per Fight phase
+from this special rule.
+
+#### > OPTIONS:
+- The Striking Scorpion Exarch's Shuriken pistol can be replaced with Scorpion's claw (+10 pts).
+- The Striking Scorpion Exarch's Scorpion chainsword can be replaced with a Biting blade (+5 pts).
+- The Striking Scorpion Exarch can take one exarch power from the list below at the listed point cost.
+
+#### > STRIKING SCORPION EXARCH POWERS:
+TODO
+
+---
+
 ### \[Elite] Wraithguard
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
