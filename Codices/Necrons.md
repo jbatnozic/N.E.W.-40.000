@@ -510,6 +510,15 @@ cannot be affected by more Advantages than there are Impairments affecting it.
   Friendly \<DYNASTY\> units that arrive on the battlefield within 6" of the bearer using their
   **Dimensional Translocation** special rule automatically pass their Exhaustion roll.
   
+  ### Veil of Darkness
+  Once per battle, in your Movement phase, the bearer can use this Relic. If it does, the bearer’s unit and up to one
+  friendly \<DYNASTY\> CORE unit within 3" of the bearer can be removed from the battlefield and immediately set up 
+  back on the battlefield anywhere that is more than 8" away from enemy models. The bearer must be set up within 3" of 
+  the other unit and that unit must be set up wholly within 6" of the bearer.
+
+  ### Veil of Dorkness
+  Equip to a NECRON CHARACTER model. He becomes a huge dork.
+
   ### IDEAS:
   - Something with vacuum Decay
   
@@ -1096,7 +1105,9 @@ is equipped with a Flayer claws.
 an enemy non-VEHICLE unit (the bonus lasts until the end of the action). Each time a model in 
 this unit makes a melee attack against an enemy non-VEHICLE unit, a hit roll of 61 or more
 scores 1 additional hit.
-- **Terrifying Foes (Aura):** TODO
+- **Terrifying Foes (Aura):** When an enemy model is destroyed in the Fight phase by an attack made by a model in this
+unit, roll a D6. On a 6, that enemy model's unnit gains 1 Strain. A single unit cannot gain more than 3 Strain per
+Fight phase form this special rule.
 
 #### > OPTIONS:
 (none)
