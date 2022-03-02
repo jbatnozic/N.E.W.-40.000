@@ -434,6 +434,14 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
   ### Treasures of the Craftworld (1CP)
   Use this Stratagem before the battle, when you are mustering your army. (Army gains 1 extra Relic; use up to 3 times)
 
+  \[This Stratagem is Unfinished but usable]
+
+  ### Extra Warlord Trait (1CP)
+  Use this Stratagem before the battle, when you are mustering your army. (Character without a WT gains 1 unique WT;
+  use up to 3 times)
+
+  \[This Stratagem is Unfinished but usable]
+
   ### Lightning-Fast Reactions (2CP)
   Use this Stratagem when a friendly ASURYANI CORE INFANTRY unit, or a friendly ASURYANI CORE UNIT WITH THE FLY keyword
   is targeted by a ranged or melee weapon. Until the end of the phase, hit rolls of all attacks made against that unit 
@@ -840,6 +848,7 @@ Each model is armed with an Avenger shuriken catapult and Plasma grenades.
 | WEAPON                     | RANGE |     TYPE    |  S | AP | D | QUALITIES
 |----------------------------|-------|-------------|----|----|---|--------------------------- 
 | Avenger shuriken catapult  |  18"  | Assault 2   |  4 |  0 | 1 | **Shuriken weapon**
+| Power glaive               | Melee | Melee       | +1 | -2 | 1 | -
 
 #### > SPECIAL RULES:
 - **Battle Focus**
@@ -850,8 +859,14 @@ a Dire Avenger Exarch, you may choose to change the type of all Avenger shuriken
 Assault 3. If you do, after the action is completed, this unit cannot make any ranged attacks until it has perfored the
 following Shooting phase/Charge phase action: "**Reload: \[Exhaust]** After this action is completed, the unit can
 continue to make ranged attacks."
+- **Shimmershield (only if equipped):** A unit which includes a model with a Shimmershield has a 5+ invulnerable save.
 
 #### > OPTIONS:
+- The Dire Avenger Exarch may replace their Avenger shuriken catapult with one of the following:
+  - Two Avenger shuriken catapults \[can fire both when selected to shoot] (+3 pts),
+  - Shuriken pistol and Power glaive (+3 pts),
+  - Shimmershield and Power glaive (+15 pts).
+
 - The Dire Avenger Exarch can take one exarch power from the list below at the listed point cost.
 
 #### > DIRE AVENGER EXARCH POWERS:
@@ -1142,8 +1157,8 @@ to all saving throws against melee attacks while it fights in the Defensive stan
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Warp Spider              |  22 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 3+ | 28mm 
-| Warp Spider Exarch       |  22 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 3+ | 28mm 
+| Warp Spider              |  22 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 3+ | 25mm 
+| Warp Spider Exarch       |  22 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 3+ | 25mm 
 
 | Warp Spiders in unit    | Nerve 
 |-------------------------|-------
@@ -1171,10 +1186,16 @@ Each model is armed with a death spinner.
 - **Battle Focus**
 - **Exarch Guidance:** While this unit contains an Exarch, its Nerve characteristic is improved by 1.
 - **Deep Strike**
-- **Warp Jump Generator:** This unit can perform the following action during the Charge phase: "**Short-range Jump: \[Exhaust]** Nominate a direction, then roll a 2D6 and a 4D6. Pick a value between the lower roll and the higher roll and move every model in the unit that many inches in the nominated direction, as if they could FLY. Any model that cannot be placed because of terrain, other units or battlefield edge is destroyed and immediately removed."
-- **Flickerjump:** When this unit is targeted by a ranged weapon, you can declare that they will make a flickerjump - all hit rolls of ranged attacks
+- **Warp Jump Generator:** This unit can perform the following action during the Charge phase if it is not in Engagement
+Range of enemy units: "**Short-range Jump: \[Exhaust]** Nominate a direction, then roll a 2D6 and a 4D6. Pick a value 
+between the lower roll and the higher roll and move every model in the unit that many inches in the nominated direction,
+as if they could FLY. Any model that cannot be placed because of terrain, other units or battlefield edge is destroyed 
+and immediately removed."
+- **Flickerjump:** When this unit is targeted by a ranged weapon, you can declare that they will make a flickerjump -
+all hit rolls of ranged attacks
 that target this unit until the end of the phase suffer an Impairment.
-- **Warp Passage:** Whenever this unit makes use of one of the following abilities: Deep Strike, Warp Jump Generator, Flickerjump - roll a 2D6. On a 3 or less, one model is claimed by the Warp - destroy it and immediately remove it.
+- **Warp Passage:** Whenever this unit makes use of one of the following abilities: Deep Strike, Warp Jump Generator, 
+Flickerjump - roll a 2D6. On a 3 or less, one model is claimed by the Warp - destroy it and immediately remove it.
 
 #### > OPTIONS:
 - The Warp Spider Exarch can be equipped with one of the following:
@@ -1190,6 +1211,76 @@ that target this unit until the end of the phase suffer an Impairment.
 - **Warp Guide (15 pts):** While this unit contains a Warp Spider Exarch, you may re-roll its Warp Passage rolls.
 
 As with all exarch powers, Warp Spider Exarch powers are NOT in effect while the unit is In Disarray.
+
+---
+
+### \[Fast Attack] Swooping Hawks
+
+| NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
+| Swooping Hawks           |  24 | 14" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 4+ | 25mm 
+| Swooping Hawk Exarch     |  24 | 14" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 4+ | 25mm 
+
+| Swooping Hawks in unit  | Nerve 
+|-------------------------|-------
+| 1-3                     |    7 
+| 4-6                     |    8 
+| 7-10                    |    9 
+
+This unit contains 4 Swooping Hawks and 1 Swooping Hawk Exarch. In can include up to 5 additional Swooping Hawks.
+Each model is armed with a Lasblaster and Swooping hawk grenades.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
+
+**KEYWORDS:** INFANTRY, CORE, JUMP PACK, FLY, SWOOPING HAWKS
+
+| WEAPON                            | RANGE | TYPE      |  S  | AP |  D  | Qualities
+|-----------------------------------|-------|-----------|-----|----|-----|-----------
+| Lasblaster                        |  24"  | Assault 6 |  3  |  0 |  1  | -
+| Hawk's talon                      |  24"  | Assault 6 |  4  | -1 |  1  | -
+| Swooping hawk grenades            |   6"  | Grenade 1 |  4  | -1 |  2  | **Blast (Small)**
+
+#### > SPECIAL RULES:
+- **Battle Focus**
+- **Exarch Guidance:** While this unit contains an Exarch, its Nerve characteristic is improved by 1.
+- **Deep Strike**
+- **Evasion:** Whenever a ranged attack is made against this unit, if every model in this unit moved at least 12" in the
+previous Movement phase (including arriving as Reinforcements), models in this unit may take a 5+ invulnerable save 
+against that attack.
+- **Children of Baharroth:** This unit can perform the following action during the Charge phase if it is not in
+Engagement Range of enemy units: "**Skyleap: \[Exhaust]** Perform the "Remove Casualties" step for this unit, then
+immediately remove the rest of it from the battlefield and place it into the Reserves. During the next Reinforcements
+phase, it must be set back up on the battlefield using its **Deep Strike** special rule, and when it does so, it
+receives a +1 bonus to its Exhaustion roll.
+- **Swooping Bombardment:** Swooping Hawks can fire a spread of grenades when they are set up on the battlefield using 
+their **Deep Strike** special rule and as they fly over enemy units in the Movement phase. To do so after the unit has
+been set up using its **Deep Strike** special rule, pick an enemy unit within 12" of them. To do so after the unit has
+moved, pick one enemy unit that they flew over. Then, in either case, up to 3 models in this unit may attack the
+selected unit with Swooping hawk grenades (this is not an action). When it does so, ignore the normal range of the
+grenades, and place the blast template(s) anywhere so that their centres intersect the selected unit.
+
+#### > OPTIONS:
+- The Swooping Hawk Exarch may replace their lasblaster with a hawk’s talon (+? pts).
+- The Swooping Hawk Exarch may take a power sword (+3 pts).
+- The Swooping Hawk Exarch can take one exarch power from the list below at the listed point cost.
+
+#### > SWOOPING HAWK EXARCH POWERS:
+- **Herald of Victory (free):** Friendly \<CRAFTWORLD\> units within 6" of a Swooping Hawk Exarch with this special rule
+gain a +1 bonus to their Nerve characteristic (up to a maximum of 11). This does not affect the Exarch's very own unit.
+- **Hawk's Precision (10 pts):** Whilst this unit contains a Swooping Hawk Exarch, whenever a model in this unit makes 
+an attack with a Swooping hawk grenade, a Direct Hit is scored automatically.
+- **Predator's Descent (10 pts):** Whilst this unit contains a Swooping Hawk Exarch, if this unit declares a charge 
+(or counter-charge), and if it used its **Deep Strike** special rule earlier in this battle round, do not roll for 
+charge distance - it is 10" automatically.
+- **Grenadier (10 pts):** Whilst this unit contains a Swooping Hawk Exarch, whenever a model in this unit makes 
+a wound roll for an attack with a Swooping hawk grenade, you may re-roll a 'tens' roll of 1.
+- **Barrage (15 pts):** Whilst this unit contains a Swooping Hawk Exarch, whenever it uses its **Swooping Bombardment**
+special rule, up to 5 models in this unit may attack with their grenades (instead of 3).
+- **Stir up the Ground (15 pts):** Whilst this unit contains a Swooping Hawk Exarch, whenever a melee attack is made
+against this unit, if this unit used its **Deep Strike** special rule earlier in this battle round, the hit roll suffers
+an Impairment.
+
+As with all exarch powers, Swooping Hawk Exarch powers are NOT in effect while the unit is In Disarray.
 
 ---
 
@@ -1217,6 +1308,9 @@ Each model is armed with a Laser lance and Twin shuriken catapult.
 |-----------------------------------|-------|-----------|------|----|---|-----------
 | Laser lance (ranged)              |   8"  | Assault 1 |   6  | -3 | 2 | -
 | Laser lance (melee)               | Melee | Melee     | User | -3 | 2 | If the bearer charged this turn, attacks with this weapon are made at Strength 6.
+| Star lance (ranged)               |   8"  | Assault 1 |   8  | -4 | 2 | -
+| Star lance (melee)                | Melee | Melee     | User | -4 | 2 | If the bearer charged this turn, attacks with this weapon are made at Strength 8.
+| Paragon sabre                     | Melee | Melee     | User | -4 | 1 | You can re-roll failed hit and wound rolls for this weapon.
 
 #### > SPECIAL RULES:
 - **Battle Focus**
@@ -1227,8 +1321,8 @@ addition to one other ranged weapon.
 save against ranged attacks.
 
 #### > OPTIONS:
+- The Shining Spear Exarch may replace their Laser lance with a Star lance (+8 pts) or a Paragon sabre (free).
 - The Shining Spear Exarch can take one exarch power from the list below at the listed point cost.
-- (TODO)
 
 #### > SHINING SPEARS EXARCH POWERS:
 - **Expert Hunter (free):** You can re-roll wound rolls for a Shining Spear Exarch when attacking a MONSTER or VEHICLE.
@@ -1402,7 +1496,7 @@ Each model is armed with a Reaper Launcher.
 
 #### > OPTIONS:
 - The Dark Reaper Exarch may replace their reaper launcher with a Shuriken cannon (free), 
-Aeldari missile launcher (+? pts) or Tempest launcher (+15 pts).
+Aeldari missile launcher (+10 pts) or Tempest launcher (+15 pts).
 - The Dark Reaper Exarch can take one exarch power from the list below at the listed point cost.
 
 #### > DARK REAPERS EXARCH POWERS:
