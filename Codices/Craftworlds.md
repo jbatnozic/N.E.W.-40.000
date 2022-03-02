@@ -1051,7 +1051,24 @@ from this special rule.
 - The Striking Scorpion Exarch can take one exarch power from the list below at the listed point cost.
 
 #### > STRIKING SCORPION EXARCH POWERS:
-TODO
+- **Sustained Attack (free):** Each time you roll a hit roll of 61 or more when making a close combat attack for the Striking
+Scorpion Exarch, that model can immediately make another close combat attack using the same weapon. These extra attacks
+cannot generate any additional attacks.
+- **Shadow Strike (5 pts):** Whilst this unit contains a Striking Scorpion Exarch, enemy cover saves made against ranged
+attacks made by models in this unit receive a -1 penalty.
+- **Scorpion's Grasp (5 pts):** Each time you roll a wound roll of 61 or more when making a close combat attack with the 
+Scorpion's claw, the target suffers 1 mortal wound in addition to any normal damage.
+- **Scorpion's Sting (8 pts):** Whilst this unit contains a Striking Scorpion Exarch, the Mandiblasters this unit is equipped
+with have a Strength characteristic of 4.
+- **Stalker (10 pts):** Whilst this unit contains a Striking Scorpion Exarch, it models in it receive a +1 bonus to all cover
+saving throws.
+- **Terrorizer (10 pts):** Whilst this unit contains a Striking Scorpion Exarch, add 1 to roll made for this unit's
+**Terror Troops** special rule.
+- **Ambush (15 pts):** Whilst this unit contains a Striking Scorpion Exarch, if a model in this unit makes an attack in the
+Fight phase against a Flat-footed unit, resolve that attack with AP improved by 1 and, when making the wound roll, you
+may re-roll a 'tens' roll of 1.
+
+As with all exarch powers, Striking Scorpion Exarch powers are NOT in effect while the unit is In Disarray.
 
 ---
 
