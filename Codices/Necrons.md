@@ -790,9 +790,7 @@ lost wounds instead of 1.
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
 | Royal Warden             | 115 | 6" | 4" |  5 |  8 | 5 | 5 | 4 | 3 | 3 | 11 | 3+ | 32mm 
 
-This unit contains one Royal Warden equipped with a TODO
-
-Note: The role of this model is unclear under the new core rules
+This unit contains one Royal Warden equipped with a Gauss exterminator.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
