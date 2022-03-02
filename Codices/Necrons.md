@@ -909,6 +909,7 @@ is equipped with a Gauss flayer.
 
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
+- **Objective Secured**
 - **Their Number is Legion:** Re-roll Reanimation Protocol rolls of 1 made for this unit (both for Reactivation and
 Reassembly).
 - **Polyalloy Bodies (only if equipped):** Models in this unit have a 3+ armour save.
@@ -939,6 +940,7 @@ is equipped with a Gauss blaster.
 
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
+- **Objective Secured**
 
 #### > OPTIONS:
 - Any number of models may replace their Gauss blaster with a Tesla carbine (free).
