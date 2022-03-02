@@ -142,7 +142,7 @@ WARLORD gains the **Explodes** special rule with the following profile:
   
   | WEAPON           | RANGE |     TYPE     |   S  | AP | D | QUALITIES
   |------------------|-------|--------------|------|----|---|---------------------------
-  | Bozar Spinner    |  36"  | Rapid Fire 4 |   6  | -2 | 2 | -
+  | Bozar Spinner    |  36"  | Rapid Fire 4 |   6  | -2 | 2 | **Gauss Weapon**
 
   ### Nephrekh
 
