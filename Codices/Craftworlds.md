@@ -355,9 +355,9 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
 
   ### Safe Passage (Warp Charge: 6)
   If manifested, choose a friendly unit that's currently in Reserves. You may immediately set it up on the battlefield 
-  using any relevant special rules available to that unit, along with any accompanying CHARACTERs (as per the usual 
+  using any relevant special rules available to that unit, along with up to 1 accompanying CHARACTER (as per the usual 
   rules for CHARACTER Reinforcements), as if it were the Reinforcements Phase. All models that arrive on the battlefield
-  using Safe Passage must be set up in unit coherency and wholly within 12" of the caster - if this is not possible,
+  using Safe Passage must be set up in unit coherency and wholly within 9" of the caster - if this is not possible,
   then they cannot arrive in this way. When units arrive on the battlefield using Safe Passage, their associated
   Exhaustion Roll succeeds automatically.
   
@@ -1260,7 +1260,7 @@ selected unit with Swooping hawk grenades (this is not an action). When it does 
 grenades, and place the blast template(s) anywhere so that their centres intersect the selected unit.
 
 #### > OPTIONS:
-- The Swooping Hawk Exarch may replace their lasblaster with a hawk’s talon (+? pts).
+- The Swooping Hawk Exarch may replace their lasblaster with a hawk’s talon (+10 pts).
 - The Swooping Hawk Exarch may take a power sword (+3 pts).
 - The Swooping Hawk Exarch can take one exarch power from the list below at the listed point cost.
 
