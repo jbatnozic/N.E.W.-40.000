@@ -529,7 +529,7 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
 ### Qualities
 
 **Psychically-attuned Weapon:** When attack is made with this weapon with this weapon against targets that is not
-a VEHICLE and not TITANIC, you can choose to make the hit roll at Exponent 8 regardless of the target's Melee Skill 
+a VEHICLE and not TITANIC, you can choose to make the wound roll at Exponent 8 regardless of the target's Toughness 
 (other modifiers then apply as normal), and this attack is resolved with Armour Penetration improved by 1.
 
 **Shuriken Weapon:** When attacking with this weapon, a successful wound roll of 61 or more has Armour Penetration improved by 2.
