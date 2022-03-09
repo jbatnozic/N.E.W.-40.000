@@ -89,8 +89,8 @@
   \[Same as Deep Strike]
 
   ### Quantum Shielding:
-  Each time the model would suffer damage from an unsaved attack, roll a D6. If the result is 6 or less than the damage 
-  inflicted by the attack, the damage is ignored. Mortal wounds are never affected by this rule.
+  Each time the model would suffer damage from an unsaved attack, roll a D6. If the result is not a 6, and is less than
+  the damage inflicted by the attack, the damage is ignored. Mortal wounds are never affected by this rule.
 
   ### Phase Cycler: 
   This model has a 5+ invulnerable save.
@@ -352,9 +352,9 @@ cannot be affected by more Advantages than there are Impairments affecting it.
   As soon as a unit is affected by this protocol, it starts calibrating, unless it already finished calibrating in one 
   of the previous turns. While a unit is calibrating, its Melee Skill and Ballistic Skill characteristics are reduced to
   2 (unless they would otherwise be lower). Calibration finishes at the end of the current battle round, and from that
-  point on (for the remainder of the battle), whenever a model from the calibrated unit makes a melee or ranged attack
-  against an enemy unit, the hit and/or wound roll may be re-rolled. A single unit can re-roll a maximum of 1 hit roll
-  and 1 wound roll per phase using this effect.
+  point on (for the remainder of the battle), whenever a model from the calibrated unit makes a hit roll or a wound roll
+  for a melee or ranged attack against an enemy unit, a 'tens' roll of 1 may be re-rolled. A single unit can re-roll 
+  only 1 die per phase using this effect.
   
   This protocols always affects all units with the **Command Protocols** special rule, even while they are In Disarray.
   
@@ -570,10 +570,11 @@ Movement phase, double the number of shots the weapon makes.
   Use this Stratagem at the start of any battle phase. Select one CANOPTEK unit in your army - it gains the 
   **Reanimation Protocols** special rule until the end of the battle round.
 
-  ### 4. Safety Override (1CP)
-  Use this Stratagem at the start of any battle phase. Select one of your units that has the **Reanimation Protocols**
-  special rule. The unit immediately becomes unexhausted but cannot benefit from this special rule until the end of the
-  battle round.
+  ### 4. Safety Override (2CP)
+  Use this Stratagem during your Command phase. Select one of your units that has the **Reanimation Protocols**
+  special rule - this unit cannot benefit from this special rule until the end of the battle round. However, once until
+  the end of the battle round, this unit can use the following effect: This unit can performing the Advance, Follow or 
+  Full Shooting action without needing to become Exhausted.
 
   ### 5. Dynastic Heirlooms (1CP)
   Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the NECRONS keyword. 
@@ -657,7 +658,7 @@ of their "special things".
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Lesser Lord              | 110 | 6" | 4" |  6 |  8 | 5 | 5 | 4 | 3 | 4 | 11 | 3+ | 32mm 
+| Lesser Lord              | 110 | 6" | 4" |  6 |  8 | 5 | 5 | 4 | 3 | 4 | 10 | 3+ | 32mm 
 
 This unit contains one Lesser Lord equipped with a Staff of Light.
 
@@ -693,7 +694,7 @@ lost wounds instead of 1.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Lokhust Lord             | 135 | 8" | 4" |  6 |  8 | 5 | 6 | 6 | 4 | 4 | 10 | 3+ | 60mm 
+| Lokhust Lord             | 135 | 8" | 4" |  6 |  8 | 5 | 6 | 6 | 4 | 4 |  9 | 3+ | 60mm 
 
 This unit contains one Lokhust Lord equipped with a Staff of Light.
 
@@ -722,7 +723,7 @@ lost wounds instead of 1.
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
-| Skorpekh Lord            | 180 |  8" | 4" |  7 |  8 | 6 | 6 | 6 | 5 | 5 | 10 | 3+ | 50mm 
+| Skorpekh Lord            | 180 |  8" | 4" |  7 |  8 | 6 | 6 | 6 | 5 | 5 |  9 | 3+ | 50mm 
 
 This unit contains one Skorpekh Lord equipped with an Enmitic annihilator, Flensing claw and a Hyperphase harvester.
 
@@ -751,7 +752,7 @@ unit within 6" that is also not In Disarray makes a wound roll for an attack, yo
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Overlord                 | 135 | 6" | 4" |  7 |  9 | 5 | 5 | 5 | 4 | 5 | 11 | 3+ | 40mm 
+| Overlord                 | 135 | 6" | 4" |  7 |  9 | 5 | 5 | 5 | 4 | 5 | 10 | 3+ | 40mm 
 
 This unit contains one Overlord equipped with a Hyperphase glaive and a Tachyon arrow.
 
@@ -788,7 +789,7 @@ lost wounds instead of 1.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Royal Warden             | 115 | 6" | 4" |  5 |  8 | 5 | 5 | 4 | 3 | 3 | 11 | 3+ | 32mm 
+| Royal Warden             | 115 | 6" | 4" |  5 |  8 | 5 | 5 | 4 | 3 | 3 | 10 | 3+ | 32mm 
 
 This unit contains one Royal Warden equipped with a Gauss exterminator.
 
@@ -822,7 +823,7 @@ Range of enemy units, not In Disarray, and hasn't yet fired Overwatch during thi
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Technomancer             | 115 | 5" | 4" |  5 |  7 | 4 | 4 | 3 | 1 | 3 | 10 | 3+ | 50mm 
+| Technomancer             | 115 | 5" | 4" |  5 |  7 | 4 | 4 | 3 | 1 | 3 |  9 | 3+ | 50mm 
 
 This unit contains one Technomancer equipped with a Staff of light.
 
@@ -864,7 +865,7 @@ that unit makes a hit roll for an attack, you can re-roll a 'tens' roll of 1.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Plasmancer               | 115 | 5" | 4" |  5 |  7 | 4 | 4 | 3 | 1 | 3 | 10 | 3+ | 50mm 
+| Plasmancer               | 115 | 5" | 4" |  5 |  7 | 4 | 4 | 3 | 1 | 3 |  9 | 3+ | 50mm 
 
 This unit contains one Plasmancer equipped with a Plasmic lance.
 
@@ -893,7 +894,7 @@ This unit contains one Plasmancer equipped with a Plasmic lance.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Necron Warrior           |  20 | 5" | 4" |  4 |  7 | 4 | 4 | 1 | 1 | 2 | 10 | 4+ | 32mm 
+| Necron Warrior           |  20 | 5" | 4" |  4 |  7 | 4 | 4 | 1 | 1 | 2 |  9 | 4+ | 32mm 
 
 This unit contains 10 Necron Warriors. It can contain up to 10 additional Warriors. Every model 
 is equipped with a Gauss flayer.
@@ -924,7 +925,7 @@ Reassembly).
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Immortal                 |  30 | 5" | 4" |  5 |  7 | 4 | 5 | 2 | 2 | 2 | 10 | 3+ | 32mm 
+| Immortal                 |  30 | 5" | 4" |  4 |  7 | 4 | 5 | 2 | 2 | 2 |  9 | 3+ | 32mm 
 
 This unit contains 5 Immortals. It can contain up to 5 additional Immortals. Every model 
 is equipped with a Gauss blaster.
@@ -951,7 +952,7 @@ is equipped with a Gauss blaster.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T (FSR) | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---------|---|---|---|---|----|------
-| Canoptek Reanimator      | 110 | 8" | 4" |  3 |  5 | 6 |  6/6/6  | 7 | 4 | 3 | 9 | 3+ | 60mm 
+| Canoptek Reanimator      | 110 | 8" | 4" |  3 |  5 | 6 |  6/6/6  | 7 | 4 | 3 | 8 | 3+ | 60mm 
 
 This unit contains 1 Canoptek Reanimator. It is equipped with 2 Atomiser beams and reanimator's claws.
 
@@ -986,7 +987,7 @@ add 1 to Reactivation rolls made for that unit. (this bonus doesn't stack with i
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T (FSR) | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---------|---|---|---|---|----|------
-| Canoptek Warbringer      | 135 | 8" | 4" |  3 |  5 | 6 |  6/6/6  | 8 | 4 | 3 | 9 | 3+ | 60mm 
+| Canoptek Warbringer      | 145 | 8" | 4" |  3 |  5 | 6 |  6/6/6  | 8 | 4 | 3 | 8 | 3+ | 60mm 
 
 This unit contains 1 Canoptek Warbringer. It is equipped with a Heat ray, 2 Atomiser beams and Warbringer's claws.
 
@@ -1024,7 +1025,7 @@ This unit contains 1 Canoptek Warbringer. It is equipped with a Heat ray, 2 Atom
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Lychguard                |  45 | 5" | 4" |  5 |  7 | 5 | 5 | 2 | 3 | 4 | 10 | 3+ | 32mm 
+| Lychguard                |  45 | 5" | 4" |  5 |  7 | 5 | 5 | 2 | 3 | 4 |  9 | 3+ | 32mm 
 
 This unit contains 5 Lychguard. It can contain up to 5 additional Lychguard. Every model 
 is equipped with a Warscythe.
@@ -1052,7 +1053,7 @@ receives +1 to all saving throws against melee attacks while it fights in the De
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Deathmarks               |  27 | 5" | 4" |  4 |  8 | 4 | 4 | 1 | 1 | 2 | 10 | 3+ | 32mm 
+| Deathmarks               |  27 | 5" | 4" |  4 |  8 | 4 | 4 | 1 | 1 | 2 |  9 | 3+ | 32mm 
 
 This unit contains 5 Deathmarks. It can contain up to 5 additional Deathmarks. Every model 
 is equipped with a Synaptic disintegrator.
@@ -1085,7 +1086,7 @@ from the battlefield and placed back in reserves.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Flayed One               |  20 | 5" | 4" |  5 |  1 | 4 | 4 | 1 | 3 | 4 | 10 | 4+ | 32mm 
+| Flayed One               |  20 | 5" | 4" |  5 |  1 | 4 | 4 | 1 | 3 | 4 |  9 | 4+ | 32mm 
 
 This unit contains 5 Flayed Ones. It can contain up to 15 additional Flayed Ones. Every model 
 is equipped with a Flayer claws.
@@ -1118,7 +1119,7 @@ Fight phase form this special rule.
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
-| Skorpekh Destroyer       |  54 |  8" | 4" |  5 |  7 | 5 | 5 | 3 | 3 | 4 |  9 | 3+ | 50mm 
+| Skorpekh Destroyer       |  54 |  8" | 4" |  6 |  7 | 5 | 5 | 3 | 3 | 4 |  8 | 3+ | 50mm 
 
 This unit contains 3 Skorpekh Destroyers. It can contain up to 3 additional Skorpekh Destroyers. 
 Every model is equipped with Hyperphase threshers.
@@ -1146,7 +1147,7 @@ threshers with a Hyperphase reap-blade (+5 pts).
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Canoptek Plasmacyte      |  30 |  8" | 4" |  2 |  - | 4 | 4 | 2 | 1 | 3 | 9 | 3+ | 28mm 
+| Canoptek Plasmacyte      |  30 |  8" | 4" |  2 |  - | 4 | 4 | 2 | 1 | 3 | 8 | 3+ | 28mm 
 
 This unit contains 1 Canoptek Plasmacyte.
 
@@ -1179,7 +1180,7 @@ model is not within 2" of a friendly \<DYNASTY\> DESTROYER CULT unit, it is imme
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Canoptek Spyder          |  80 |  7" | 4" |  3 |  5 | 6 | 6 | 5 | 5 | 3 | 9 | 3+ | 60mm flying base 
+| Canoptek Spyder          |  80 |  7" | 4" |  3 |  5 | 6 | 6 | 5 | 5 | 3 | 8 | 3+ | 60mm flying base 
 
 This unit contains 1 Canoptek Spyder. It can contain up to 2 additional Canoptek Spyders. 
 Every model is equipped with Automaton claws.
@@ -1228,7 +1229,7 @@ TODO
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Scarab Swarm             |  25 | 10" | 4" |  3 |  - | 3 | 3 | 4 | 4 | 3 | 9 | 6+ | 40mm 
+| Scarab Swarm             |  25 | 10" | 4" |  3 |  - | 3 | 3 | 4 | 4 | 3 | 8 | 6+ | 40mm 
 
 This unit contains 3 Scarab Swarms. It can contain up to 6 additional Scarab Swarms. Every model 
 is equipped with Feeder mandibles.
@@ -1258,7 +1259,7 @@ unit can only use this rule once per Fight phase.
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Canoptek Wraith          |  56 | 10" | 4" |  4 |  5 | 4 | 5 | 3 | 4 | 4 | 9 | 4+ | 50mm 
+| Canoptek Wraith          |  56 | 10" | 4" |  5 |  5 | 4 | 5 | 3 | 4 | 4 | 8 | 4+ | 50mm 
 
 This unit contains 1 Canoptek Wraith. It can contain up to 5 additional Canoptek Wraiths. 
 Every model is equipped with Vicious claws.
@@ -1293,7 +1294,7 @@ can move horizontally through models and terrain features (but they cannot finis
   
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
-| Tomb Blades              |  34 | 12" | 4" |  3 |  7 | 4 | 5 | 3 | 1 | 2 | 10 | 3+ | 32mm flying base
+| Tomb Blades              |  34 | 12" | 4" |  3 |  7 | 4 | 5 | 3 | 1 | 2 |  9 | 3+ | 32mm flying base
 
 This unit contains 3 Tomb Blades. It can contain up to 6 additional Tomb Blades. 
 Every model is equipped with a Particle beamer.
@@ -1340,7 +1341,7 @@ TODO
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Lokhust Destroyer        |  65 | 8" | 4" |  5 |  8 | 4 | 5 | 3 | 2 | 3 | 9 | 3+ | 60mm 
+| Lokhust Destroyer        |  65 | 8" | 4" |  4 |  8 | 4 | 5 | 3 | 2 | 3 | 8 | 3+ | 60mm 
 
 This unit contains 1 Lokhust Destroyer. It can contain up to 5 additional Lokhust Destroyers.
 Every model is equipped with a Gauss cannon.
@@ -1367,7 +1368,7 @@ Every model is equipped with a Gauss cannon.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Lokhust Heavy Destroyer  |  80 | 8" | 4" |  5 |  8 | 4 | 5 | 4 | 2 | 3 | 9 | 3+ | 60mm 
+| Lokhust Heavy Destroyer  |  80 | 8" | 4" |  4 |  8 | 4 | 5 | 4 | 2 | 3 | 8 | 3+ | 60mm 
 
 This unit contains 1 Lokhust Heavy Destroyer. It can contain up to 2 additional Lokhust Heavy 
 Destroyers. Every model is equipped with a Gauss destructor.
@@ -1395,7 +1396,7 @@ Destroyers. Every model is equipped with a Gauss destructor.
   
 | NAME                     | PTS |  M  | CB | MS | BS | S | T (FSR) | W | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---------|---|---|---|----|----|------
-| Annihilation Barge       | 175 | 12" | 4" |  1 |  7 | 6 |  7/7/7  | 8 | 3 | 2 | 10 | 3+ | ?
+| Annihilation Barge       | 175 | 12" | 4" |  1 |  7 | 6 |  7/7/7  | 8 | 3 | 2 |  9 | 3+ | ?
 
 This unit contains 1 Annihilation Barge. It is equipped with a Tesla cannon and a Twin tesla destructor.
 
@@ -1425,7 +1426,7 @@ This unit contains 1 Annihilation Barge. It is equipped with a Tesla cannon and 
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Canoptek Doomstalker     |     |  " | 4" |  3 |  5 | 6 | 6 |   |   |   | 9 | 3+ | 90mm 
+| Canoptek Doomstalker     |     |  " | 4" |  3 |  5 | 6 | 6 |   |   |   | 8 | 3+ | 90mm 
 
 This unit contains 1 Canoptek Doomstalker. It is equipped with...?
 

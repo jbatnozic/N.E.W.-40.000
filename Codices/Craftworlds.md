@@ -84,9 +84,9 @@ addition, other \<CRAFTWORLD> CORE units within 6" of this WARLORD gain the **Sc
   upgraded, they gain +1 to their Move, Ballistic Skill and Nerve characteristics.
 
   ### Biel-Tan:
-  (indomitable spirit, shuriken upgrade; some Aspect Warriors -> troop)
-  - **\[Ability] Swordwind:** Whenever this unit makes a ranged attack with a **Shuriken Weapon**, a hit roll of 61 or
-more scores 1 additional hit (this additional hit is resolved with AP improved by 2 as well).
+  - **\[Ability] Swordwind:** Whenever this unit makes a ranged attack with a **Shuriken Weapon**, if not In Disarray:
+    - A hit roll of 61 or more scores 1 additional hit.
+    - A wound roll of 51-56 is resolved with AP improved by 2 as well, as if a 61 or more was rolled.
   - **\[Stratagem] Militant Heritage (1CP):** Use this Stratagem before the battle, when you are mustering your army. 
 Select one BIEL-TAN FIRE DRAGONS, BIEL-TAN STRIKING SCORPIONS or BIEL-TAN SWOOPING HAWKS unit from your army. That unit
 now takes up a Troop Battlefield Role slot, instead of Elite/Fast Attack, and gains the **Objective Secured** special rule.
@@ -442,7 +442,7 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
 
   \[This Stratagem is Unfinished but usable]
 
-  ### Lightning-Fast Reactions (2CP)
+  ### Lightning-Fast Reactions (1CP)
   Use this Stratagem when a friendly ASURYANI CORE INFANTRY unit, or a friendly ASURYANI CORE UNIT WITH THE FLY keyword
   is targeted by a ranged or melee weapon. Until the end of the phase, hit rolls of all attacks made against that unit 
   suffer an Impairment. This is a Command Effect.
@@ -558,7 +558,7 @@ a VEHICLE and not TITANIC, you can choose to make the hit roll at Exponent 8 reg
 ### Heavy Weapons list
 When a unit's datasheet states that it may take weapons from the "Heavy Weapons list", that refers to the list below. 
 Unless othwerise noted in the datasheet, the points costs are as noted in this list.
-- Aeldari missile launcher (30 pts)
+- Aeldari missile launcher (20 pts)
 - Bright lance (30 pts)
 - Scatter laser (15 pts)
 - Shuriken cannon (15 pts)
@@ -587,7 +587,7 @@ Unless othwerise noted in the datasheet, the points costs are as noted in this l
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Farseer                  | 120 | 7" | 4" |  6 |  9 | 3 | 3 | 4 | 2 | 7 | 11 | 6+ | 25mm 
+| Farseer                  | 120 | 7" | 4" |  6 |  9 | 3 | 3 | 4 | 2 | 7 | 10 | 6+ | 25mm 
 
 A Farseer is a single model armed with a Shuriken pistol and a Witchblade.
 
@@ -614,7 +614,7 @@ disciplines: Runes of Fate, Runes of Power.
 
 | NAME                     | PTS |   M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
-| Farseer                  | 155 | 16" | 4" |  6 |  9 | 3 | 4 | 5 | 2 | 7 | 11 | 4+ | 32mm flying base
+| Farseer Skyrunner        | 155 | 16" | 4" |  6 |  9 | 3 | 4 | 5 | 2 | 7 | 10 | 4+ | 32mm flying base
 
 A Farseer is a single model armed with a Shuriken pistol, a Witchblade and a Twin shuriken catapult.
 
@@ -645,7 +645,7 @@ disciplines: Runes of Fate, Runes of Power.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Warlock                  |  50 | 7" | 4" |  5 |  8 | 3 | 3 | 2 | 2 | 6 | 10 | 6+ | 25mm 
+| Warlock                  |  50 | 7" | 4" |  5 |  8 | 3 | 3 | 2 | 2 | 6 |  9 | 6+ | 25mm 
 
 A Warlock is a single model armed with a shuriken pistol and a Witchblade.
 
@@ -674,7 +674,7 @@ Psychic phase.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Spiritseer               | 100 | 7" | 4" |  5 |  8 | 3 | 3 | 3 | 2 | 6 | 11 | 6+ | 25mm 
+| Spiritseer               | 100 | 7" | 4" |  5 |  8 | 3 | 3 | 3 | 2 | 6 | 10 | 6+ | 25mm 
 
 A Warlock is a single model armed with a shuriken pistol and a Witchblade.
 
@@ -700,7 +700,7 @@ discipline, and one power from the Runes of the Dead discipline.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I  |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|----|----|----|------
-| Autarch                  | 105 | 7" | 4" |  7 |  9 | 3 | 3 | 4 | 4 | 7  | 11 | 3+ | 32mm 
+| Autarch                  | 105 | 7" | 4" |  7 |  9 | 3 | 3 | 4 | 4 | 7  | 10 | 3+ | 32mm 
 
 An Autarch is a single model armed with a Power sword, Shuriken pistol and Plasma grenades.
 
@@ -733,7 +733,7 @@ TODO: Add more weapon options; swooping hawk wings; guns: death spinner, reaper 
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I  |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|----|----|----|------
-| Autarch                  | 140 | 16" | 4" |  7 |  9 | 3 | 4 | 5 | 4 | 7  | 11 | 3+ | 32mm flying base
+| Autarch                  | 140 | 16" | 4" |  7 |  9 | 3 | 4 | 5 | 4 | 7  | 10 | 3+ | 32mm flying base
 
 An Autarch is a single model armed with a Power sword and Plasma grenades. Their Aeldari jetbike is
 equipped with a Twin shuriken catapult.
@@ -759,7 +759,7 @@ against ranged attacks.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I  |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|----|----|----|------
-| Avatar of Khaine         | 250 | 8" | 4" | 10 |  9 | 6 | 6 | 9 | 6 | 8  | 11 | 3+ | 60mm 
+| Avatar of Khaine         | 250 | 8" | 4" |  9 |  9 | 6 | 6 | 9 | 6 | 8  | 10 | 3+ | 60mm 
 
 The Avatar of Khaine is a single model armed with the Wailing Doom. Only one of this model may be included in your army.
 
@@ -791,15 +791,15 @@ Fearless, and you can re-roll their Charge rolls.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Guardian                 |  12 | 7" | 4" |  4 |  7 | 3 | 3 | 1 | 1 | 5 | * | 5+ | 25mm 
-| Heavy Weapon Platform    |  18 | 7" | 4" |  1 |  7 | 3 | 3 | 2 | 1 | 2 | * | 3+ | 40mm 
+| Guardian                 |  12 | 7" | 4" |  3 |  6 | 3 | 3 | 1 | 1 | 5 | * | 5+ | 25mm 
+| Heavy Weapon Platform    |  18 | 7" | 4" |  1 |  6 | 3 | 3 | 2 | 1 | 2 | * | 3+ | 40mm 
 
 | Guardians in unit   | Nerve 
 |---------------------|-------
-| 1-5                 |    6 
-| 6-10                |    7 
-| 11-15               |    8 
-| 16-20               |    9 
+| 1-5                 |    5 
+| 6-10                |    6 
+| 11-15               |    7 
+| 16-20               |    8 
 
 This unit contains 10 Guardians. It can include up to 10 additional Guardians. 
 For every 10 Guardians in the unit, you may include one Heavy Weapon Platform.
@@ -829,14 +829,14 @@ the Guardians in the unit are destroyed, the Heavy Weapon Platform(s) is(are) al
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Dire Avenger             |  16 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 4+ | 25mm 
-| Dire Avenger Exarch      |  16 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 4+ | 25mm 
+| Dire Avenger             |  16 | 7" | 4" |  4 |  7 | 3 | 3 | 1 | 1 | 5 | * | 4+ | 25mm 
+| Dire Avenger Exarch      |  16 | 7" | 4" |  4 |  7 | 3 | 3 | 1 | 2 | 5 | * | 4+ | 25mm 
 
 | Dire Avengers in unit   | Nerve 
 |-------------------------|-------
-| 1-3                     |    7 
-| 4-6                     |    8 
-| 7-10                    |    9 
+| 1-3                     |    6 
+| 4-6                     |    7 
+| 7-10                    |    8 
 
 This unit contains 4 Dire Avengers and 1 Dire Avenger Exarch. It can include up to 5 additional Dire Avengers.
 Each model is armed with an Avenger shuriken catapult and Plasma grenades.
@@ -886,12 +886,12 @@ As with all exarch powers, Dire Avenger Exarch powers are NOT in effect while th
 
 | NAME               | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Ranger             |  21 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 5+ | 25mm 
+| Ranger             |  21 | 7" | 4" |  4 |  7 | 3 | 3 | 1 | 1 | 5 | * | 5+ | 25mm 
 
 | Rangers in unit         | Nerve 
 |-------------------------|-------
-| 1-5                     |    7 
-| 6-10                    |    8 
+| 1-5                     |    6 
+| 6-10                    |    7 
 
 This unit contains 5 Rangers. It can include up to 5 additional Rangers.
 Each model is armed with a Shuriken pistol and a Ranger long rifle.
@@ -920,14 +920,14 @@ enemy model, it is considered Heavily Obscured instead.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Fire Dragon              |  27 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 4+ | 28mm 
-| Fire Dragon Exarch       |  27 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 3 | 5 | * | 4+ | 28mm 
+| Fire Dragon              |  27 | 7" | 4" |  4 |  7 | 3 | 3 | 1 | 2 | 5 | * | 4+ | 28mm 
+| Fire Dragon Exarch       |  27 | 7" | 4" |  4 |  7 | 3 | 3 | 1 | 3 | 5 | * | 4+ | 28mm 
 
 | Fire Dragons  in unit    | Nerve 
 |--------------------------|-------
-| 1-3                      |    7 
-| 4-6                      |    8 
-| 7-10                     |    9 
+| 1-3                      |    6 
+| 4-6                      |    7 
+| 7-10                     |    8 
 
 This unit contains 4 Fire Dragons and 1 Fire Dragon Exarch. It can include up to 5 additional Fire Dragons.
 Every model is equipped with a Fusion gun and Melta bombs.
@@ -972,14 +972,14 @@ As with all exarch powers, Fire Dragon Exarch powers are NOT in effect while the
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Howling Banshee          |  23 | 8" | 4" |  6 |  7 | 3 | 3 | 1 | 2 | 7 | * | 4+ | 28mm 
-| Howling Banshee Exarch   |  23 | 8" | 4" |  6 |  7 | 3 | 3 | 1 | 3 | 7 | * | 4+ | 28mm 
+| Howling Banshee          |  23 | 8" | 4" |  6 |  7 | 3 | 3 | 1 | 3 | 7 | * | 4+ | 28mm 
+| Howling Banshee Exarch   |  23 | 8" | 4" |  6 |  7 | 3 | 3 | 1 | 4 | 7 | * | 4+ | 28mm 
 
 | Howling Banshees in unit | Nerve 
 |--------------------------|-------
-| 1-3                      |    7 
-| 4-6                      |    8 
-| 7-10                     |    9 
+| 1-3                      |    6 
+| 4-6                      |    7 
+| 7-10                     |    8 
 
 This unit contains 4 Howling Banshees and 1 Howling Banshee Exarch. It can include up to 5 additional Howling Banshees.
 Every model is equipped with a Shuriken pistol, Power sword and a Banshee mask.
@@ -988,13 +988,18 @@ Every model is equipped with a Shuriken pistol, Power sword and a Banshee mask.
 
 **KEYWORDS:** INFANTRY, CORE, HOWLING BANSHEES
 
+| WEAPON           | RANGE |    TYPE   |   S  | AP | D | QUALITIES
+|------------------|-------|-----------|------|----|---|--------------------------- 
+| Banshee sword    | Melee | Melee     | User | -3 | 1 | When an attack with this weapon is made against a target of Toughness 7 or less, a wound roll of 61 or more is always successful and is resolved with a damage characteristic of 2.
+
 #### > SPECIAL RULES:
 - **Battle Focus**
 - **Exarch Guidance:** While this unit contains an Exarch, its Nerve characteristic is improved by 1.
-- **Acrobatic:** After rolling 2D3 to determine this unit's Charge Distance, you may turn one of the rolled D3s to a 3.
+- **Acrobatic:** When determining this unit's Charge Distance, you can consider one of the rolled D3s as a 3.
 - **Banshee Mask:** At the start of the Fight phase, if this unit performed a charge, you can select one enemy unit 
 within 1" of this unit to make a Morale test. If the test is failed, that enemy unit is Flat-footed until the end of the
-phase. In addition, enemy units cannot fire Overwatch at this unit.
+phase. In addition, when you declare a charge (or counter-charge) with this unit, select one enemy unit against which
+the charge was delcared - that unit cannot fire Overwatch until the end of the phase.
 
 #### > OPTIONS:
 - The Howling Banshee Exarch's Power sword can be replaced with an Executioner or a Triskele.
@@ -1028,14 +1033,14 @@ As with all exarch powers, Howling Banshee Exarch powers are NOT in effect while
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Striking Scorpion        |  20 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 7 | * | 3+ | 25mm 
-| Striking Scorpion Exarch |  20 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 3 | 7 | * | 3+ | 25mm 
+| Striking Scorpion        |  20 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 6 | * | 3+ | 25mm 
+| Striking Scorpion Exarch |  20 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 3 | 6 | * | 3+ | 25mm 
 
 | Striking Scorpions in unit | Nerve 
 |----------------------------|-------
-| 1-3                        |    7 
-| 4-6                        |    8 
-| 7-10                       |    9 
+| 1-3                        |    6 
+| 4-6                        |    7 
+| 7-10                       |    8 
 
 This unit contains 4 Striking Scorpions and 1 Striking Scorpion Exarch. It can include up to 5 additional Striking 
 Scorpions. Every model is equipped with a Shuriken pistol, a Scorpion chainsword, Plasma grenades and Mandiblasters.
@@ -1091,7 +1096,7 @@ As with all exarch powers, Striking Scorpion Exarch powers are NOT in effect whi
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Wraithguard              |  52 | 5" | 4" |  5 |  7 | 5 | 6 | 3 | 2 | 3 | 10 | 3+ | 40mm 
+| Wraithguard              |  52 | 5" | 4" |  4 |  7 | 5 | 6 | 3 | 2 | 3 |  9 | 3+ | 40mm 
 
 This unit contains 5 Wraithguard. It can include up to 5 additional Wraithguard. Each model is armed with
 a Wraithcannon and Wraithguard fists.
@@ -1128,7 +1133,7 @@ double the strength of this weapon, and such units cannot take armour nor cover 
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Wraithblade              |  55 | 5" | 4" |  5 |  7 | 5 | 6 | 3 | 3 | 3 | 10 | 3+ | 40mm 
+| Wraithblade              |  55 | 5" | 4" |  5 |  7 | 5 | 6 | 3 | 3 | 3 |  9 | 3+ | 40mm 
 
 This unit contains 5 Wraithblades. It can include up to 5 additional Wraithblades. Each model is armed with
 ghostswords.
@@ -1157,14 +1162,14 @@ to all saving throws against melee attacks while it fights in the Defensive stan
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Warp Spider              |  22 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 3+ | 25mm 
-| Warp Spider Exarch       |  22 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 3+ | 25mm 
+| Warp Spider              |  22 | 7" | 4" |  4 |  7 | 3 | 3 | 1 | 1 | 5 | * | 3+ | 25mm 
+| Warp Spider Exarch       |  22 | 7" | 4" |  4 |  7 | 3 | 3 | 1 | 2 | 5 | * | 3+ | 25mm 
 
 | Warp Spiders in unit    | Nerve 
 |-------------------------|-------
-| 1-3                     |    7 
-| 4-6                     |    8 
-| 7-10                    |    9 
+| 1-3                     |    6 
+| 4-6                     |    7 
+| 7-10                    |    8 
 
 This unit contains 4 Warp Spiders and 1 Warp Spider Exarch. In can include up to 5 additional Warp Spiders.
 Each model is armed with a death spinner.
@@ -1218,14 +1223,14 @@ As with all exarch powers, Warp Spider Exarch powers are NOT in effect while the
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Swooping Hawks           |  24 | 14" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 4+ | 25mm 
-| Swooping Hawk Exarch     |  24 | 14" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 4+ | 25mm 
+| Swooping Hawks           |  24 | 14" | 4" |  4 |  7 | 3 | 3 | 1 | 1 | 5 | * | 4+ | 25mm 
+| Swooping Hawk Exarch     |  24 | 14" | 4" |  4 |  7 | 3 | 3 | 1 | 2 | 5 | * | 4+ | 25mm 
 
 | Swooping Hawks in unit  | Nerve 
 |-------------------------|-------
-| 1-3                     |    7 
-| 4-6                     |    8 
-| 7-10                    |    9 
+| 1-3                     |    6 
+| 4-6                     |    7 
+| 7-10                    |    8 
 
 This unit contains 4 Swooping Hawks and 1 Swooping Hawk Exarch. In can include up to 5 additional Swooping Hawks.
 Each model is armed with a Lasblaster and Swooping hawk grenades.
@@ -1288,14 +1293,14 @@ As with all exarch powers, Swooping Hawk Exarch powers are NOT in effect while t
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Shining Spear            |  50 | 14" | 4" |  5 |  7 | 3 | 4 | 2 | 2 | 5 | * | 3+ | 32mm flying base
-| Shining Spear Exarch     |  50 | 14" | 4" |  5 |  7 | 3 | 4 | 2 | 3 | 5 | * | 3+ | 32mm flying base
+| Shining Spear            |  50 | 14" | 4" |  5 |  7 | 3 | 4 | 2 | 3 | 5 | * | 3+ | 32mm flying base
+| Shining Spear Exarch     |  50 | 14" | 4" |  5 |  7 | 3 | 4 | 2 | 4 | 5 | * | 3+ | 32mm flying base
 
 | Shining Spears in unit  | Nerve 
 |-------------------------|-------
-| 1-3                     |    7 
-| 4-6                     |    8 
-| 7-10                    |    9 
+| 1-3                     |    6 
+| 4-6                     |    7 
+| 7-10                    |    8 
 
 This unit contains 2 Shining Spears and 1 Shining Spear Exarch. In can include up to 6 additional Shining Spears.
 Each model is armed with a Laser lance and Twin shuriken catapult.
@@ -1340,7 +1345,7 @@ As with all exarch powers, Shining Spear Exarch powers are NOT in effect while t
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
-| War Walker               |  90 | 10" | 4" |  4 |  7 | 6 | 6 | 6 | 2 | 4 |  9 | 4+ | 60mm 
+| War Walker               |  90 | 10" | 4" |  3 |  7 | 6 | 6 | 6 | 2 | 4 |  8 | 4+ | 60mm 
 
 This unit contains 1 War Walker. It can include up to 2 additional War Walkers. Each model is armed with 2
 shuriken cannons.
@@ -1364,7 +1369,7 @@ shuriken cannons.
 
 | NAME                     | PTS |  M  | CB | MS | BS | S |   T   |  W   | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|-------|------|---|---|----|----|------
-| Fire Prism               | 232 | 16" | 4" |  1 |  7 | 6 | 8/8/7 | 7-12 | 3 | 3 |  9 | 3+ | 60mm flying base 
+| Fire Prism               | 232 | 16" | 4" |  1 |  7 | 6 | 8/8/7 | 7-12 | 3 | 3 |  8 | 3+ | 60mm flying base 
 |                          |     | 12" | 4" |    |  5 |   |       |  4-6 | 2 |   |    | 3+ |
 |                          |     |  8" | 4" |    |  3 |   |       |  1-3 | 1 |   |    | 3+ |
 
@@ -1437,7 +1442,7 @@ Finally, add any bonuses coming from the **Link Fire** special rule described ab
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T |  W   | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|------|---|---|----|----|------
-| Wraithlord               | 150 |  8" | 4" |  5 |  7 | 7 | 8 | 6-10 | 4 | 3 | 10 | 3+ | 60mm 
+| Wraithlord               | 150 |  8" | 4" |  5 |  7 | 7 | 8 | 6-10 | 4 | 3 |  9 | 3+ | 60mm 
 |                          |     |  7" | 4" |    |  5 |   |   |  3-5 | 4 |   |    | 3+ |
 |                          |     |  6" | 4" |    |  3 |   |   |  1-2 | 4 |   |    | 3+ |
 
@@ -1467,14 +1472,14 @@ A Wraithlord is a single model armed with two Shuriken catapults and Wraithbone 
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Dark Reaper              |  48 | 6" | 4" |  5 |  7 | 3 | 3 | 1 | 1 | 5 | * | 3+ | 25mm 
-| Dark Reaper Exarch       |  48 | 6" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 5 | * | 3+ | 25mm 
+| Dark Reaper              |  48 | 6" | 4" |  4 |  8 | 3 | 3 | 1 | 1 | 4 | * | 3+ | 25mm 
+| Dark Reaper Exarch       |  48 | 6" | 4" |  4 |  8 | 3 | 3 | 1 | 2 | 4 | * | 3+ | 25mm 
 
 | Dark Reapers in unit    | Nerve 
 |-------------------------|-------
-| 1-3                     |    7 
-| 4-6                     |    8 
-| 7-10                    |    9 
+| 1-3                     |    6 
+| 4-6                     |    7 
+| 7-10                    |    8 
 
 This unit contains 2 Dark Reapers and 1 Dark Reaper Exarch. It can contain up to 7 additional Dark Reapers.
 Each model is armed with a Reaper Launcher.
@@ -1531,7 +1536,7 @@ Aggressive Tactics, as noted in the power's description.
 
 | NAME                     | PTS |  M  | CB | MS | BS | S |   T   |  W   | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|-------|------|---|---|----|----|------
-| Wave Serpent             | 200 | 16" | 4" |  1 |  7 | 6 | 8/8/7 | 7-12 | 3 | 3 |  9 | 3+ | 60mm flying base 
+| Wave Serpent             | 200 | 16" | 4" |  1 |  7 | 6 | 8/8/7 | 7-12 | 3 | 3 |  8 | 3+ | 60mm flying base 
 |                          |     | 12" | 4" |    |  5 |   |       |  4-6 | 2 |   |    | 3+ |
 |                          |     |  8" | 4" |    |  3 |   |       |  1-3 | 1 |   |    | 3+ |
 
