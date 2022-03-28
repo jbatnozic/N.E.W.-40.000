@@ -486,7 +486,7 @@ cannot be affected by more Advantages than there are Impairments affecting it.
 
   | WEAPON           | RANGE |     TYPE     |  S | AP |  D  | QUALITIES
   |------------------|-------|--------------|----|----|-----|--------------------------- 
-  | Arrow of Sneeed  |  120" | Assault 1    | 16 | -5 |  6  | If an attack by this weapon successfully hits the target, the target taked D3 mortal wounds in addition to any regular damage. The bearer can only shoot with this weapon once per battle.
+  | Arrow of Sneeed  |  120" | Assault 1    | 16 | -5 |  6  | **High-powered**; If an attack by this weapon successfully hits the target, the target taked D3 mortal wounds in addition to any regular damage. The bearer can only shoot with this weapon once per battle.
   
   ### Voidreaper
   Equip to a model equipped with a Voidscythe. The Voidreaper replaces the bearer's Voidscythe and has the following
@@ -494,7 +494,7 @@ cannot be affected by more Advantages than there are Impairments affecting it.
   
   | WEAPON      |  TYPE |   S  | AP |  D  | QUALITIES
   |-------------|-------|------|----|-----|--------------------------- 
-  | Voidreaper  | Melee |  ×2  | -4 |  3  | **Unwieldy;** Successful saving throws made against attacks made with this weapon must be re-rolled.
+  | Voidreaper  | Melee |  ×2  | -4 |  3  | **High-powered**, **Unwieldy;** Successful saving throws made against attacks made with this weapon must be re-rolled.
 
   ### Voltaic Staff
   Equip to a model armed with a Staff of light. The Voltaic Staff replaces the Staff of light and has the following 
@@ -548,7 +548,7 @@ Movement phase, double the number of shots the weapon makes.
 | Staff of light (melee)     | Melee | User | -2 |  1  | -
 | Hyperphase sword           | Melee | User | -3 |  1  | Each time the bearer fights, it can make 1 additional attack with this weapon.
 | Voidblade                  | Melee |  +1  | -3 |  1  | -
-| Voidscythe                 | Melee |  ×2  | -4 |  3  | **Unwieldy**
+| Voidscythe                 | Melee |  ×2  | -4 |  3  | **High-powered**, **Unwieldy**
 | War scythe                 | Melee |  +2  | -4 |  2  | -
 
 ## Stratagems
@@ -658,7 +658,7 @@ of their "special things".
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Lesser Lord              | 110 | 6" | 4" |  6 |  8 | 5 | 5 | 4 | 3 | 4 | 10 | 3+ | 32mm 
+| Lesser Lord              | 115 | 6" | 4" |  6 |  8 | 5 | 5 | 4 | 3 | 4 | 10 | 3+ | 32mm 
 
 This unit contains one Lesser Lord equipped with a Staff of Light.
 
@@ -694,7 +694,7 @@ lost wounds instead of 1.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Lokhust Lord             | 135 | 8" | 4" |  6 |  8 | 5 | 6 | 6 | 4 | 4 |  9 | 3+ | 60mm 
+| Lokhust Lord             | 140 | 8" | 4" |  6 |  8 | 5 | 6 | 6 | 4 | 4 |  9 | 3+ | 60mm 
 
 This unit contains one Lokhust Lord equipped with a Staff of Light.
 
@@ -723,7 +723,7 @@ lost wounds instead of 1.
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
-| Skorpekh Lord            | 180 |  8" | 4" |  7 |  8 | 6 | 6 | 6 | 5 | 5 |  9 | 3+ | 50mm 
+| Skorpekh Lord            | 185 |  8" | 4" |  7 |  8 | 6 | 6 | 6 | 5 | 5 |  9 | 3+ | 50mm 
 
 This unit contains one Skorpekh Lord equipped with an Enmitic annihilator, Flensing claw and a Hyperphase harvester.
 
@@ -752,7 +752,7 @@ unit within 6" that is also not In Disarray makes a wound roll for an attack, yo
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Overlord                 | 135 | 6" | 4" |  7 |  9 | 5 | 5 | 5 | 4 | 5 | 10 | 3+ | 40mm 
+| Overlord                 | 140 | 6" | 4" |  7 |  9 | 5 | 5 | 5 | 4 | 5 | 10 | 3+ | 40mm 
 
 This unit contains one Overlord equipped with a Hyperphase glaive and a Tachyon arrow.
 
@@ -763,7 +763,7 @@ This unit contains one Overlord equipped with a Hyperphase glaive and a Tachyon 
 | WEAPON                 | RANGE |    TYPE    |   S  | AP |   D  | QUALITIES
 |------------------------|-------|------------|------|----|------|---------------------------
 | Hyperphase glaive      | Melee | Melee      |  +2  | -3 |  D3  | -
-| Tachyon arrow          |  120" | Assault 1  |  12  | -5 | D3+3 | The bearer can only shoot with this weapon once per battle.
+| Tachyon arrow          |  120" | Assault 1  |  12  | -5 | D3+3 | **High-powered**; The bearer can only shoot with this weapon once per battle.
 
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
@@ -789,7 +789,7 @@ lost wounds instead of 1.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Royal Warden             | 115 | 6" | 4" |  5 |  8 | 5 | 5 | 4 | 3 | 3 | 10 | 3+ | 32mm 
+| Royal Warden             | 120 | 6" | 4" |  5 |  8 | 5 | 5 | 4 | 3 | 3 | 10 | 3+ | 32mm 
 
 This unit contains one Royal Warden equipped with a Gauss exterminator.
 
@@ -823,7 +823,7 @@ Range of enemy units, not In Disarray, and hasn't yet fired Overwatch during thi
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Technomancer             | 115 | 5" | 4" |  5 |  7 | 4 | 4 | 3 | 1 | 3 |  9 | 3+ | 50mm 
+| Technomancer             | 120 | 5" | 4" |  5 |  7 | 4 | 4 | 3 | 1 | 3 |  9 | 3+ | 50mm 
 
 This unit contains one Technomancer equipped with a Staff of light.
 
@@ -865,7 +865,7 @@ that unit makes a hit roll for an attack, you can re-roll a 'tens' roll of 1.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Plasmancer               | 115 | 5" | 4" |  5 |  7 | 4 | 4 | 3 | 1 | 3 |  9 | 3+ | 50mm 
+| Plasmancer               | 120 | 5" | 4" |  5 |  7 | 4 | 4 | 3 | 1 | 3 |  9 | 3+ | 50mm 
 
 This unit contains one Plasmancer equipped with a Plasmic lance.
 
@@ -894,7 +894,7 @@ This unit contains one Plasmancer equipped with a Plasmic lance.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Necron Warrior           |  20 | 5" | 4" |  4 |  7 | 4 | 4 | 1 | 1 | 2 |  9 | 4+ | 32mm 
+| Necron Warrior           |  22 | 5" | 4" |  4 |  7 | 4 | 4 | 1 | 1 | 2 |  9 | 4+ | 32mm 
 
 This unit contains 10 Necron Warriors. It can contain up to 10 additional Warriors. Every model 
 is equipped with a Gauss flayer.
@@ -917,7 +917,7 @@ Reassembly).
 
 #### > OPTIONS:
 - Any number of models may replace their Gauss flayer with a Gauss reaper.
-- The whole unit may be upgraded with Polyalloy Bodies (+3 pts per model).
+- The whole unit may be upgraded with Polyalloy Bodies (+2 pts per model).
 
 ---
 
@@ -925,7 +925,7 @@ Reassembly).
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Immortal                 |  30 | 5" | 4" |  4 |  7 | 4 | 5 | 2 | 2 | 2 |  9 | 3+ | 32mm 
+| Immortal                 |  32 | 5" | 4" |  4 |  7 | 4 | 5 | 2 | 2 | 2 |  9 | 3+ | 32mm 
 
 This unit contains 5 Immortals. It can contain up to 5 additional Immortals. Every model 
 is equipped with a Gauss blaster.
@@ -952,7 +952,7 @@ is equipped with a Gauss blaster.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T (FSR) | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---------|---|---|---|---|----|------
-| Canoptek Reanimator      | 110 | 8" | 4" |  3 |  5 | 6 |  6/6/6  | 7 | 4 | 3 | 8 | 3+ | 60mm 
+| Canoptek Reanimator      | 120 | 8" | 4" |  3 |  5 | 6 |  6/6/6  | 7 | 4 | 3 | 8 | 3+ | 60mm 
 
 This unit contains 1 Canoptek Reanimator. It is equipped with 2 Atomiser beams and reanimator's claws.
 
@@ -987,7 +987,7 @@ add 1 to Reactivation rolls made for that unit. (this bonus doesn't stack with i
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T (FSR) | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---------|---|---|---|---|----|------
-| Canoptek Warbringer      | 145 | 8" | 4" |  3 |  5 | 6 |  6/6/6  | 8 | 4 | 3 | 8 | 3+ | 60mm 
+| Canoptek Warbringer      | 155 | 8" | 4" |  3 |  5 | 6 |  6/6/6  | 8 | 4 | 3 | 8 | 3+ | 60mm 
 
 This unit contains 1 Canoptek Warbringer. It is equipped with a Heat ray, 2 Atomiser beams and Warbringer's claws.
 
@@ -1000,7 +1000,7 @@ This unit contains 1 Canoptek Warbringer. It is equipped with a Heat ray, 2 Atom
 | WEAPON                        | RANGE |     TYPE     |  S | AP |  D  | QUALITIES
 |-------------------------------|-------|--------------|----|----|-----|--------------------------- 
 | Atomiser beam                 |  12"  | Assault 3    |  6 | -2 |  1  | -
-| Heat ray (point)              |  18"  | Steady 2     |  8 | -3 | 2D3 | **Melta**
+| Heat ray (point)              |  18"  | Steady 2     |  8 | -3 | 2D3 | **High-powered**, **Melta**
 | Heat ray (line)               |  18"  | Steady 2     |  6 | -1 |  1  | **Flamer Template**; When placing this weapon's flamer template, place it anywhere wholly within 18" of the bearer. If you place it wholly within 9" of the bearer, treat it as a **Melta** weapon. Hit rolls are generated only against models directly intersecting the template.
 
 **Note:** Before making attacks with the Heat ray, choose one of its profiles to use.
@@ -1086,7 +1086,7 @@ from the battlefield and placed back in reserves.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Flayed One               |  20 | 5" | 4" |  5 |  1 | 4 | 4 | 1 | 3 | 4 |  9 | 4+ | 32mm 
+| Flayed One               |  22 | 5" | 4" |  5 |  1 | 4 | 4 | 1 | 3 | 4 |  9 | 4+ | 32mm 
 
 This unit contains 5 Flayed Ones. It can contain up to 15 additional Flayed Ones. Every model 
 is equipped with a Flayer claws.
@@ -1229,7 +1229,7 @@ TODO
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
-| Scarab Swarm             |  25 | 10" | 4" |  3 |  - | 3 | 3 | 4 | 4 | 3 | 8 | 6+ | 40mm 
+| Scarab Swarm             |  27 | 10" | 4" |  3 |  - | 3 | 3 | 4 | 4 | 3 | 8 | 6+ | 40mm 
 
 This unit contains 3 Scarab Swarms. It can contain up to 6 additional Scarab Swarms. Every model 
 is equipped with Feeder mandibles.
@@ -1246,9 +1246,8 @@ is equipped with Feeder mandibles.
 - \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless**
 - **Self-destruct:** When a model from this unit would make its melee attacks during the Fight phase, 
 it may instead self-destruct. If it does, select one enemy unit in Engagement Range of that model and
-roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3
-mortal wounds. Then this unit suffers 4 mortal wounds (can't be ignored). Each CANOPTEK SCARAB SWARMS
-unit can only use this rule once per Fight phase.
+roll one D6 - on a 3+, that enemy unit suffers D3 mortal wounds. Then this unit suffers 4 mortal wounds
+(can't be ignored). Each CANOPTEK SCARAB SWARMS unit can only use this rule once per Fight phase.
 
 #### > OPTIONS:
 (none)
@@ -1294,7 +1293,7 @@ can move horizontally through models and terrain features (but they cannot finis
   
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
-| Tomb Blades              |  34 | 12" | 4" |  3 |  7 | 4 | 5 | 3 | 1 | 2 |  9 | 3+ | 32mm flying base
+| Tomb Blades              |  35 | 12" | 4" |  3 |  7 | 4 | 5 | 2 | 1 | 2 |  9 | 3+ | 32mm flying base
 
 This unit contains 3 Tomb Blades. It can contain up to 6 additional Tomb Blades. 
 Every model is equipped with a Particle beamer.
@@ -1368,7 +1367,7 @@ Every model is equipped with a Gauss cannon.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
-| Lokhust Heavy Destroyer  |  80 | 8" | 4" |  4 |  8 | 4 | 5 | 4 | 2 | 3 | 8 | 3+ | 60mm 
+| Lokhust Heavy Destroyer  |  82 | 8" | 4" |  4 |  8 | 4 | 5 | 4 | 2 | 3 | 8 | 3+ | 60mm 
 
 This unit contains 1 Lokhust Heavy Destroyer. It can contain up to 2 additional Lokhust Heavy 
 Destroyers. Every model is equipped with a Gauss destructor.
@@ -1380,7 +1379,7 @@ Destroyers. Every model is equipped with a Gauss destructor.
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D   | QUALITIES
 |-------------------------------|-------|--------------|----|----|-------|--------------------------- 
 | Enmitic exterminator          |  36"  | Heavy D3     |  7 | -1 |   1   | **Blast (Small)**
-| Gauss destructor              |  36"  | Heavy 1      | 10 | -3 |  2D3  | **Gauss Weapon**
+| Gauss destructor              |  36"  | Heavy 1      | 10 | -3 |  2D3  | **Gauss Weapon**, **High-powered**
 
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Dynastic Ability**
@@ -1396,7 +1395,7 @@ Destroyers. Every model is equipped with a Gauss destructor.
   
 | NAME                     | PTS |  M  | CB | MS | BS | S | T (FSR) | W | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---------|---|---|---|----|----|------
-| Annihilation Barge       | 175 | 12" | 4" |  1 |  7 | 6 |  7/7/7  | 8 | 3 | 2 |  9 | 3+ | ?
+| Annihilation Barge       | 180 | 12" | 4" |  1 |  7 | 6 |  7/7/7  | 8 | 3 | 2 |  9 | 3+ | ?
 
 This unit contains 1 Annihilation Barge. It is equipped with a Tesla cannon and a Twin tesla destructor.
 
