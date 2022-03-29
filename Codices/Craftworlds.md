@@ -528,7 +528,7 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
   (Clarification: when a model shoots with, for example, a Shuriken catapult, it makes 2 attacks because this weapon's 
   type is Assault 2, but still only 1 extra attack against a unit that's between it and the target unit.)
 
-  ### 17. Summon the Starlight Gloss in which Thou Rage (1CP)
+  ### 17. Summon the Starlight Gloss in which Thou Rage (2CP)
   _Enter the morning glades of a fallen deathwish..._
   
   Use this Stratagem in your Shooting phase when an ASURYANI unit from your army is selected to shoot. Until the end of
