@@ -120,7 +120,7 @@ now takes up a Troop Battlefield Role slot, instead of Elite/Fast Attack, and ga
 Psychic tests made by this model. However, should this result in a second failure, then this model is overwhelmed by 
 waves of grief and cannot attempt to manifest any more psychic powers for the remainder of the phase.
   - **\[Warlord Trait] Defiant Leader:** Friendly BIEL-TAN units within 6" of this WARLORD do not gain Strain when a
-friendly unit within 8" of them is removed from the battlefield (as a result of being destroyed).
+friendly unit within 8" of them is removed from the battlefield (as a result of being destroyed). (TODO: shit-tier WT?)
   
   **SPECIAL:** Any BIEL-TAN ASPECT WARRIOR Exarch can be upgraded to an Exemplar. An Exemplar can have two different Exarch
   Powers, and you only pay points for the costlier of the two. No more than one Exemplar of each Aspect Warrior type can
@@ -166,7 +166,8 @@ gains 1 Clairvoyance die.
 selected to shoot, or when it is about to make its attacks in the Fight phase. Until the end of the phase, hit rolls of
 all attacks made by this unit gain Advantage.
   - **\[Relic] Ghosthelm of Alishazier:** Equip to an ULTHWE PSYKER CHARACTER model. That model knows one additional
-psychic power from the disciplines available to it, and can receive a +1 bonus to its psychic test once per Psychic phase.
+psychic power from the disciplines available to it, and can attempt to manifest an additional psychic power during each
+psychic phase.
   - **\[Warlord Trait] Fateweaver:** Whenever a friendly \<CRAFTWORLD\> unit within 8" of this WARLORD gains a
 Clairvoyance Die, you can re-roll it. In addition, while this WARLORD is on the battlefield (or in reserves if it's the
 1st or 2nd battle round), after rolling your Winds of Fate dice, you may set any one of those dice to any number you wish.
@@ -179,8 +180,8 @@ may choose to have it use forbidden knowledge. If you do, it gains +1 to Psychic
 Psychic test results of 11 or higher result in Perils of the Warp. Enemies' Deny the Witch rolls of 6 must be re-rolled
 when used against forbidden knowledge. This is a Command Effect.
   - **\[Stratagem] (none)**
-  - **\[Relic] The Book of Mol'Kerian:** Equip to an ULTHWE PSYKER CHARACTER model. One per Psychic phase, this model
-may attempt to manifest any psychic power known by another friendly ULTHWE PSYKER.
+  - **\[Relic] The Book of Mol'Kerian:** Equip to an BLACK LIBRARY PSYKER CHARACTER model. One per Psychic phase, this
+model may attempt to manifest any psychic power known by another friendly BLACK LIBRARY PSYKER.
   - **\[Warlord Trait] I am the Black Librarians:** _Their essence is mine... Because I am the spirit of their 
 existence... I am them... I am them... I am them..._ Once per Psychic phase, when this WARLORD attempts to manifest a 
 psychic power that has already been manifested during this Psychic phase, you can use its original Warp Charge value, no
@@ -495,9 +496,8 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
   TRANSPORT model, all units embarked inside it remain so when it is set up again).
 
   ### 11. The Avatar Resurgent (3CP)
-  _:ok\_hand:_ (I'm not sure why I put this emoji here but I think it was my reaction when I first saw this Stratagem.)
 
-  TODO
+  TODO (Avatar fights again after being destroyed)
 
   ### 12. Tears of Isha (1CP)
   TODO
@@ -528,6 +528,10 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
   (Clarification: when a model shoots with, for example, a Shuriken catapult, it makes 2 attacks because this weapon's 
   type is Assault 2, but still only 1 extra attack against a unit that's between it and the target unit.)
 
+  ### 17. Summon the Starlight Gloss in which Thou Rage (1CP)
+  Use this Stratagem in your Shooting phase when an ASURYANI unit from your army is selected to shoot. Until the end of
+  the phase, all Starcannons this unit is equipped with have a Damage characteristic of 3 (instead of D3).
+
 ## Relics
 
   ### Firesabre
@@ -539,6 +543,8 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
   | Firesabre        | Melee | Melee     |  +2 | -3 | 1 | Each time you make a wound roll of 61 or higher for this weapon, it inflicts 1 mortal wound in addition to any other damage the attack may deal.
 
   ### Shimmerplume of Achillrial
+  _I don't know what an Achillrial is and at this point I'm too afraid to ask._
+
   Equip to an AUTARCH model. All attacks that target this model suffer an Impairment to their hit rolls.
 
   ### Kurnous' Bow
@@ -547,7 +553,7 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
 
   | WEAPON           | RANGE | TYPE      |  S  | AP | D | Qualities
   |------------------|-------|-----------|-----|----|---|-----------
-  | Kurnous' Bow     |  12"  | Pistol 3  |  4  | -1 | 2 | **Shuriken Weapon**
+  | Kurnous' Bow     |  12"  | Pistol 4  |  5  | -1 | 2 | **Shuriken Weapon**
 
   ### Jar of Gypsy Tears
   _Procured by the great Farseer by the name of Bor'Athus._
@@ -560,6 +566,42 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
   destroyed as a result of this, then this model is not slain, but remains in play with a number of wounds equal to the
   number of models slain by this effect (capped at this model's Wounds characteristic). Otherwise, this model is slain
   as usual.
+
+  ### Shard of the Mourning Palace
+  _Isha blessed the creatures; Slaanesh inswathed them in endless night..._
+
+  Equip to any ASURYANI CHARACTER model. At the start of the game, this relic has 0 charges. Each time a model friendly
+  to the bearer and within 8" of it is destroyed, this relic gains 1 charge (up to 10). At the end of your 
+  Movement/Psychic/Shooting/Charge/Fight phase (but once per phase), you may spend any number of charges. If you do,
+  then for each charge spent you may select an enemy unit within 8" of the bearer and visible to him, and roll a D6,
+  subtracting 1 if the target unit is a CHARACTER and subtracting 1 more if the target unit is a VEHICLE. For each 4+
+  rolled, the target unit suffers 1 mortal wound. If you target multiple units with this ability, you must declare how
+  many charges are directed at each target unit before rolling any dice.
+
+  ### Celestial Cloak
+  Equip to any ASURYANI CHARACTER model. Once per game, when a wound is allocated to this model, this relic can be
+  activated. If so, then until the end of the phase, this models has a 3+ Invulnerable save.
+
+  ### Faolchú's Wing
+  Equip to any ASURYANI INFANTRY CHARACTER model. This model's Move characteristic becomes 14" and he gains the FLY 
+  keyword and the following special rules: 
+  - **Deep Strike**
+  - **Evasion:** Whenever a ranged attack is made against this model, if it moved at least 12" in the previous Movement
+    phase (including arriving as Reinforcements), it may take a 5+ invulnerable save against that attack.
+
+  ### Synergy Nexus
+  Equip to an AUTARCH model. While there are 3 or more friendly ASPECT WARRIOR (all of different types) within 12" of 
+  the bearer, then these units and the bearer gain Advantage to all of their hit and wound rolls.
+
+  ### Foecleaver
+  _(Any reseblance to the Foehammer from Lord of the Rings is purely coincidental.)_
+
+  Equip to a model equipped with an Executioner. This relic replacted that model's Executioner and has the profile
+  below:
+
+  | WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
+  |----------------------------|-------|------|----|-----|---------------------------
+  | Foecleaver                 | Melee |  ×2  | -3 |  3  | **High-powered**; Whenever a model is destroyed as a result of an attack made with this weapon, the bearer may immediately make another attack using the same weapon (max. 3 extra attacks per phase).
 
 ## Weapons
 
@@ -756,11 +798,14 @@ to all saving throws against melee attacks while it fights in the Defensive stan
 - This model's Power sword may be replaced with one of the folowing:
   - Scorpion chainsword (free)
   - Star glaive (free)
-  - Triskele (free)
+  - Triskele (+5 pts)
+  - Executioner (+5 pts)
 - This model's Shuriken pistol may be replaced with one of the folowing:
   - Fusion gun (+10 pts)
+  - Death spinner (+5 pts)
+  - Reaper launcher (+10 pts)
 - This model's Power sword and Shuriken pistol can be replaced with one of the following:
-  - Executioner (free)
+  - ?
 
 TODO: Add more weapon options; swooping hawk wings; guns: death spinner, reaper launcher; banshee mask, warp jump generator
 
@@ -858,7 +903,12 @@ multiple Heavy Weapon Platforms in this way in a single turn. A Heavy Weapon Pla
 the Guardians in the unit are destroyed, the Heavy Weapon Platform(s) is(are) also destroyed.
 
 #### > OPTIONS:
-- Any Heavy Weapon Platform may replace its shuriken cannon with an item from the Heavy Weapons list.
+- Any Heavy Weapon Platform may replace its shuriken cannon with one of the following weapons:
+  - Scatter laser (free)
+  - Shuriken cannon (free)
+  - Starcannon (2 pts)
+  - Aeldari missile launcher (12 pts)
+  - Bright lance (12 pts)
 
 ---
 
@@ -1039,8 +1089,8 @@ phase. In addition, when you declare a charge (or counter-charge) with this unit
 the charge was delcared - that unit cannot fire Overwatch until the end of the phase.
 
 #### > OPTIONS:
-- The Howling Banshee Exarch's Power sword can be replaced with an Executioner or a Triskele.
-- The Howling Banshee Exarch's Power sword and Shuriken pistol can be replaced with Mirrorswords.
+- The Howling Banshee Exarch's Power sword can be replaced with an Executioner (+5 pts) or a Triskele (+5 pts).
+- The Howling Banshee Exarch's Power sword and Shuriken pistol can be replaced with Mirrorswords (free).
 - The Howling Banshee Exarch can take one exarch power from the list below at the listed point cost.
 
 #### > HOWLING BANSHEES EXARCH POWERS:
@@ -1382,7 +1432,7 @@ As with all exarch powers, Shining Spear Exarch powers are NOT in effect while t
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
-| War Walker               |  85 | 10" | 4" |  3 |  7 | 6 | 6 | 6 | 2 | 4 |  8 | 4+ | 60mm 
+| War Walker               |  85 | 10" | 4" |  3 |  7 | 6 | 6 | 6 | 2 | 4 |  8 | 3+ | 60mm 
 
 This unit contains 1 War Walker. It can include up to 2 additional War Walkers. Each model is armed with 2
 Shuriken cannons.
