@@ -529,8 +529,11 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
   type is Assault 2, but still only 1 extra attack against a unit that's between it and the target unit.)
 
   ### 17. Summon the Starlight Gloss in which Thou Rage (1CP)
+  _Enter the morning glades of a fallen deathwish..._
+  
   Use this Stratagem in your Shooting phase when an ASURYANI unit from your army is selected to shoot. Until the end of
-  the phase, all Starcannons this unit is equipped with have a Damage characteristic of 3 (instead of D3).
+  the phase, all Starcannons this unit is equipped with have a Damage characteristic of 3 (instead of D3). This is a
+  Command Effect.
 
 ## Relics
 
