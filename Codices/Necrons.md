@@ -1279,9 +1279,9 @@ Every model is equipped with Vicious claws.
 
 #### > SPECIAL RULES:
 - \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless**
-- **Wraith Form:** Models in this unit have a 4+ invulnerable save. In addition, whenever this unit moves for any reason, models in it
-can move horizontally through models and terrain features (but they cannot finish a move on top of another model or its base).
-- TODO
+- **Wraith Form:** Models in this unit have a 4+ invulnerable save. In addition, whenever this unit moves for any 
+reason, models in it can ignore the effects of Difficult Ground and can move horizontally through models and terrain
+features (but they cannot finish a move on top of another model or its base).
 
 #### > OPTIONS:
 - Any number of models can each be equipped with one of the following: 1 Particle caster (+5 pts); 1 Transdimensional beamer (+5 pts).

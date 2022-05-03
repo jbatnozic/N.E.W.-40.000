@@ -903,9 +903,8 @@ multiple Heavy Weapon Platforms in this way in a single turn. A Heavy Weapon Pla
 the Guardians in the unit are destroyed, the Heavy Weapon Platform(s) is(are) also destroyed.
 
 #### > OPTIONS:
-- Any Heavy Weapon Platform may replace its shuriken cannon with one of the following weapons:
+- Any Heavy Weapon Platform may replace its Shuriken cannon with one of the following weapons:
   - Scatter laser (free)
-  - Shuriken cannon (free)
   - Starcannon (2 pts)
   - Aeldari missile launcher (12 pts)
   - Bright lance (12 pts)
@@ -1533,9 +1532,9 @@ Finally, add any bonuses coming from the **Link Fire** special rule described ab
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T |  W   | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|------|---|---|----|----|------
-| Wraithlord               | 150 |  8" | 4" |  5 |  7 | 7 | 8 | 6-10 | 4 | 3 |  9 | 3+ | 60mm 
+| Wraithlord               | 130 |  8" | 4" |  5 |  7 | 7 | 8 | 6-10 | 5 | 3 |  9 | 3+ | 60mm 
 |                          |     |  7" | 4" |    |  5 |   |   |  3-5 | 4 |   |    | 3+ |
-|                          |     |  6" | 4" |    |  3 |   |   |  1-2 | 4 |   |    | 3+ |
+|                          |     |  6" | 4" |    |  3 |   |   |  1-2 | 3 |   |    | 3+ |
 
 A Wraithlord is a single model armed with two Shuriken catapults and Wraithbone fists.
 
@@ -1551,11 +1550,56 @@ A Wraithlord is a single model armed with two Shuriken catapults and Wraithbone 
 #### > SPECIAL RULES:
 - **Wraith Construct**
 - **Point-blank shooting**
+- **Wraithshield (only if equipped):** Models in this unit have a 5+ invulnerable save.
 
 #### > OPTIONS:
-- This model may replace any Shuriken catapult with a Flamer.
-- This model may take a Ghostglaive (+15 pts).
-- This model may take up to two items from the Heavy Weapons list.
+- This model may replace any Shuriken catapult with a Flamer (free).
+- This model may take a Ghostglaive (+15 pts) and/or a Wraithshield (+10 pts).
+- This model may take up to 2 items from the following list:
+  - Shuriken cannon (15 pts)
+  - Scatter laser (15 pts)
+  - Starcannon (20 pts)
+  - Aeldari missile launcher (30 pts)
+  - Bright lance (30 pts)
+
+---
+
+### \[Heavy Support] Wraithseer
+
+| NAME                     | PTS |  M  | CB | MS | BS | S | T |  W   | A | I |  N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---|------|---|---|----|----|------
+| Wraithseer               | 155 |  8" | 4" |  5 |  7 | 7 | 8 | 6-10 | 5 | 3 |  9 | 3+ | 60mm 
+|                          |     |  7" | 4" |    |  5 |   |   |  3-5 | 4 |   |    | 3+ |
+|                          |     |  6" | 4" |    |  3 |   |   |  1-2 | 3 |   |    | 3+ |
+
+A Wraithseer is a single model armed with two Shuriken catapults and Wraithbone fists.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, SPIRIT HOST, \<CRAFTWORLD\>
+
+**KEYWORDS:** MONSTER, PSYKER, WRAITH CONSTRUCT, WRAITHSEER
+
+| WEAPON                     |  TYPE |   S  | AP |   D  | QUALITIES
+|----------------------------|-------|------|----|------|---------------------------
+| Ghostspear                 | Melee |  +3  | -3 | D3+3 | **High-powered**
+| Wraithbone fists           | Melee | User | -2 |   3  | -
+
+#### > SPECIAL RULES:
+- **Wraith Construct**
+- **Point-blank shooting**
+- **Wraithshield (only if equipped):** Models in this unit have a 5+ invulnerable save.
+- **Psyker:** This model can attempt to manifest one psychic power in each friendly Psychic phase, and attempt to deny
+one psychic power in each enemy Psychic phase. It knows the Smite power and a total of one psychic power from the following
+disciplines: Runes of Battle, Runes of Power.
+
+#### > OPTIONS:
+- This model may replace any Shuriken catapult with a Flamer (free).
+- This model may take a Ghostspear (+15 pts) and/or a Wraithshield (+10 pts).
+- This model may take up to 2 items from the following list:
+  - Shuriken cannon (15 pts)
+  - Scatter laser (15 pts)
+  - Starcannon (20 pts)
+  - Aeldari missile launcher (30 pts)
+  - Bright lance (30 pts)
 
 ---
 
@@ -1653,7 +1697,11 @@ suffers D3+1 mortal wounds. The Wave Serpent then gains no benefit from this abi
 #### > OPTIONS:
 - This model may be equipped with Spirit stones (+15 pts).
 - This model may be equipped with Vectored engines (+15 pts).
-(TODO)
+- This models' Twin shuriken cannon can be replaced with one of the following:
+  - Twin scatter laser (free)
+  - Twin starcannon (+10 pts)
+  - Twin Aeldari missile launcher (+30 pts)
+  - Twin bright lance (+30 pts)
 
 ---
 
