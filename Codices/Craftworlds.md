@@ -128,7 +128,8 @@ friendly unit within 8" of them is removed from the battlefield (as a result of 
   
   ### Iyanden:
   - **\[Ability] Stoic Endurance:** Once per phase, you may re-roll a saving throw made for a model in this unit. 
-  In addition, if this unit has the CORE keyword, increase its Nerve characteristic by 1 (up to a maximum of 11).
+In addition, when doing a Morale test for this unit, if a double is rolled (two sixes, two fives...), the test is
+automatically passed, regardless of any modifiers.
   - **\[Stratagem] Ghost Batallion (1/2 CP):** Use this Stratagem before the battle, when you are mustering your army. Select
 one IYANDEN WRAITHGUARD or IYANDEN WRAITHBLADES unit from your army. That unit now takes up a Troop Battlefield Role slot, 
 instead of Elite, and gains the **Objective Secured** special rule. If this unit contains 5 models or less, this Stratagem
@@ -192,6 +193,29 @@ matter how many times it has been attempted so far.
   unit gains this special rule: "**Webway Dwellers:** If this unit is set up on the battlefield using the 
   **Deep Strike** special rule, it gains a +1 bonus to its Exhaustion roll."
 
+  ### Iybraesil:
+  _This is totally not Yggdrasil and we are totally not sacrificing body parts for divine wisdom._
+
+  - **\[Ability] The Crone's Blessing:** After you spend a Winds of Fate die to confer the relevant bonus to this unit,
+roll a D6. On a 5+, the spent die is returned to your Winds of Fate pool.
+  - **\[Ability] No Knowledge And No Power Without Sacrifice:** After making a 2D6 Psychic test roll or a 2D3 Charge
+roll for this unit, you may add up to 2 to the result. If you do, after the current action is resolved, this unit
+suffers 1 mortal wound that can't be avoided by any special rules. This is a Command Effect.
+  - **\[Stratagem] Matriarchy (1 CP):** Use this Stratagem before the battle, when you are mustering your army. 
+Select one IYBRAESIL HOWLING BANSHEES unit from your army. That unit now takes up a Troop Battlefield Role slot, instead
+of Fast Attack, and gains the **Objective Secured** special rule.
+  - **\[Relic] Seven Seals of The Sisterhood:** Equip to a IYBRAESIL CORE CHARACTER or IYBRAESIL CORE ASPECT WARRIOR
+Exarch. Then, equip it to 6 more models that fit either criteria (there are 7 Seals after all, but note that a model
+can't have both a Seal and another Relic). Each of the 7 bearers gains the following ability:
+"**Seal of The Sisterhood:** Once per battle, when the bearer's unit is declared as the target of an enemy attack,
+psychic power or other ability, the bearer may activate their Seal. If they do, the unit's Toughness characteristic is
+increased by 1 until the end of the battle round."
+  - **\[Warlord Trait] Scream of Morai:** Once per battle, when an enemy unit that's within 3" of this WARLORD would do
+a Morale test, do not roll any dice - the test automatically fails (and is considered to have failed by more than 3
+points). This takes precedence over other Stratagems and special rules that would make the test pass automatically.
+
+  **SPECIAL:** This Craftworld confers two abilities instead of just one.
+
 ---
 
   >>>>> Craftworlds below are Work-in-progress and are not to be used. <<<<<
@@ -213,17 +237,7 @@ against its attacks).
 
   **SPECIAL:** ?
   
-  ### Iybraesil - ???
-  (matriarchal; hags; sacrifice -> knowledge) The Crone's Blessing / No Knowledge Without Sacrifice
-  - \[?] psyker -> to re-roll psychic test/cast additional spell; take MW (can't be avoided) afterwards
-  - **\[Ability] ?:** ?
-  - **\[Stratagem] Matriarchy (1 CP):** Use this Stratagem before the battle, when you are mustering your army. 
-Select one IYBRAESIL HOWLING BANSHEES unit from your army. That unit now takes up a Troop Battlefield Role slot, instead
-of Fast Attack, and gains the **Objective Secured** special rule.
-  - **\[Relic] ?:** ?
-  - **\[Warlord Trait] ?:**
 
-  **SPECIAL:** ?
 
   ### Altansar - ???
   (Maugan Ra, eye of terror)
