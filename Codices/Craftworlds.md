@@ -203,7 +203,7 @@ roll for this unit, you may add up to 2 to the result. If you do, after the curr
 suffers 1 mortal wound that can't be avoided by any special rules. This is a Command Effect.
   - **\[Stratagem] Matriarchy (1 CP):** Use this Stratagem before the battle, when you are mustering your army. 
 Select one IYBRAESIL HOWLING BANSHEES unit from your army. That unit now takes up a Troop Battlefield Role slot, instead
-of Fast Attack, and gains the **Objective Secured** special rule.
+of Elite, and gains the **Objective Secured** special rule.
   - **\[Relic] Seven Seals of The Sisterhood:** Equip to a IYBRAESIL CORE CHARACTER or IYBRAESIL CORE ASPECT WARRIOR
 Exarch. Then, equip it to 6 more models that fit either criteria (there are 7 Seals after all, but note that a model
 can't have both a Seal and another Relic). Each of the 7 bearers gains the following ability:
@@ -283,6 +283,8 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
   - **\[Relic] ?:** ?
   - **\[Warlord Trait] ?:**
   
+  IDEAS: Spirit link (link 3 units that have some bonus until at least 1 of them dies)
+
 ---
   
 ## Rune Disciplines - Runes of Battle:
@@ -452,7 +454,7 @@ the following keywords: VEHICLE, TITANIC or WRAITH CONSTRUCT, each model in it r
 
   ### 7. Astrology Hoe
   Whenever this WARLORD would gain a Clairvoyance Die, do not roll it. Instead, turn the die to whatever number you
-  wish. (name = TODO, obviously)
+  wish. (max. 2 per battle round)  (name = TODO, obviously)
 
   ### 8. Power Overwhelming
   When this WARLORD is resolving any of the following powers: Psychic Storm, Psychic Bolt - you may re-roll the
