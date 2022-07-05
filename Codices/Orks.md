@@ -139,6 +139,38 @@ Detachment. RUNTHERD units do not take up slots in a Detachment.
 
 ---
 
+### \[Fast Attack] Deffkoptas
+
+| NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
+|--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
+| Deffkopta                |  65 | 12" | 4" |  4 |  3 | 4 | 5 | 4 | 2 | 3 |  7 | 4+ | ??mm
+
+This unit contains 3 Deffkoptas. It can contain up to 3 additional Deffkoptas. Every model is equipped with
+Kopta rokkits, Spinnin' blades, a Slugga and Stikkbombs.
+
+**FACTION KEYWORDS:** ORKS, \<CLAN\>
+
+**KEYWORDS:** VEHICLE, FLY, SPEED FREEKS, DEFFKOPTAS
+
+| WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
+|-------------------------------|-------|--------------|----|----|------|---------------------------
+| Kopta rokkits                 |  24"  | Assault 2    |  8 | -1 |  D3  | **Blast (Small)**
+| Spinnin' blades               | Melee | Melee        | +3 | -2 |   2  | Each time an attack is made with this weapon, make 2 hit rolls instead of 1.
+
+#### > SPECIAL RULES:
+- **'Ere We Go**
+- **Waaagh!**
+- TODO Ramshackle?
+- **Deep Strike**
+- **Big Red Button:** When this unit Advances, increase its Movement characteristic by 3" until the end of the action,
+but it cannot use any ranged weapons in the following Shooting phase.
+- **Big Bomb (only if equipped):** TODO
+
+#### > OPTIONS:
+- For every 3 models this unit contains, 1 model’s Kopta rokkits can be replaced with 1 Kustom mega-blasta and 1 Big bomb (+? pts).
+
+---
+
 ### \[Heavy Support] Deff Dread
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T (FSR) | W | A | I |  N | Sv | Base
