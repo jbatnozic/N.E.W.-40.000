@@ -138,3 +138,45 @@ Detachment. RUNTHERD units do not take up slots in a Detachment.
 (none)
 
 ---
+
+### \[Heavy Support] Deff Dread
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T (FSR) | W | A | I |  N | Sv | Base
+|--------------------------|-----|----|----|----|----|---|---------|---|---|---|----|----|------
+| Runtherd                 | 125 | 7" | 4" |  5 |  3 | 6 |  7/7/7  | 8 | 3 | 3 |  7 | 3+ | 60mm
+
+This unit contains 1 Deff Dread. It can contain up to 2 additional Deff Dreads. Every model is equipped with
+2 Big shootas and 2 Dread klaws.
+
+**FACTION KEYWORDS:** ORKS, \<CLAN\>
+
+**KEYWORDS:** VEHICLE, DEFF DREAD
+
+| WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
+|-------------------------------|-------|--------------|----|----|------|---------------------------
+| Dread klaw                    | Melee | Melee        | +4 | -3 |   3  | Each time the bearer fights, it can make 1 additional attack with this weapon.
+
+#### > SPECIAL RULES:
+- **'Ere We go**
+- **Waaagh!**
+- **Ramshackle**
+- **Relentless**
+- **Explodes:** TODO
+- **Dread Mob:** When this unit is being set up on the battlefield for the first time, if this unit has more
+than 1 model, all models in this unit must be set up within 6" of another model from this unit. After they are
+set up for the first time, each model is treated as a separate unit.
+
+#### > OPTIONS:
+- Any number of models in this unit can each have one or both of their Big shootas replaced with one of the following:
+  - 1 Dread klaw (free),
+  - 1 Kustom mega-blasta (+10 pts),
+  - 1 Rokkit launcha (+10 pts),
+  - 1 Skorcha (free).
+- Any number of models in this unit can each have one or both of their Dread klaws replaced with one of the following:
+  - 1 Big shoota (free),
+  - 1 Kustom mega-blasta (+10 pts),
+  - 1 Rokkit launcha (+10 pts),
+  - 1 Skorcha (free).
+
+---
+
