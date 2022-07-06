@@ -114,6 +114,7 @@ includes the **Mekaniak** special rule some models may have).
 ---
 
 ### \[HQ] Weirdboy
+TODO
 
 ---
 
@@ -249,6 +250,79 @@ of shots every `Heavy D3` weapon the unit is equipped with can make.
 
 ---
 
+### \[Fast Attack] Deffkoptas
+
+| NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
+|--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
+| Deffkopta                |  65 | 12" | 4" |  4 |  3 | 4 | 5 | 4 | 2 | 3 |  7 | 4+ | ??mm
+
+This unit contains 3 Deffkoptas. It can contain up to 3 additional Deffkoptas. Every model is equipped with
+Kopta rokkits, Spinnin' blades, a Slugga and Stikkbombs.
+
+**FACTION KEYWORDS:** ORKS, \<CLAN\>
+
+**KEYWORDS:** VEHICLE, FLY, SPEED FREEKS, DEFFKOPTAS
+
+| WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
+|-------------------------------|-------|--------------|----|----|------|---------------------------
+| Kopta rokkits                 |  24"  | Assault 2    |  8 | -1 |  D3  | **Blast (Small)**
+| Spinnin' blades               | Melee | Melee        | +3 | -2 |   2  | Each time an attack is made with this weapon, make 2 hit rolls instead of 1.
+
+#### > SPECIAL RULES:
+- **'Ere We Go**
+- **Waaagh!**
+- TODO Ramshackle?
+- **Deep Strike**
+- **Big Red Button:** When this unit Advances, increase its Movement characteristic by 3" until the end of the action,
+but it cannot use any ranged weapons in the following Shooting phase.
+- **Big Bomb (only if equipped):** TODO
+
+#### > OPTIONS:
+- For every 3 models this unit contains, 1 model’s Kopta rokkits can be replaced with 1 Kustom mega-blasta and 1 Big bomb (+? pts).
+
+---
+
+### \[Heavy Support] Deff Dread
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T (FSR) | W | A | I |  N | Sv | Base
+|--------------------------|-----|----|----|----|----|---|---------|---|---|---|----|----|------
+| Runtherd                 | 125 | 7" | 4" |  5 |  3 | 6 |  7/7/7  | 8 | 3 | 3 |  7 | 3+ | 60mm
+
+This unit contains 1 Deff Dread. It can contain up to 2 additional Deff Dreads. Every model is equipped with
+2 Big shootas and 2 Dread klaws.
+
+**FACTION KEYWORDS:** ORKS, \<CLAN\>
+
+**KEYWORDS:** VEHICLE, DEFF DREAD
+
+| WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
+|-------------------------------|-------|--------------|----|----|------|---------------------------
+| Dread klaw                    | Melee | Melee        | +4 | -3 |   3  | Each time the bearer fights, it can make 1 additional attack with this weapon.
+
+#### > SPECIAL RULES:
+- **'Ere We go**
+- **Waaagh!**
+- **Ramshackle**
+- **Relentless**
+- **Explodes:** TODO
+- **Dread Mob:** When this unit is being set up on the battlefield for the first time, if this unit has more
+than 1 model, all models in this unit must be set up within 6" of another model from this unit. After they are
+set up for the first time, each model is treated as a separate unit.
+
+#### > OPTIONS:
+- Any number of models in this unit can each have one or both of their Big shootas replaced with one of the following:
+  - 1 Dread klaw (free),
+  - 1 Kustom mega-blasta (+10 pts),
+  - 1 Rokkit launcha (+10 pts),
+  - 1 Skorcha (free).
+- Any number of models in this unit can each have one or both of their Dread klaws replaced with one of the following:
+  - 1 Big shoota (free),
+  - 1 Kustom mega-blasta (+10 pts),
+  - 1 Rokkit launcha (+10 pts),
+  - 1 Skorcha (free).
+
+---
+
 ### \[Heavy Support] Killa Kans
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
@@ -268,6 +342,5 @@ This unit contains 1 Killa Kan. It can include up to 5 additional Killa Kans. Ev
 #### > OPTIONS:
 - Any model may replace its Buzz saw with a Kan Klaw (free) or Drilla (free).
 - TODO
-
 
 ---
