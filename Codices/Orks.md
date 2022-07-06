@@ -58,6 +58,65 @@ additional hit roll. This ability does not affect weapons that automatically hit
 
 ## Unit Datasheets
 
+### \[HQ] Warboss
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Warboss                  | 110 | 5" | 4" |  7 |  3 | 5 | 5 | 5 | 5 | 3 |  8 | 4+ | 40mm 
+
+This unit contains 1 Warboss, who is equipped with a Big choppa, Kustom shoota and Stikkbombs.
+
+**FACTION KEYWORDS:** ORKS, \<CLAN\>
+
+**KEYWORDS:** CHARACTER, INFANTRY, CORE, WARBOSS
+
+| WEAPON                 | RANGE |    TYPE    |   S  | AP |   D  | QUALITIES
+|------------------------|-------|------------|------|----|------|---------------------------
+| Attack squig           | Melee | Melee      |   4  | -1 |   1  | Each time the bearer fights, it makes 2 additional attacks with this weapon and no more than 2 attacks can be made with this weapon.
+
+#### > SPECIAL RULES:
+- **'Ere We go**
+- **Waaagh!**
+- TODO (some fight/charge/morale aura or something)
+
+#### > OPTIONS:
+- This model's Kustom shoota may be replaced with one of the following:
+  - Kombi-rokkit (+? pts)
+  - Kombi-skorcha (+? pts)
+- This model's Big choppa may be replaced with a Power klaw (+? pts).
+- This model may take an Attack squig (+? pts).
+- This model may take 2 Sluggas (+? pts). // once per game close-range shooting attack
+
+---
+
+### \[HQ] Big Mek
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Big Mek                  | 75  | 5" | 4" |  5 |  3 | 5 | 5 | 4 | 3 | 3 |  8 | 4+ | 40mm 
+
+This unit contains 1 Big Mek, who is equipped with a Slugga, Choppa, and Stikkbombs.
+
+**FACTION KEYWORDS:** ORKS, \<CLAN\>
+
+**KEYWORDS:** CHARACTER, INFANTRY, CORE, BIG MEK
+
+#### > SPECIAL RULES:
+- **'Ere We go**
+- **Waaagh!**
+- **Big Mekaniak:** At the end of your Movement phase, this model can repair one friendly \<CLAN\> VEHICLE model within
+3" of it. That VEHICLE model regains up to D3 lost wounds. Each model can only be repaired up to thrice per turn (this
+includes the **Mekaniak** special rule some models may have).
+
+#### > OPTIONS:
+- TODO (regular weapons, kustom force field, shokk attak gun, grot oiler)
+
+---
+
+### \[HQ] Weirdboy
+
+---
+
 ### \[Troop] Gretchin
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
@@ -129,6 +188,7 @@ This unit contains 1 Runtherd, who is equipped with a Slugga and a Grabba stikk.
 | Grot prod                     | Melee | Melee        | +2 |  0 |   1  | TODO
 
 #### > SPECIAL RULES:
+- **'Ere We go**
 - **Waaagh!**
 - TODO
 - **Runtherd:** You must include at least one GRETCHIN INFANTRY unit in a Detachment for each RUNTHERD unit in that
@@ -136,5 +196,78 @@ Detachment. RUNTHERD units do not take up slots in a Detachment.
 
 #### > OPTIONS:
 (none)
+
+---
+
+### \[Elite] Nobz
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Nob                      |  25 | 5" | 4" |  5 |  3 | 4 | 4 | 1 | 2 | 3 |  6 | 4+ | 32mm
+| Boss Nob                 |  25 | 5" | 4" |  5 |  3 | 4 | 4 | 2 | 3 | 3 |  7 | 4+ | 32mm
+
+This unit contains 4 Nobz and 1 Boss Nob. It can contain up to 5 additional Nobz. Every model 
+is equipped with a Slugga, a Choppa, and Stikkbombs.
+
+**FACTION KEYWORDS:** ORKS, \<CLAN\>
+
+**KEYWORDS:** INFANTRY, CORE, NOBZ
+
+---
+
+### \[Heavy Support] Lootas
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Loota                    |  22 | 5" | 4" |  4 |  3 | 4 | 4 | 1 | 2 | 3 |  6 | 6+ | 32mm
+| Spanner                  |  22 | 5" | 4" |  4 |  3 | 4 | 4 | 1 | 2 | 3 |  7 | 6+ | 32mm
+
+This unit contains 5 Lootas. It can include up to 10 additional Lootas. For every 5 models in the unit, a Spanner can
+take the place of one Loota. Each Loota is armed with a Deffgun and Stikkbombs. Each Spanner is armed with a Big shoota 
+and Stikkbombs.
+
+**FACTION KEYWORDS:** ORKS, \<CLAN\>
+
+**KEYWORDS:** INFANTRY, CORE, LOOTAS
+
+| WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
+|-------------------------------|-------|--------------|----|----|------|---------------------------
+| Deffgun                       |  48"  | Heavy D3     |  7 | -1 |   2  | **Dakka! Dakka! Dakka!**
+
+#### > SPECIAL RULES:
+- **'Ere We go**
+- **Waaagh!**
+- **Deffguns:** When this unit is selected to shoot, after declaring targets, roll a single D3 to determine the number
+of shots every `Heavy D3` weapon the unit is equipped with can make.
+- **Mekaniak:** At the end of your Movement phase, a Spanner can repair a single friendly \<CLAN\> VEHICLE model within
+3". That model regains 1 lost wound. A model can only be repaired up to thrice per turn (this includes the 
+**Big Mekaniak** special rule some models may have).
+- TODO (Loot It! strat use for free)
+
+#### > OPTIONS:
+- TODO (spanner wargear)
+
+---
+
+### \[Heavy Support] Killa Kans
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Killa Kan                |  50 | 5" | 4" |  3 |  5 | 5 | 6 | 5 | 3 | 2 |  6 | 3+ | 60mm
+
+This unit contains 1 Killa Kan. It can include up to 5 additional Killa Kans. Every model is equipped with a... TODO
+
+**FACTION KEYWORDS:** ORKS, \<CLAN\>
+
+**KEYWORDS:** VEHICLE, GRETCHIN, KILLA KANS
+
+#### > SPECIAL RULES:
+- TODO
+- Explodes
+
+#### > OPTIONS:
+- Any model may replace its Buzz saw with a Kan Klaw (free) or Drilla (free).
+- TODO
+
 
 ---

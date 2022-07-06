@@ -890,6 +890,33 @@ This unit contains one Plasmancer equipped with a Plasmic lance.
 
 ---
 
+### \[???] The Nightbringer (C'Tan Shard Of)
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| The Nightbringer         | 480 | 8" | 4" |  7 |  7 | 8 | 8 | 9 | 6 | ? | 11 | 4+ | 40mm 
+
+This unit contains one C'tan Shard of The Nightbringer equipped with the Scythe of the Nightbringer.
+
+**FACTION KEYWORDS:** NECRONS
+
+**KEYWORDS:** MONSTER, CHARACTER, FLY, C'TAN SHARD, C’TAN SHARD OF THE NIGHTBRINGER
+
+#### > SPECIAL RULES:
+- **Living Metal**
+- **Necrodermis:** This special rule confers several effects:
+  - When making an Armour Save roll for this model, roll 2D6 and use the sum as the result.
+  - This model ignores all the rules that would alter or disable its Armour Save, except AP (the Armour Piercing
+characteristic of an attack).
+  - If this model would lose a wound as a result of a Mortal Wound, roll a D6. On a 4+ the wound is not lost.
+- **Enslaved Star God:** This model can never have a Relic or a Warlord Trait. In addition, enemy models can ignore the
+"Look Out, Sir!" rule when selecting this model as the target of a ranged attack.
+
+#### > OPTIONS:
+(none)
+
+---
+
 ### \[Troop] Necron Warriors
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
