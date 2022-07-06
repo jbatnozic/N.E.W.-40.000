@@ -204,7 +204,7 @@ Detachment. RUNTHERD units do not take up slots in a Detachment.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Nob                      |  25 | 5" | 4" |  5 |  3 | 4 | 4 | 1 | 2 | 3 |  6 | 4+ | 32mm
+| Nob                      |  25 | 5" | 4" |  5 |  3 | 4 | 4 | 2 | 3 | 3 |  6 | 4+ | 32mm
 | Boss Nob                 |  25 | 5" | 4" |  5 |  3 | 4 | 4 | 2 | 3 | 3 |  7 | 4+ | 32mm
 
 This unit contains 4 Nobz and 1 Boss Nob. It can contain up to 5 additional Nobz. Every model 
@@ -213,6 +213,14 @@ is equipped with a Slugga, a Choppa, and Stikkbombs.
 **FACTION KEYWORDS:** ORKS, \<CLAN\>
 
 **KEYWORDS:** INFANTRY, CORE, NOBZ
+
+#### > SPECIAL RULES:
+- **'Ere We go**
+- **Waaagh!**
+- TODO
+
+#### > OPTIONS:
+- TODO
 
 ---
 
@@ -342,5 +350,56 @@ This unit contains 1 Killa Kan. It can include up to 5 additional Killa Kans. Ev
 #### > OPTIONS:
 - Any model may replace its Buzz saw with a Kan Klaw (free) or Drilla (free).
 - TODO
+
+---
+
+### \[Heavy Support] Battlewagon
+
+| NAME                     | PTS |  M  | CB | MS | BS | S | T (FSR) |   W   |  A  | I |  N | Sv | Base
+|--------------------------|-----|-----|----|----|----|---|---------|-------|-----|---|----|----|------
+| Battlewagon              | 155 | 12" | 4" |  3 |  3 | 8 |  8/7/7  | 9 - 16|  6  | 3 |  7 | 3+ | Hull
+|                          |     |  9" |    |  3 |  3 | 6 |         | 5 - 8 | 2D3 |   |    |    |
+|                          |     |  6" |    |  3 |  3 | 4 |         | 1 - 4 |  D3 |   |    |    |
+
+This unit contains 1 Battlewagon.
+
+**FACTION KEYWORDS:** ORKS, \<CLAN\>
+
+**KEYWORDS:** VEHICLE, TRANSPORT, BATTLEWAGON
+
+| WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
+|-------------------------------|-------|--------------|----|----|------|---------------------------
+| Kannon                        |       |              |    |    |      | 
+| Killkannon                    |       |              |    |    |      | 
+| Lobba                         |       |              |    |    |      | 
+| Zzap gun                      |       |              |    |    |      | 
+| Deff rolla                    | Melee | Melee        | +1 | -2 |   2  | Hit rolls of attacks made with this weapon are always resolved with Exponent 9.
+| Grabbin' klaw                 | Melee | Melee        |    |    |      | 
+| Wreckin' ball                 | Melee | Melee        |    |    |      | 
+
+
+#### > SPECIAL RULES:
+- **'Ere We go**
+- **Waaagh!**
+- **Ramshackle**
+- **Relentless** (?)
+- **Explodes:** TODO
+- **Open-topped:** In the Shooting phase, units embarked within this transport can be selected to shoot with; measure
+distances and draw line of sight from any point on this transport when doing so. If this transport made a Normal Move,
+Advanced or Disengaged this turn, embarked units are considered to have done the same. While this transport is within
+Engagement Range of any enemy units, embarked units cannot shoot, except with Pistols.
+
+#### > OPTIONS:
+- This model can be equipped with one of the following:
+  - 1 Kannon (+? pts),
+  - 1 Killkannon (+? pts),
+  - 1 Zzap gun (+? pts).
+- This model can be equipped with 1 Lobba (+? pts).
+- This model can be equipped with up to 4 big shootas (+? pts each).
+- This model can be equipped with any of the following: 
+  - 1 ’Ard case (+? pts),
+  - 1 Deff rolla (+? pts),
+  - 1 Grabbin’ klaw (+? pts),
+  - 1 Wreckin’ ball (+? pts).
 
 ---
