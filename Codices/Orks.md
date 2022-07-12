@@ -7,6 +7,31 @@
   - The unit made a Charge move in the previous Charge phase;
   - The unit is not In Disarray.
 
+  ### Breakin' 'Eads:
+  **Note:** This special rule can be conferred to a unit by a model in that unit and/or by a nearby CHARACTER.
+
+  When testing Morale for this unit, then after determining the result of the test (which is most commonly
+  2D6 + current Strain), but before determining the consequence of the test, you may roll up to 3 six-sided dice (but no
+  more than the number of models currently in the unit, excluding the one conferring this special rule). For each die
+  rolled, add 1 to the Nerve characteristic of this unit for the duration of this Morale test only, but then after 
+  determining the consequence of the test, the unit suffers a mortal wound for each 1 or 2 rolled.
+
+  ### WAAAGH!
+  If your WARLORD is a WARBOSS, then once per battle, in your Command phase, you can call a Waaagh!. To do so, that 
+  WARBOSS must be on the battlefield or embarked on a TRANSPORT that is on the battlefield.
+
+  A Waaagh! has two stages. The first stage is active from when the Waaagh! is called, and lasts until the start of your
+  next Command phase. When the first stage ends, the second stage starts, and lasts until the start of your subsequent
+  Command phase. After this point, the Waaagh! is no longer active, and has no further effect.
+
+  **Stage 1: Call Da Waaagh!**
+  - If an ORKS CORE or ORKS CHARACTER unit from your army makes an Advance move this turn, unexhaust it immediately
+    afterwards. It does NOT count as having Advanced during this turn (but does count as having moved normally).
+  - Add 1 to the Strength and Attacks characteristics of ORKS models from your army.
+  - (5+ FnP?)
+
+  **Stage 2: Get Stuck In!**
+
 ## Ork Kultures (or Klans? idk)
 
 TODO
@@ -58,11 +83,16 @@ additional hit roll. This ability does not affect weapons that automatically hit
 
 ## Unit Datasheets
 
+### Standard Ork Traits
+'Ere We Go, Waaagh!, Mob Rule
+
+---
+
 ### \[HQ] Warboss
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Warboss                  | 110 | 5" | 4" |  7 |  3 | 5 | 5 | 5 | 5 | 3 |  8 | 4+ | 40mm 
+| Warboss                  | 110 | 5" | 4" |  7 |  3 | 5 | 5 | 5 | 5 | 3 |  9 | 4+ | 40mm 
 
 This unit contains 1 Warboss, who is equipped with a Big choppa, Kustom shoota and Stikkbombs.
 
@@ -77,6 +107,8 @@ This unit contains 1 Warboss, who is equipped with a Big choppa, Kustom shoota a
 #### > SPECIAL RULES:
 - **'Ere We go**
 - **Waaagh!**
+- **Da Big Boss Iz 'Ere:** The Warboss confers the **Breakin' 'Eads** special rule to \<CLAN\> CORE units within 3" (but
+not to himself).
 - TODO (some fight/charge/morale aura or something)
 
 #### > OPTIONS:
@@ -150,8 +182,14 @@ is equipped with a Grot blasta.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Ork Boy                  |  13 | 5" | 4" |  4 |  3 | 4 | 4 | 1 | 2 | 3 |  6 | 6+ | 32mm
-| Boss Nob                 |  13 | 5" | 4" |  5 |  3 | 4 | 4 | 2 | 3 | 3 |  7 | 6+ | 32mm
+| Ork Boy                  |  13 | 5" | 4" |  4 |  3 | 4 | 4 | 1 | 2 | 3 |  * | 6+ | 32mm
+| Boss Nob                 |  13 | 5" | 4" |  5 |  3 | 4 | 4 | 2 | 3 | 3 |  * | 6+ | 32mm
+
+| Models in unit      | Nerve 
+|---------------------|-------
+| 1-10                |    5
+| 11-20               |    6
+| 21-30               |    7
 
 This unit contains 9 Ork Boyz and 1 Boss Nob. It can contain up to 20 additional Ork Boyz. Every model 
 is equipped with a Slugga, a Choppa, and Stikkbombs.
@@ -164,9 +202,13 @@ is equipped with a Slugga, a Choppa, and Stikkbombs.
 - **'Ere We go**
 - **Waaagh!**
 - **Objective Secured**
+- **Bosspole (only if equipped):** While the unit contains a Boss Nob equiped with a Bosspole, the unit's Nerve
+characteristic is increased by 1.
+- **Da Boss Iz 'Ere:** While this unit contains the Boss Nob, he confers the **Breakin' 'Eads** special rule to this unit.
 
 #### > OPTIONS:
 - Any Ork Boy’s Slugga and Choppa can be replaced with 1 Shoota.
+- The Boss Nob can be equipped with a Bosspole (+7 pts).
 - TODO
 
 ---
@@ -204,8 +246,14 @@ Detachment. RUNTHERD units do not take up slots in a Detachment.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Nob                      |  25 | 5" | 4" |  5 |  3 | 4 | 4 | 2 | 3 | 3 |  6 | 4+ | 32mm
-| Boss Nob                 |  25 | 5" | 4" |  5 |  3 | 4 | 4 | 2 | 3 | 3 |  7 | 4+ | 32mm
+| Nob                      |  25 | 5" | 4" |  5 |  3 | 4 | 4 | 2 | 3 | 3 |  * | 4+ | 32mm
+| Boss Nob                 |  25 | 5" | 4" |  5 |  3 | 4 | 4 | 2 | 3 | 3 |  * | 4+ | 32mm
+
+| Models in unit      | Nerve 
+|---------------------|-------
+| 1-3                 |    6
+| 4-6                 |    7
+| 7-10                |    8
 
 This unit contains 4 Nobz and 1 Boss Nob. It can contain up to 5 additional Nobz. Every model 
 is equipped with a Slugga, a Choppa, and Stikkbombs.
@@ -217,6 +265,9 @@ is equipped with a Slugga, a Choppa, and Stikkbombs.
 #### > SPECIAL RULES:
 - **'Ere We go**
 - **Waaagh!**
+- **Bosspole (only if equipped):** While the unit contains a Boss Nob equiped with a Bosspole, the unit's Nerve
+characteristic is increased by 1.
+- **Da Boss Iz 'Ere:** While this unit contains the Boss Nob, he confers the **Breakin' 'Eads** special rule to this unit.
 - TODO
 
 #### > OPTIONS:
@@ -224,12 +275,53 @@ is equipped with a Slugga, a Choppa, and Stikkbombs.
 
 ---
 
+### \[Elite] Painboy
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Painboy                  |  80 | 5" | 4" |  5 |  3 | 4 | 4 | 4 | 3 | 3 |  8 | 6+ | 32mm
+
+This unit contains 1 Painboy equipped with a Buzzsaw and an 'Urty syringe.
+
+| WEAPON        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
+|---------------|-------|--------------|----|----|------|---------------------------
+| Buzzsaw       | Melee | Melee        | +2 | -2 |   2  | -
+| 'Urty syringe | Melee | Melee        |  2 |  0 |   1  | Each time the bearer fights, it makes 1 additional attack with this weapon. Each time an attack is made with this weapon, unless the target is a VEHICLE or TITANIC unit, that attack always wounds on a wound roll of 21 or more.
+
+**FACTION KEYWORDS:** ORKS, \<CLAN\>
+
+**KEYWORDS:** INFANTRY, CORE, CHARACTER, PAINBOY
+
+#### > SPECIAL RULES:
+- **'Ere We go**
+- **Waaagh!**
+- **Dok’s Toolz (Aura):** While a friendly \<CLAN\> INFANTRY or \<CLAN\> BIKER unit is within 3" of this model, each
+time a model in that unit would lose a wound, roll one D6: on a 6, that wound is not lost.
+- **Sawbonez:** At the end of your Movement phase, this model can heal one friendly \<CLAN\> INFANTRY or \<CLAN\> BIKER
+model whose unit is within 3" of it. If you do so, roll one D6: on a 1, that model suffers 1 mortal wound. On a 2+, that
+model regains up to 2 lost wounds. Each model can only be healed once per turn.
+- **Grot Orderly (only if equipped):** Once per battle, if a 1 is rolled when using the bearer’s **Sawbonez** ability
+you can re-roll the die. _It's recommended to place a Grot Orderly model next to the Painboy as a reminder, removing it
+once this ability has been used (a Grot Orderly does not count as a model for any rules purposes)._
+
+#### > OPTIONS:
+- This model's Buzzsaw can be replaced with a Power klaw (+5 pts).
+- This model can be equipped with 1 Grot Orderly (+5 pts).
+
+---
+
 ### \[Heavy Support] Lootas
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Loota                    |  22 | 5" | 4" |  4 |  3 | 4 | 4 | 1 | 2 | 3 |  6 | 6+ | 32mm
-| Spanner                  |  22 | 5" | 4" |  4 |  3 | 4 | 4 | 1 | 2 | 3 |  7 | 6+ | 32mm
+| Loota                    |  22 | 5" | 4" |  4 |  3 | 4 | 4 | 1 | 2 | 3 |  * | 6+ | 32mm
+| Spanner                  |  22 | 5" | 4" |  4 |  3 | 4 | 4 | 1 | 2 | 3 |  * | 6+ | 32mm
+
+| Models in unit      | Nerve 
+|---------------------|-------
+| 1-5                 |    6
+| 6-10                |    7
+| 11-15               |    8
 
 This unit contains 5 Lootas. It can include up to 10 additional Lootas. For every 5 models in the unit, a Spanner can
 take the place of one Loota. Each Loota is armed with a Deffgun and Stikkbombs. Each Spanner is armed with a Big shoota 
@@ -254,7 +346,9 @@ of shots every `Heavy D3` weapon the unit is equipped with can make.
 - TODO (Loot It! strat use for free)
 
 #### > OPTIONS:
-- TODO (spanner wargear)
+- Any number of Spanners can each have their Big shoota replaced with one of the following:
+  - 1 Kustom mega-blasta (+5 pts),
+  - 1 Rokkit launcha (+5 pts).
 
 ---
 
@@ -395,7 +489,7 @@ Engagement Range of any enemy units, embarked units cannot shoot, except with Pi
   - 1 Killkannon (+? pts),
   - 1 Zzap gun (+? pts).
 - This model can be equipped with 1 Lobba (+? pts).
-- This model can be equipped with up to 4 big shootas (+? pts each).
+- This model can be equipped with up to 4 big shootas (+5 pts each).
 - This model can be equipped with any of the following: 
   - 1 ’Ard case (+? pts),
   - 1 Deff rolla (+? pts),
