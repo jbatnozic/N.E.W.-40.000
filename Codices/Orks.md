@@ -32,17 +32,87 @@
 
   **Stage 2: Get Stuck In!**
 
-## Ork Kultures (or Klans? idk)
+## Ork Clans (or Klans? idk)
 
-TODO
+If your army includes any ORKS units, select which Clan they are from. Their \<CLAN\> keyword is replaced with
+the appropriate name (BAD MOONS for Bad Moons, GOFFS for Goffs - you get the idea). Each of these units gains
+the Clan-specific 'Kultur' as a special rule. The Clan-specific Stratagem, Relic and Warlord Trait are also
+unlocked for your army to use.
+
+  ### Bad Moons
+  - **\[Kultur] - Armed To Da Teef:** TODO
+  - **\[Stratagem] - Showin' Off (1CP):** Use this Stratagem when a BAD MOONS CORE unit from your army is selected
+  to shoot. Until the end of the phase, the **Dakka! Dakka! Dakka!** quality triggers on a hit roll of 51+ (instead
+  of 61+) for all weapons with this quality carried by models in this unit.
+  - **\[Relic] - Da Best Armour Teef Can Buy:** TODO
+  - **\[Warlord Trait] - Name:** TODO
+  - **\[Waaagh! Modifier] - Name:** TODO
+
+  ### Blood Axes
+  - **\[Kultur] - Name:** TODO
+  - **\[Stratagem] - Name:** TODO
+  - **\[Relic] - Name:** TODO
+  - **\[Warlord Trait] - Name:** TODO
+  - **\[Waaagh! Modifier] - Name:** TODO
+
+  ### Deathskulls
+  - **\[Kultur] - Name:** TODO
+  - **\[Stratagem] - Name:** TODO
+  - **\[Relic] - Name:** TODO
+  - **\[Warlord Trait] - Name:** TODO
+  - **\[Waaagh! Modifier] - Name:** TODO
+
+  ### Freebooterz
+  - **\[Kultur] - Name:** TODO
+  - **\[Stratagem] - Name:** TODO
+  - **\[Relic] - Name:** TODO
+  - **\[Warlord Trait] - Name:** TODO
+  - **\[Waaagh! Modifier] - Name:** TODO
+  
+  ### Goffs
+  - **\[Kultur] - No Mukkin' About:** Each time a model with this kultur makes a melee attack, an hit roll of 61 or
+  more scores 1 additional hit.
+  - **\[Stratagem] - Unbridled Carnage (2CP):** Use this Stratagem in the Fight phase when a GOFF CORE or GOFF CHARACTER
+  unit from your army that has the "No Mukkin’ About" Clan Kultur is selected to fight. Until the end of the phase, each
+  time a model in that unit makes an attack, it scores an additional hit on an unmodified hit roll of 5+ instead of 6.
+  - **\[Warlord Trait] - Name:** TODO
+  - **\[Relic] - Name:** TODO
+  - **\[Waaagh! Modifier] - Biggest n' Meanest:** (during both stages +1 T)
 
 ## Warlord Traits
 
-TODO
+  ### 1. ?
+  
+  ### 2. Big Gob
+  Add 6" to the range of this WARLORD’s aura abilities (to a maximum of 12").
+  
+  ### 3. ?
+  
+  ### 4. ?
+  
+  ### 5. Brutal But Kunnin'
+  
+  ### 6. Kunnin' But Brutal
+  
+  
 
 ## Relics
 
-TODO
+  ### Buzzgob's Shoota
+  
+  ### Da Killa Klaw
+  
+  ### Headwoppa's Killchoppa
+  
+  ### Supa-Cybork Body
+  Equip to an ORKS INFANTRY CHARACTER or ORKS BIKER CHARACTER model.
+  - The bearer gains a 4+ invulnerable save.
+  - Each time an attack is allocated to the bearer:
+    - If the attack has a damage characteristic of 2 or more, reduce it by 1.
+    - Otherwise, roll a D6. On a 4+, the damage characteristic of the attack is reduced to 0.
+
+  ### Gozrogg the Skullkollektor's Trophy Pole:
+  (double models in unit for morale purposes aura)
 
 ## Stratagems
 
