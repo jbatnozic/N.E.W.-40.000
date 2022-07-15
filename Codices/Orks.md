@@ -28,9 +28,9 @@
   - If an ORKS CORE or ORKS CHARACTER unit from your army makes an Advance move this turn, unexhaust it immediately
     afterwards. It does NOT count as having Advanced during this turn (but does count as having moved normally).
   - Add 1 to the Strength and Attacks characteristics of ORKS models from your army.
-  - (5+ FnP?)
 
   **Stage 2: Get Stuck In!**
+  - Add 1 to the Strength and Attacks characteristics of ORKS models from your army.
 
 ## Ork Clans (or Klans? idk)
 
@@ -56,15 +56,15 @@ unlocked for your army to use.
   - **\[Waaagh! Modifier] - Name:** TODO
 
   ### Deathskulls
-  - **\[Kultur] - Name:** TODO
+  - **\[Kultur] - Name:** TODO (?) + Objective Secured for INFANTRY
   - **\[Stratagem] - Name:** TODO
   - **\[Relic] - Name:** TODO
   - **\[Warlord Trait] - Name:** TODO
-  - **\[Waaagh! Modifier] - Name:** TODO
+  - **\[Waaagh! Modifier] - Name:** TODO INFANTRY loses Objective Secured during the Waaagh!
 
   ### Freebooterz
   - **\[Kultur] - Name:** TODO
-  - **\[Stratagem] - Name:** TODO
+  - **\[Stratagem] - Get Da Loot:** TODO (ObSec to INFANTRY unit for 1 turn)
   - **\[Relic] - Name:** TODO
   - **\[Warlord Trait] - Name:** TODO
   - **\[Waaagh! Modifier] - Name:** TODO
@@ -77,7 +77,8 @@ unlocked for your army to use.
   time a model in that unit makes an attack, it scores an additional hit on an unmodified hit roll of 5+ instead of 6.
   - **\[Warlord Trait] - Name:** TODO
   - **\[Relic] - Name:** TODO
-  - **\[Waaagh! Modifier] - Biggest n' Meanest:** (during both stages +1 T)
+  - **\[Waaagh! Modifier] - Biggest n' Meanest:** During both stages of the Waaagh!, add 1 to the Toughness characteristic
+  of ORKS INFANTRY and ORKS BIKER units from your army (except GRETCHIN units).
 
 ## Warlord Traits
 
@@ -93,8 +94,6 @@ unlocked for your army to use.
   ### 5. Brutal But Kunnin'
   
   ### 6. Kunnin' But Brutal
-  
-  
 
 ## Relics
 
@@ -273,9 +272,9 @@ is equipped with a Slugga, a Choppa, and Stikkbombs.
 - **'Ere We go**
 - **Waaagh!**
 - **Objective Secured**
+- **Da Boss Iz 'Ere:** While this unit contains the Boss Nob, he confers the **Breakin' 'Eads** special rule to this unit.
 - **Bosspole (only if equipped):** While the unit contains a Boss Nob equiped with a Bosspole, the unit's Nerve
 characteristic is increased by 1.
-- **Da Boss Iz 'Ere:** While this unit contains the Boss Nob, he confers the **Breakin' 'Eads** special rule to this unit.
 
 #### > OPTIONS:
 - Any Ork Boy’s Slugga and Choppa can be replaced with 1 Shoota.
