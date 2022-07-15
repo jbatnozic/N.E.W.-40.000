@@ -137,6 +137,7 @@ additional hit roll. This ability does not affect weapons that automatically hit
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
 |-------------------------------|-------|--------------|----|----|------|---------------------------
 | Big shoota                    |  36"  | Assault 3    |  5 |  0 |   1  | **Dakka! Dakka! Dakka!**
+| Kustom mega-blasta            |  24"  | Assault D3+1 |  8 | -3 |  D6  | **High-powered**; If 1 or more unmodified hit rolls of 16 or less are made for attacks with this weapon, the bearer suffers 1 mortal wound after shooting with this weapon.
 | Rokkit launcha                |  24"  | Heavy D3     |  8 | -2 |   3  | **High-powered**
 | Shoota                        |  18"  | Assault 2    |  4 |  0 |   1  | **Dakka! Dakka! Dakka!**
 | Skorcha                       |   2"  | Assault 1    |  4 | -1 |   1  | **Flamer Template** 
