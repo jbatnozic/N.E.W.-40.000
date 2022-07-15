@@ -279,7 +279,7 @@ characteristic is increased by 1.
 
 #### > OPTIONS:
 - Any Ork Boy’s Slugga and Choppa can be replaced with 1 Shoota.
-- The Boss Nob can be equipped with a Bosspole (+7 pts).
+- The Boss Nob can be equipped with a Bosspole (+8 pts).
 - TODO
 
 ---
@@ -336,13 +336,24 @@ is equipped with a Slugga, a Choppa, and Stikkbombs.
 #### > SPECIAL RULES:
 - **'Ere We go**
 - **Waaagh!**
+- **Da Boss Iz 'Ere:** While this unit contains the Boss Nob, he confers the **Breakin' 'Eads** special rule to this unit.
 - **Bosspole (only if equipped):** While the unit contains a Boss Nob equiped with a Bosspole, the unit's Nerve
 characteristic is increased by 1.
-- **Da Boss Iz 'Ere:** While this unit contains the Boss Nob, he confers the **Breakin' 'Eads** special rule to this unit.
-- TODO
+- **Ammo Runt (only if equipped):** TODO
 
 #### > OPTIONS:
-- TODO
+- The unit's Boss Nob can be equipped with 1 Bosspole (+8 pts).
+- Any number of models can each have their Slugga and Choppa replaced with TWO of the following: 
+  - 1 Big choppa (+? pts),
+  - 1 Choppa (free),
+  - 1 Killsaw (+? pts),
+  - 1 Power klaw (+10 pts),
+  - 1 Power stabba (+? pts),
+  - 1 Slugga (free).
+- Any number of models can each have their slugga and choppa replaced with ONE of the following:
+  - 1 Kombi-rokkit (+5 pts),
+  - 1 Kombi-skorcha (+5 pts).
+- For every 5 models this unit contains, this unit can be equipped with 1 ammo runt (+? pts).
 
 ---
 
