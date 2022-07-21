@@ -11,9 +11,9 @@
   **Note:** This special rule can be conferred to a unit by a model in that unit and/or by a nearby CHARACTER.
 
   When testing Morale for this unit, then after determining the result of the test (which is most commonly
-  2D6 + current Strain), but before determining the consequence of the test, you may roll up to 3 six-sided dice (but no
-  more than the number of models currently in the unit, excluding the one conferring this special rule). For each die
-  rolled, add 1 to the Nerve characteristic of this unit for the duration of this Morale test only, but then after 
+  2D6 + current Strain), but before determining the consequence of the test, you may roll up to 3 six-sided dice (but
+  no more than the number of models currently in the unit, excluding the one conferring this special rule). For each
+  die rolled, add 1 to the Nerve characteristic of this unit for the duration of this Morale test only, but then after 
   determining the consequence of the test, the unit suffers a mortal wound for each 1 or 2 rolled.
 
   ### WAAAGH!
@@ -31,6 +31,31 @@
 
   **Stage 2: Get Stuck In!**
   - Add 1 to the Strength and Attacks characteristics of ORKS models from your army.
+
+---
+
+## \[Philorksophy] Ork Morale
+
+Ork units have relatively low Nerve scores, mostly not surpassing 7 or 8 even at maximum unit sizes. They make up for it
+with **Mob Rule** and various Bosses providing **Breakin' 'Eads**.
+
+Rule of thumb:
+- Boyz and Boyz-like units: up to 7 (drop per 10 models lost)
+- Elites: up to 7 (lower drops)
+- Characters and vehicles: usually 8
+- Warbosses: 9
+
+Some units can take a bosspole (usually 15 pts) for another +1N.
+
+### Effects of 'In Disarray':
+Units that are In Disarray don't benefit from: **'Ere We Go**, their klan Kultur (unless otherwise noted), and if a
+Waaagh! is declared, there's a chance they won't be affected by it.
+
+### Effects of 'Panicking':
+As usual, a Panicking unit is nigh useless. In addition, Panicking units are never affected by a Waaagh! (unless noted
+otherwise).
+
+---
 
 ## Ork Clans (or Klans? idk)
 
@@ -224,7 +249,7 @@ TODO
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Gretchin                 |  7  | 5" | 4" |  3 |  5 | 2 | 3 | 1 | 1 | 3 |  4 | 7+ | 25mm 
+| Gretchin                 |  7  | 5" | 4" |  3 |  5 | 2 | 3 | 1 | 1 | 3 |  5 | 7+ | 25mm 
 
 This unit contains 10 Gretchin. It can contain up to 20 additional Gretchin. Every model 
 is equipped with a Grot blasta.
@@ -278,7 +303,7 @@ characteristic is increased by 1.
 
 #### > OPTIONS:
 - Any Ork Boy’s Slugga and Choppa can be replaced with 1 Shoota.
-- The Boss Nob can be equipped with a Bosspole (+8 pts).
+- The Boss Nob can be equipped with a Bosspole (+15 pts).
 - TODO
 
 ---
@@ -287,7 +312,7 @@ characteristic is increased by 1.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Runtherd                 |  30 | 5" | 4" |  4 |  3 | 4 | 4 | 3 | 3 | 3 |  7 | 6+ | 32mm
+| Runtherd                 |  30 | 5" | 4" |  4 |  3 | 4 | 4 | 3 | 3 | 3 |  8 | 6+ | 32mm
 
 This unit contains 1 Runtherd, who is equipped with a Slugga and a Grabba stikk.
 
@@ -321,9 +346,9 @@ Detachment. RUNTHERD units do not take up slots in a Detachment.
 
 | Models in unit      | Nerve 
 |---------------------|-------
-| 1-3                 |    6
-| 4-6                 |    7
-| 7-10                |    8
+| 1-3                 |    5
+| 4-6                 |    6
+| 7-10                |    7
 
 This unit contains 4 Nobz and 1 Boss Nob. It can contain up to 5 additional Nobz. Every model 
 is equipped with a Slugga, a Choppa, and Stikkbombs.
@@ -341,7 +366,7 @@ characteristic is increased by 1.
 - **Ammo Runt (only if equipped):** TODO
 
 #### > OPTIONS:
-- The unit's Boss Nob can be equipped with 1 Bosspole (+8 pts).
+- The unit's Boss Nob can be equipped with 1 Bosspole (+15 pts).
 - Any number of models can each have their Slugga and Choppa replaced with TWO of the following: 
   - 1 Big choppa (+? pts),
   - 1 Choppa (free),
@@ -400,9 +425,9 @@ once this ability has been used (a Grot Orderly does not count as a model for an
 
 | Models in unit      | Nerve 
 |---------------------|-------
-| 1-5                 |    6
-| 6-10                |    7
-| 11-15               |    8
+| 1-5                 |    5
+| 6-10                |    6
+| 11-15               |    7
 
 This unit contains 5 Lootas. It can include up to 10 additional Lootas. For every 5 models in the unit, a Spanner can
 take the place of one Loota. Each Loota is armed with a Deffgun and Stikkbombs. Each Spanner is armed with a Big shoota 
@@ -421,6 +446,7 @@ and Stikkbombs.
 - **Waaagh!**
 - **Deffguns:** When this unit is selected to shoot, after declaring targets, roll a single D3 to determine the number
 of shots every `Heavy D3` weapon the unit is equipped with can make.
+- **Deafening Roar of Dakka:** While this unit contains at least 1 Loota, add 1 to the Nerve characteristic of the unit.
 - **Mekaniak:** At the end of your Movement phase, a Spanner can repair a single friendly \<CLAN\> VEHICLE model within
 3". That model regains 1 lost wound. A model can only be repaired up to thrice per turn (this includes the 
 **Big Mekaniak** special rule some models may have).
@@ -437,7 +463,12 @@ of shots every `Heavy D3` weapon the unit is equipped with can make.
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
-| Deffkopta                |  65 | 12" | 4" |  4 |  3 | 4 | 5 | 4 | 2 | 3 |  7 | 4+ | ??mm
+| Deffkopta                |  65 | 12" | 4" |  4 |  3 | 4 | 5 | 4 | 2 | 3 |  * | 4+ | ??mm
+
+| Models in unit      | Nerve 
+|---------------------|-------
+| 1-3                 |    7
+| 4-6                 |    8
 
 This unit contains 3 Deffkoptas. It can contain up to 3 additional Deffkoptas. Every model is equipped with
 Kopta rokkits, Spinnin' blades, a Slugga and Stikkbombs.
@@ -469,7 +500,7 @@ but it cannot use any ranged weapons in the following Shooting phase.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T (FSR) | W | A | I |  N | Sv | Base
 |--------------------------|-----|----|----|----|----|---|---------|---|---|---|----|----|------
-| Runtherd                 | 125 | 7" | 4" |  5 |  3 | 6 |  7/7/7  | 8 | 3 | 3 |  7 | 3+ | 60mm
+| Runtherd                 | 125 | 7" | 4" |  5 |  3 | 6 |  7/7/7  | 8 | 3 | 3 |  8 | 3+ | 60mm
 
 This unit contains 1 Deff Dread. It can contain up to 2 additional Deff Dreads. Every model is equipped with
 2 Big shootas and 2 Dread klaws.
@@ -510,7 +541,7 @@ set up for the first time, each model is treated as a separate unit.
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Killa Kan                |  50 | 5" | 4" |  3 |  5 | 5 | 6 | 5 | 3 | 2 |  6 | 3+ | 60mm
+| Killa Kan                |  50 | 5" | 4" |  3 |  5 | 5 | 6 | 5 | 3 | 2 |  7 | 3+ | 60mm
 
 This unit contains 1 Killa Kan. It can include up to 5 additional Killa Kans. Every model is equipped with a... TODO
 
@@ -532,7 +563,7 @@ This unit contains 1 Killa Kan. It can include up to 5 additional Killa Kans. Ev
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T (FSR) |   W   |  A  | I |  N | Sv | Base
 |--------------------------|-----|-----|----|----|----|---|---------|-------|-----|---|----|----|------
-| Battlewagon              | 155 | 12" | 4" |  3 |  3 | 8 |  8/7/7  | 9 - 16|  6  | 3 |  7 | 3+ | Hull
+| Battlewagon              | 155 | 12" | 4" |  3 |  3 | 8 |  8/7/7  | 9 - 16|  6  | 3 |  8 | 3+ | Hull
 |                          |     |  9" |    |  3 |  3 | 6 |         | 5 - 8 | 2D3 |   |    |    |
 |                          |     |  6" |    |  3 |  3 | 4 |         | 1 - 4 |  D3 |   |    |    |
 
