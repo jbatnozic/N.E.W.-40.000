@@ -147,16 +147,22 @@ WARLORD gains the **Explodes** special rule with the following profile:
   ### Nephrekh
 
   - **\[Ability] Translocation Beams:** Models in this unit have a 6+ invulnerable save. In addition, when this unit
-Advances or Disengages, you may choose to have it Translocate - if it does, models in it can move horizontally through
-terrain and other models when resolving this Advance or Disengage move, but the unit will not be eligible to perform any
-actions in the following Shooting phase. Units that Disengage by Translocating cannot be pursued.
+Advances or Disengages, you may choose to have it Translocate - if it does, models in this unit may move a maximum
+distance equal to their Move characteristic + 6", or two their Move characteristic, whichever is lower (same as when
+Advancing normaly) AND they may move horizontally through terrain features and other models while resolving this move.
+After a unit Translocates, it becomes exhausted and not eligible to perform any actions in the following shooting
+phase, but all ranged attacks targetting this unit in the following shooting phasesuffer an Impairment to their hit
+rolls.
+  - **\[Stratagem] Event Horizon Shift (2CP):** Use this Stratagem when a NEPREKH CORE unit Translocates using its
+**Translocation Beams** ability. That unit and up to 1 NEPREKH CORE CHARACTER that may have joined it during the
+Translocation becomes subject to the following effects: a) If it Disengaged using this ability, it cannot be Pursued;
+b) After finishing the action, the unit becomes unexhausted and the effect of **Translocation Beams** no longer
+prevents it from performing actions in the following shooting phase; c) The unit counts as having moved Normally.
+All of the above are Command Effects.
   - **\[Stratagem] Translocation Crypt (1CP):** Use this Stratagem before the battle when declaring reserves and
 transports (if you are playing a mission without this step, use this Stratagem during deployment instead). Select one
 NEPHREKH unit (excluding VEHICLE or MONSTER units) from your army. That unit gains the **Dimensional Translocation**
 special rule.
-  - **\[Stratagem] Event Horizon Shift (2CP):** Use this Stratagem after a NEPREKH CORE unit Translocates using its
-**Translocation Beams** ability. That unit becomes unexhausted and can perform actions normally in the subsequent
-phases, as if it hadn't Disengaged, even if it had. This is a Command Effect.
   - **\[Relic] Staff of Dawn:** Equip to a NEPREKH CHARACTER model armed with a Staff of light. The Staff of Dawn
 replaces the staff of light and has the profile described below.
   - **\[Warlord Trait] Hyperlight Drifter:** This unit WARLORD gains the **Dimensional Translocation** special rule. If
