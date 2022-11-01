@@ -867,7 +867,7 @@ something a 12 year old would come up with as 'coolest ever'...). Only one of th
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI
 
-**KEYWORDS:** CHARCTER, INFANTRY, ASPECT WARRIOR, PHOENIX LORD, HOWLING BANSHEE, JAIN ZAR
+**KEYWORDS:** CHARCTER, INFANTRY, CORE, ASPECT WARRIOR, PHOENIX LORD, HOWLING BANSHEE, JAIN ZAR
 
 | WEAPON                            | RANGE | TYPE      |   S  | AP | D | Qualities
 |-----------------------------------|-------|-----------|------|----|---|-----------
