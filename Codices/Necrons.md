@@ -1232,6 +1232,7 @@ Every model is equipped with Automaton claws.
 
 #### > SPECIAL RULES:
 - \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless**
+- **All-Out Shooting**
 - **Scarab Hive:** At the start of your Morale phase, for each model with this ability, select one friendly \<DYNASTY\>
 CANOPTEK SCARAB SWARM unit within 6" of that model. If the selected unit is below its starting strength, one model is 
 returned to that unit - set it up with full wounds remaining in Unit Coherency with its unit and as close as possible to

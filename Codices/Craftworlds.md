@@ -856,6 +856,46 @@ against ranged attacks.
 
 ---
 
+### \[HQ] Jain Zar
+
+| NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I  |  N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---|---|---|----|----|----|------
+| Jain Zar                  | 225 |  8" | 4" |  8 |  9 | 4 | 4 | 6 | 6 | 8  | 10 | 2+ | 40mm
+
+Jain Zar is a single model armed with the Blade of Destruction, Silent Death and Terror’s Lament (bro these sound like
+something a 12 year old would come up with as 'coolest ever'...). Only one of this model may be included in your army.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI
+
+**KEYWORDS:** CHARCTER, INFANTRY, ASPECT WARRIOR, PHOENIX LORD, HOWLING BANSHEE, JAIN ZAR
+
+| WEAPON                            | RANGE | TYPE      |   S  | AP | D | Qualities
+|-----------------------------------|-------|-----------|------|----|---|-----------
+| The Silent Death                  |  12"  | Assault 6 |   6  | -2 | 1 | -
+| The Blade of Destruction (normal) | Melee | Melee     |  +2  | -3 | 2 | -
+| The Blade of Destruction (sweep)  | Melee | Melee     | User | -3 | 1 | Each time an attack is made with this weapon profile, make 2 hit rolls instead of 1.
+
+#### > SPECIAL RULES:
+- **Battle Focus**
+- **Acrobatic:** When determining this unit's Charge Distance, you can consider one of the rolled D3s as a 3.
+- **Favoured of Khaine** Jain Zar has a 4+ invulnerable save and is **Fearless**.
+- **First Among the Howling Banshees:** At the start of your Command phase, select 2 Exarch powers from the Howling
+Banshee datasheet. Until the end of the battle round, Jain Zar has these 2 powers and is considered to be a Howling
+Banshee Exarch for purposes of their Effects.
+- **Storm of Silence (aura):** While a friendly HOWLING BANSHEES unit is within 6" of this model, add 2 to the nerve
+characteristic of models in that unit and that unit has the **Objective Secured** ability. This is a Command Effect.
+- **Terror's Lament:** This item counts as a Banshee Mask (see Howling Banshee datasheet). In addition, while an enemy
+unit is within 1" of the bearer, subtract 10 from its total Initiative (down to a minimum of 1).
+- **Whirlwind of Blades:** At the end of the Battle phase, if Jain Zar is in Engagement Range of any enemy unit(s), she
+can attack each of those units in the following way: the number of attacks made against each such unit is equal to the
+number of models in that unit that are also within 1" of Jain Zar; these attacks are melee attacks and are resolved with
+Strength: User, AP: -1, Damage: 1.
+
+#### > OPTIONS:
+(none)
+
+---
+
 ### \[HQ] Avatar of Khaine
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I  |  N | Sv | Base 
@@ -876,12 +916,55 @@ The Avatar of Khaine is a single model armed with the Wailing Doom. Only one of 
 | The Wailing Doom (Great Axe)      | Melee | Melee     |  +3  | -3 | 3 | **High-powered**
 
 #### > SPECIAL RULES:
-- **Point-blank shooting**
+- **Point-Blank Shooting**
 - **Daemonic:** This unit has a 5+ invulnerable save.
 - **Molten Body:** This unit receives a +1 bonus to all saving throws against attacks with a Damage characteristic of 1.
 In addition, roll a D6 whenever the it would suffer a wound. On a 5+, that wound is ignored.
 - **Khaine Awakened:** Friendly ASURYANI units within 12" of the Avatar of Khaine (including the Avatar itself) are 
 Fearless, and you can re-roll their Charge rolls.
+
+#### > OPTIONS:
+(none)
+
+---
+
+### \[HQ] Tanc'Rethil
+
+_Long ago, Tanc'Rethil was one of the rare male Aeldari individuals who chose to walk the Path of the Banshee. Though
+tragically struck down in battle, his exceptionally strong spirit allowed him to retain a shard of his former
+personality even in Wraith form. In times of need, he is eager to join his sisters in battle._
+
+| NAME                     | PTS |  M  | CB | MS | BS | S | T |  W   | A | I |  N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---|------|---|---|----|----|------
+| Wraithlord               | 185 |  8" | 4" |  7 |  8 | 7 | 8 | 6-10 | 6 | 4 | 10 | 3+ | 60mm 
+|                          |     |  7" | 4" |    |  6 |   |   |  3-5 | 5 |   |    | 3+ |
+|                          |     |  6" | 4" |    |  4 |   |   |  1-2 | 4 |   |    | 3+ |
+
+Tanc'Rethil is a single model armed with Wraithbone fists, a Ghostglaive, 2 Flamers, 2 Shuriken cannons and a
+Wraithshield. Only one of this model may be included in your army.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, SPIRIT HOST, \<CRAFTWORLD\>
+
+**KEYWORDS:** CHARCTER, MONSTER, WRAITH CONSTRUCT, WRAITHLORD
+
+| WEAPON                     |  TYPE |   S  | AP |   D  | QUALITIES
+|----------------------------|-------|------|----|------|---------------------------
+| Ghostglaive                | Melee |  +3  | -3 | D3+3 | **High-powered**
+| Wraithbone fists           | Melee | User | -2 |   3  | -
+
+#### > SPECIAL RULES:
+- **Wraith Construct**
+- **Point-Blank Shooting**, **All-Out Shooting**
+- **Ghost warrior:** Though Tanc'Rethil takes up an HQ slot, he cannot be the only HQ unit in your army, nor can he be
+the Warlord of your army.
+- **Strong Spirit:** At the start of your Command phase, roll a D6. On a 3+, Tanc'Rethil does not suffer any
+**Wraithsight**-related penalties until the end of the battle round even if there are no friendly nearby PSYKERs.
+- **Symbol of Perseverance (aura):** When you make a wound roll for a melee attack made by a model in a 
+CORE \<CRAFTOWLRD\> unit that's within 6" of Tanc'Rethil, you may re-roll a 'tens' roll of 1. This is a Command Effect.
+- **Memories of Glory Past:** While Tanc'Rethil is within 6" of a friendly \<CRAFTWORLD\> HOWLING BANSHEE unit: a) he is
+considered to have full wounds remaining for the purposes of determining what characteristics on his profile to use;
+b) add 1 to his Attacks characteristic. This is a Command Effect.
+- **Wraithshield:** Tanc'Rethil has a 5+ invulnerable save.
 
 #### > OPTIONS:
 (none)
@@ -1461,7 +1544,7 @@ Shuriken cannons.
 
 #### > SPECIAL RULES:
 - **Battle Focus**
-- **Point-blank Shooting**
+- **Point-Blank Shooting**
 - **Power Field:** Models in this unit have 5+ invulnerable save.
 - **Explodes:** `Roll: 6+ Range: 3" Strength: 6 AP: -2 Qualities: -`
 
@@ -1498,7 +1581,7 @@ A Fire Prism is a single model equipped with a Prism cannon and a Twin shuriken 
 
 #### > SPECIAL RULES:
 - **Hover Tank:** Distance and ranges are always measured to and from this model’s hull, even though it has a base.
-- **Point-blank Shooting**
+- **Point-Blank Shooting**
 - **Hovering:** Distance and ranges are always measured to and from this model’s hull, even though it has a base.
 - **Explodes:** `Roll: 5+ Range: 6" Strength: 8 AP: -2 Qualities: -`
 - **Link Fire:** When this model is about to resolve the Full Shooting action, it can, instead of making any attacks, 
@@ -1568,7 +1651,7 @@ A Wraithlord is a single model armed with two Shuriken catapults and Wraithbone 
 
 #### > SPECIAL RULES:
 - **Wraith Construct**
-- **Point-blank shooting**
+- **Point-Blank Shooting**, **All-Out Shooting**
 - **Wraithshield (only if equipped):** Models in this unit have a 5+ invulnerable save.
 
 #### > OPTIONS:
@@ -1604,7 +1687,7 @@ A Wraithseer is a single model armed with two Shuriken catapults and Wraithbone 
 
 #### > SPECIAL RULES:
 - **Wraith Construct**
-- **Point-blank shooting**
+- **Point-Blank Shooting**, **All-Out Shooting**
 - **Wraithshield (only if equipped):** Models in this unit have a 5+ invulnerable save.
 - **Psyker:** This model can attempt to manifest one psychic power in each friendly Psychic phase, and attempt to deny
 one psychic power in each enemy Psychic phase. It knows the Smite power and a total of one psychic power from the following
@@ -1703,7 +1786,7 @@ A Wave Serpent is a single model equipped with a Twin shuriken cannon and a Twin
 **Weapon Facings:** Twin shuriken cannon: Front, Left, Right, Back; Twin shuriken catapult: Front.
 
 #### > SPECIAL RULES:
-- **Point-blank Shooting**
+- **Point-Blank Shooting**
 - **Transport:** This model can transport up to 12 PHOENIX LORD and/or \<CRAFTWORLD\> INFANTRY models. 
 Each WRAITHGUARD or WRAITHBLADE model takes the space of two other models.
 - **Serpent Shield:** Whenever this model would lose a wound, roll a die. On a 6 (or 5+ if it is also equipped
