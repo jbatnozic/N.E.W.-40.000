@@ -691,7 +691,9 @@ A Farseer is a single model armed with a Shuriken pistol and a Witchblade.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
-**KEYWORDS:** CHARCTER, INFANTRY, CORE, PSYKER, FARSEER
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CHARCTER, CORE, PSYKER, FARSEER
 
 #### > SPECIAL RULES:
 - **Battle Focus**
@@ -718,7 +720,9 @@ A Farseer is a single model armed with a Shuriken pistol, a Witchblade and a Twi
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
-**KEYWORDS:** CHARCTER, BIKER, CORE, PSYKER, FARSEER, FARSEER SKYRUNNER
+**UNIT TYPE KEYWORDS:** BIKER
+
+**KEYWORDS:** CHARCTER, CORE, PSYKER, FARSEER, FARSEER SKYRUNNER
 
 #### > SPECIAL RULES:
 - **Battle Focus**
@@ -749,7 +753,9 @@ A Warlock is a single model armed with a shuriken pistol and a Witchblade.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
-**KEYWORDS:** CHARCTER, INFANTRY, CORE, PSYKER, WARLOCK
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CHARCTER, CORE, PSYKER, WARLOCK
 
 #### > SPECIAL RULES:
 - **Battle Focus**
@@ -778,7 +784,9 @@ A Warlock is a single model armed with a shuriken pistol and a Witchblade.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
-**KEYWORDS:** CHARCTER, INFANTRY, CORE, PSYKER, SPIRITSEER
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CHARCTER, CORE, PSYKER, SPIRITSEER
 
 #### > SPECIAL RULES:
 - **Battle Focus**
@@ -804,7 +812,9 @@ An Autarch is a single model armed with a Power sword, Shuriken pistol and Plasm
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
-**KEYWORDS:** CHARCTER, INFANTRY, CORE, AUTARCH
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CHARCTER, CORE, AUTARCH
 
 #### > SPECIAL RULES:
 - **Battle Focus**
@@ -841,7 +851,9 @@ equipped with a Twin shuriken catapult.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
-**KEYWORDS:** CHARCTER, BIKER, FLY, CORE, AUTARCH, AUTARCH SKYRUNNER
+**UNIT TYPE KEYWORDS:** BIKER
+
+**KEYWORDS:** CHARCTER, FLY, CORE, AUTARCH, AUTARCH SKYRUNNER
 
 #### > SPECIAL RULES:
 - **Battle Focus**
@@ -860,14 +872,16 @@ against ranged attacks.
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I  |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|----|----|----|------
-| Jain Zar                  | 225 |  8" | 4" |  8 |  9 | 4 | 4 | 6 | 6 | 8  | 10 | 2+ | 40mm
+| Jain Zar                 | 225 |  8" | 4" |  8 |  9 | 4 | 4 | 6 | 6 | 8  | 10 | 2+ | 40mm
 
 Jain Zar is a single model armed with the Blade of Destruction, Silent Death and Terror’s Lament (bro these sound like
 something a 12 year old would come up with as 'coolest ever'...). Only one of this model may be included in your army.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI
 
-**KEYWORDS:** CHARCTER, INFANTRY, CORE, ASPECT WARRIOR, PHOENIX LORD, HOWLING BANSHEE, JAIN ZAR
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CHARACTER, CORE, ASPECT WARRIOR, PHOENIX LORD, HOWLING BANSHEE, JAIN ZAR
 
 | WEAPON                            | RANGE | TYPE      |   S  | AP | D | Qualities
 |-----------------------------------|-------|-----------|------|----|---|-----------
@@ -906,7 +920,9 @@ The Avatar of Khaine is a single model armed with the Wailing Doom. Only one of 
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
 
-**KEYWORDS:** CHARCTER, MONSTER, DAEMON, AVATAR OF KHAINE
+**UNIT TYPE KEYWORDS:** MONSTER
+
+**KEYWORDS:** CHARCTER, DAEMON, AVATAR OF KHAINE
 
 | WEAPON                            | RANGE | TYPE      |   S  | AP | D | Qualities
 |-----------------------------------|-------|-----------|------|----|---|-----------
@@ -916,7 +932,7 @@ The Avatar of Khaine is a single model armed with the Wailing Doom. Only one of 
 | The Wailing Doom (Great Axe)      | Melee | Melee     |  +3  | -3 | 3 | **High-powered**
 
 #### > SPECIAL RULES:
-- **Point-Blank Shooting**
+- **Point-Blank Shooting**, **Relentless**
 - **Daemonic:** This unit has a 5+ invulnerable save.
 - **Molten Body:** This unit receives a +1 bonus to all saving throws against attacks with a Damage characteristic of 1.
 In addition, roll a D6 whenever the it would suffer a wound. On a 5+, that wound is ignored.
@@ -945,7 +961,9 @@ Wraithshield. Only one of this model may be included in your army.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, SPIRIT HOST, \<CRAFTWORLD\>
 
-**KEYWORDS:** CHARCTER, MONSTER, WRAITH CONSTRUCT, WRAITHLORD
+**UNIT TYPE KEYWORDS:** MONSTER
+
+**KEYWORDS:** CHARCTER, WRAITH CONSTRUCT, WRAITHLORD
 
 | WEAPON                     |    TYPE   | Range |   S  | AP |   D  | QUALITIES
 |----------------------------|-----------|-------|------|----|------|---------------------------
@@ -993,9 +1011,11 @@ For every 10 Guardians in the unit, you may include one Heavy Weapon Platform.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
-**KEYWORDS (Guardian):** INFANTRY, GUARDIAN, GUARDIAN DEFENDERS, \<CORE\>
+**UNIT TYPE KEYWORDS:** INFANTRY
 
-**KEYWORDS (Heavy Weapon Platform):** INFANTRY, ARTILLERY, GUARDIAN, HEAVY WEAPON PLATFORM
+**KEYWORDS (Guardian):** GUARDIAN, GUARDIAN DEFENDERS, \<CORE\>
+
+**KEYWORDS (Heavy Weapon Platform):** ARTILLERY, GUARDIAN, HEAVY WEAPON PLATFORM
 
 #### > SPECIAL RULES:
 - **Battle Focus**
@@ -1007,10 +1027,10 @@ the Guardians in the unit are destroyed, the Heavy Weapon Platform(s) is(are) al
 
 #### > OPTIONS:
 - Any Heavy Weapon Platform may replace its Shuriken cannon with one of the following weapons:
-  - Scatter laser (free)
-  - Starcannon (2 pts)
-  - Aeldari missile launcher (12 pts)
-  - Bright lance (12 pts)
+  - Scatter laser (free);
+  - Starcannon (2 pts);
+  - Aeldari missile launcher (12 pts);
+  - Bright lance (12 pts).
 
 ---
 
@@ -1032,7 +1052,9 @@ Each model is armed with an Avenger shuriken catapult and Plasma grenades.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
 
-**KEYWORDS:** INFANTRY, CORE, DIRE AVENGERS
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CORE, DIRE AVENGERS
 
 | WEAPON                     | RANGE |     TYPE    |  S | AP | D | QUALITIES
 |----------------------------|-------|-------------|----|----|---|--------------------------- 
@@ -1087,7 +1109,9 @@ Each model is armed with a Shuriken pistol and a Ranger long rifle.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
-**KEYWORDS:** INFANTRY, CORE, RANGERS
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CORE, RANGERS
 
 | WEAPON                     | RANGE |     TYPE    | S | AP |  D | QUALITIES
 |----------------------------|-------|-------------|---|----|----|--------------------------- 
@@ -1123,7 +1147,9 @@ Every model is equipped with a Fusion gun and Melta bombs.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
 
-**KEYWORDS:** INFANTRY, CORE, FIRE DRAGONS
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CORE, FIRE DRAGONS
 
 | WEAPON                     | RANGE |     TYPE    |  S | AP |   D  | QUALITIES
 |----------------------------|-------|-------------|----|----|------|--------------------------- 
@@ -1175,7 +1201,9 @@ Every model is equipped with a Shuriken pistol, Power sword and a Banshee mask.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
 
-**KEYWORDS:** INFANTRY, CORE, HOWLING BANSHEES
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CORE, HOWLING BANSHEES
 
 | WEAPON           | RANGE |    TYPE   |   S  | AP | D | QUALITIES
 |------------------|-------|-----------|------|----|---|--------------------------- 
@@ -1219,7 +1247,6 @@ As with all exarch powers, Howling Banshee Exarch powers are NOT in effect while
 
 ### \[Elite] Striking Scorpions
 
-
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
 | Striking Scorpion        |  20 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 6 | * | 3+ | 25mm 
@@ -1236,7 +1263,9 @@ Scorpions. Every model is equipped with a Shuriken pistol, a Scorpion chainsword
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
 
-**KEYWORDS:** INFANTRY, CORE, STRIKING SCORPIONS
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CORE, STRIKING SCORPIONS
 
 | WEAPON                     | RANGE |     TYPE    |  S | AP |  D | QUALITIES
 |----------------------------|-------|-------------|----|----|----|--------------------------- 
@@ -1292,7 +1321,9 @@ a Wraithcannon and Wraithguard fists.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, SPIRIT HOST, \<CRAFTWORLD\>
 
-**KEYWORDS:** INFANTRY, WRAITH CONSTRUCT, WRAITHGUARD
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** WRAITH CONSTRUCT, WRAITHGUARD
 
 | WEAPON                     | RANGE |     TYPE    |  S | AP |  D | QUALITIES
 |----------------------------|-------|-------------|----|----|----|--------------------------- 
@@ -1329,7 +1360,9 @@ ghostswords.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, SPIRIT HOST, \<CRAFTWORLD\>
 
-**KEYWORDS:** INFANTRY, WRAITH CONSTRUCT, WRAITHBLADES
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** WRAITH CONSTRUCT, WRAITHBLADES
 
 | WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
 |----------------------------|-------|------|----|-----|--------------------------- 
@@ -1365,7 +1398,9 @@ Each model is armed with a death spinner.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
 
-**KEYWORDS:** INFANTRY, CORE, JUMP PACK, WARP SPIDERS
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CORE, JUMP PACK, WARP SPIDERS
 
 | WEAPON                            | RANGE | TYPE      |  S  | AP |   D  | Qualities
 |-----------------------------------|-------|-----------|-----|----|------|-----------
@@ -1426,7 +1461,9 @@ Each model is armed with a Lasblaster and Swooping hawk grenades.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
 
-**KEYWORDS:** INFANTRY, CORE, JUMP PACK, FLY, SWOOPING HAWKS
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CORE, JUMP PACK, FLY, SWOOPING HAWKS
 
 | WEAPON                            | RANGE | TYPE      |  S  | AP |  D  | Qualities
 |-----------------------------------|-------|-----------|-----|----|-----|-----------
@@ -1496,7 +1533,9 @@ Each model is armed with a Laser lance and Twin shuriken catapult.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
 
-**KEYWORDS:** BIKER, CORE, FLY, SHINING SPEARS
+**UNIT TYPE KEYWORDS:** BIKER
+
+**KEYWORDS:** CORE, FLY, SHINING SPEARS
 
 | WEAPON                            | RANGE | TYPE      |   S  | AP | D | Qualities
 |-----------------------------------|-------|-----------|------|----|---|-----------
@@ -1541,7 +1580,9 @@ Shuriken cannons.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
-**KEYWORDS:** VEHICLE, WAR WALKERS
+**UNIT TYPE KEYWORDS:** VEHICLE
+
+**KEYWORDS:** WAR WALKERS
 
 #### > SPECIAL RULES:
 - **Battle Focus**
@@ -1570,7 +1611,9 @@ A Fire Prism is a single model equipped with a Prism cannon and a Twin shuriken 
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
-**KEYWORDS:** VEHICLE, FLY, FIRE PRISM
+**UNIT TYPE KEYWORDS:** VEHICLE
+
+**KEYWORDS:** FLY, FIRE PRISM
 
 | WEAPON                            | RANGE | TYPE      |   S  | AP |  D  | Qualities
 |-----------------------------------|-------|-----------|------|----|-----|-----------
@@ -1643,7 +1686,9 @@ A Wraithlord is a single model armed with two Shuriken catapults and Wraithbone 
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, SPIRIT HOST, \<CRAFTWORLD\>
 
-**KEYWORDS:** MONSTER, WRAITH CONSTRUCT, WRAITHLORD
+**UNIT TYPE KEYWORDS:** MONSTER
+
+**KEYWORDS:** WRAITH CONSTRUCT, WRAITHLORD
 
 | WEAPON                     |  TYPE |   S  | AP |   D  | QUALITIES
 |----------------------------|-------|------|----|------|---------------------------
@@ -1652,18 +1697,20 @@ A Wraithlord is a single model armed with two Shuriken catapults and Wraithbone 
 
 #### > SPECIAL RULES:
 - **Wraith Construct**
-- **Point-Blank Shooting**, **All-Out Shooting**
+- **Point-Blank Shooting**, **All-Out Shooting**, **Relentless**
 - **Wraithshield (only if equipped):** Models in this unit have a 5+ invulnerable save.
 
 #### > OPTIONS:
-- This model may replace any Shuriken catapult with a Flamer (free).
-- This model may take a Ghostglaive (+15 pts) and/or a Wraithshield (+10 pts).
-- This model may take up to 2 items from the following list:
-  - Shuriken cannon (15 pts)
-  - Scatter laser (15 pts)
-  - Starcannon (20 pts)
-  - Aeldari missile launcher (30 pts)
-  - Bright lance (30 pts)
+- This model may replace any Shuriken catapult with one of the following:
+  - Flamer (free);
+  - Ghostglaive (+15 pts);
+  - Wraithshield (+10 pts).
+- This model may take up to 1 item from the following list:
+  - Shuriken cannon (15 pts);
+  - Scatter laser (15 pts);
+  - Starcannon (20 pts);
+  - Aeldari missile launcher (30 pts);
+  - Bright lance (30 pts).
 
 ---
 
@@ -1679,7 +1726,9 @@ A Wraithseer is a single model armed with two Shuriken catapults and Wraithbone 
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, SPIRIT HOST, \<CRAFTWORLD\>
 
-**KEYWORDS:** MONSTER, PSYKER, WRAITH CONSTRUCT, WRAITHSEER
+**UNIT TYPE KEYWORDS:** MONSTER
+
+**KEYWORDS:** PSYKER, WRAITH CONSTRUCT, WRAITHSEER
 
 | WEAPON                     |  TYPE |   S  | AP |   D  | QUALITIES
 |----------------------------|-------|------|----|------|---------------------------
@@ -1688,21 +1737,23 @@ A Wraithseer is a single model armed with two Shuriken catapults and Wraithbone 
 
 #### > SPECIAL RULES:
 - **Wraith Construct**
-- **Point-Blank Shooting**, **All-Out Shooting**
+- **Point-Blank Shooting**, **All-Out Shooting**, **Relentless**
 - **Wraithshield (only if equipped):** Models in this unit have a 5+ invulnerable save.
 - **Psyker:** This model can attempt to manifest one psychic power in each friendly Psychic phase, and attempt to deny
 one psychic power in each enemy Psychic phase. It knows the Smite power and a total of one psychic power from the following
 disciplines: Runes of Battle, Runes of Power.
 
 #### > OPTIONS:
-- This model may replace any Shuriken catapult with a Flamer (free).
-- This model may take a Ghostspear (+15 pts) and/or a Wraithshield (+10 pts).
-- This model may take up to 2 items from the following list:
-  - Shuriken cannon (15 pts)
-  - Scatter laser (15 pts)
-  - Starcannon (20 pts)
-  - Aeldari missile launcher (30 pts)
-  - Bright lance (30 pts)
+- This model may replace any Shuriken catapult with one of the following:
+  - Flamer (free);
+  - Ghostglaive (+15 pts);
+  - Wraithshield (+10 pts).
+- This model may take up to 1 item from the following list:
+  - Shuriken cannon (15 pts);
+  - Scatter laser (15 pts);
+  - Starcannon (20 pts);
+  - Aeldari missile launcher (30 pts);
+  - Bright lance (30 pts).
 
 ---
 
@@ -1724,7 +1775,9 @@ Each model is armed with a Reaper Launcher.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, ASPECT WARRIOR, \<CRAFTWORLD\>
 
-**KEYWORDS:** INFANTRY, CORE, DARK REAPERS
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CORE, DARK REAPERS
 
 | WEAPON                            | RANGE | TYPE      |   S  | AP |   D  | Qualities
 |-----------------------------------|-------|-----------|------|----|------|-----------
@@ -1782,7 +1835,9 @@ A Wave Serpent is a single model equipped with a Twin shuriken cannon and a Twin
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
-**KEYWORDS:** VEHICLE, TRANSPORT, FLY, WAVE SERPENT
+**UNIT TYPE KEYWORDS:** VEHICLE
+
+**KEYWORDS:** TRANSPORT, FLY, WAVE SERPENT
 
 **Weapon Facings:** Twin shuriken cannon: Front, Left, Right, Back; Twin shuriken catapult: Front.
 
@@ -1801,10 +1856,10 @@ suffers D3+1 mortal wounds. The Wave Serpent then gains no benefit from this abi
 - This model may be equipped with Spirit stones (+15 pts).
 - This model may be equipped with Vectored engines (+15 pts).
 - This models' Twin shuriken cannon can be replaced with one of the following:
-  - Twin scatter laser (free)
-  - Twin starcannon (+10 pts)
-  - Twin Aeldari missile launcher (+30 pts)
-  - Twin bright lance (+30 pts)
+  - Twin scatter laser (free);
+  - Twin starcannon (+10 pts);
+  - Twin Aeldari missile launcher (+30 pts);
+  - Twin bright lance (+30 pts).
 
 ---
 
