@@ -898,6 +898,8 @@ This unit contains one Plasmancer equipped with a Plasmic lance.
 
 ### \[???] The Nightbringer (C'Tan Shard Of)
 
+>>>>> UNFINISHED
+
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
 | The Nightbringer         | 480 | 8" | 4" |  7 |  7 | 8 | 8 | 9 | 6 | ? | 11 | 4+ | 40mm 
@@ -1005,6 +1007,7 @@ This unit contains 1 Canoptek Reanimator. It is equipped with 2 Atomiser beams a
 
 #### > SPECIAL RULES:
 - \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless**
+- **Point-Blank Shooting**, **All-Out Shooting**
 - **Explodes:** `Roll: 5+ Range: 6" Strength: 6 AP: -1 Qualities: -`
 - **Reanimation Beam (Aura):** At the end of your Movement phase, you can select one friendly \<DYNASTY\> unit within 6"
 of and visible to this model. Until the end of the battle round, while that unit is within 6" of and visible to this 
@@ -1046,6 +1049,7 @@ This unit contains 1 Canoptek Warbringer. It is equipped with a Heat ray, 2 Atom
 
 #### > SPECIAL RULES:
 - \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless**
+- **Point-Blank Shooting**, **All-Out Shooting**
 - **Explodes:** Roll: 5+ Range: 6" Strength: 6 AP: -1 Qualities: -
 - **War of the Worlds:** This unit is **Relentless**.
 
@@ -1447,6 +1451,7 @@ This unit contains 1 Annihilation Barge. It is equipped with a Tesla cannon and 
 
 #### > SPECIAL RULES:
 - \[Specialised traits] **Command Protocols**, **Living Metal** and **Fearless**
+- **Point-Blank Shooting**, **All-Out Shooting**
 - **Explodes:** `Roll: 5+ Range: 6" Strength: 6 AP: -1 Qualities: -`
 - **Quantum Shielding**
   
@@ -1477,6 +1482,7 @@ This unit contains 1 Canoptek Doomstalker. It is equipped with...?
 
 #### > SPECIAL RULES:
 - \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless**
+- **Point-Blank Shooting**, **All-Out Shooting**
 - **Explodes** (TODO)
 
 #### > OPTIONS:
