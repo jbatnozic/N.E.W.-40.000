@@ -670,7 +670,9 @@ This unit contains one Lesser Lord equipped with a Staff of Light.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
-**KEYWORDS:** INFANTRY, CHARACTER, CORE, NOBLE, LESSER LORD
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CHARACTER, CORE, NOBLE, LESSER LORD
 
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
@@ -706,7 +708,9 @@ This unit contains one Lokhust Lord equipped with a Staff of Light.
 
 **FACTION KEYWORDS:** NECRONS, DESTROYER CULT, \<DYNASTY\>
 
-**KEYWORDS:** INFANTRY, CHARACTER, CORE, FLY, LOKHUST LORD
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CHARACTER, CORE, FLY, LOKHUST LORD
 
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Dynastic Ability**
@@ -735,7 +739,9 @@ This unit contains one Skorpekh Lord equipped with an Enmitic annihilator, Flens
 
 **FACTION KEYWORDS:** NECRONS, DESTROYER CULT, \<DYNASTY\>
 
-**KEYWORDS:** INFANTRY, CHARACTER, CORE, SKORPEKH LORD
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CHARACTER, CORE, SKORPEKH LORD
 
 | WEAPON                 | RANGE |    TYPE    |   S  | AP |   D  | QUALITIES
 |------------------------|-------|------------|------|----|------|---------------------------
@@ -764,7 +770,9 @@ This unit contains one Overlord equipped with a Hyperphase glaive and a Tachyon 
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
-**KEYWORDS:** INFANTRY, CHARACTER, CORE, NOBLE, OVERLORD
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CHARACTER, CORE, NOBLE, OVERLORD
 
 | WEAPON                 | RANGE |    TYPE    |   S  | AP |   D  | QUALITIES
 |------------------------|-------|------------|------|----|------|---------------------------
@@ -801,7 +809,9 @@ This unit contains one Royal Warden equipped with a Gauss exterminator.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
-**KEYWORDS:** INFANTRY, CHARACTER, CORE, ROYAL WARDEN
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CHARACTER, CORE, ROYAL WARDEN
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
 |-------------------------------|-------|--------------|----|----|------|---------------------------
@@ -835,7 +845,9 @@ This unit contains one Technomancer equipped with a Staff of light.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
-**KEYWORDS:** INFANTRY, CHARACTER, CORE, CRYPTEK, TECHNOMANCER
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CHARACTER, CORE, CRYPTEK, TECHNOMANCER
 
 #### > SPECIAL RULES:
 - \[Standard Core traits] **Resurrection Protocols**, **Command Protocols**, **Living Metal**, **Cold Hard Logic**, **Dynastic Ability**
@@ -869,6 +881,8 @@ that unit makes a hit roll for an attack, you can re-roll a 'tens' roll of 1.
 
 ### \[HQ] Plasmancer
 
+>>>>> UNFINISHED
+
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
 | Plasmancer               | 120 | 5" | 4" |  5 |  7 | 4 | 4 | 3 | 1 | 3 |  9 | 3+ | 50mm 
@@ -877,7 +891,9 @@ This unit contains one Plasmancer equipped with a Plasmic lance.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
-**KEYWORDS:** INFANTRY, CHARACTER, CORE, CRYPTEK, PLASMANCER
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CHARACTER, CORE, CRYPTEK, PLASMANCER
 
 | WEAPON                   | RANGE |     TYPE     |   S  | AP |   D  | QUALITIES
 |--------------------------|-------|--------------|------|----|------|---------------------------
@@ -908,7 +924,9 @@ This unit contains one C'tan Shard of The Nightbringer equipped with the Scythe 
 
 **FACTION KEYWORDS:** NECRONS
 
-**KEYWORDS:** MONSTER, CHARACTER, FLY, C'TAN SHARD, C’TAN SHARD OF THE NIGHTBRINGER
+**UNIT TYPE KEYWORDS:** MONSTER
+
+**KEYWORDS:** CHARACTER, FLY, C'TAN SHARD, C’TAN SHARD OF THE NIGHTBRINGER
 
 #### > SPECIAL RULES:
 - **Living Metal**
@@ -936,7 +954,9 @@ is equipped with a Gauss flayer.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
-**KEYWORDS:** INFANTRY, CORE, NECRON WARRIORS
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CORE, NECRON WARRIORS
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
 |-------------------------------|-------|--------------|----|----|------|---------------------------
@@ -967,7 +987,9 @@ is equipped with a Gauss blaster.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
-**KEYWORDS:** INFANTRY, CORE, IMMORTALS
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CORE, IMMORTALS
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
 |-------------------------------|-------|--------------|----|----|------|---------------------------
@@ -993,7 +1015,9 @@ This unit contains 1 Canoptek Reanimator. It is equipped with 2 Atomiser beams a
 
 **FACTION KEYWORDS:** NECRONS, CANOPTEK, \<DYNASTY\>
 
-**KEYWORDS:** VEHICLE, CANOPTEK REANIMATOR
+**UNIT TYPE KEYWORDS:** VEHICLE
+
+**KEYWORDS:** CANOPTEK REANIMATOR
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP | D | QUALITIES
 |-------------------------------|-------|--------------|----|----|---|--------------------------- 
@@ -1030,6 +1054,8 @@ This unit contains 1 Canoptek Warbringer. It is equipped with a Heat ray, 2 Atom
 **Note:** Use a Canoptek Reanimator model to represent a Canoptek Warbringer on the battlefield.
 
 **FACTION KEYWORDS:** NECRONS, CANOPTEK, \<DYNASTY\>
+
+**UNIT TYPE KEYWORDS:** VEHICLE
 
 **KEYWORDS:** VEHICLE, CANOPTEK WARBRINGER
 
@@ -1069,7 +1095,9 @@ is equipped with a Warscythe.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
-**KEYWORDS:** INFANTRY, CORE, LYCHGUARD
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CORE, LYCHGUARD
 
 | WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
 |----------------------------|-------|------|----|-----|--------------------------- 
@@ -1097,7 +1125,9 @@ is equipped with a Synaptic disintegrator.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
-**KEYWORDS:** INFANTRY, CORE, HYPERSPACE HUNTER, DEATHMARKS
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CORE, HYPERSPACE HUNTER, DEATHMARKS
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
 |-------------------------------|-------|--------------|----|----|------|--------------------------- 
@@ -1130,7 +1160,9 @@ is equipped with a Flayer claws.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
-**KEYWORDS:** INFANTRY, CORE, FLAYED ONES
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CORE, FLAYED ONES
 
 | WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
 |----------------------------|-------|------|----|-----|--------------------------- 
@@ -1163,7 +1195,9 @@ Every model is equipped with Hyperphase threshers.
 
 **FACTION KEYWORDS:** NECRONS, DESTROYER CULT, \<DYNASTY\>
 
-**KEYWORDS:** INFANTRY, CORE, SKORPEKH DESTROYERS
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CORE, SKORPEKH DESTROYERS
 
 | WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
 |----------------------------|-------|------|----|-----|--------------------------- 
@@ -1190,7 +1224,9 @@ This unit contains 1 Canoptek Plasmacyte.
 
 **FACTION KEYWORDS:** NECRONS, CANOPTEK, \<DYNASTY\>
 
-**KEYWORDS:** BEAST, FLY, CANOPTEK PLASMACYTE
+**UNIT TYPE KEYWORDS:** BEAST
+
+**KEYWORDS:** FLY, CANOPTEK PLASMACYTE
 
 #### > SPECIAL RULES:
 - \[Standard Canoptek traits] **Command Protocols**, **Living Metal** and **Fearless**
@@ -1224,7 +1260,9 @@ Every model is equipped with Automaton claws.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
-**KEYWORDS:** MONSTER, FLY, CANOPTEK, CANOPTEK SPYDER
+**UNIT TYPE KEYWORDS:** MONSTER
+
+**KEYWORDS:** FLY, CANOPTEK, CANOPTEK SPYDER
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP | D | QUALITIES
 |-------------------------------|-------|--------------|----|----|---|--------------------------- 
@@ -1274,7 +1312,9 @@ is equipped with Feeder mandibles.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
-**KEYWORDS:** SWARM, FLY, CANOPTEK SCARAB SWARMS
+**UNIT TYPE KEYWORDS:** SWARM
+
+**KEYWORDS:** FLY, CANOPTEK SCARAB SWARMS
 
 | WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
 |----------------------------|-------|------|----|-----|--------------------------- 
@@ -1303,7 +1343,9 @@ Every model is equipped with Vicious claws.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
-**KEYWORDS:** BEAST, CANOPTEK, CANOPTEK WRAITHS
+**UNIT TYPE KEYWORDS:** BEAST
+
+**KEYWORDS:** CANOPTEK, CANOPTEK WRAITHS
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP | D | QUALITIES
 |-------------------------------|-------|--------------|----|----|---|--------------------------- 
@@ -1338,7 +1380,9 @@ Every model is equipped with a Particle beamer.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
-**KEYWORDS:** BIKERS, FLY, CORE, TOMB BLADES
+**UNIT TYPE KEYWORDS:** BIKER
+
+**KEYWORDS:** FLY, CORE, TOMB BLADES
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP | D | QUALITIES
 |-------------------------------|-------|--------------|----|----|---|--------------------------- 
@@ -1385,7 +1429,9 @@ Every model is equipped with a Gauss cannon.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
-**KEYWORDS:**: INFANTRY, CORE, FLY, DESTROYER CULT, LOKHUST DESTROYERS
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:**: CORE, FLY, DESTROYER CULT, LOKHUST DESTROYERS
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
 |-------------------------------|-------|--------------|----|----|------|--------------------------- 
@@ -1412,7 +1458,9 @@ Destroyers. Every model is equipped with a Gauss destructor.
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
-**KEYWORDS:**: INFANTRY, CORE, FLY, DESTROYER CULT, LOKHUST HEAVY DESTROYERS
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:**: CORE, FLY, DESTROYER CULT, LOKHUST HEAVY DESTROYERS
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D   | QUALITIES
 |-------------------------------|-------|--------------|----|----|-------|--------------------------- 
@@ -1439,7 +1487,9 @@ This unit contains 1 Annihilation Barge. It is equipped with a Tesla cannon and 
 
 **FACTION KEYWORDS:** NECRONS, \<DYNASTY\>
 
-**KEYWORDS:** VEHICLE, FLY, ANNIHILATION BARGE
+**UNIT TYPE KEYWORDS:** VEHICLE
+
+**KEYWORDS:** FLY, ANNIHILATION BARGE
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP |  D  | QUALITIES
 |-------------------------------|-------|--------------|----|----|-----|--------------------------- 
@@ -1462,6 +1512,8 @@ This unit contains 1 Annihilation Barge. It is equipped with a Tesla cannon and 
   
 ### \[Heavy Support] Canoptek Doomstalker
 
+>>>>> UNFINISHED
+
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
 | Canoptek Doomstalker     |     |  " | 4" |  3 |  5 | 6 | 6 |   |   |   | 8 | 3+ | 90mm 
@@ -1470,7 +1522,9 @@ This unit contains 1 Canoptek Doomstalker. It is equipped with...?
 
 **FACTION KEYWORDS:** NECRONS, CANOPTEK, \<DYNASTY\>
 
-**KEYWORDS:** VEHICLE, CANOPTEK DOOMSTALKER
+**UNIT TYPE KEYWORDS:** VEHICLE
+
+**KEYWORDS:** CANOPTEK DOOMSTALKER
 
 | WEAPON                        | RANGE |     TYPE     |  S | AP | D | QUALITIES
 |-------------------------------|-------|--------------|----|----|---|--------------------------- 
