@@ -979,7 +979,7 @@ the Warlord of your army.
 - **Strong Spirit:** At the start of your Command phase, roll a D6. On a 3+, Tanc'Rethil does not suffer any
 **Wraithsight**-related penalties until the end of the battle round even if there are no friendly nearby PSYKERs.
 - **Symbol of Perseverance (aura):** When you make a wound roll for a melee attack made by a model in a 
-CORE \<CRAFTOWLRD\> unit that's within 6" of Tanc'Rethil, you may re-roll a 'tens' roll of 1. This is a Command Effect.
+CORE \<CRAFTWORLD\> unit that's within 6" of Tanc'Rethil, you may re-roll a 'tens' roll of 1. This is a Command Effect.
 - **Memories of Glory Past:** While Tanc'Rethil is within 6" of a friendly \<CRAFTWORLD\> HOWLING BANSHEE unit: a) he is
 considered to have full wounds remaining for the purposes of determining what characteristics on his profile to use;
 b) add 1 to his Attacks characteristic. This is a Command Effect.
