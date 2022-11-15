@@ -936,25 +936,26 @@ personality even in Wraith form. In times of need, he is eager to join his siste
 
 | NAME                     | PTS |  M  | CB | MS | BS | S | T |  W   | A | I |  N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|------|---|---|----|----|------
-| Wraithlord               | 185 |  8" | 4" |  7 |  8 | 7 | 8 | 6-10 | 6 | 4 | 10 | 3+ | 60mm 
+| Wraithlord               | 195 |  8" | 4" |  7 |  8 | 7 | 8 | 6-10 | 6 | 4 | 10 | 3+ | 60mm 
 |                          |     |  7" | 4" |    |  6 |   |   |  3-5 | 5 |   |    | 3+ |
 |                          |     |  6" | 4" |    |  4 |   |   |  1-2 | 4 |   |    | 3+ |
 
-Tanc'Rethil is a single model armed with Wraithbone fists, a Ghostglaive, 2 Flamers, 2 Shuriken cannons and a
+Tanc'Rethil is a single model armed with Wraithbone fists, a Ghostglaive, 2 Relic shuriken cannons and a
 Wraithshield. Only one of this model may be included in your army.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, SPIRIT HOST, \<CRAFTWORLD\>
 
 **KEYWORDS:** CHARCTER, MONSTER, WRAITH CONSTRUCT, WRAITHLORD
 
-| WEAPON                     |  TYPE |   S  | AP |   D  | QUALITIES
-|----------------------------|-------|------|----|------|---------------------------
-| Ghostglaive                | Melee |  +3  | -3 | D3+3 | **High-powered**
-| Wraithbone fists           | Melee | User | -2 |   3  | -
+| WEAPON                     |    TYPE   | Range |   S  | AP |   D  | QUALITIES
+|----------------------------|-----------|-------|------|----|------|---------------------------
+| Relic shuriken cannon      | Assault 4 |  24"  |   6  |  0 |   1  | **Shuriken weapon**
+| Ghostglaive                |   Melee   | Melee |  +3  | -3 | D3+3 | **High-powered**
+| Wraithbone fists           |   Melee   | Melee | User | -2 |   3  | -
 
 #### > SPECIAL RULES:
 - **Wraith Construct**
-- **Point-Blank Shooting**, **All-Out Shooting**
+- **Point-Blank Shooting**, **All-Out Shooting**, **Relentless**
 - **Ghost warrior:** Though Tanc'Rethil takes up an HQ slot, he cannot be the only HQ unit in your army, nor can he be
 the Warlord of your army.
 - **Strong Spirit:** At the start of your Command phase, roll a D6. On a 3+, Tanc'Rethil does not suffer any
