@@ -325,7 +325,7 @@ not to himself).
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Big Mek                  | 75  | 5" | 4" |  5 |  3 | 5 | 5 | 4 | 3 | 3 |  8 | 4+ | 40mm 
+| Big Mek                  | 70  | 5" | 4" |  5 |  3 | 5 | 5 | 5 | 3 | 3 |  8 | 4+ | 40mm 
 
 This unit contains 1 Big Mek, who is equipped with a Slugga, Choppa, and Stikkbombs.
 
@@ -339,9 +339,36 @@ This unit contains 1 Big Mek, who is equipped with a Slugga, Choppa, and Stikkbo
 - **Big Mekaniak:** At the end of your Movement phase, this model can repair one friendly \<CLAN\> VEHICLE model within
 3" of it. That VEHICLE model regains up to D3 lost wounds. Each model can only be repaired up to thrice per turn (this
 includes the **Mekaniak** special rule some models may have).
+- **Grot Oiler (only if equipped):** Once per battle, when the bearer repairs a VEHICLE model, that model can regain 1
+additional lost wound. _It's recommended to place a Grot Oiler model next to the unit as a reminder, removing it once
+this ability has been used (a Grot Oiler does not count as a model for any rules purposes)._
+- **Kustom Force Field (only if equipped):** (Aura) While a friendly ORKS unit is wholly within 6" of the bearer, it
+has a 5+ invulnerable save. The range of this aura ability can never be increased, unless specifically stated otherwise.
 
 #### > OPTIONS:
-- TODO (regular weapons, kustom force field, shokk attak gun, grot oiler)
+- This model's Slugga can be replaced with 1 of the following:
+  - Kombi-rokkit (+5 pts),
+  - Kombi-skorcha (+5 pts),
+  - Kustom shoota (+5 pts),
+  - Kustom mega-slugga (+5 pts).
+- This model's Choppa can be replaced with 1 of the following:
+  - Big choppa (+5 pts),
+  - Kill saw (+10 pts),
+  - Power klaw (+10 pts),
+  - 1 Power stabba (+10 pts).
+- This model's Slugga and Choppa can be replaced with 1 of the following:
+  - Kustom mega-blasta (+10 pts),
+  - Rokkit launcha (+10 pts),
+  - Skorcha (+10 pts),
+  - Shokk Attack Gun (+20pts).
+- If this model is not equipped with a Shokk Attack Gun, it may take a Kustom Force Field (+20pts).
+- This model may take a Grot oiler (+5pts).
+
+---
+
+### \[HQ] Big Mek in Mega Armour
+
+TODO
 
 ---
 
