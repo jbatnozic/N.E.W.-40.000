@@ -249,9 +249,10 @@ The Clan-specific Stratagem, Relic and Warlord Trait are also unlocked for your 
 ## Stratagems
 
   ### Move, You Dogs! (1CP)
-  Use this stratagem after you've made a charge roll for an ORKS INFANTRY unit from your army. Add 2" to its Charge
-  Bonus (CB) characteristic until the end of the phase, unless it would be set to 0" by other rules. If any CHARACTER
-  units are joining this unit for the charge, this stratagem affects them as well.
+  Use this stratagem in your Movement phase. Select an ORKS INFANTRY (non-CHARACTER) unit and/or an
+  ORKS INFANTRY CHARACTER unit from your army (if selecting both, they must be within 2" of each other). The Move (M)
+  characteristic of the selected unit(s) is increased by 2" (1" for MEGA ARMOUR units) until the end of the phase.
+  This is a Command Effect.
 
   ### Heave, Ho! (1CP)
   TODO (throw more stikkbombs)
@@ -263,7 +264,7 @@ The Clan-specific Stratagem, Relic and Warlord Trait are also unlocked for your 
   that model’s profile when resolving those attacks.
 
   ### Tide of Muscle (1CP)
-  // ignore charge modifier (is this needed?)
+  // ignore negative charge modifiers
 
   ### Big Red Button (1CP)
   Use this stratagem when an ORKS VEHICLE from your army that has an **Explodes** (or equivalent) special rule is
@@ -272,14 +273,26 @@ The Clan-specific Stratagem, Relic and Warlord Trait are also unlocked for your 
   ### Careen! (1CP)
   // move before exploding
 
-  ### (Get Stuck In Ladz!) (1/2CP)
-  // fight again
+  ### Get Stuck In Ladz! (1/2CP)
+  Use this stratagem at the end of the Fight phase (before removing casualties). Select 1 ORKS CORE unit from your army
+  that is in Engagement Range of enemy units. This unit can immediately fight (make melee attacks), even if it had
+  already fought in this Fight phase. This unit must use the same stance it had during the rest of the Fight phase.
+  This is a Command Effect.
+  
+  If multiple units have an ability to the same effect, make the attacks in Initiative order (some may happen
+  simultaneously).
+  
+  If the selected unit contains 10 or fewer models, this stratagem costs 1CP. Otherwise it costs 2CP.
 
   ### Grot Shields
 
   ### More Dakka!
   
   ### Unstoppable Green Tide
+  // respawn boyz unit at full strength
+  
+  ### ?
+  // re-roll warphead power selection roll (even if it was already re-rolled)
 
 ## Weapons
 
