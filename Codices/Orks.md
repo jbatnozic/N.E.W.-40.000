@@ -59,19 +59,25 @@ otherwise).
 
 ## Ork Clans (or Klans? idk)
 
-If your army includes any ORKS units, select which Clan they are from. Their \<CLAN\> keyword is replaced with
-the appropriate name (BAD MOONS for Bad Moons, GOFFS for Goffs - you get the idea). Each of these units gains
-the Clan-specific 'Kultur' as a special rule. The Clan-specific Stratagem, Relic and Warlord Trait are also
-unlocked for your army to use.
+If your army includes any ORKS units, select which Clan they are from. 
+Then for each unit with the \<CLAN\> keyword:
+- Replace this keyword with the appropriate name (BAD MOONS for Bad Moons, GOFFS for Goffs - you get the idea).
+- Each of these units gains the Clan-specific 'Kultur' as a special rule that it can benefit from while it is not
+  In Disarray (unless noted otherwise).
+
+The Clan-specific Stratagem, Relic and Warlord Trait are also unlocked for your army to use.
 
   ### Bad Moons
-  - **\[Kultur] - Armed To Da Teef:** TODO
-  - **\[Stratagem] - Showin' Off (1CP):** Use this Stratagem when a BAD MOONS CORE unit from your army is selected
-  to shoot. Until the end of the phase, the **Dakka! Dakka! Dakka!** quality triggers on a hit roll of 51+ (instead
-  of 61+) for all weapons with this quality carried by models in this unit.
-  - **\[Relic] - Da Best Armour Teef Can Buy:** TODO
-  - **\[Warlord Trait] - Name:** TODO
-  - **\[Waaagh! Modifier] - Name:** TODO
+  - **\[Kultur] - Armed To Da Teef:** TODO (+6" range except for flamers and psychic powers. 61+ to wound = +1AP)
+  - **\[Stratagem] - ??? (?CP):** TODO (pregame permanent buff to a vehicle; +1T and re-roll hit rolls of 1x)
+  - **\[Relic] - Da Best Armour Teef Can Buy:** TODO (4+ invul, sth else...)
+  - **\[Warlord Trait] - Obsessive Showoff:** _This rich warlord has a compulsion to own the newest, shiniest and
+    killiest weapons he can get his hands on, and he even hands them out to his favourite lads to demonstrate his
+    obsecene wealth._ At the start of the Shooting phase, select a BAD MOONS unit within 6" of this WARLORD, if
+    possible. Until the end of the battle round, each time this WARLORD or a model from the selected unit (if any)
+    makes a ranged attack with a weapon that has the **Dakka! Dakka! Dakka!** quality, this quality triggers on hit
+    rolls of 51+ (instead of 61+).
+  - **\[Waaagh! Modifier] - Name:** TODO (improve BS by 1?)
 
   ### Blood Axes
   - **\[Kultur] - Name:** TODO
@@ -81,11 +87,22 @@ unlocked for your army to use.
   - **\[Waaagh! Modifier] - Name:** TODO
 
   ### Deathskulls
-  - **\[Kultur] - Name:** TODO (?) + Objective Secured for INFANTRY
-  - **\[Stratagem] - Name:** TODO
-  - **\[Relic] - Name:** TODO
-  - **\[Warlord Trait] - Name:** TODO
-  - **\[Waaagh! Modifier] - Name:** TODO INFANTRY loses Objective Secured during the Waaagh!
+  - **\[Kultur] - Lucky Blue Gitz:**
+    - One per phase, you may re-roll 1 hit roll, 1 wound roll and 1 saving throw made by or for a model in this unit.
+    - If this unit has the INFANTRY keyword, it gains the **Objective Secured** special rule unless a Waaagh! is
+      currently active.
+  - **\[Stratagem] - Wreckaz (2CP):** Use this Stratagem at the start of any phase. Select 1 enemy VEHICLE that is
+    within 12" of any DEATHSKULL unit from your army. Until the end of the phase, wound rolls of all attacks made
+    against the selected VEHICLE gain an Advantage. If this vehicle is destroyed by the end of the phase, gain 1CP.
+  - **\[Relic] - New Blue Toy:** _After this relic was 'acquired' from another clan, it was promptly painted blue to
+    cover up any marks of previous ownership._ This relic can be any one relic otherwise reserved for use by another clan.
+  - **\[Warlord Trait] - Opportunist:**
+    - Each time you select a target for this Warlord, if you select a CHARACTER unit within 12", you can ignore the
+      "Look Out, Sir!" rule.
+    - Each time an enemy unit (except BEAST and SWARM units) is destroyed within 6" of this warlord, improve his
+      Armour Save (Sv) chartacteristic by 1 (cannot be improved past 2+).
+  - **\[Waaagh! Modifier] - Good Omen:** While the Waaagh! is active, DEATHSKULLS units from your army can use their
+    **Lucky Blue Gitz** re-roll ability twice per phase (instead of once).
 
   ### Freebooterz
   - **\[Kultur] - Name:** TODO
@@ -99,11 +116,76 @@ unlocked for your army to use.
   more scores 1 additional hit.
   - **\[Stratagem] - Unbridled Carnage (2CP):** Use this Stratagem in the Fight phase when a GOFF CORE or GOFF CHARACTER
   unit from your army that has the "No Mukkin’ About" Clan Kultur is selected to fight. Until the end of the phase, each
-  time a model in that unit makes an attack, it scores an additional hit on an unmodified hit roll of 5+ instead of 6.
-  - **\[Warlord Trait] - Name:** TODO
+  time a model in that unit makes an attack, it scores an additional hit on an unmodified hit roll of 51+ instead of 61+.
+  - **\[Warlord Trait] - Proper Killy:**
+    - Add 1 to this WARLORD’s Attacks characteristic.
+    - Each time this WARLORD makes a melee attack, improve the Armour Penetration characteristic of that attack by 1.
   - **\[Relic] - Name:** TODO
   - **\[Waaagh! Modifier] - Biggest n' Meanest:** During both stages of the Waaagh!, add 1 to the Toughness characteristic
-  of ORKS INFANTRY and ORKS BIKER units from your army (except GRETCHIN units).
+  of GOFFS INFANTRY and GOFFS BIKER units from your army (except GRETCHIN units).
+
+## Psychic Discipline - Power of the Waaagh!
+
+  When a PSYKER from your army manifests a psychic power from this discipline, replace all instances of the \<CLAN\>
+  keyword on that psychic power (if any) with the name of the clan that the PSYKER is from.
+
+  ### 1. 'Eadbanger (Warp Charge: 5)
+  _The energies raging through the Weirdboy go out of control, causing the heads of those nearby to explode._
+
+  If manifested, place a large blast template centred over the caster. For every model intersecting the template
+  (excluding the caster, and also VEHICLE and TITANIC models), roll a D6. On a 5+, that model's unit suffers 1
+  mortal wound. You can re-roll the dice rolled against friendly ORKS models.
+
+  ### 2. Zzap (Warp Charge: TODO)
+  // simple ranged attack
+  TODO
+
+  ### 3. Jabbin' Fingerz (Warp Charge: 6)
+  _The Weirdboy focuses his attention on a nearby enemy before jabbing his fingers into his own eyes. The unfortunate
+  foe experiences an agonising pain before finding themselves temporarily blinded._
+
+  If manifested, select one enemy unit that is within 18" of the caster and visible to them. Until the end of the battle
+  round, each time a model in that unit makes an attack, the hit roll gains an Impairment.
+
+  ### 4. Warpath (Warp Charge: 6)
+  _The Weirdboy disperses the Waaagh! energy coursing through his frame into the Ork warriors around him, stoking their
+  already bellicose nature to a roaring fever pitch._
+
+  If manifested, select a friendly \<CLAN\> CORE and/or a CLAN CHARACTER unit (if selecting both, they must be within
+  2" of each other). The selected unit(s) must be within 18" of the caster. Until the end of the battle round, add 1 to
+  the Attacks characteristic of models in the selected unit(s).
+
+  ### 5. Da Jump (Warp Charge: 7)
+  _The Weirdboy closes his eyes tight and, in a storm of flashing green light, teleports a mass of confused greenskins
+  to another part of the battlefield._
+
+  If manifested, select a friendly \<CLAN\> CORE and/or a CLAN CHARACTER unit (if selecting both, they must be within
+  2" of each other). At least 1 of the selected units must be within 2" of the caster. Alternatively, if there are no
+  eligible units to select, skip it and proceed with the effect. Either way, remove the selected units (if any) and the
+  caster from the battlefield, and set them up together, using the Deep Strike rules, as if it were the Reinforcements
+  phase. Do not make an Exhaustion roll.
+
+  When manifested, if the caster or any of the selected units are in Enagagement range of enemy models, the power has
+  no effect unless the result of the Psychic test was 10 or higher.
+
+  ### 6. Waaagh! (Warp Charge: 11)
+  _The Weirdboy screams a warcry at the top of his lungs, suffusing his comrades with primal power._
+
+  If manifested, and a Waaagh! WAS NOT declared during this battle round:
+  - TODO
+
+  If manifested, and a Waaagh! WAS declared during this battle round:
+  - _Da Krunch!_
+
+  ### Special Rule - Warphead:
+  Some ORK PSYKERS may have the **Warphead** special rule. Its effects are as folows:
+  - A Warphead never knows any Psychic powers (not even Smite, Psychic Bolt and Psychic Storm). Whenever a Warphead is
+    selected during the Psychic phase to manifest a Psychic power, roll a D6. He must then attempt to manifest a Psychic
+    power from the "Power of the Waaagh!" discipline corresponding to the result.
+  - A Warphead always manifests Psychic powers at their original Warp Charge value, even if another PSYKER already
+    attempted to manifest the same power during the same battle round. The Warp Charge value of the "Waaagh!" power for
+    a Warphead is reduced to 8.
+  - Add 1 to all Psychic test results rolled for a Warphead.
 
 ## Warlord Traits
 
@@ -135,7 +217,7 @@ unlocked for your army to use.
     - If the attack has a damage characteristic of 2 or more, reduce it by 1.
     - Otherwise, roll a D6. On a 4+, the damage characteristic of the attack is reduced to 0.
 
-  ### Gozrogg the Skullkollektor's Trophy Pole:
+  ### Trophy Pole of Gozrogg the Skullkollektor:
   (double models in unit for morale purposes aura)
 
 ## Stratagems
@@ -145,6 +227,28 @@ unlocked for your army to use.
 
   ### Heave, Ho! (1CP)
   TODO (throw more stikkbombs)
+
+  ### Orks Is Never Beaten (2CP)
+  Use this Stratagem in the Fight phase, when an ORKS CHARACTER model in your army that has not already had a chance to
+  fight this phase is destroyed. During the appropriate initiative step, this model can make melee attacks despite it
+  already being a casualty. If the selected model’s characteristics change as it takes damage, use the bottom row of
+  that model’s profile when resolving those attacks.
+
+  ### Tide of Muscle (1CP)
+  // ignore charge modifier
+
+  ### Big Red Button (1CP)
+  // vehicle auto explode
+
+  ### Careen! (1CP)
+  // move before exploding
+
+  ### (Get Stuck In Ladz!) (1/2CP)
+  // fight again
+
+  ### Grot Shields
+
+  ### More Dakka!
 
 ## Weapons
 
@@ -198,11 +302,12 @@ This unit contains 1 Warboss, who is equipped with a Big choppa, Kustom shoota a
 | WEAPON                 | RANGE |    TYPE    |   S  | AP |   D  | QUALITIES
 |------------------------|-------|------------|------|----|------|---------------------------
 | Attack squig           | Melee | Melee      |   4  | -1 |   1  | Each time the bearer fights, it makes 2 additional attacks with this weapon and no more than 2 attacks can be made with this weapon.
+| Twin Blunderbuss       |   6"  | Pistol 10  |   4  |  0 |   1  | **Dakka! Dakka! Dakka!**; The bearer can only shoot with this weapon once per battle.
 
 #### > SPECIAL RULES:
 - **'Ere We go**
 - **Waaagh!**
-- **Da Big Boss Iz 'Ere:** The Warboss confers the **Breakin' 'Eads** special rule to \<CLAN\> CORE units within 3" (but
+- **Da Warboss Iz 'Ere:** The Warboss confers the **Breakin' 'Eads** special rule to \<CLAN\> CORE units within 3" (but
 not to himself).
 - TODO (some fight/charge/morale aura or something)
 
@@ -212,7 +317,7 @@ not to himself).
   - Kombi-skorcha (+? pts)
 - This model's Big choppa may be replaced with a Power klaw (+? pts).
 - This model may take an Attack squig (+? pts).
-- This model may take 2 Sluggas (+? pts). // once per game close-range shooting attack
+- This model may take a Twin Blunderbuss (+? pts).
 
 ---
 
@@ -241,7 +346,58 @@ includes the **Mekaniak** special rule some models may have).
 ---
 
 ### \[HQ] Weirdboy
-TODO
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Weirdboy                 | 100 | 5" | 4" |  4 |  3 | 4 | 4 | 4 | 3 | 3 |  8 | 6+ | 32mm
+
+This unit contains 1 Weirdboy, who is equipped with a Weirdboy staff.
+
+**FACTION KEYWORDS:** ORKS, \<CLAN\>
+
+**KEYWORDS:** CHARACTER, INFANTRY, CORE, PSYKER, WEIRDBOY
+
+| WEAPON                 | RANGE |    TYPE    |   S  | AP |   D  | QUALITIES
+|------------------------|-------|------------|------|----|------|---------------------------
+| Weirdboy staff         | Melee | Melee      |  +3  | -1 |  D3  | -
+
+#### > SPECIAL RULES:
+- **'Ere We go**
+- **Waaagh!**
+- **Psyker:** This model can attempt to manifest one psychic power in each friendly Psychic phase, and attempt to deny
+one psychic power in each enemy Psychic phase. It knows Smite and two psychic powers from the "Power of the Waaagh!"
+discipline.
+- **Waaagh! Energy:** When this model is selected to manifest psychic powers, if there are 20 or more ORKS models
+(excluding GRETCHIN) within 12" of it, you can choose to have it either a) receive a +1 bonus to all Psychic tests or
+b) manifest an additional psychic power.
+
+#### > OPTIONS:
+- This model can be upgraded to a Warphead (gain the **Warphead** special rule) for +5 points.
+
+---
+
+### \[HQ] Wurrboy
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Wurrboy                  | 100 | 5" | 4" |  4 |  3 | 4 | 4 | 4 | 3 | 3 |  8 | 6+ | 32mm
+
+This unit contains 1 Wurrboy, who is equipped with Eyes of Mork.
+
+**FACTION KEYWORDS:** ORKS, \<CLAN\>
+
+**KEYWORDS:** CHARACTER, INFANTRY, CORE, PSYKER, WURRBOY
+
+#### > SPECIAL RULES:
+- **'Ere We go**
+- **Waaagh!**
+- **Psyker:** TODO
+- **Waaagh! Energy:** When this model is selected to manifest psychic powers, if there are 20 or more ORKS models
+(excluding GRETCHIN) within 12" of it, you can choose to have it either a) receive a +1 bonus to all Psychic tests or
+b) manifest an additional psychic power.
+
+#### > OPTIONS:
+(none)
 
 ---
 

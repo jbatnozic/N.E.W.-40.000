@@ -990,6 +990,36 @@ b) add 1 to his Attacks characteristic. This is a Command Effect.
 
 ---
 
+### \[HQ] Prince Yriel
+
+| NAME                     | PTS |  M  | CB | MS | BS | S | T |  W  | A | I |  N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---|-----|---|---|----|----|------
+| Prince Yriel             | 125 |  7" | 4" |  8 |  9 | 3 | 3 |  5  | 5 | 7 | 10 | 3+ | 32mm 
+
+Prince Yriel is a single model armed with the Eye of Wrath and the Spear of Twilight.
+Only one of this model may be included in your army.
+
+**FACTION KEYWORDS:** AELDARI, ANHRATHE, IYANDEN
+
+**UNIT TYPE KEYWORDS:** INFANTRY
+
+**KEYWORDS:** CHARCTER, AUTARCH, PRINCE YRIEL
+
+| WEAPON                     |    TYPE   | Range |   S  | AP |   D  | QUALITIES
+|----------------------------|-----------|-------|------|----|------|---------------------------
+| The Eye of Wrath           | Assault 4 |  24"  |   6  |  0 |   1  | TODO
+| The Spear of Twilight      |   Melee   | Melee |  +3  | -3 | D3+3 | TODO
+
+#### > SPECIAL RULES:
+- **Battle Focus**
+- **The Path of Command**
+- **Forceshield:** This model has a 5+ invulnerable save. During the Fight phase, it also receives +1 to all saving
+throws against melee attacks while it fights in the Defensive stance.
+- **TODO** (more buffs or something)
+- **Cursed:** You must re-roll unmodified saving throws of 6 for Prince Yriel.
+
+---
+
 ### \[Troop] Guardian Defenders
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
