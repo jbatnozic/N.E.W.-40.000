@@ -249,7 +249,9 @@ The Clan-specific Stratagem, Relic and Warlord Trait are also unlocked for your 
 ## Stratagems
 
   ### Move, You Dogs! (1CP)
-  TODO (+2 to CB after rolling to INFANTRY unit)
+  Use this stratagem after you've made a charge roll for an ORKS INFANTRY unit from your army. Add 2" to its Charge
+  Bonus (CB) characteristic until the end of the phase, unless it would be set to 0" by other rules. If any CHARACTER
+  units are joining this unit for the charge, this stratagem affects them as well.
 
   ### Heave, Ho! (1CP)
   TODO (throw more stikkbombs)
@@ -261,10 +263,11 @@ The Clan-specific Stratagem, Relic and Warlord Trait are also unlocked for your 
   that model’s profile when resolving those attacks.
 
   ### Tide of Muscle (1CP)
-  // ignore charge modifier
+  // ignore charge modifier (is this needed?)
 
   ### Big Red Button (1CP)
-  // vehicle auto explode
+  Use this stratagem when an ORKS VEHICLE from your army that has an **Explodes** (or equivalent) special rule is
+  destroyed. Do not roll to see if it explodes - it does so automatically.
 
   ### Careen! (1CP)
   // move before exploding
@@ -275,6 +278,8 @@ The Clan-specific Stratagem, Relic and Warlord Trait are also unlocked for your 
   ### Grot Shields
 
   ### More Dakka!
+  
+  ### Unstoppable Green Tide
 
 ## Weapons
 
@@ -291,6 +296,7 @@ additional hit roll. This ability does not affect weapons that automatically hit
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
 |-------------------------------|-------|--------------|----|----|------|---------------------------
 | Big shoota                    |  36"  | Assault 3    |  5 |  0 |   1  | **Dakka! Dakka! Dakka!**
+| Burna (ranged)                |   2"  | Assault 1    |  4 |  0 |   1  | **Flamer Template** 
 | Kustom mega-blasta            |  24"  | Assault D3+1 |  8 | -3 |  D6  | **High-powered**; If 1 or more unmodified hit rolls of 16 or less are made for attacks with this weapon, the bearer suffers 1 mortal wound after shooting with this weapon.
 | Rokkit launcha                |  24"  | Heavy D3     |  8 | -2 |   3  | **High-powered**
 | Shoota                        |  18"  | Assault 2    |  4 |  0 |   1  | **Dakka! Dakka! Dakka!**
@@ -303,6 +309,7 @@ additional hit roll. This ability does not affect weapons that automatically hit
 | WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
 |----------------------------|-------|------|----|-----|--------------------------- 
 | Big choppa                 | Melee |  +2  | -1 |  2  | -
+| Burna (melee)              | Melee | User | -2 |  1  | **Unwieldy**
 | Choppa                     | Melee | User |  0 |  1  | Each time the bearer fights, it can make 1 additional attack with this weapon.
 | Power klaw                 | Melee |  ×2  | -3 |  2  | **High-powered**, **Unwieldy**
 
@@ -373,8 +380,8 @@ has a 5+ invulnerable save. The range of this aura ability can never be increase
 
 #### > OPTIONS:
 - This model's Slugga can be replaced with 1 of the following:
-  - Kombi-rokkit (+5 pts),
-  - Kombi-skorcha (+5 pts),
+  - Kombi-rokkit (+10 pts),
+  - Kombi-skorcha (+10 pts),
   - Kustom shoota (+5 pts),
   - Kustom mega-slugga (+5 pts).
 - This model's Choppa can be replaced with 1 of the following:
@@ -383,8 +390,8 @@ has a 5+ invulnerable save. The range of this aura ability can never be increase
   - Power klaw (+10 pts),
   - Power stabba (+10 pts).
 - This model's Slugga and Choppa can be replaced with 1 of the following:
-  - Kustom mega-blasta (+10 pts),
-  - Rokkit launcha (+10 pts),
+  - Kustom mega-blasta (+5 pts),
+  - Rokkit launcha (+5 pts),
   - Skorcha (+10 pts),
   - Shokk Attack Gun (+20pts).
 - If this model is not equipped with a Shokk Attack Gun, it may take a Kustom Force Field (+20pts).
@@ -625,6 +632,42 @@ once this ability has been used (a Grot Orderly does not count as a model for an
 
 ---
 
+### \[Elite] Burna Boyz
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Burna Boy                |  15 | 5" | 4" |  4 |  3 | 4 | 4 | 1 | 2 | 3 |  * | 6+ | 32mm
+| Spanner                  |  15 | 5" | 4" |  4 |  3 | 4 | 4 | 1 | 2 | 3 |  * | 6+ | 32mm
+
+| Models in unit      | Nerve 
+|---------------------|-------
+| 1-5                 |    5
+| 6-10                |    6
+| 11-15               |    7
+
+This unit contains 5 Burna Boyz. It can include up to 10 additional Burna Boyz. For every 5 models in the unit, a Spanner
+can take the place of one Burna Boy. Each Burna Boy is armed with a Burna and Stikkbombs. Each Spanner is armed with a
+Big shoota and Stikkbombs.
+
+**FACTION KEYWORDS:** ORKS, \<CLAN\>
+
+**KEYWORDS:** INFANTRY, CORE, BURNA BOYZ
+
+#### > SPECIAL RULES:
+- **'Ere We go**
+- **Waaagh!**
+- **Pyromania:** While this unit contains at least 1 Burna Boy, add 1 to the Nerve characteristic of the unit.
+- **Mekaniak:** At the end of your Movement phase, a Spanner can repair a single friendly \<CLAN\> VEHICLE model within
+3". That model regains 1 lost wound. A model can only be repaired up to thrice per turn (this includes the 
+**Big Mekaniak** special rule some models may have).
+
+#### > OPTIONS:
+- Any number of Spanners can each have their Big shoota replaced with one of the following:
+  - 1 Kustom mega-blasta (+5 pts),
+  - 1 Rokkit launcha (+5 pts).
+
+---
+
 ### \[Heavy Support] Lootas
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
@@ -696,8 +739,8 @@ Kopta rokkits, Spinnin' blades, a Slugga and Stikkbombs.
 - **Waaagh!**
 - TODO Ramshackle?
 - **Deep Strike**
-- **Big Red Button:** When this unit Advances, increase its Movement characteristic by 3" until the end of the action,
-but it cannot use any ranged weapons in the following Shooting phase.
+- **Name:** When this unit Advances, increase its Movement characteristic by 3" until the end of the action,
+but it cannot use any ranged weapons in the following Shooting phase. TODO (think of a name)
 - **Big Bomb (only if equipped):** TODO
 
 #### > OPTIONS:
@@ -791,7 +834,6 @@ This unit contains 1 Battlewagon.
 | Deff rolla                    | Melee | Melee        | +1 | -2 |   2  | Hit rolls of attacks made with this weapon are always resolved with Exponent 9.
 | Grabbin' klaw                 | Melee | Melee        |    |    |      | 
 | Wreckin' ball                 | Melee | Melee        |    |    |      | 
-
 
 #### > SPECIAL RULES:
 - **'Ere We go**
