@@ -3,9 +3,10 @@
 ## Codex Special Rules
 
   ### 'Ere We Go:
-  During the Fight phase, the Attack and Initiative characteristics of models in this unit are increased by 1 if:
-  - The unit made a Charge move in the previous Charge phase;
-  - The unit is not In Disarray.
+  While this unit is not In Disarray:
+  - When making a charge roll for this unit, you can re-roll any number of dice;
+  - During the Fight phase, increase the Initiative characteristics of models in this unit by 1 if the unit made a charge
+    move during the previous Charge phase.
 
   ### Breakin' 'Eads:
   **Note:** This special rule can be conferred to a unit by a model in that unit and/or by a nearby CHARACTER.
@@ -80,9 +81,11 @@ The Clan-specific Stratagem, Relic and Warlord Trait are also unlocked for your 
   - **\[Waaagh! Modifier] - Name:** TODO (improve BS by 1?)
 
   ### Blood Axes
-  - **\[Kultur] - Name:** TODO
-  - **\[Stratagem] - Name:** TODO
-  - **\[Relic] - Name:** TODO
+  - **\[Kultur] - Name:** (infantry except mega is always shrouded unless a waaagh is active + sth else)
+  - **\[Stratagem] - Ded Sneaky (1CP):** Use this Stratagem at the end of your Movement phase. Select one BLOOD AXES
+    INFANTRY unit from your army (excluding MEGA ARMOUR units) that is within 3" of any battlefield edge. Remove that
+    unit from the battlefield and place it in the reserves.
+  - **\[Relic] - Morgog's Finkin' Cap:** TODO
   - **\[Warlord Trait] - Name:** TODO
   - **\[Waaagh! Modifier] - Name:** TODO
 
@@ -189,18 +192,38 @@ The Clan-specific Stratagem, Relic and Warlord Trait are also unlocked for your 
 
 ## Warlord Traits
 
-  ### 1. ?
+  ### 1. 'Ard As Nails
+  (defensive buff)
   
   ### 2. Big Gob
   Add 6" to the range of this WARLORD’s aura abilities (to a maximum of 12").
   
-  ### 3. ?
+  ### 3. Follow Me Ladz!
+  (sth when he charges together with a friendly unit)
   
-  ### 4. ?
+  ### 4. Brutal But Kunnin'
+  At the start of the Fight phase, roll a D6 and add the result to either this WARLORD's Weapon Skill characteristic
+  or his Initiative characteristic. Then flip the die upside-down and add the result to his characteristic that you
+  did not pick in the first step. (WS goes up to 9 and I goes up to 10.)
   
-  ### 5. Brutal But Kunnin'
+  **Note:** This assumes you're using standard dice where the opposite sides always add up to 7.
   
-  ### 6. Kunnin' But Brutal
+  ### 5. Kunnin' But Brutal
+  After this WARLORD fights (make attack for each failed attack if targetting just 1 enemy unit)
+
+  ### 6. Sadistic Butcher
+  _This warlord dispenses gruesome death and dismemberment while fixing the victim's comrades with a maniacal gaze._
+  
+  Each time a model is destroyed as a result of a melee attack by this WARLORD, add 1 Strain to that model's unit.
+
+  ### 7. Precizhun!
+  This WARLORD's Ballistic Skill characteristic is increased by 2. In addition, whenever he makes an attack, a hit
+  roll of 16 or less can be re-rolled.
+
+  ### 8. Weirdest Lad In Da Land
+  If this WARBOSS successfully manifests a psychic power, then until the end of the battle round, each time this
+  warlord makes a melee attack, if a successful hit roll of 41 or more is rolled, the target suffers D3 mortal wounds
+  and the attack sequence ends.
 
 ## Relics
 
@@ -219,6 +242,9 @@ The Clan-specific Stratagem, Relic and Warlord Trait are also unlocked for your 
 
   ### Trophy Pole of Gozrogg the Skullkollektor:
   (double models in unit for morale purposes aura)
+
+  ### Finkin' Cap
+  (sth about CP)
 
 ## Stratagems
 
@@ -325,7 +351,7 @@ not to himself).
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Big Mek                  | 70  | 5" | 4" |  5 |  3 | 5 | 5 | 5 | 3 | 3 |  8 | 4+ | 40mm 
+| Big Mek                  | 70  | 5" | 4" |  5 |  4 | 5 | 5 | 5 | 3 | 3 |  8 | 4+ | 40mm 
 
 This unit contains 1 Big Mek, who is equipped with a Slugga, Choppa, and Stikkbombs.
 
@@ -355,7 +381,7 @@ has a 5+ invulnerable save. The range of this aura ability can never be increase
   - Big choppa (+5 pts),
   - Kill saw (+10 pts),
   - Power klaw (+10 pts),
-  - 1 Power stabba (+10 pts).
+  - Power stabba (+10 pts).
 - This model's Slugga and Choppa can be replaced with 1 of the following:
   - Kustom mega-blasta (+10 pts),
   - Rokkit launcha (+10 pts),
