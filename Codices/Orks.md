@@ -263,8 +263,17 @@ The Clan-specific Stratagem, Relic and Warlord Trait are also unlocked for your 
   already being a casualty. If the selected model’s characteristics change as it takes damage, use the bottom row of
   that model’s profile when resolving those attacks.
 
+  ### Get To Da Choppin'! (1/2CP)
+  Use this stratagem in the Fight phase when an ORKS unit from your army is selected to fight. Until the end of the
+  phase, all Choppas the unit is equipped with are upgraded to AP -1.
+  
+  If the selected unit contains 10 or fewer models, this stratagem costs 1CP. Otherwise it costs 2CP.
+
   ### Tide of Muscle (1CP)
-  // ignore negative charge modifiers
+  Use this stratagem in the Charge phase when an ORKS INFANTRY unit from your army is selected to charge. Until the
+  end of the action, that unit and any ORKS INFANTRY CHARACTERS joining it for the charge can ignore any or all
+  modifiers to their charge distance (including those from passing through Difficult Ground). They can also ignore
+  any modifiers to their Charge Bonus (CB) characteristic unless it would be set to 0" by other rules.
 
   ### Big Red Button (1CP)
   Use this stratagem when an ORKS VEHICLE from your army that has an **Explodes** (or equivalent) special rule is
@@ -291,8 +300,9 @@ The Clan-specific Stratagem, Relic and Warlord Trait are also unlocked for your 
   ### Unstoppable Green Tide
   // respawn boyz unit at full strength
   
-  ### ?
-  // re-roll warphead power selection roll (even if it was already re-rolled)
+  ### ? (1CP)
+  Use this stratagem in your Psychic phase after you've rolled a D6 to determine a power for a PSYKER from your army
+  that has the **Warphead** special rule. You can re-roll the result, even if it was already re-rolled once.
 
 ## Weapons
 
