@@ -2,6 +2,20 @@
 
 ## Codex Special Rules
 
+  ### Effect Tags:
+  
+  **AUR** - Aura
+  
+  **BND** - Bearer not In Disarray
+  
+  **TND** - Target not In Disarray
+  
+  **BNP** - Bearer not Panicking
+  
+  **TNP** - Target not Panicking
+  
+  ---
+
   ### 'Ere We Go:
   While this unit is not In Disarray:
   - When making a charge roll for this unit, you can re-roll any number of dice;
