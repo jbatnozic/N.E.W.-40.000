@@ -2,10 +2,25 @@
 
 ## Codex Special Rules
 
+  ### Effect Tags:
+  
+  **AUR** - Aura
+  
+  **BND** - Bearer not In Disarray
+  
+  **TND** - Target not In Disarray
+  
+  **BNP** - Bearer not Panicking
+  
+  **TNP** - Target not Panicking
+  
+  ---
+
   ### 'Ere We Go:
-  During the Fight phase, the Attack and Initiative characteristics of models in this unit are increased by 1 if:
-  - The unit made a Charge move in the previous Charge phase;
-  - The unit is not In Disarray.
+  While this unit is not In Disarray:
+  - When making a charge roll for this unit, you can re-roll any number of dice;
+  - During the Fight phase, increase the Initiative characteristics of models in this unit by 1 if the unit made a charge
+    move during the previous Charge phase.
 
   ### Breakin' 'Eads:
   **Note:** This special rule can be conferred to a unit by a model in that unit and/or by a nearby CHARACTER.
@@ -80,9 +95,11 @@ The Clan-specific Stratagem, Relic and Warlord Trait are also unlocked for your 
   - **\[Waaagh! Modifier] - Name:** TODO (improve BS by 1?)
 
   ### Blood Axes
-  - **\[Kultur] - Name:** TODO
-  - **\[Stratagem] - Name:** TODO
-  - **\[Relic] - Name:** TODO
+  - **\[Kultur] - Name:** (infantry except mega is always shrouded unless a waaagh is active + sth else)
+  - **\[Stratagem] - Ded Sneaky (1CP):** Use this Stratagem at the end of your Movement phase. Select one BLOOD AXES
+    INFANTRY unit from your army (excluding MEGA ARMOUR units) that is within 3" of any battlefield edge. Remove that
+    unit from the battlefield and place it in the reserves.
+  - **\[Relic] - Morgog's Finkin' Cap:** TODO
   - **\[Warlord Trait] - Name:** TODO
   - **\[Waaagh! Modifier] - Name:** TODO
 
@@ -189,18 +206,38 @@ The Clan-specific Stratagem, Relic and Warlord Trait are also unlocked for your 
 
 ## Warlord Traits
 
-  ### 1. ?
+  ### 1. 'Ard As Nails
+  (defensive buff)
   
   ### 2. Big Gob
   Add 6" to the range of this WARLORD’s aura abilities (to a maximum of 12").
   
-  ### 3. ?
+  ### 3. Follow Me Ladz!
+  (sth when he charges together with a friendly unit)
   
-  ### 4. ?
+  ### 4. Brutal But Kunnin'
+  At the start of the Fight phase, roll a D6 and add the result to either this WARLORD's Weapon Skill characteristic
+  or his Initiative characteristic. Then flip the die upside-down and add the result to his characteristic that you
+  did not pick in the first step. (WS goes up to 9 and I goes up to 10.)
   
-  ### 5. Brutal But Kunnin'
+  **Note:** This assumes you're using standard dice where the opposite sides always add up to 7.
   
-  ### 6. Kunnin' But Brutal
+  ### 5. Kunnin' But Brutal
+  After this WARLORD fights (make attack for each failed attack if targetting just 1 enemy unit)
+
+  ### 6. Sadistic Butcher
+  _This warlord dispenses gruesome death and dismemberment while fixing the victim's comrades with a maniacal gaze._
+  
+  Each time a model is destroyed as a result of a melee attack by this WARLORD, add 1 Strain to that model's unit.
+
+  ### 7. Precizhun!
+  This WARLORD's Ballistic Skill characteristic is increased by 2. In addition, whenever he makes an attack, a hit
+  roll of 16 or less can be re-rolled.
+
+  ### 8. Weirdest Lad In Da Land
+  If this WARBOSS successfully manifests a psychic power, then until the end of the battle round, each time this
+  warlord makes a melee attack, if a successful hit roll of 41 or more is rolled, the target suffers D3 mortal wounds
+  and the attack sequence ends.
 
 ## Relics
 
@@ -220,10 +257,16 @@ The Clan-specific Stratagem, Relic and Warlord Trait are also unlocked for your 
   ### Trophy Pole of Gozrogg the Skullkollektor:
   (double models in unit for morale purposes aura)
 
+  ### Finkin' Cap
+  (sth about CP)
+
 ## Stratagems
 
   ### Move, You Dogs! (1CP)
-  TODO (+2 to CB after rolling to INFANTRY unit)
+  Use this stratagem in your Movement phase. Select an ORKS INFANTRY (non-CHARACTER) unit and/or an
+  ORKS INFANTRY CHARACTER unit from your army (if selecting both, they must be within 2" of each other). The Move (M)
+  characteristic of the selected unit(s) is increased by 2" (1" for MEGA ARMOUR units) until the end of the phase.
+  This is a Command Effect.
 
   ### Heave, Ho! (1CP)
   TODO (throw more stikkbombs)
@@ -234,21 +277,46 @@ The Clan-specific Stratagem, Relic and Warlord Trait are also unlocked for your 
   already being a casualty. If the selected model’s characteristics change as it takes damage, use the bottom row of
   that model’s profile when resolving those attacks.
 
+  ### Get To Da Choppin'! (1/2CP)
+  Use this stratagem in the Fight phase when an ORKS unit from your army is selected to fight. Until the end of the
+  phase, all Choppas the unit is equipped with are upgraded to AP -1.
+  
+  If the selected unit contains 10 or fewer models, this stratagem costs 1CP. Otherwise it costs 2CP.
+
   ### Tide of Muscle (1CP)
-  // ignore charge modifier
+  Use this stratagem in the Charge phase when an ORKS INFANTRY unit from your army is selected to charge. Until the
+  end of the action, that unit and any ORKS INFANTRY CHARACTERS joining it for the charge can ignore any or all
+  modifiers to their charge distance (including those from passing through Difficult Ground). They can also ignore
+  any modifiers to their Charge Bonus (CB) characteristic unless it would be set to 0" by other rules.
 
   ### Big Red Button (1CP)
-  // vehicle auto explode
+  Use this stratagem when an ORKS VEHICLE from your army that has an **Explodes** (or equivalent) special rule is
+  destroyed. Do not roll to see if it explodes - it does so automatically.
 
   ### Careen! (1CP)
   // move before exploding
 
-  ### (Get Stuck In Ladz!) (1/2CP)
-  // fight again
+  ### Get Stuck In Ladz! (1/2CP)
+  Use this stratagem at the end of the Fight phase (before removing casualties). Select 1 ORKS CORE unit from your army
+  that is in Engagement Range of enemy units. This unit can immediately fight (make melee attacks), even if it had
+  already fought in this Fight phase. This unit must use the same stance it had during the rest of the Fight phase.
+  This is a Command Effect.
+  
+  If multiple units have an ability to the same effect, make the attacks in Initiative order (some may happen
+  simultaneously).
+  
+  If the selected unit contains 10 or fewer models, this stratagem costs 1CP. Otherwise it costs 2CP.
 
   ### Grot Shields
 
   ### More Dakka!
+  
+  ### Unstoppable Green Tide
+  // respawn boyz unit at full strength
+  
+  ### ? (1CP)
+  Use this stratagem in your Psychic phase after you've rolled a D6 to determine a power for a PSYKER from your army
+  that has the **Warphead** special rule. You can re-roll the result, even if it was already re-rolled once.
 
 ## Weapons
 
@@ -265,6 +333,7 @@ additional hit roll. This ability does not affect weapons that automatically hit
 | WEAPON                        | RANGE |     TYPE     |  S | AP |   D  | QUALITIES
 |-------------------------------|-------|--------------|----|----|------|---------------------------
 | Big shoota                    |  36"  | Assault 3    |  5 |  0 |   1  | **Dakka! Dakka! Dakka!**
+| Burna (ranged)                |   2"  | Assault 1    |  4 |  0 |   1  | **Flamer Template** 
 | Kustom mega-blasta            |  24"  | Assault D3+1 |  8 | -3 |  D6  | **High-powered**; If 1 or more unmodified hit rolls of 16 or less are made for attacks with this weapon, the bearer suffers 1 mortal wound after shooting with this weapon.
 | Rokkit launcha                |  24"  | Heavy D3     |  8 | -2 |   3  | **High-powered**
 | Shoota                        |  18"  | Assault 2    |  4 |  0 |   1  | **Dakka! Dakka! Dakka!**
@@ -277,6 +346,7 @@ additional hit roll. This ability does not affect weapons that automatically hit
 | WEAPON                     |  TYPE |   S  | AP |  D  | QUALITIES
 |----------------------------|-------|------|----|-----|--------------------------- 
 | Big choppa                 | Melee |  +2  | -1 |  2  | -
+| Burna (melee)              | Melee | User | -2 |  1  | **Unwieldy**
 | Choppa                     | Melee | User |  0 |  1  | Each time the bearer fights, it can make 1 additional attack with this weapon.
 | Power klaw                 | Melee |  ×2  | -3 |  2  | **High-powered**, **Unwieldy**
 
@@ -325,7 +395,7 @@ not to himself).
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Big Mek                  | 75  | 5" | 4" |  5 |  3 | 5 | 5 | 4 | 3 | 3 |  8 | 4+ | 40mm 
+| Big Mek                  | 70  | 5" | 4" |  5 |  4 | 5 | 5 | 5 | 3 | 3 |  8 | 4+ | 40mm 
 
 This unit contains 1 Big Mek, who is equipped with a Slugga, Choppa, and Stikkbombs.
 
@@ -339,9 +409,36 @@ This unit contains 1 Big Mek, who is equipped with a Slugga, Choppa, and Stikkbo
 - **Big Mekaniak:** At the end of your Movement phase, this model can repair one friendly \<CLAN\> VEHICLE model within
 3" of it. That VEHICLE model regains up to D3 lost wounds. Each model can only be repaired up to thrice per turn (this
 includes the **Mekaniak** special rule some models may have).
+- **Grot Oiler (only if equipped):** Once per battle, when the bearer repairs a VEHICLE model, that model can regain 1
+additional lost wound. _It's recommended to place a Grot Oiler model next to the unit as a reminder, removing it once
+this ability has been used (a Grot Oiler does not count as a model for any rules purposes)._
+- **Kustom Force Field (only if equipped):** (Aura) While a friendly ORKS unit is wholly within 6" of the bearer, it
+has a 5+ invulnerable save. The range of this aura ability can never be increased, unless specifically stated otherwise.
 
 #### > OPTIONS:
-- TODO (regular weapons, kustom force field, shokk attak gun, grot oiler)
+- This model's Slugga can be replaced with 1 of the following:
+  - Kombi-rokkit (+10 pts),
+  - Kombi-skorcha (+10 pts),
+  - Kustom shoota (+5 pts),
+  - Kustom mega-slugga (+5 pts).
+- This model's Choppa can be replaced with 1 of the following:
+  - Big choppa (+5 pts),
+  - Kill saw (+10 pts),
+  - Power klaw (+10 pts),
+  - Power stabba (+10 pts).
+- This model's Slugga and Choppa can be replaced with 1 of the following:
+  - Kustom mega-blasta (+5 pts),
+  - Rokkit launcha (+5 pts),
+  - Skorcha (+10 pts),
+  - Shokk Attack Gun (+20pts).
+- If this model is not equipped with a Shokk Attack Gun, it may take a Kustom Force Field (+20pts).
+- This model may take a Grot oiler (+5pts).
+
+---
+
+### \[HQ] Big Mek in Mega Armour
+
+TODO
 
 ---
 
@@ -572,6 +669,42 @@ once this ability has been used (a Grot Orderly does not count as a model for an
 
 ---
 
+### \[Elite] Burna Boyz
+
+| NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
+|--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
+| Burna Boy                |  15 | 5" | 4" |  4 |  3 | 4 | 4 | 1 | 2 | 3 |  * | 6+ | 32mm
+| Spanner                  |  15 | 5" | 4" |  4 |  3 | 4 | 4 | 1 | 2 | 3 |  * | 6+ | 32mm
+
+| Models in unit      | Nerve 
+|---------------------|-------
+| 1-5                 |    5
+| 6-10                |    6
+| 11-15               |    7
+
+This unit contains 5 Burna Boyz. It can include up to 10 additional Burna Boyz. For every 5 models in the unit, a Spanner
+can take the place of one Burna Boy. Each Burna Boy is armed with a Burna and Stikkbombs. Each Spanner is armed with a
+Big shoota and Stikkbombs.
+
+**FACTION KEYWORDS:** ORKS, \<CLAN\>
+
+**KEYWORDS:** INFANTRY, CORE, BURNA BOYZ
+
+#### > SPECIAL RULES:
+- **'Ere We go**
+- **Waaagh!**
+- **Pyromania:** While this unit contains at least 1 Burna Boy, add 1 to the Nerve characteristic of the unit.
+- **Mekaniak:** At the end of your Movement phase, a Spanner can repair a single friendly \<CLAN\> VEHICLE model within
+3". That model regains 1 lost wound. A model can only be repaired up to thrice per turn (this includes the 
+**Big Mekaniak** special rule some models may have).
+
+#### > OPTIONS:
+- Any number of Spanners can each have their Big shoota replaced with one of the following:
+  - 1 Kustom mega-blasta (+5 pts),
+  - 1 Rokkit launcha (+5 pts).
+
+---
+
 ### \[Heavy Support] Lootas
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base
@@ -643,8 +776,8 @@ Kopta rokkits, Spinnin' blades, a Slugga and Stikkbombs.
 - **Waaagh!**
 - TODO Ramshackle?
 - **Deep Strike**
-- **Big Red Button:** When this unit Advances, increase its Movement characteristic by 3" until the end of the action,
-but it cannot use any ranged weapons in the following Shooting phase.
+- **Name:** When this unit Advances, increase its Movement characteristic by 3" until the end of the action,
+but it cannot use any ranged weapons in the following Shooting phase. TODO (think of a name)
 - **Big Bomb (only if equipped):** TODO
 
 #### > OPTIONS:
@@ -738,7 +871,6 @@ This unit contains 1 Battlewagon.
 | Deff rolla                    | Melee | Melee        | +1 | -2 |   2  | Hit rolls of attacks made with this weapon are always resolved with Exponent 9.
 | Grabbin' klaw                 | Melee | Melee        |    |    |      | 
 | Wreckin' ball                 | Melee | Melee        |    |    |      | 
-
 
 #### > SPECIAL RULES:
 - **'Ere We go**
