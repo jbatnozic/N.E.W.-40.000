@@ -1,9 +1,16 @@
 # Line of Sight, Terrain and Cover Rules
 
 ## Rules PDF
-[Link](https://github.com/jbatnozic/N.E.W.-40.000/blob/master/Misc/LoS_Terrain_Cover/N.E.W.%2040,000%20LoS,%20Terrain%20and%20Cover.pdf) (**Note:** the document is work in progress)
+
+A PDF that contains complete rules for terrain and cover in N.E.W. 40,000.
+
+[Read on GitHub](https://github.com/jbatnozic/N.E.W.-40.000/blob/master/Misc/LoS_Terrain_Cover/N.E.W.%2040,000%20LoS,%20Terrain%20and%20Cover.pdf)
+
+[Download](https://github.com/jbatnozic/N.E.W.-40.000/raw/master/Misc/LoS_Terrain_Cover/N.E.W.%2040%2C000%20LoS%2C%20Terrain%20and%20Cover.pdf)
 
 ## Example images
+
+Some xample images to make terrain and cover interactions clearer.
 
 ![Example1](https://github.com/jbatnozic/N.E.W.-40.000/blob/master/Misc/LoS_Terrain_Cover/Example1.jpg)
 
