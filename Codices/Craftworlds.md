@@ -88,6 +88,8 @@ they can be affected by friendly Psychic powers from the Runes of Battle discipl
   are also unlocked for your army to use.
 
   ### Alaitoc:
+  _Note/TODO: Consider replacing the ability and relic with those from 9th edition codex._
+
   - **\[Ability] Fieldcraft:** While a model in this unit is more than 12" away from an enemy model, if it would be
 considered Completely Visible from the point of view of that enemy model, it is considered Partially Obscured instead,
 and if it would be considered Partially Obscured, it is considered Heavily Obscured instead. In addition, when this unit
@@ -110,6 +112,9 @@ addition, other \<CRAFTWORLD> CORE units within 6" of this WARLORD gain the **Sc
   upgraded, they gain +1 to their Move, Ballistic Skill and Nerve characteristics.
 
   ### Biel-Tan:
+  _Note/TODO: Stratagem to affect any BIEL-TAN INFANTRY CORE ASPECT WARRIOR unit. Specialised strats of other
+  Craftworlds to provide some additional boost._
+
   - **\[Ability] Swordwind:** Whenever this unit makes a ranged attack with a **Shuriken Weapon**, if not In Disarray:
     - A hit roll of 61 or more scores 1 additional hit.
     - A wound roll of 51-56 is resolved with AP improved by 2 as well, as if a 61 or more was rolled.
@@ -749,7 +754,7 @@ disciplines: Runes of Fate, Runes of Power.
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
 | Warlock                  |  50 | 7" | 4" |  5 |  8 | 3 | 3 | 2 | 2 | 6 |  9 | 6+ | 25mm 
 
-A Warlock is a single model armed with a shuriken pistol and a Witchblade.
+A Warlock is a single model armed with a Shuriken pistol and a Witchblade.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
@@ -769,6 +774,43 @@ disciplines: Runes of Battle, Runes of Power.
 - **Journeyman:** A Warlock may be upgraded to a Journeyman Warlock (+20 pts). It then gains the JOURNEYMAN keyword and 
 knows an additional power from disciplines available to it. It can also attempt to manifest 1 extra power in the friendly
 Psychic phase.
+- This model's Witchblade can be replaced with a Singing Spear (+5 pts).
+- This model may be equipped with a Ghosthelm (+10 pts).
+- This model may be equipped with a Rune Armour (+20 pts).
+
+---
+
+### \[HQ] Warlock Skyrunner
+
+| NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
+|--------------------------|-----|-----|----|----|----|---|---|---|---|---|----|----|------
+| Warlock Skyrunner        |  75 | 16" | 4" |  5 |  8 | 3 | 4 | 3 | 2 | 6 |  9 | 6+ | 32mm flying base
+
+A Warlock Skyrunner is a single model armed with a Shuriken pistol, a Witchblade and a Twin shuriken catapult.
+
+**FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
+
+**UNIT TYPE KEYWORDS:** BIKER
+
+**KEYWORDS:** CHARCTER, CORE, PSYKER, WARLOCK, WARLOCK SKYRUNNER
+
+#### > SPECIAL RULES:
+- **Battle Focus**
+- **Bike-mounted Weapon:** When selected to shoot, this model may fire its Twin shuriken catapult in addition to one
+other ranged weapon.
+- **Aerobatic Grace:** While this model is not in Engagament Range of enemy units, it has a 4+ invulnerable save 
+against ranged attacks.
+- **Ghosthelm (only if equipped):** If this model suffers Perils of the Warp, roll a D6. On a 3+, its effects are ignored.
+- **Rune Armour (only if equipped):** This model has a 4+ invulnerable save.
+- **Psyker:** This model can attempt to manifest one psychic power in each friendly Psychic phase, and attempt to deny
+one psychic power in each enemy Psychic phase. It knows the Smite power and a total of one psychic power from the following
+disciplines: Runes of Battle, Runes of Power.
+
+#### > OPTIONS:
+- **Journeyman:** A Warlock may be upgraded to a Journeyman Warlock (+20 pts). It then gains the JOURNEYMAN keyword and 
+knows an additional power from disciplines available to it. It can also attempt to manifest 1 extra power in the friendly
+Psychic phase.
+- This model's Witchblade can be replaced with a Singing Spear (+5 pts).
 - This model may be equipped with a Ghosthelm (+10 pts).
 - This model may be equipped with a Rune Armour (+20 pts).
 
@@ -780,7 +822,7 @@ Psychic phase.
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
 | Spiritseer               | 100 | 7" | 4" |  5 |  8 | 3 | 3 | 3 | 2 | 6 | 10 | 6+ | 25mm 
 
-A Warlock is a single model armed with a shuriken pistol and a Witchblade.
+A Warlock is a single model armed with a Shuriken pistol and a Witchblade.
 
 **FACTION KEYWORDS:** AELDARI, ASURYANI, WARHOST, \<CRAFTWORLD\>
 
@@ -968,7 +1010,8 @@ Wraithshield. Only one of this model may be included in your army.
 | WEAPON                     |    TYPE   | Range |   S  | AP |   D  | QUALITIES
 |----------------------------|-----------|-------|------|----|------|---------------------------
 | Relic shuriken cannon      | Assault 4 |  24"  |   6  |  0 |   1  | **Shuriken weapon**
-| Ghostglaive                |   Melee   | Melee |  +3  | -3 | D3+3 | **High-powered**
+| Ghostglaive (normal)       |   Melee   | Melee |  +3  | -3 | D3+3 | **High-powered**
+| Ghostglaive (sweep)        |   Melee   | Melee | User | -1 |   1  | (Double attacks)
 | Wraithbone fists           |   Melee   | Melee | User | -2 |   3  | -
 
 #### > SPECIAL RULES:
@@ -1069,7 +1112,7 @@ the Guardians in the unit are destroyed, the Heavy Weapon Platform(s) is(are) al
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
 | Dire Avenger             |  15 | 7" | 4" |  4 |  7 | 3 | 3 | 1 | 1 | 5 | * | 4+ | 25mm 
-| Dire Avenger Exarch      |  15 | 7" | 4" |  4 |  7 | 3 | 3 | 1 | 2 | 5 | * | 4+ | 25mm 
+| Dire Avenger Exarch      |  15 | 7" | 4" |  4 |  7 | 3 | 3 | 2 | 2 | 5 | * | 4+ | 25mm 
 
 | Dire Avengers in unit   | Nerve 
 |-------------------------|-------
@@ -1150,9 +1193,8 @@ Each model is armed with a Shuriken pistol and a Ranger long rifle.
 #### > SPECIAL RULES:
 - **Battle Focus**
 - **Infiltrate**, **Objective Secured**
-- **Cameleoline Cloaks:** If a model in this unit would be considered Partially Obscured from the point of view of an
-enemy model, it is considered Heavily Obscured instead.
-- **Sheltered Fighters:** Models in this unit receive a +1 bonus to Cover saving throws.
+- **Cameleoline Cloaks:** While this unit is wholly within an Area terrain feature, or while every model in this unit
+is within 1" of any terrain feature (except Hills), this unit is Shrouded.
 
 #### > OPTIONS:
 (none)
@@ -1164,7 +1206,7 @@ enemy model, it is considered Heavily Obscured instead.
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
 | Fire Dragon              |  25 | 7" | 4" |  4 |  7 | 3 | 3 | 1 | 2 | 5 | * | 4+ | 28mm 
-| Fire Dragon Exarch       |  25 | 7" | 4" |  4 |  7 | 3 | 3 | 1 | 3 | 5 | * | 4+ | 28mm 
+| Fire Dragon Exarch       |  25 | 7" | 4" |  4 |  7 | 3 | 3 | 2 | 3 | 5 | * | 4+ | 28mm 
 
 | Fire Dragons  in unit    | Nerve 
 |--------------------------|-------
@@ -1218,7 +1260,7 @@ As with all exarch powers, Fire Dragon Exarch powers are NOT in effect while the
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
 | Howling Banshee          |  21 | 8" | 4" |  6 |  7 | 3 | 3 | 1 | 3 | 7 | * | 4+ | 28mm 
-| Howling Banshee Exarch   |  21 | 8" | 4" |  6 |  7 | 3 | 3 | 1 | 4 | 7 | * | 4+ | 28mm 
+| Howling Banshee Exarch   |  21 | 8" | 4" |  6 |  7 | 3 | 3 | 2 | 4 | 7 | * | 4+ | 28mm 
 
 | Howling Banshees in unit | Nerve 
 |--------------------------|-------
@@ -1280,7 +1322,7 @@ As with all exarch powers, Howling Banshee Exarch powers are NOT in effect while
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
 | Striking Scorpion        |  20 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 2 | 6 | * | 3+ | 25mm 
-| Striking Scorpion Exarch |  20 | 7" | 4" |  5 |  7 | 3 | 3 | 1 | 3 | 6 | * | 3+ | 25mm 
+| Striking Scorpion Exarch |  20 | 7" | 4" |  5 |  7 | 3 | 3 | 2 | 3 | 6 | * | 3+ | 25mm 
 
 | Striking Scorpions in unit | Nerve 
 |----------------------------|-------
@@ -1322,14 +1364,16 @@ from this special rule.
 - **Sustained Attack (free):** Each time you roll a hit roll of 61 or more when making a close combat attack for the Striking
 Scorpion Exarch, that model can immediately make another close combat attack using the same weapon. These extra attacks
 cannot generate any additional attacks.
-- **Shadow Strike (5 pts):** Whilst this unit contains a Striking Scorpion Exarch, enemy cover saves made against ranged
-attacks made by models in this unit receive a -1 penalty.
+- **Shadow Strike (5 pts):** Whilst this unit contains a Striking Scorpion Exarch, each time an enemy model makes an
+Armour or Cover saving throw against a ranged attack made by a model in this unit, if that enemy model is benefitting
+from Light Cover or Heavy Cover, it takes a -1 penalty to that saving throw.
 - **Scorpion's Grasp (5 pts):** Each time you roll a wound roll of 61 or more when making a close combat attack with the 
 Scorpion's claw, the target suffers 1 mortal wound in addition to any normal damage.
 - **Scorpion's Sting (8 pts):** Whilst this unit contains a Striking Scorpion Exarch, the Mandiblasters this unit is equipped
 with have a Strength characteristic of 4.
-- **Stalker (10 pts):** Whilst this unit contains a Striking Scorpion Exarch, it models in it receive a +1 bonus to all cover
-saving throws.
+- **Stalker (10 pts):** Whilst this unit contains a Striking Scorpion Exarch, it gains the following benefit: While this
+unit is wholly within an Area terrain feature, or while every model in this unit is within 1" of any terrain feature
+(except Hills), this unit is Shrouded.
 - **Terrorizer (10 pts):** Whilst this unit contains a Striking Scorpion Exarch, add 1 to roll made for this unit's
 **Terror Troops** special rule.
 - **Ambush (15 pts):** Whilst this unit contains a Striking Scorpion Exarch, if a model in this unit makes an attack in the
@@ -1415,7 +1459,7 @@ to all saving throws against melee attacks while it fights in the Defensive stan
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
 | Warp Spider              |  21 | 7" | 4" |  4 |  7 | 3 | 3 | 1 | 1 | 5 | * | 3+ | 25mm 
-| Warp Spider Exarch       |  21 | 7" | 4" |  4 |  7 | 3 | 3 | 1 | 2 | 5 | * | 3+ | 25mm 
+| Warp Spider Exarch       |  21 | 7" | 4" |  4 |  7 | 3 | 3 | 2 | 2 | 5 | * | 3+ | 25mm 
 
 | Warp Spiders in unit    | Nerve 
 |-------------------------|-------
@@ -1478,7 +1522,7 @@ As with all exarch powers, Warp Spider Exarch powers are NOT in effect while the
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
 | Swooping Hawks           |  24 | 14" | 4" |  4 |  7 | 3 | 3 | 1 | 1 | 5 | * | 4+ | 25mm 
-| Swooping Hawk Exarch     |  24 | 14" | 4" |  4 |  7 | 3 | 3 | 1 | 2 | 5 | * | 4+ | 25mm 
+| Swooping Hawk Exarch     |  24 | 14" | 4" |  4 |  7 | 3 | 3 | 2 | 2 | 5 | * | 4+ | 25mm 
 
 | Swooping Hawks in unit  | Nerve 
 |-------------------------|-------
@@ -1499,7 +1543,7 @@ Each model is armed with a Lasblaster and Swooping hawk grenades.
 |-----------------------------------|-------|-----------|-----|----|-----|-----------
 | Lasblaster                        |  24"  | Assault 6 |  3  |  0 |  1  | -
 | Hawk's talon                      |  24"  | Assault 6 |  4  | -1 |  1  | -
-| Swooping hawk grenades            |   6"  | Grenade 1 |  4  | -1 |  2  | **Blast (Small)**
+| Swooping hawk grenades            |   6"  | Grenade 1 |  4  | -1 |  1  | **Blast (Small)**
 
 #### > SPECIAL RULES:
 - **Battle Focus**
@@ -1550,7 +1594,7 @@ As with all exarch powers, Swooping Hawk Exarch powers are NOT in effect while t
 | NAME                     | PTS |  M  | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|-----|----|----|----|---|---|---|---|---|---|----|------
 | Shining Spear            |  45 | 14" | 4" |  5 |  7 | 3 | 4 | 2 | 3 | 5 | * | 3+ | 32mm flying base
-| Shining Spear Exarch     |  45 | 14" | 4" |  5 |  7 | 3 | 4 | 2 | 4 | 5 | * | 3+ | 32mm flying base
+| Shining Spear Exarch     |  45 | 14" | 4" |  5 |  7 | 3 | 4 | 3 | 4 | 5 | * | 3+ | 32mm flying base
 
 | Shining Spears in unit  | Nerve 
 |-------------------------|-------
@@ -1722,7 +1766,8 @@ A Wraithlord is a single model armed with two Shuriken catapults and Wraithbone 
 
 | WEAPON                     |  TYPE |   S  | AP |   D  | QUALITIES
 |----------------------------|-------|------|----|------|---------------------------
-| Ghostglaive                | Melee |  +3  | -3 | D3+3 | **High-powered**
+| Ghostglaive (normal)       |   Melee   | Melee |  +3  | -3 | D3+3 | **High-powered**
+| Ghostglaive (sweep)        |   Melee   | Melee | User | -1 |   1  | (Double attacks)
 | Wraithbone fists           | Melee | User | -2 |   3  | -
 
 #### > SPECIAL RULES:
@@ -1792,7 +1837,7 @@ disciplines: Runes of Battle, Runes of Power.
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I | N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|---|----|------
 | Dark Reaper              |  45 | 6" | 4" |  4 |  8 | 3 | 3 | 1 | 1 | 4 | * | 3+ | 25mm 
-| Dark Reaper Exarch       |  45 | 6" | 4" |  4 |  8 | 3 | 3 | 1 | 2 | 4 | * | 3+ | 25mm 
+| Dark Reaper Exarch       |  45 | 6" | 4" |  4 |  8 | 3 | 3 | 2 | 2 | 4 | * | 3+ | 25mm 
 
 | Dark Reapers in unit    | Nerve 
 |-------------------------|-------

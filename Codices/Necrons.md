@@ -3,8 +3,8 @@
 ## Codex Special Rules
 
   ### Reanimation Protocols:
-  At the start of each of Remove Casualties step, this unit's Reanimation Protocols are enacted if the unit suffered any
-  casualties since the last time they were enacted.
+  At the start of each of Remove Casualties step (**except** at the end of Psychic phase), this unit's 
+  Reanimation Protocols are enacted if the unit suffered any casualties since the last time they were enacted.
 
   When a unit's Reanimation Protocols are enacted, each model in it that would now be removed from the battlefield as a
   casualty has a chance to Reanimate itself and return to battle. This is done in two steps:
@@ -147,17 +147,19 @@ WARLORD gains the **Explodes** special rule with the following profile:
   ### Nephrekh
 
   - **\[Ability] Translocation Beams:** Models in this unit have a 6+ invulnerable save. In addition, when this unit
-Advances or Disengages, you may choose to have it Translocate - if it does, models in this unit may move a maximum
-distance equal to their Move characteristic + 6", or two their Move characteristic, whichever is lower (same as when
-Advancing normaly) AND they may move horizontally through terrain features and other models while resolving this move.
-After a unit Translocates, it becomes exhausted and not eligible to perform any actions in the following shooting
-phase, but all ranged attacks targetting this unit in the following shooting phasesuffer an Impairment to their hit
-rolls.
-  - **\[Stratagem] Event Horizon Shift (2CP):** Use this Stratagem when a NEPREKH CORE unit Translocates using its
-**Translocation Beams** ability. That unit and up to 1 NEPREKH CORE CHARACTER that may have joined it during the
-Translocation becomes subject to the following effects: a) If it Disengaged using this ability, it cannot be Pursued;
-b) After finishing the action, the unit becomes unexhausted and the effect of **Translocation Beams** no longer
-prevents it from performing actions in the following shooting phase; c) The unit counts as having moved Normally.
+Advances, you may choose to have it Translocate - if it does, models in this unit may move a maximum distance equal to
+their Move characteristic + 6" (even if their Move characteristic is 5" or less) AND they may move horizontally through
+terrain features and other models while resolving this move.
+After a unit Translocates, it becomes exhausted and not eligible to perform any actions in the following phases
+but all ranged attacks targetting this unit in the following shooting phasesuffer an Impairment to their hit rolls.
+  - **\[Stratagem] Event Horizon Shift (2CP):** Use this Stratagem in the Movement phase when a NEPREKH CORE unit is
+chosen to move. Until the end of the phase, that unit and up to 1 NEPREKH CORE CHARACTER unit (if it is joining the unit
+for this move) can also use their **Translocation Beams** ability to disengage. In addition, these unit(s) are subject
+to the following effects:
+a) If they Disengaged using this ability, they cannot be Pursued;
+b) After finishing the action, they become unexhausted and the effect of **Translocation Beams** no longer
+prevents them from performing actions in the following phases;
+c) The unit(s) count as having moved Normally.
 All of the above are Command Effects.
   - **\[Stratagem] Translocation Crypt (1CP):** Use this Stratagem before the battle when declaring reserves and
 transports (if you are playing a mission without this step, use this Stratagem during deployment instead). Select one
@@ -264,6 +266,8 @@ an Empyric Damper (+15 pts). Models equipped with Empyric Dampers can each do a 
 if they were PSYKERs.
 
   ### Mokhor
+  _Note/TODO: This Dynasty's ability is unfun, uninteractive, and overall bad design._
+
   - **\[Ability] Rad-wreathed:** All non-MOKHOR and non-C'TAN SHARD units that are within 2" of this unit have their
 Strength characteristic reduced by 1 (down to a minimum of 1). In addition, when a model in this unit makes a ranged
 attack with a Particle Weapon, if the weapon's **Particle Weapon** ability would activate (to double the number of
@@ -272,8 +276,8 @@ shots made), make 1 extra attack with that weapon.
 immediately explodes, as if it had the **Explodes** special rule with the following profile:
 `Roll: 1+ Range: 6" Strength: 4 AP: 0 Qualities: This explosion affects only non-MOKHOR and non-C'TAN SHARD units.`
 This is in addition to the unit's usual **Explodes** special rule (if any). Then, place a marker within 1/2" of this
-unit. From the end of this phase, until the end of the same phase on the next battle round, the area within 6" of the
-marker counts as difficult terrain. This unit must be removed from the battlefield during the next Remove Casualties
+unit. From the end of this phase, until the end of the same phase on the next battle round, the area within 3" of the
+marker counts as difficult ground. This unit must be removed from the battlefield during the next Remove Casualties
 step (it cannot be kept by effect of Reanimation Protocols or equivalent rules).
   - **\[Relic] Entropy Sphere:** Equip to a MOKHOR CHARACTER. The Entropy Sphere is a ranged weapon with the profile
 given below.
@@ -296,14 +300,10 @@ this unit as Obscured.
 transports (if you are playing a mission without this step, use this Stratagem during deployment instead). Select one
 TAKHRIT unit (excluding VEHICLE or MONSTER units) from your army. That unit gains the **Infiltrate** special rule.
   - **\[Relic] Refractor Field Generator:** Equip to a TAKHRIT CHARACTER model. While a friendly NECRONS unit is wholly
-within 8" of this model, if that unit would be considered Completely Visible from the point of view of an enemy model
-that is more than 8" away from this model, it is considered Partially Obscured instead, and if it would be considered 
-Partially Obscured, it is considered Heavily Obscured instead.
-  - **\[Warlord Trait] Night Crawler:** If this WARLORD begins its Movement phase in such a position that no enemy unit
-sees it as Completely Visible, then:
-    - Until the end of this Movement phase, if it performs a Normal move or Advance, it can move an extra 6".
-    - At the end of the following Charge phase, if it made a Charge move, select one enemy unit in Engagement Range of
-this warlord - that unit gains D3 strain.
+within 6" of this model, increase its obscurity level by 1 when being targeted by enemy models.
+  - **\[Warlord Trait] Night Crawler:** If this WARLORD performs the Sneak action in the Operations phase, it can
+immediately move up to 6" (using normal movement rules) AND at the end of the following Charge phase, if it made a
+Charge move, select one enemy unit in Engagement Range of this warlord - that unit gains D3 strain.
   - **\[Favoured Command Protocols]:** **Conceal**, **Snipe**
 
   ### Vozkhol
@@ -395,9 +395,8 @@ cannot be affected by more Advantages than there are Impairments affecting it.
   gains Advantage.
 
   ### 12. Flush Out
-  Each time a model affected by this protocol makes a ranged attack against a target unit within 12", if that unit is
-  Partially Obscured, make attacks as if it were Completely Visible, and if it is Heavily Obscured, make attacks as if
-  it is Partially Obscured.
+  Each time a model affected by this protocol makes a ranged attack against a model within 12", reduce the
+  obscurity level of the target by 1.
 
   ### 13. Lock Down
   Units affected by this protocol gain the **Objective Secured** special rule. If a model in such a unit already has this
@@ -418,11 +417,9 @@ cannot be affected by more Advantages than there are Impairments affecting it.
   with AP 0, it's resolved with AP -1 instead.
   
   ### 18. Snipe
-  Each time a model affected by this protocol makes a ranged attack with a Rapid Fire, Steady or Heavy weapon at a range
-  greater than 24", the target cannot make Cover saves against this attack.
-  
-  Note: When attacking a multi-model unit, or a model with a hull, the range of the attack is always the shortest
-  possile range - to the closest visible model/closest visible part of the hull.
+  Each time a model affected by this protocol makes a ranged attack with a Rapid Fire, Steady or Heavy weapon, if the
+  closest visible model from the target unit is at least 24" away, then: if an Armour or Cover saving throw that
+  benefits from Light Cover or Heavy Cover is taken against this attack, it takes a -1 penalty.
   
   ### 19. Press On
   Each time a unit affected by this protocol performs the Snap Shooting action, it may use any Rapid Fire weapons it is
@@ -724,7 +721,7 @@ lost wounds instead of 1.
 #### > OPTIONS:
 - This model's Staff of Light can be replaced with one of the following: 1 Hyperphase sword; 1 Voidblade.
 - This model's Hyperphase glaive can be replaced with a Warscythe (+5 pts) or Voidscythe (+10 pts).
-- This model can be equipped with a Phase Cycler (+25 pts) or a Phase Shifter (+40 pts).
+- This model can be equipped with a Phase Cycler (+20 pts) or a Phase Shifter (+35 pts).
 - This model can be equipped with a Resurrection orb (+45 pts) or a Phylactery (+8 pts).
 
 ---
@@ -756,7 +753,7 @@ This unit contains one Skorpekh Lord equipped with an Enmitic annihilator, Flens
 unit within 6" that is also not In Disarray makes a wound roll for an attack, you may re-roll a 'tens' roll of 1.
 
 #### > OPTIONS:
-- This model can be equipped with a Phase Cycler (+25 pts) or a Phase Shifter (+40 pts).
+- This model can be equipped with a Phase Cycler (+20 pts) or a Phase Shifter (+35 pts).
 
 ---
 
@@ -795,7 +792,7 @@ lost wounds instead of 1.
 - This model's Hyperphase glaive can be replaced with one of the following: 1 Hyperphase sword; 1 Voidblade; 1 Staff of Light.
 - This model's Hyperphase glaive can be replaced with a Warscythe (+5 pts) or Voidscythe (+10 pts).
 - This model's Tachyon arrow can be replaced with a Resurrection orb (+35 pts) or a Phylactery (free).
-- This model can be equipped with a Phase Cycler (+25 pts) or a Phase Shifter (+40 pts).
+- This model can be equipped with a Phase Cycler (+20 pts) or a Phase Shifter (+35 pts).
 
 ---
 
@@ -947,7 +944,7 @@ characteristic of an attack).
 
 | NAME                     | PTS |  M | CB | MS | BS | S | T | W | A | I |  N | Sv | Base 
 |--------------------------|-----|----|----|----|----|---|---|---|---|---|----|----|------
-| Necron Warrior           |  22 | 5" | 4" |  4 |  7 | 4 | 4 | 1 | 1 | 2 |  9 | 4+ | 32mm 
+| Necron Warrior           |  18 | 5" | 4" |  4 |  7 | 4 | 4 | 1 | 1 | 2 |  9 | 4+ | 32mm 
 
 This unit contains 10 Necron Warriors. It can contain up to 10 additional Warriors. Every model 
 is equipped with a Gauss flayer.
